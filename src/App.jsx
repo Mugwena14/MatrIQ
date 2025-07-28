@@ -33,7 +33,25 @@ function App() {
 
   return (
     <>
-      
+      <div>
+        <div><h1>MatrIQ</h1></div>
+        <div>
+          <p>{questions[currentQuestion].questionText}</p>
+        </div>
+        <div>
+          {questions[currentQuestion].answerOptions.map((option, index) => (
+            <button>{option.answerText}</button>
+          ))}
+        </div>
+        <div>
+          <button onClick={() => handleNextQ()}
+            disabled = {answered ? 'enabled' : 'disabled'}
+            >Next Question</button>
+        </div>
+        <div>
+          <p>Question {currentQuestion + 1} of {questions.length}</p>
+        </div>
+      </div>
     </>
   )
 }
