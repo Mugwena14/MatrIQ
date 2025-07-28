@@ -7,6 +7,11 @@ function App() {
 
   function handleNextQ(){
     setCurrentQuestion(currentQuestion + 1)
+    setAnswered(false)
+  }
+
+  function handleAnswer(){
+    setAnswered(true)
   }
 
   const questions = [
@@ -40,12 +45,14 @@ function App() {
         </div>
         <div>
           {questions[currentQuestion].answerOptions.map((option, index) => (
-            <button>{option.answerText}</button>
+            <button
+            onClick={() => handleAnswer()}
+            >{option.answerText}</button>
           ))}
         </div>
         <div>
           <button onClick={() => handleNextQ()}
-            disabled = {answered ? 'enabled' : 'disabled'}
+            disabled = {answered ? '' : 'disabled'}
             >Next Question</button>
         </div>
         <div>
