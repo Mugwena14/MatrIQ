@@ -33,6 +33,7 @@ function App() {
         { answerText: 'Cyril Ramaphosa', isCorrect: true },
         { answerText: 'Julius Malema', isCorrect: false },
       ],
+      image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAkCAYAAADy19hsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHySURBVFhH1ZivrjIxEMVnPyQYFAqBgBfAkIDgBTA8EAIBjicgeCwIDA4IGF4ABAKFwIFAkN6eppvcfOlO9x+99JdM0rLbOWcbYGcaCAl5RO6G3+83hSmDIKBCoaDGeZHZ8O12o+12S7vdjo7HI10uF7per+patVqlWq1GzWaT2u02dTodqlQq6lpqYDgNp9NJjMdj0Wq18MCxAvdiDdamJZXh+Xwuut2u0VScwFrkSEMiw/L7KUajkSiXy0YjSQI5kAs5k5DI8GAwMIpnCeRMQmzDk8nEKJg15D+Jyh2XWIZXq5WQv3ijYB6B3NCIg9Xw/X4X/X7fKJRnQANaNqyGZ7OZUeATAS0b/+SNLIvFQo941us1Hl7FdDrVnyYjjhZr+HA40HK51LPPAy1ocrCGN5uNqg1cAS1ocrCGURu4xqbJGpbvfD1yh02TNXw+n/XIHTbNSMPP55Mej4eeucOmye7wNxJpuFgsUqlU0jN32DTZHa7X63rkDpsma7jRaOiRO2yarGH0Yq6xaqqKIoL9fi9k12ssVP4PWUvoVWZer5cYDofGtWFAC5oc7A7LppF6vZ6efR5oQZNFG4/k28pLq2HvCnjgVYsUgkYRDaNJMGvk3oSGeNXmA+8OUkK8Oar6zV8dBnp33OrdCTz7av4+iH4Ac2v7VWBMXeIAAAAASUVORK5CYII=',
       explanation: 'Cyril is the one ruling the country.',
     },
     {
@@ -43,6 +44,7 @@ function App() {
         { answerText: 'Western Cape', isCorrect: false },
         { answerText: 'Limpopo', isCorrect: true },
       ],
+      image: undefined,
       explanation: 'Malamulele is a town in Limpopo province.',
     },
   ];
@@ -53,7 +55,11 @@ function App() {
 
       <p>{questions[currentQuestion].questionText}</p>
 
-      {questions[currentQuestion].answerOptions.map((option, index) => (
+      {questions[currentQuestion].image ? (
+        <img src={questions[currentQuestion].image} alt="Question Image"/>
+      ) : null}
+      
+        {questions[currentQuestion].answerOptions.map((option, index) => (
         <button
           key={index}
           onClick={() => handleAnswerOption(option.isCorrect, index)}
