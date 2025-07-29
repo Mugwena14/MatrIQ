@@ -3,11 +3,11 @@ const questions = [
         questionText: 'The hormone responsible for the regulation of salt content in the human body is ...',
         answerOptions: [
             { answerText: 'testosterone.', isCorrect: false },
-            { answerText: 'aldosterone.', isCorrect: true },
             { answerText: 'prolactin.', isCorrect: false },
+            { answerText: 'aldosterone.', isCorrect: true },
             { answerText: 'glucagon.', isCorrect: false },
         ],
-        image: 'data:image/png;base64,...', // your image string goes here
+        image: 'data:image/png;base64,...', 
         explanation: 'Aldosterone regulates salt by controlling sodium reabsorption in the kidneys.',
     },
     {
@@ -15,8 +15,8 @@ const questions = [
         answerOptions: [
             { answerText: 'Choroid', isCorrect: false },
             { answerText: 'Amnion', isCorrect: false },
-            { answerText: 'Morula', isCorrect: true },
             { answerText: 'Chorion', isCorrect: false },
+            { answerText: 'Morula', isCorrect: true },
         ],
         image: 'data:image/png;base64,...',
         explanation: 'Morula is the early stage formed by cell division of the fertilized ovum.',
@@ -24,8 +24,8 @@ const questions = [
     {
         questionText: 'Which hormone is responsible for increasing the blood glucose level?',
         answerOptions: [
-            { answerText: 'Insulin', isCorrect: false },
             { answerText: 'Glucagon', isCorrect: true },
+            { answerText: 'Insulin', isCorrect: false },
             { answerText: 'Thyroxine', isCorrect: false },
             { answerText: 'Adrenaline', isCorrect: false },
         ],
@@ -35,8 +35,8 @@ const questions = [
     {
         questionText: 'An increase in the blood glucose level results in the secretion of ...',
         answerOptions: [
-            { answerText: 'glucagon.', isCorrect: false },
             { answerText: 'insulin.', isCorrect: true },
+            { answerText: 'glucagon.', isCorrect: false },
             { answerText: 'adrenaline.', isCorrect: false },
             { answerText: 'thyroxine.', isCorrect: false },
         ],
@@ -59,10 +59,10 @@ const questions = [
         answerOptions: [
             { answerText: 'Relaxed / Slack / More convex', isCorrect: false },
             { answerText: 'Contracted / Slack / Less convex', isCorrect: false },
-            { answerText: 'Relaxed / Taut / Less convex', isCorrect: true },
             { answerText: 'Contracted / Taut / More convex', isCorrect: false },
+            { answerText: 'Relaxed / Taut / Less convex', isCorrect: true },
         ],
-        image: 'data:image/png;base64,...', // Replace with second image string
+        image: 'data:image/png;base64,...', 
         explanation: 'When viewing distant objects, the ciliary muscles relax, suspensory ligaments are taut, and the lens becomes less convex for clear focus.',
     },
     {
@@ -73,29 +73,29 @@ const questions = [
             { answerText: 'Cerebellum', isCorrect: false },
             { answerText: 'Spinal cord', isCorrect: false },
         ],
-        image: 'data:image/png;base64,...', // Same second image
+        image: 'data:image/png;base64,...', 
         explanation: 'The hypothalamus monitors and regulates body temperature by controlling mechanisms like sweating and shivering.',
     },
     {
         questionText: 'Which combination of factors is the amniotic fluid responsible for?',
         answerOptions: [
-            { answerText: '(i), (ii), and (iii) only', isCorrect: true },
             { answerText: '(i) and (iv) only', isCorrect: false },
             { answerText: '(ii) and (iii) only', isCorrect: false },
+            { answerText: '(i), (ii), and (iii) only', isCorrect: true },
             { answerText: '(i), (ii), (iii), and (iv)', isCorrect: false },
         ],
-        image: 'data:image/png;base64,...', // Same second image
+        image: 'data:image/png;base64,...', 
         explanation: 'Amniotic fluid cushions the fetus (protection), allows movement, and helps regulate temperature—but does not provide nutrition.',
     },
     {
         questionText: 'Which ONE of the following occurs when there are excess waves in the inner ear?',
         answerOptions: [
             { answerText: 'Pressure is released at A', isCorrect: false },
-            { answerText: 'Pressure is released at C', isCorrect: true },
             { answerText: 'Pressure is absorbed at B', isCorrect: false },
             { answerText: 'Pressure is absorbed at A and C', isCorrect: false },
+            { answerText: 'Pressure is released at C', isCorrect: true },
         ],
-        image: 'data:image/png;base64,...', // Replace with third image string
+        image: 'data:image/png;base64,...', 
         explanation: 'The round window (C) absorbs pressure waves in the inner ear to prevent echoing and allow fluid movement.',
     },
     {
@@ -106,7 +106,95 @@ const questions = [
             { answerText: 'E → F → G', isCorrect: false },
             { answerText: 'J → F → G', isCorrect: false },
         ],
-        image: 'data:image/png;base64,...', // Same third image string
+        image: 'data:image/png;base64,...', 
         explanation: 'Balance-related impulses travel from the semicircular canals (E) through the auditory nerve (F) to the cerebellum (H).',
-    }
+    },
+    {
+    questionText: 'Which ONE of the following structures connects the foetus to the placenta?',
+    answerOptions: [
+        { answerText: 'Fallopian tube', isCorrect: false },
+    { answerText: 'Placental villi', isCorrect: false },
+        { answerText: 'Umbilical cord', isCorrect: true },
+    { answerText: 'Amniotic sac', isCorrect: false },
+    ],
+    image: 'data:image/png;base64,...',
+    explanation: 'The umbilical cord connects the foetus to the placenta, allowing the transfer of nutrients, oxygen, and waste between the mother and the foetus.',
+    },
+    {
+    questionText: 'Which part of the nervous system consists of sympathetic and parasympathetic sections?',
+    answerOptions: [
+    { answerText: 'Peripheral nervous system', isCorrect: false },
+    { answerText: 'Autonomic nervous system', isCorrect: true },
+    { answerText: 'Central nervous system', isCorrect: false },
+    { answerText: 'Somatic nervous system', isCorrect: false },
+    ],
+    image: 'data:image/png;base64,...',
+    explanation: 'The autonomic nervous system is divided into the sympathetic and parasympathetic sections, which regulate involuntary functions such as heart rate and digestion.',
+    },
+    {
+    questionText: 'What receptors in the ear detect changes in speed and direction of movement of the head?',
+    answerOptions: [
+        { answerText: 'Photoreceptors', isCorrect: false },
+        { answerText: 'Olfactory receptors', isCorrect: false },
+        { answerText: 'Vestibular receptors', isCorrect: true },
+    { answerText: 'Auditory receptors', isCorrect: false },
+    ],
+    image: 'data:image/png;base64,...',
+    explanation: 'Vestibular receptors in the inner ear detect changes in speed and direction of movement of the head, helping maintain balance and spatial orientation.',
+    },
+    {
+    questionText: 'Which ONE of the ossicles transfers vibrations to the oval window?',
+    answerOptions: [
+    { answerText: 'Stapes', isCorrect: true },
+    { answerText: 'Cochlea', isCorrect: false },
+    { answerText: 'Malleus', isCorrect: false },
+    { answerText: 'Incus', isCorrect: false },
+    ],
+    image: 'data:image/png;base64,...',
+    explanation: 'The stapes is the ossicle that transfers vibrations to the oval window, facilitating the transmission of sound waves into the inner ear.',
+    },
+    {
+    questionText: 'What is the growth reaction of a plant in response to gravity?',
+    answerOptions: [
+        { answerText: 'Hydrotropism', isCorrect: false },
+    { answerText: 'Thigmotropism', isCorrect: false },
+        { answerText: 'Gravitropism', isCorrect: true },
+    { answerText: 'Phototropism', isCorrect: false },
+    ],
+    image: 'data:image/png;base64,...',
+    explanation: 'Gravitropism is the growth reaction of a plant in response to gravity, where roots grow downward and shoots grow upward.',
+    },
+    {
+    questionText: 'Where in the inner ear is the organ of Corti located?',
+    answerOptions: [
+        { answerText: 'Vestibule', isCorrect: false },
+        { answerText: 'Semicircular canals', isCorrect: false },
+    { answerText: 'Eustachian tube', isCorrect: false },
+        { answerText: 'Cochlea', isCorrect: true },
+    ],
+    image: 'data:image/png;base64,...',
+    explanation: 'The organ of Corti, responsible for detecting sound vibrations, is located in the cochlea of the inner ear.',
+    },
+    {
+    questionText: 'Which plant hormone stimulates the germination of seeds?',
+    answerOptions: [
+        { answerText: 'Ethylene', isCorrect: false },
+    { answerText: 'Cytokinin', isCorrect: false },
+    { answerText: 'Auxin', isCorrect: false },
+    { answerText: 'Gibberellin', isCorrect: true },
+    ],
+    image: 'data:image/png;base64,...',
+    explanation: 'Gibberellin is a plant hormone that stimulates the germination of seeds by breaking dormancy and promoting growth.',
+    },
+    {
+    questionText: 'What structure in the head of a sperm cell contains enzymes?',
+    answerOptions: [
+        { answerText: 'Flagellum', isCorrect: false },
+        { answerText: 'Mitochondria', isCorrect: false },
+        { answerText: 'Acrosome', isCorrect: true },
+    { answerText: 'Nucleus', isCorrect: false },
+    ],
+    image: 'data:image/png;base64,...',
+    explanation: 'The acrosome in the head of a sperm cell contains enzymes that help penetrate the egg during fertilization.',
+    },
 ];
