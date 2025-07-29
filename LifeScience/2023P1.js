@@ -101,10 +101,10 @@ const questions = [
     {
     questionText: 'Which ONE of the following is a combination of events influenced by LH (luteinising hormone)?',
     answerOptions: [
-        { answerText: '(ii) and (iii) only', isCorrect: true },
         { answerText: '(i), (ii), (iii), (iv) and (v)', isCorrect: false },
         { answerText: '(ii), (iii), (iv) and (v) only', isCorrect: false },
         { answerText: '(iii) only', isCorrect: false },
+        { answerText: '(ii) and (iii) only', isCorrect: true },
     ],
     image: 'data:image/png;base64,...',
     explanation: 'LH triggers ovulation and the development of the corpus luteum, making (ii) and (iii) the correct combination.',
