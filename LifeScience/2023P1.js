@@ -1,5 +1,5 @@
 const questions = [
-  {
+    {
     questionText: 'Which ONE of the following parts controls the amount of light entering the eye by influencing the size of the pupil?',
     answerOptions: [
         { answerText: 'Cornea', isCorrect: false },
@@ -108,5 +108,94 @@ const questions = [
     ],
     image: 'data:image/png;base64,...',
     explanation: 'LH triggers ovulation and the development of the corpus luteum, making (ii) and (iii) the correct combination.',
-    } 
+    },
+    {
+    questionText: 'Which term describes a reproductive strategy where the young receives nutrients through the placenta?',
+    answerOptions: [
+        { answerText: 'Ovipary', isCorrect: false },
+        { answerText: 'Ovovivipary', isCorrect: false },
+        { answerText: 'Vivipary', isCorrect: true },
+        { answerText: 'Parthenogenesis', isCorrect: false },
+    ],
+    explanation: 'Vivipary refers to internal development where the embryo receives nourishment directly from the mother through a placenta. Ovipary and ovovivipary involve egg-based reproduction, while parthenogenesis is reproduction without fertilization.',
+    image: 'data:image/png;base64,...'
+    },
+    {
+    questionText: 'Which term describes the duct that transports semen and urine to the outside of the body?',
+    answerOptions: [
+        { answerText: 'Urethra', isCorrect: true },
+        { answerText: 'Vas deferens', isCorrect: false },
+        { answerText: 'Fallopian tube', isCorrect: false },
+        { answerText: 'Epididymis', isCorrect: false },
+    ],
+    explanation: 'The urethra is the duct that transports both semen and urine to the outside of the body. The vas deferens transports sperm from the epididymis to the urethra, while the fallopian tube and epididymis are parts of the female and male reproductive systems respectively.',
+    image: 'data:image/png;base64,...'
+    },
+    {
+    questionText: 'Which term describes the part of the nervous system that consists of cranial and spinal nerves?',
+    answerOptions: [
+        { answerText: 'Peripheral nervous system', isCorrect: true },
+        { answerText: 'Central nervous system', isCorrect: false },
+        { answerText: 'Autonomic nervous system', isCorrect: false },
+        { answerText: 'Somatic nervous system', isCorrect: false },
+    ],
+    explanation: 'The peripheral nervous system consists of cranial and spinal nerves. The central nervous system includes the brain and spinal cord, while the autonomic and somatic nervous systems are subdivisions of the peripheral nervous system.',
+    image: 'data:image/png;base64,...'
+    },
+    {
+    questionText: 'Which term describes the form in which excess glucose is stored in the liver?',
+    answerOptions: [
+        { answerText: 'Glucose', isCorrect: false },
+        { answerText: 'Glycogen', isCorrect: true },
+        { answerText: 'Insulin', isCorrect: false },
+        { answerText: 'Glucagon', isCorrect: false },
+    ],
+    explanation: 'Glycogen is the form in which excess glucose is stored in the liver. Glucose is the sugar itself, insulin is a hormone that regulates blood sugar levels, and glucagon is a hormone that raises blood sugar levels.',
+    image: 'data:image/png;base64,...'
+    },
+    {
+    questionText: 'Which term describes the structure that serves as a micro-filter during pregnancy?',
+    answerOptions: [
+        { answerText: 'Amniotic sac', isCorrect: false },
+        { answerText: 'Umbilical cord', isCorrect: false },
+        { answerText: 'Endometrium', isCorrect: false },
+        { answerText: 'Placenta', isCorrect: true },
+    ],
+    explanation: 'The placenta serves as a micro-filter during pregnancy, providing nutrients and oxygen to the fetus while removing waste products. The amniotic sac contains the amniotic fluid, the umbilical cord connects the fetus to the placenta, and the endometrium is the lining of the uterus.',
+    image: 'data:image/png;base64,...'
+    },
+    {
+    questionText: 'Which term describes the pigmented layer of the eye that absorbs excess light?',
+    answerOptions: [
+        { answerText: 'Retina', isCorrect: false },
+        { answerText: 'Choroid', isCorrect: true },
+        { answerText: 'Cornea', isCorrect: false },
+        { answerText: 'Sclera', isCorrect: false },
+    ],
+    explanation: 'The choroid is the pigmented layer of the eye that absorbs excess light. The retina is the layer that contains photoreceptor cells, the cornea is the transparent front part of the eye, and the sclera is the white outer layer of the eye.',
+    image: 'data:image/png;base64,...'
+    },
+    {
+    questionText: 'Which term describes the part of a neuron that plays a role in the speed at which a nerve impulse is transmitted?',
+    answerOptions: [
+        { answerText: 'Axon', isCorrect: false },
+        { answerText: 'Dendrite', isCorrect: false },
+        { answerText: 'Myelin sheath', isCorrect: true },
+        { answerText: 'Synapse', isCorrect: false },
+    ],
+    explanation: 'The myelin sheath insulates the axon and increases the speed at which nerve impulses travel. Axons conduct the impulse, dendrites receive signals, and synapses are junctions where impulses are transmitted between neurons.',
+    image: 'data:image/png;base64,...'
+    },
+    {
+    questionText: 'Which part of the male reproductive system stores sperm until they mature?',
+    answerOptions: [
+        { answerText: 'Epididymis', isCorrect: true },
+        { answerText: 'Seminal vesicle', isCorrect: false },
+        { answerText: 'Vas deferens', isCorrect: false },
+        { answerText: 'Prostate gland', isCorrect: false },
+    ],
+    explanation: 'The epididymis is a coiled tube where sperm mature and are stored. The seminal vesicle contributes fluid to semen, the vas deferens transports mature sperm, and the prostate gland secretes additional fluid that nourishes and protects sperm.',
+    image: 'data:image/png;base64,...'
+}
+
 ]
