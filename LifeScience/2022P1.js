@@ -112,9 +112,9 @@ const questions = [
     {
         questionText: 'The part of the skull that protects the brain',
         answerOptions: [
-        { answerText: 'Cranium', isCorrect: true },
-        { answerText: 'Femur', isCorrect: false },
-        { answerText: 'Humerus', isCorrect: false },
+            { answerText: 'Femur', isCorrect: false },
+            { answerText: 'Humerus', isCorrect: false },
+            { answerText: 'Cranium', isCorrect: true },
         { answerText: 'Tibia', isCorrect: false },
         ],
         explanation: 'The cranium is the part of the skull that encloses and protects the brain.',
@@ -123,10 +123,10 @@ const questions = [
     {
         questionText: 'The homeostatic process whereby temperature is controlled in the body',
         answerOptions: [
-        { answerText: 'Thermoregulation', isCorrect: true },
-        { answerText: 'Osmoregulation', isCorrect: false },
-        { answerText: 'Photosynthesis', isCorrect: false },
-        { answerText: 'Respiration', isCorrect: false },
+            { answerText: 'Thermoregulation', isCorrect: true },
+            { answerText: 'Osmoregulation', isCorrect: false },
+            { answerText: 'Photosynthesis', isCorrect: false },
+            { answerText: 'Respiration', isCorrect: false },
         ],
         explanation: 'Thermoregulation is the process by which the body maintains its internal temperature within a tolerable range.',
         image: 'data:image/png;base64,...'
@@ -134,8 +134,8 @@ const questions = [
     {
         questionText: 'The visual defect characterised by a cloudy lens',
         answerOptions: [
-        { answerText: 'Cataract', isCorrect: true },
-        { answerText: 'Glaucoma', isCorrect: false },
+            { answerText: 'Glaucoma', isCorrect: false },
+            { answerText: 'Cataract', isCorrect: true },
         { answerText: 'Myopia', isCorrect: false },
         { answerText: 'Hyperopia', isCorrect: false },
         ],
@@ -145,8 +145,8 @@ const questions = [
     {
         questionText: 'The blood vessel that transports deoxygenated blood from the foetus towards the placenta',
         answerOptions: [
-        { answerText: 'Umbilical artery', isCorrect: true },
-        { answerText: 'Umbilical vein', isCorrect: false },
+            { answerText: 'Umbilical vein', isCorrect: false },
+            { answerText: 'Umbilical artery', isCorrect: true },
         { answerText: 'Aorta', isCorrect: false },
         { answerText: 'Pulmonary artery', isCorrect: false },
         ],
@@ -156,10 +156,10 @@ const questions = [
     {
         questionText: 'The part of the brain that controls body temperature',
         answerOptions: [
-        { answerText: 'Hypothalamus', isCorrect: true },
-        { answerText: 'Cerebellum', isCorrect: false },
-        { answerText: 'Medulla oblongata', isCorrect: false },
-        { answerText: 'Cerebrum', isCorrect: false },
+            { answerText: 'Cerebellum', isCorrect: false },
+            { answerText: 'Medulla oblongata', isCorrect: false },
+            { answerText: 'Cerebrum', isCorrect: false },
+            { answerText: 'Hypothalamus', isCorrect: true },
         ],
         explanation: 'The hypothalamus is responsible for regulating body temperature.',
         image: 'data:image/png;base64,...'
@@ -167,9 +167,9 @@ const questions = [
     {
         questionText: 'A branch of the nervous system that is made up of spinal and cranial nerves',
         answerOptions: [
-        { answerText: 'Peripheral nervous system', isCorrect: true },
-        { answerText: 'Central nervous system', isCorrect: false },
+            { answerText: 'Central nervous system', isCorrect: false },
         { answerText: 'Autonomic nervous system', isCorrect: false },
+            { answerText: 'Peripheral nervous system', isCorrect: true },
         { answerText: 'Somatic nervous system', isCorrect: false },
         ],
         explanation: 'The peripheral nervous system consists of spinal and cranial nerves.',
@@ -178,10 +178,10 @@ const questions = [
     {
         questionText: 'Finger-like projections that develop from the outer membrane of an embryo after implantation',
         answerOptions: [
-        { answerText: 'Chorionic villi', isCorrect: true },
-        { answerText: 'Microvilli', isCorrect: false },
-        { answerText: 'Cilia', isCorrect: false },
-        { answerText: 'Flagella', isCorrect: false },
+            { answerText: 'Microvilli', isCorrect: false },
+            { answerText: 'Cilia', isCorrect: false },
+            { answerText: 'Flagella', isCorrect: false },
+            { answerText: 'Chorionic villi', isCorrect: true },
         ],
         explanation: 'Chorionic villi are finger-like projections that develop from the outer membrane of an embryo after implantation.',
         image: 'data:image/png;base64,...'
@@ -200,9 +200,9 @@ const questions = [
     {
         questionText: 'The fluid that protects the developing foetus against mechanical injury',
         answerOptions: [
-        { answerText: 'Amniotic fluid', isCorrect: true },
-        { answerText: 'Cerebrospinal fluid', isCorrect: false },
+            { answerText: 'Cerebrospinal fluid', isCorrect: false },
         { answerText: 'Synovial fluid', isCorrect: false },
+            { answerText: 'Amniotic fluid', isCorrect: true },
         { answerText: 'Interstitial fluid', isCorrect: false },
         ],
         explanation: 'Amniotic fluid surrounds the developing foetus, cushioning it against external pressure or injury.',
@@ -211,8 +211,8 @@ const questions = [
     {
     questionText: 'The area of the retina that contains the highest concentration of cones',
     answerOptions: [
-        { answerText: 'Fovea', isCorrect: true },
         { answerText: 'Optic disc', isCorrect: false },
+        { answerText: 'Fovea', isCorrect: true },
         { answerText: 'Macula', isCorrect: false },
         { answerText: 'Retinal pigment epithelium', isCorrect: false },
     ],
