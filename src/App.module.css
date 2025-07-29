@@ -1,0 +1,11 @@
+.correct{
+    background-color: #31da66;
+}
+
+.incorrect{
+    background-color: #e93939;
+}
+
+.answerBtn{
+    display: block;
+}

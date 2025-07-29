@@ -1,17 +1,24 @@
 import { useState } from "react"
+import styles from './App.module.css'
 
 function App() {
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answered, setAnswered] = useState(false);
+  const [selectedAnswer, setSelectedAnswer] = useState(null)
+  const [score, setScore] = useState(null)
 
   function handleNextQ(){
     setCurrentQuestion(currentQuestion + 1)
     setAnswered(false)
   }
 
-  function handleAnswer(){
+  function handleAnswerOption(isCorrect, index){
     setAnswered(true)
+    setSelectedAnswer(index)
+    if(isCorrect){
+      setScore(score + 1)
+    }
   }
 
   const questions = [
@@ -46,7 +53,15 @@ function App() {
         <div>
           {questions[currentQuestion].answerOptions.map((option, index) => (
             <button
-            onClick={() => handleAnswer()}
+            onClick={() => handleAnswerOption(option.isCorrect, index)}
+            className={`${styles.answerBtn} ${
+              answered ? 
+              option.isCorrect ? styles.correct :
+              selectedAnswer === index ? styles.incorrect
+              : ''
+              : ''
+            }`}
+
             >{option.answerText}</button>
           ))}
         </div>
