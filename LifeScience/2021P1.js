@@ -95,5 +95,93 @@ const questions = [
         ],
         explanation: 'High ADH levels increase the permeability of renal tubules to water, allowing more water to be reabsorbed into the bloodstream and resulting in reduced urine volume.',
         image: 'data:image/png;base64,...'
-    }
+    },
+    {
+        questionText: 'The release of an ovum from the ovary',
+        answerOptions: [
+        { answerText: 'Fertilisation', isCorrect: false },
+        { answerText: 'Menstruation', isCorrect: false },
+        { answerText: 'Ovulation', isCorrect: true },
+        { answerText: 'Implantation', isCorrect: false },
+        ],
+        explanation: 'Ovulation is the process during which an ovary releases a mature egg (ovum), usually around the middle of a menstrual cycle.',
+        image: 'data:image/png;base64,...'
+    },
+    {
+        questionText: 'The microscopic gap between two consecutive neurons',
+        answerOptions: [
+        { answerText: 'Axon', isCorrect: false },
+        { answerText: 'Synapse', isCorrect: true },
+        { answerText: 'Dendrite', isCorrect: false },
+        { answerText: 'Myelin sheath', isCorrect: false },
+        ],
+        explanation: 'A synapse is the small gap between two neurons where neurotransmitters are released to transmit signals.',
+        image: 'data:image/png;base64,...'
+    },
+    {
+        questionText: 'The period of development of the foetus in the uterus',
+        answerOptions: [
+        { answerText: 'Gestation', isCorrect: true },
+        { answerText: 'Menstruation', isCorrect: false },
+        { answerText: 'Fertilisation', isCorrect: false },
+        { answerText: 'Ovulation', isCorrect: false },
+        ],
+        explanation: 'Gestation refers to the period from fertilisation to birth when the foetus develops inside the uterus.',
+        image: 'data:image/png;base64,...'
+    },
+    {
+        questionText: 'The growth movement of a plant in response to a stimulus',
+        answerOptions: [
+        { answerText: 'Respiration', isCorrect: false },
+        { answerText: 'Photosynthesis', isCorrect: false },
+        { answerText: 'Tropism', isCorrect: true },
+        { answerText: 'Germination', isCorrect: false },
+        ],
+        explanation: 'Tropism is the directional growth of a plant in response to an environmental stimulus like light or gravity.',
+        image: 'data:image/png;base64,...'
+    },
+    {
+        questionText: 'The type of development in birds where the young are able to independently move and feed themselves after hatching',
+        answerOptions: [
+        { answerText: 'Precocial development', isCorrect: true },
+        { answerText: 'Altricial development', isCorrect: false },
+        { answerText: 'Gestational development', isCorrect: false },
+        { answerText: 'Amniotic development', isCorrect: false },
+        ],
+        explanation: 'Precocial development refers to chicks that hatch well-developed and are capable of walking and feeding independently.',
+        image: 'data:image/png;base64,...'
+    },
+    {
+        questionText: 'The extra-embryonic membrane that is responsible for the excretion of waste in an amniotic egg',
+        answerOptions: [
+        { answerText: 'Chorion', isCorrect: false },
+        { answerText: 'Allantois', isCorrect: true },
+        { answerText: 'Amnion', isCorrect: false },
+        { answerText: 'Yolk sac', isCorrect: false },
+        ],
+        explanation: 'The allantois is the membrane in amniotic eggs that stores nitrogenous waste and facilitates gas exchange.',
+        image: 'data:image/png;base64,...'
+    },
+    {
+        questionText: 'Tubules in the testes where spermatogenesis occurs',
+        answerOptions: [
+        { answerText: 'Seminiferous tubules', isCorrect: true },
+        { answerText: 'Epididymis', isCorrect: false },
+        { answerText: 'Vas deferens', isCorrect: false },
+        { answerText: 'Prostate gland', isCorrect: false },
+        ],
+        explanation: 'Sperm production occurs in the seminiferous tubules, which are tightly coiled structures located within the testes.',
+        image: 'data:image/png;base64,...'
+    },
+    {
+        questionText: 'The plant hormone that brings about seed dormancy when conditions are unfavourable',
+        answerOptions: [
+        { answerText: 'Auxin', isCorrect: false },
+        { answerText: 'Abscisic acid', isCorrect: true },
+        { answerText: 'Gibberellin', isCorrect: false },
+        { answerText: 'Cytokinin', isCorrect: false },
+        ],
+        explanation: 'Abscisic acid promotes seed dormancy and helps the plant survive adverse environmental conditions.',
+        image: 'data:image/png;base64,...'
+        },
     ]
