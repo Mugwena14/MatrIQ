@@ -75,7 +75,142 @@ const questions =[
     ],
     explanation: 'In a monohybrid cross involving two heterozygotes (Aa × Aa), the offspring ratio is 3 showing the dominant trait and 1 showing the recessive trait.',
     image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'Which ONE of the chromosomes (Q, R, S or T) would most likely be found in a cell during late Anaphase II of meiosis?',
+    answerOptions: [
+        { answerText: 'Q', isCorrect: false },
+        { answerText: 'R', isCorrect: false },
+        { answerText: 'S', isCorrect: true },
+        { answerText: 'T', isCorrect: false },
+    ],
+    explanation: 'In late Anaphase II, sister chromatids are separating and moving toward opposite poles. Structure S represents a single chromatid being pulled apart, which matches this phase.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'Which scientist discovered the hominid fossil known as “Little Foot”?',
+    answerOptions: [
+        { answerText: 'Ron Clarke', isCorrect: true },
+        { answerText: 'Lee Berger', isCorrect: false },
+        { answerText: 'Raymond Dart', isCorrect: false },
+        { answerText: 'Robert Broom', isCorrect: false },
+    ],
+    explanation: 'Ron Clarke discovered “Little Foot,” a nearly complete Australopithecus skeleton found in the Sterkfontein Caves, contributing major insights into human evolution.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The position of a gene on a chromosome is called a ...',
+    answerOptions: [
+        { answerText: 'Karyotype', isCorrect: false },
+        { answerText: 'Locus', isCorrect: true },
+        { answerText: 'Centromere', isCorrect: false },
+        { answerText: 'Allele', isCorrect: false },
+    ],
+    explanation: 'A locus is the specific, fixed position on a chromosome where a particular gene or genetic marker is located.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The type of evolution characterised by long periods of little or no change followed by short periods of rapid change is called ...',
+    answerOptions: [
+        { answerText: 'Gradualism', isCorrect: false },
+        { answerText: 'Genetic drift', isCorrect: false },
+        { answerText: 'Punctuated equilibrium', isCorrect: true },
+        { answerText: 'Natural selection', isCorrect: false },
+    ],
+    explanation: 'Punctuated equilibrium suggests species experience long periods of stability interrupted by short bursts of rapid evolutionary change.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The natural shape of a DNA molecule is referred to as a ...',
+    answerOptions: [
+        { answerText: 'Alpha helix', isCorrect: false },
+        { answerText: 'Double helix', isCorrect: true },
+        { answerText: 'Triple strand', isCorrect: false },
+        { answerText: 'DNA coil', isCorrect: false },
+    ],
+    explanation: 'DNA’s double helix structure features two strands twisted around each other, held together by base pairs.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The type of bond found between two amino acids during protein synthesis is a ...',
+    answerOptions: [
+        { answerText: 'Hydrogen bond', isCorrect: false },
+        { answerText: 'Ionic bond', isCorrect: false },
+        { answerText: 'Peptide bond', isCorrect: true },
+        { answerText: 'Covalent bond', isCorrect: false },
+    ],
+    explanation: 'Peptide bonds form between the amino group of one amino acid and the carboxyl group of another, linking them in a protein chain.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The type of vision shared by primates that allows for depth perception is called ...',
+    answerOptions: [
+        { answerText: 'Monocular vision', isCorrect: false },
+        { answerText: 'Stereoscopic vision', isCorrect: true },
+        { answerText: 'Peripheral vision', isCorrect: false },
+        { answerText: 'Tunnel vision', isCorrect: false },
+    ],
+    explanation: 'Stereoscopic vision allows primates to perceive depth by combining images from both eyes into a single three-dimensional perception.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The type of dominance which results in an intermediate phenotype in the heterozygous condition',
+    answerOptions: [
+        { answerText: 'Complete dominance', isCorrect: false },
+        { answerText: 'Codominance', isCorrect: false },
+        { answerText: 'Incomplete dominance', isCorrect: true },
+        { answerText: 'Recessive inheritance', isCorrect: false },
+    ],
+    explanation: 'Incomplete dominance occurs when the heterozygous genotype produces a phenotype that is a blend of both alleles, not fully dominant or recessive.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The fluid of the nucleus where free nucleotides are found',
+    answerOptions: [
+        { answerText: 'Cytosol', isCorrect: false },
+        { answerText: 'Nucleoplasm', isCorrect: true },
+        { answerText: 'Plasma membrane', isCorrect: false },
+        { answerText: 'Endoplasm', isCorrect: false },
+    ],
+    explanation: 'Nucleoplasm is the semi-fluid substance inside the nucleus that houses chromatin and free nucleotides used during DNA replication and transcription.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'A tangled mass of chromosomes located within the nucleus',
+    answerOptions: [
+        { answerText: 'Chromatin', isCorrect: true },
+        { answerText: 'Chromatid', isCorrect: false },
+        { answerText: 'Centromere', isCorrect: false },
+        { answerText: 'Nucleolus', isCorrect: false },
+    ],
+    explanation: 'Chromatin is the loose, thread-like form of DNA and proteins found in the nucleus during interphase, prior to chromosome condensation.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The division of the cytoplasm after a nuclear division',
+    answerOptions: [
+        { answerText: 'Karyokinesis', isCorrect: false },
+        { answerText: 'Mitosis', isCorrect: false },
+        { answerText: 'Cytokinesis', isCorrect: true },
+        { answerText: 'Meiosis', isCorrect: false },
+    ],
+    explanation: 'Cytokinesis is the process of dividing the cytoplasm following the division of the nucleus, completing the formation of two separate cells.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The name for the X and Y sex chromosomes in humans',
+    answerOptions: [
+        { answerText: 'Autosomes', isCorrect: false },
+        { answerText: 'Heterosomes', isCorrect: false },
+        { answerText: 'Chromatids', isCorrect: false },
+        { answerText: 'Gonosomes', isCorrect: true },
+    ],
+    explanation: 'Gonosomes are the sex chromosomes—X and Y—that determine an individual’s genetic sex. Females typically have XX and males XY.',
+    image: 'data:image/png;base64,...'
 }
+
+
+
 
 
 ]
