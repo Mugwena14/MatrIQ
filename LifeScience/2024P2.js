@@ -112,9 +112,9 @@ const questions = [
 {
     questionText: 'Which nucleic acid carries hereditary information?',
     answerOptions: [
+        { answerText: 'DNA', isCorrect: true },
         { answerText: 'RNA', isCorrect: false },
         { answerText: 'ATP', isCorrect: false },
-        { answerText: 'DNA', isCorrect: true },
         { answerText: 'Enzymes', isCorrect: false },
     ],
     explanation: 'DNA (deoxyribonucleic acid) is the molecule that carries genetic instructions used in growth, development, functioning, and reproduction.',
@@ -145,9 +145,9 @@ const questions = [
 {
     questionText: 'Which type of RNA delivers specific amino acids during protein synthesis?',
     answerOptions: [
+        { answerText: 'tRNA', isCorrect: true },
         { answerText: 'mRNA', isCorrect: false },
         { answerText: 'rRNA', isCorrect: false },
-        { answerText: 'tRNA', isCorrect: true },
         { answerText: 'snRNA', isCorrect: false },
     ],
     explanation: 'Transfer RNA (tRNA) transports amino acids to the ribosome during translation, ensuring correct sequencing in proteins.',
@@ -157,8 +157,8 @@ const questions = [
     questionText: 'What is the analysis of DNA samples to identify individuals or relationships called?',
     answerOptions: [
         { answerText: 'Genetic engineering', isCorrect: false },
-        { answerText: 'Gene cloning', isCorrect: false },
         { answerText: 'DNA profiling', isCorrect: true },
+        { answerText: 'Gene cloning', isCorrect: false },
         { answerText: 'Forensic cytology', isCorrect: false },
     ],
     explanation: 'DNA profiling is a forensic technique used to identify individuals by examining their unique genetic makeup.',
@@ -167,9 +167,9 @@ const questions = [
 {
     questionText: 'What shows the number and structure of all chromosomes in a somatic cell nucleus?',
     answerOptions: [
+        { answerText: 'Karyotype', isCorrect: true },
         { answerText: 'Genome', isCorrect: false },
         { answerText: 'Gene map', isCorrect: false },
-        { answerText: 'Karyotype', isCorrect: true },
         { answerText: 'Chromosomal matrix', isCorrect: false },
     ],
     explanation: 'A karyotype is a photographic or digital representation of chromosomes arranged by size, number, and type in a somatic cell.',
@@ -180,8 +180,8 @@ const questions = [
     answerOptions: [
         { answerText: 'Family', isCorrect: false },
         { answerText: 'Population', isCorrect: false },
-        { answerText: 'Species', isCorrect: true },
         { answerText: 'Genus', isCorrect: false },
+        { answerText: 'Species', isCorrect: true },
     ],
     explanation: 'Species is the basic unit of biological classification, defined by the ability to interbreed and produce fertile offspring.',
     image: 'data:image/png;base64,...'
