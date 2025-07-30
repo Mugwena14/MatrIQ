@@ -97,6 +97,105 @@ const questions = [
     ],
     explanation: 'Due to base-pairing rules, strand 1 contains the same number of thymine (T) as strand 2 has adenine (A)—which is 8. Therefore, strand 1 has 8 thymine nucleotides.',
     image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The process of change in the characteristics of biological species over time',
+    answerOptions: [
+        { answerText: 'Evolution', isCorrect: true },
+        { answerText: 'Mutation', isCorrect: false },
+        { answerText: 'Inheritance', isCorrect: false },
+        { answerText: 'Adaptation', isCorrect: false },
+    ],
+    explanation: 'Evolution is the gradual change in species over time, driven by mechanisms like natural selection and genetic drift.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The type of bonds between nitrogenous bases in a DNA molecule',
+    answerOptions: [
+        { answerText: 'Ionic bonds', isCorrect: false },
+        { answerText: 'Hydrogen bonds', isCorrect: true },
+        { answerText: 'Covalent bonds', isCorrect: false },
+        { answerText: 'Metallic bonds', isCorrect: false },
+    ],
+    explanation: 'Hydrogen bonds hold together complementary nitrogenous bases in DNA, enabling the double-helix structure.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The structure that joins two chromatids of a chromosome',
+    answerOptions: [
+        { answerText: 'Centromere', isCorrect: true },
+        { answerText: 'Chromatin', isCorrect: false },
+        { answerText: 'Nucleolus', isCorrect: false },
+        { answerText: 'Spindle fibre', isCorrect: false },
+    ],
+    explanation: 'The centromere connects sister chromatids and plays a key role during chromosome alignment in cell division.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The division of the cytoplasm of a cell during cell division',
+    answerOptions: [
+        { answerText: 'Cytokinesis', isCorrect: true },
+        { answerText: 'Karyokinesis', isCorrect: false },
+        { answerText: 'Mitosis', isCorrect: false },
+        { answerText: 'Meiosis', isCorrect: false },
+    ],
+    explanation: 'Cytokinesis is the final step in cell division where the cytoplasm splits, producing two separate cells.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The process during meiosis where there is an exchange of genetic material between chromatids',
+    answerOptions: [
+        { answerText: 'Crossing over', isCorrect: true },
+        { answerText: 'Replication', isCorrect: false },
+        { answerText: 'Independent assortment', isCorrect: false },
+        { answerText: 'Mutation', isCorrect: false },
+    ],
+    explanation: 'Crossing over during prophase I of meiosis increases genetic variation by exchanging segments between chromatids.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The structures in animal cells that give rise to spindle fibres during cell division',
+    answerOptions: [
+        { answerText: 'Centrioles', isCorrect: true },
+        { answerText: 'Nucleosomes', isCorrect: false },
+        { answerText: 'Lysosomes', isCorrect: false },
+        { answerText: 'Ribosomes', isCorrect: false },
+    ],
+    explanation: 'Centrioles organize spindle fibres, which guide chromosomes during cell division in animal cells.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'Similar structures that are inherited from a common ancestor and are modified for different functions',
+    answerOptions: [
+        { answerText: 'Homologous structures', isCorrect: true },
+        { answerText: 'Analogous structures', isCorrect: false },
+        { answerText: 'Vestigial structures', isCorrect: false },
+        { answerText: 'Adaptive structures', isCorrect: false },
+    ],
+    explanation: 'Homologous structures like the limbs of vertebrates share a common origin but serve different functions due to evolution.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The phase in the cell cycle during which DNA replication takes place',
+    answerOptions: [
+        { answerText: 'S-phase', isCorrect: true },
+        { answerText: 'G1-phase', isCorrect: false },
+        { answerText: 'G2-phase', isCorrect: false },
+        { answerText: 'M-phase', isCorrect: false },
+    ],
+    explanation: 'DNA replication occurs in the S-phase of the cell cycle, ensuring genetic material is doubled before cell division.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The organelle where translation occurs during protein synthesis',
+    answerOptions: [
+        { answerText: 'Ribosome', isCorrect: true },
+        { answerText: 'Nucleus', isCorrect: false },
+        { answerText: 'Mitochondrion', isCorrect: false },
+        { answerText: 'Golgi body', isCorrect: false },
+    ],
+    explanation: 'Ribosomes are the sites of translation, where mRNA is decoded into a polypeptide chain during protein synthesis.',
+    image: 'data:image/png;base64,...'
 }
 
 

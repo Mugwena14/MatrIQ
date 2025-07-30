@@ -80,8 +80,8 @@ const questions =[
     questionText: 'Which ONE of the chromosomes (Q, R, S or T) would most likely be found in a cell during late Anaphase II of meiosis?',
     answerOptions: [
         { answerText: 'Q', isCorrect: false },
-        { answerText: 'S', isCorrect: true },
         { answerText: 'R', isCorrect: false },
+        { answerText: 'S', isCorrect: true },
         { answerText: 'T', isCorrect: false },
     ],
     explanation: 'In late Anaphase II, sister chromatids are separating and moving toward opposite poles. Structure S represents a single chromatid being pulled apart, which matches this phase.',
@@ -102,9 +102,9 @@ const questions =[
     questionText: 'The position of a gene on a chromosome is called a ...',
     answerOptions: [
         { answerText: 'Karyotype', isCorrect: false },
+        { answerText: 'Locus', isCorrect: true },
         { answerText: 'Centromere', isCorrect: false },
         { answerText: 'Allele', isCorrect: false },
-        { answerText: 'Locus', isCorrect: true },
     ],
     explanation: 'A locus is the specific, fixed position on a chromosome where a particular gene or genetic marker is located.',
     image: 'data:image/png;base64,...'
@@ -114,8 +114,8 @@ const questions =[
     answerOptions: [
         { answerText: 'Gradualism', isCorrect: false },
         { answerText: 'Genetic drift', isCorrect: false },
-        { answerText: 'Punctuated equilibrium', isCorrect: true },
         { answerText: 'Natural selection', isCorrect: false },
+        { answerText: 'Punctuated equilibrium', isCorrect: true },
     ],
     explanation: 'Punctuated equilibrium suggests species experience long periods of stability interrupted by short bursts of rapid evolutionary change.',
     image: 'data:image/png;base64,...'
@@ -123,10 +123,10 @@ const questions =[
 {
     questionText: 'The natural shape of a DNA molecule is referred to as a ...',
     answerOptions: [
-        { answerText: 'Double helix', isCorrect: true },
         { answerText: 'Alpha helix', isCorrect: false },
         { answerText: 'Triple strand', isCorrect: false },
         { answerText: 'DNA coil', isCorrect: false },
+        { answerText: 'Double helix', isCorrect: true },
     ],
     explanation: 'DNA’s double helix structure features two strands twisted around each other, held together by base pairs.',
     image: 'data:image/png;base64,...'
