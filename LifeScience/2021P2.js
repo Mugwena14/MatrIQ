@@ -97,6 +97,72 @@ const questions = [
     ],
     explanation: 'The presence of stone tools in the fossil record indicates cultural evolution among hominids, as it reflects advancements in tool-making and usage.',
     image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'Which diagram shows the possible evolutionary relationships between species?',
+    answerOptions: [
+        { answerText: 'Phylogenetic tree', isCorrect: true },
+        { answerText: 'Food web', isCorrect: false },
+        { answerText: 'Genetic map', isCorrect: false },
+        { answerText: 'Chromosome chart', isCorrect: false }
+    ],
+    explanation: 'A phylogenetic tree illustrates evolutionary relationships among various species based on similarities and differences in genetic or physical traits.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'What type of bond connects amino acids?',
+    answerOptions: [
+        { answerText: 'Hydrogen bond', isCorrect: false },
+        { answerText: 'Ionic bond', isCorrect: false },
+        { answerText: 'Peptide bond', isCorrect: true },
+        { answerText: 'Covalent bond', isCorrect: false }
+    ],
+    explanation: 'A peptide bond is a covalent chemical bond formed between two amino acid molecules, crucial in forming protein structures.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'Which theory suggests long periods of stability in evolution interrupted by brief periods of rapid change?',
+    answerOptions: [
+        { answerText: 'Darwin’s theory of natural selection', isCorrect: false },
+        { answerText: 'Gradualism', isCorrect: false },
+        { answerText: 'Punctuated equilibrium', isCorrect: true },
+        { answerText: 'Lamarckism', isCorrect: false }
+    ],
+    explanation: 'Punctuated equilibrium proposes that evolution occurs in rapid bursts separated by long periods of stability.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'Which term describes similar structures with different functions in different organisms?',
+    answerOptions: [
+        { answerText: 'Analogous structures', isCorrect: false },
+        { answerText: 'Homologous structures', isCorrect: true },
+        { answerText: 'Vestigial structures', isCorrect: false },
+        { answerText: 'Adapted traits', isCorrect: false }
+    ],
+    explanation: 'Homologous structures indicate a common ancestry, even when their functions differ between organisms.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'What is the term for human-directed breeding for desired traits?',
+    answerOptions: [
+        { answerText: 'Gene editing', isCorrect: false },
+        { answerText: 'Genetic engineering', isCorrect: false },
+        { answerText: 'Artificial selection', isCorrect: true },
+        { answerText: 'Natural selection', isCorrect: false }
+    ],
+    explanation: 'Artificial selection involves selective breeding of plants or animals by humans to achieve preferred traits.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'What type of dominance results when both alleles are expressed in a heterozygous individual?',
+    answerOptions: [
+        { answerText: 'Incomplete dominance', isCorrect: false },
+        { answerText: 'Complete dominance', isCorrect: false },
+        { answerText: 'Codominance', isCorrect: true },
+        { answerText: 'Recessive inheritance', isCorrect: false }
+    ],
+    explanation: 'Codominance occurs when both alleles contribute equally and visibly to the phenotype in heterozygous organisms.',
+    image: 'data:image/png;base64,...'
 }
 
 
