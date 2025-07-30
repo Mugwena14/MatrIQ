@@ -14,9 +14,9 @@ const questions = [
     questionText: 'Which ONE of the following is a source of variation during normal meiosis?',
     answerOptions: [
         { answerText: 'Random mating', isCorrect: false },
-        { answerText: 'Random arrangement of chromosomes', isCorrect: true },
         { answerText: 'Chromosomal mutations', isCorrect: false },
         { answerText: 'Cloning', isCorrect: false },
+        { answerText: 'Random arrangement of chromosomes', isCorrect: true },
     ],
     explanation: 'During meiosis, the random arrangement of homologous chromosomes leads to genetic variation in gametes, enhancing diversity.',
     image: 'data:image/png;base64,...'
@@ -47,9 +47,9 @@ const questions = [
     questionText: 'Which ONE of the following is an example of discontinuous variation in humans?',
     answerOptions: [
         { answerText: 'Height', isCorrect: false },
-        { answerText: 'Gender', isCorrect: true },
         { answerText: 'Heart rate', isCorrect: false },
         { answerText: 'Weight', isCorrect: false },
+        { answerText: 'Gender', isCorrect: true },
     ],
     explanation: 'Discontinuous variation refers to traits that fall into distinct categories. Gender is a clear example, with no intermediate states.',
     image: 'data:image/png;base64,...'
@@ -69,8 +69,8 @@ const questions = [
     questionText: 'Which ONE of the following is CORRECT for speciation through geographic isolation?',
     answerOptions: [
         { answerText: 'The populations undergo phenotypic changes only.', isCorrect: false },
-        { answerText: 'Each population undergoes natural selection independently.', isCorrect: true },
         { answerText: 'The conditions on each side of the geographic barrier are the same.', isCorrect: false },
+        { answerText: 'Each population undergoes natural selection independently.', isCorrect: true },
         { answerText: 'The new species formed are genotypically the same as the original species.', isCorrect: false },
     ],
     explanation: 'Geographic isolation leads to reproductive isolation. Over time, populations adapt independently to different environments, resulting in distinct genotypes and eventual speciation.',
@@ -90,9 +90,9 @@ const questions = [
 {
     questionText: 'How many nucleotides containing thymine (T) were present in Strand 1?',
     answerOptions: [
-        { answerText: '8', isCorrect: true },
         { answerText: '4', isCorrect: false },
         { answerText: '2', isCorrect: false },
+        { answerText: '8', isCorrect: true },
         { answerText: '16', isCorrect: false },
     ],
     explanation: 'Due to base-pairing rules, strand 1 contains the same number of thymine (T) as strand 2 has adenine (A)—which is 8. Therefore, strand 1 has 8 thymine nucleotides.',
@@ -112,8 +112,8 @@ const questions = [
 {
     questionText: 'The type of bonds between nitrogenous bases in a DNA molecule',
     answerOptions: [
-        { answerText: 'Ionic bonds', isCorrect: false },
         { answerText: 'Hydrogen bonds', isCorrect: true },
+        { answerText: 'Ionic bonds', isCorrect: false },
         { answerText: 'Covalent bonds', isCorrect: false },
         { answerText: 'Metallic bonds', isCorrect: false },
     ],
@@ -134,9 +134,9 @@ const questions = [
 {
     questionText: 'The division of the cytoplasm of a cell during cell division',
     answerOptions: [
-        { answerText: 'Cytokinesis', isCorrect: true },
         { answerText: 'Karyokinesis', isCorrect: false },
         { answerText: 'Mitosis', isCorrect: false },
+        { answerText: 'Cytokinesis', isCorrect: true },
         { answerText: 'Meiosis', isCorrect: false },
     ],
     explanation: 'Cytokinesis is the final step in cell division where the cytoplasm splits, producing two separate cells.',
@@ -145,9 +145,9 @@ const questions = [
 {
     questionText: 'The process during meiosis where there is an exchange of genetic material between chromatids',
     answerOptions: [
-        { answerText: 'Crossing over', isCorrect: true },
         { answerText: 'Replication', isCorrect: false },
         { answerText: 'Independent assortment', isCorrect: false },
+        { answerText: 'Crossing over', isCorrect: true },
         { answerText: 'Mutation', isCorrect: false },
     ],
     explanation: 'Crossing over during prophase I of meiosis increases genetic variation by exchanging segments between chromatids.',
@@ -156,10 +156,10 @@ const questions = [
 {
     questionText: 'The structures in animal cells that give rise to spindle fibres during cell division',
     answerOptions: [
-        { answerText: 'Centrioles', isCorrect: true },
         { answerText: 'Nucleosomes', isCorrect: false },
         { answerText: 'Lysosomes', isCorrect: false },
         { answerText: 'Ribosomes', isCorrect: false },
+        { answerText: 'Centrioles', isCorrect: true },
     ],
     explanation: 'Centrioles organize spindle fibres, which guide chromosomes during cell division in animal cells.',
     image: 'data:image/png;base64,...'
@@ -189,9 +189,9 @@ const questions = [
 {
     questionText: 'The organelle where translation occurs during protein synthesis',
     answerOptions: [
-        { answerText: 'Ribosome', isCorrect: true },
         { answerText: 'Nucleus', isCorrect: false },
         { answerText: 'Mitochondrion', isCorrect: false },
+        { answerText: 'Ribosome', isCorrect: true },
         { answerText: 'Golgi body', isCorrect: false },
     ],
     explanation: 'Ribosomes are the sites of translation, where mRNA is decoded into a polypeptide chain during protein synthesis.',
