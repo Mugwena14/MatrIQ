@@ -25,9 +25,9 @@ const questions = [
     questionText: 'African apes and humans are similar. Both have …',
     answerOptions: [
         { answerText: 'Small jaws and well-developed brow ridges', isCorrect: false },
-        { answerText: 'Opposable thumbs and bare fingertips', isCorrect: true },
         { answerText: 'Gaps between their teeth and eyes in front', isCorrect: false },
-        { answerText: 'An upright posture and a cranial ridge', isCorrect: false }
+        { answerText: 'An upright posture and a cranial ridge', isCorrect: false },
+        { answerText: 'Opposable thumbs and bare fingertips', isCorrect: true },
     ],
     explanation: 'Opposable thumbs and bare fingertips are key similarities that highlight evolutionary links between African apes and humans.',
     image: 'data:image/png;base64,...'
@@ -46,8 +46,8 @@ const questions = [
 {
     questionText: 'Which ONE of the following is the CORRECT labels for 1, 2 and 3 in the diagram?',
     answerOptions: [
-        { answerText: 'Transcription, Ribosome, tRNA', isCorrect: false },
         { answerText: 'Translation, Ribosome, mRNA', isCorrect: true },
+        { answerText: 'Transcription, Ribosome, tRNA', isCorrect: false },
         { answerText: 'Transcription, Nucleus, mRNA', isCorrect: false },
         { answerText: 'Translation, Nucleus, tRNA', isCorrect: false }
     ],
@@ -69,9 +69,9 @@ const questions = [
     questionText: 'Which ONE of the following scientists discovered fossils of Homo sapiens and Ardipithecus sp?',
     answerOptions: [
         { answerText: 'Raymond Dart', isCorrect: false },
+        { answerText: 'Tim White', isCorrect: true },
         { answerText: 'Lee Berger', isCorrect: false },
         { answerText: 'Louis Leakey', isCorrect: false },
-        { answerText: 'Tim White', isCorrect: true }
     ],
     explanation: 'Tim White is credited with discovering fossils of both Homo sapiens and Ardipithecus species, contributing significantly to our understanding of human evolution.',
     image: 'data:image/png;base64,...'
@@ -81,8 +81,8 @@ const questions = [
     answerOptions: [
         { answerText: 'Number of branches and leaf area', isCorrect: false },
         { answerText: 'Plant height and leaf area', isCorrect: false },
+        { answerText: 'Plant height and number of branches', isCorrect: true },
         { answerText: 'Plant height and flower diameter', isCorrect: false },
-        { answerText: 'Plant height and number of branches', isCorrect: true }
     ],
     explanation: 'Artificial selection reduced plant height and eliminated branching, indicating these were considered undesirable traits by humans for cultivated sunflowers.',
     image: 'data:image/png;base64,...'
@@ -102,13 +102,91 @@ const questions = [
     questionText: 'Antibiotic resistance in bacteria is caused by the long-term use of antibiotics. This statement is a/an …',
     answerOptions: [
         { answerText: 'Theory', isCorrect: false },
-        { answerText: 'Aim', isCorrect: false },
         { answerText: 'Hypothesis', isCorrect: true },
+        { answerText: 'Aim', isCorrect: false },
         { answerText: 'Conclusion', isCorrect: false }
     ],
     explanation: 'A hypothesis is a proposed explanation based on observations. The statement draws a predictive link between antibiotic use and bacterial resistance.',
     image: 'data:image/png;base64,...'
 },
+{
+    questionText: 'Which ONE of the following describes similar structures in different organisms that indicate descent with modification?',
+    answerOptions: [
+        { answerText: 'Homologous structures', isCorrect: true },
+        { answerText: 'Analogous structures', isCorrect: false },
+        { answerText: 'Vestigial structures', isCorrect: false },
+        { answerText: 'Adaptive features', isCorrect: false }
+    ],
+    explanation: 'Homologous structures are anatomical features found in different organisms that share a common origin but may serve different functions, demonstrating evolutionary descent.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'Large, pointed teeth in African apes that are used for tearing food are called …',
+    answerOptions: [
+        { answerText: 'Molars', isCorrect: false },
+        { answerText: 'Incisors', isCorrect: false },
+        { answerText: 'Canines', isCorrect: true },
+        { answerText: 'Premolars', isCorrect: false }
+    ],
+    explanation: 'Canines are sharp teeth found in African apes and other mammals, specialized for tearing food and often enlarged in species with competitive social behavior.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The part of the skull that houses the brain is called the …',
+    answerOptions: [
+        { answerText: 'Jawbone', isCorrect: false },
+        { answerText: 'Mandible', isCorrect: false },
+        { answerText: 'Spinal column', isCorrect: false },
+        { answerText: 'Cranium', isCorrect: true },
+    ],
+    explanation: 'The cranium is the portion of the skull that encases and protects the brain, forming the upper part of the skull structure.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The non-sex chromosomes in humans are referred to as …',
+    answerOptions: [
+        { answerText: 'Gonosomes', isCorrect: false },
+        { answerText: 'Chromatids', isCorrect: false },
+        { answerText: 'Autosomes', isCorrect: true },
+        { answerText: 'Haploids', isCorrect: false }
+    ],
+    explanation: 'Autosomes are the chromosomes that determine non-sex-related traits, making up 22 of the 23 pairs in humans.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The network of genetic material found in the nucleus during interphase is called …',
+    answerOptions: [
+        { answerText: 'Chromatin', isCorrect: true },
+        { answerText: 'Centromeres', isCorrect: false },
+        { answerText: 'Chromosomes', isCorrect: false },
+        { answerText: 'Histones', isCorrect: false }
+    ],
+    explanation: 'Chromatin is a complex of DNA and proteins found in the nucleus during interphase, enabling gene expression and replication.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'The number, shape and arrangement of all the chromosomes in the nucleus of a somatic cell is referred to as the …',
+    answerOptions: [
+        { answerText: 'Genome', isCorrect: false },
+        { answerText: 'Karyotype', isCorrect: true },
+        { answerText: 'Genotype', isCorrect: false },
+        { answerText: 'Chromatid count', isCorrect: false }
+    ],
+    explanation: 'A karyotype is a photographic representation or chart of the complete set of chromosomes in a cell, showing number, structure, and any abnormalities.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'Having a protruding jaw is known as …',
+    answerOptions: [
+        { answerText: 'Retrognathism', isCorrect: false },
+        { answerText: 'Mandibular extension', isCorrect: false },
+        { answerText: 'Cranial ridge', isCorrect: false },
+        { answerText: 'Prognathism', isCorrect: true },
+    ],
+    explanation: 'Prognathism refers to the condition where the jaw projects forward relative to the facial profile, commonly seen in early hominids.',
+    image: 'data:image/png;base64,...'
+}
+
 
 
 
