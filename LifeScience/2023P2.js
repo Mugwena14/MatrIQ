@@ -80,8 +80,8 @@ const questions =[
     questionText: 'Which ONE of the chromosomes (Q, R, S or T) would most likely be found in a cell during late Anaphase II of meiosis?',
     answerOptions: [
         { answerText: 'Q', isCorrect: false },
-        { answerText: 'R', isCorrect: false },
         { answerText: 'S', isCorrect: true },
+        { answerText: 'R', isCorrect: false },
         { answerText: 'T', isCorrect: false },
     ],
     explanation: 'In late Anaphase II, sister chromatids are separating and moving toward opposite poles. Structure S represents a single chromatid being pulled apart, which matches this phase.',
@@ -102,9 +102,9 @@ const questions =[
     questionText: 'The position of a gene on a chromosome is called a ...',
     answerOptions: [
         { answerText: 'Karyotype', isCorrect: false },
-        { answerText: 'Locus', isCorrect: true },
         { answerText: 'Centromere', isCorrect: false },
         { answerText: 'Allele', isCorrect: false },
+        { answerText: 'Locus', isCorrect: true },
     ],
     explanation: 'A locus is the specific, fixed position on a chromosome where a particular gene or genetic marker is located.',
     image: 'data:image/png;base64,...'
@@ -123,8 +123,8 @@ const questions =[
 {
     questionText: 'The natural shape of a DNA molecule is referred to as a ...',
     answerOptions: [
-        { answerText: 'Alpha helix', isCorrect: false },
         { answerText: 'Double helix', isCorrect: true },
+        { answerText: 'Alpha helix', isCorrect: false },
         { answerText: 'Triple strand', isCorrect: false },
         { answerText: 'DNA coil', isCorrect: false },
     ],
@@ -134,9 +134,9 @@ const questions =[
 {
     questionText: 'The type of bond found between two amino acids during protein synthesis is a ...',
     answerOptions: [
+        { answerText: 'Peptide bond', isCorrect: true },
         { answerText: 'Hydrogen bond', isCorrect: false },
         { answerText: 'Ionic bond', isCorrect: false },
-        { answerText: 'Peptide bond', isCorrect: true },
         { answerText: 'Covalent bond', isCorrect: false },
     ],
     explanation: 'Peptide bonds form between the amino group of one amino acid and the carboxyl group of another, linking them in a protein chain.',
