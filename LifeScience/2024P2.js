@@ -108,7 +108,107 @@ const questions = [
     ],
     explanation: 'Translation is the final stage of protein synthesis where ribosomes assemble amino acids into a polypeptide chain, producing a functional protein.',
     image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'Which nucleic acid carries hereditary information?',
+    answerOptions: [
+        { answerText: 'RNA', isCorrect: false },
+        { answerText: 'ATP', isCorrect: false },
+        { answerText: 'DNA', isCorrect: true },
+        { answerText: 'Enzymes', isCorrect: false },
+    ],
+    explanation: 'DNA (deoxyribonucleic acid) is the molecule that carries genetic instructions used in growth, development, functioning, and reproduction.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'What is the chromosome condition of a cell with only one set of chromosomes?',
+    answerOptions: [
+        { answerText: 'Diploid', isCorrect: false },
+        { answerText: 'Haploid', isCorrect: true },
+        { answerText: 'Triploid', isCorrect: false },
+        { answerText: 'Polyploid', isCorrect: false },
+    ],
+    explanation: 'A haploid cell contains only one set of chromosomes, commonly found in gametes such as sperm and egg cells.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'Which structure holds the two chromatids of a chromosome together?',
+    answerOptions: [
+        { answerText: 'Centrioles', isCorrect: false },
+        { answerText: 'Spindle fibres', isCorrect: false },
+        { answerText: 'Centromere', isCorrect: true },
+        { answerText: 'Kinetochore', isCorrect: false },
+    ],
+    explanation: 'The centromere is the region that holds sister chromatids together and plays a key role during cell division.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'Which type of RNA delivers specific amino acids during protein synthesis?',
+    answerOptions: [
+        { answerText: 'mRNA', isCorrect: false },
+        { answerText: 'rRNA', isCorrect: false },
+        { answerText: 'tRNA', isCorrect: true },
+        { answerText: 'snRNA', isCorrect: false },
+    ],
+    explanation: 'Transfer RNA (tRNA) transports amino acids to the ribosome during translation, ensuring correct sequencing in proteins.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'What is the analysis of DNA samples to identify individuals or relationships called?',
+    answerOptions: [
+        { answerText: 'Genetic engineering', isCorrect: false },
+        { answerText: 'Gene cloning', isCorrect: false },
+        { answerText: 'DNA profiling', isCorrect: true },
+        { answerText: 'Forensic cytology', isCorrect: false },
+    ],
+    explanation: 'DNA profiling is a forensic technique used to identify individuals by examining their unique genetic makeup.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'What shows the number and structure of all chromosomes in a somatic cell nucleus?',
+    answerOptions: [
+        { answerText: 'Genome', isCorrect: false },
+        { answerText: 'Gene map', isCorrect: false },
+        { answerText: 'Karyotype', isCorrect: true },
+        { answerText: 'Chromosomal matrix', isCorrect: false },
+    ],
+    explanation: 'A karyotype is a photographic or digital representation of chromosomes arranged by size, number, and type in a somatic cell.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'A group of similar organisms that interbreed to produce fertile offspring is called a ...',
+    answerOptions: [
+        { answerText: 'Family', isCorrect: false },
+        { answerText: 'Population', isCorrect: false },
+        { answerText: 'Species', isCorrect: true },
+        { answerText: 'Genus', isCorrect: false },
+    ],
+    explanation: 'Species is the basic unit of biological classification, defined by the ability to interbreed and produce fertile offspring.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'In which phase of meiosis are paired chromosomes arranged at the equator?',
+    answerOptions: [
+        { answerText: 'Anaphase I', isCorrect: false },
+        { answerText: 'Prophase II', isCorrect: false },
+        { answerText: 'Metaphase I', isCorrect: true },
+        { answerText: 'Telophase I', isCorrect: false },
+    ],
+    explanation: 'During Metaphase I of meiosis, homologous chromosomes align at the cell equator in preparation for separation.',
+    image: 'data:image/png;base64,...'
+},
+{
+    questionText: 'What biotechnological process produces genetically identical organisms?',
+    answerOptions: [
+        { answerText: 'Recombination', isCorrect: false },
+        { answerText: 'Cloning', isCorrect: true },
+        { answerText: 'Mutagenesis', isCorrect: false },
+        { answerText: 'Hybridisation', isCorrect: false },
+    ],
+    explanation: 'Cloning is a process that produces organisms genetically identical to the original, commonly used in biotechnology and agriculture.',
+    image: 'data:image/png;base64,...'
 }
+
 
 
 ]
