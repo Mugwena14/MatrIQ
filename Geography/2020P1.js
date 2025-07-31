@@ -24,9 +24,9 @@ const questions = [
 {
     questionText: 'Air movement that originates due to the rate of insolation',
     answerOptions: [
-        { answerText: 'Valley breeze', isCorrect: true },
         { answerText: 'Katabatic', isCorrect: false },
         { answerText: 'Anabatic', isCorrect: false },
+        { answerText: 'Valley breeze', isCorrect: true },
         { answerText: 'Shadow zone current', isCorrect: false },
     ],
     explanation: 'Valley breezes form as a result of solar heating that causes air to rise from valley floors.',
@@ -35,12 +35,12 @@ const questions = [
 {
     questionText: 'Air movement that mostly reduces air pollution at the bottom of the valley',
     answerOptions: [
-        { answerText: 'Upslope wind', isCorrect: true },
-        { answerText: 'Katabatic', isCorrect: false },
+        { answerText: 'Anabatic Wind', isCorrect: true },
         { answerText: 'Cold air drainage', isCorrect: false },
+        { answerText: 'Katabatic wind', isCorrect: false },
         { answerText: 'Frost-forming wind', isCorrect: false },
     ],
-    explanation: 'Upslope winds enhance ventilation by moving air upward, reducing pollution buildup.',
+    explanation: 'Anabatic winds flow downwards, lifting polluted air upwards.',
     image: 'data:image/png;base64,...'
 },
 {
