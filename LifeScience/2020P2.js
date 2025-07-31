@@ -40,15 +40,15 @@ const questions = [
         { answerText: 'Passing on the acquired characteristic of fins to their offspring', isCorrect: false },
         { answerText: 'Stretching its fins and using them for "walking"', isCorrect: true }
     ],
-    explanation: 'Lamarck’s theory suggested that organisms acquire traits through use or disuse and pass them on, such as stretching fins for walking.',
+    explanation: 'Lamarck`s theory suggested that organisms acquire traits through use or disuse and pass them on, such as stretching fins for walking.',
     image: 'data:image/png;base64,...'
 },
 {
     questionText: 'Which ONE of the following is the CORRECT labels for 1, 2 and 3 in the diagram?',
     answerOptions: [
-        { answerText: 'Translation, Ribosome, mRNA', isCorrect: true },
+        { answerText: 'Translation, Ribosome, mRNA', isCorrect: false },
         { answerText: 'Transcription, Ribosome, tRNA', isCorrect: false },
-        { answerText: 'Transcription, Nucleus, mRNA', isCorrect: false },
+        { answerText: 'Transcription, Nucleus, mRNA', isCorrect: true },
         { answerText: 'Translation, Nucleus, tRNA', isCorrect: false }
     ],
     explanation: 'Translation occurs at the ribosome where mRNA is read and proteins are synthesized. The diagram matches this sequence, confirming the correct labels as Translation, Ribosome, and mRNA.',
@@ -90,9 +90,9 @@ const questions = [
 {
     questionText: 'Punctuated equilibrium suggests the following:',
     answerOptions: [
+        { answerText: 'New species can appear quickly, over a relatively short period of time.', isCorrect: true },
         { answerText: 'Evolution is always a slow and gradual process.', isCorrect: false },
         { answerText: 'Natural selection does not explain evolution.', isCorrect: false },
-        { answerText: 'New species can appear quickly, over a relatively short period of time.', isCorrect: true },
         { answerText: 'Artificial selection is the only mechanism that causes evolution.', isCorrect: false }
     ],
     explanation: 'Punctuated equilibrium describes a model where species remain relatively unchanged for long periods, punctuated by short bursts of rapid change.',
