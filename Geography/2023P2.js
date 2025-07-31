@@ -3,11 +3,11 @@ const questions = [
     questionText: 'A central place town …',
     answerOptions: [
         { answerText: 'offers only rural functions.', isCorrect: false },
-        { answerText: 'services the surrounding rural area.', isCorrect: false },
-        { answerText: 'offers high-order goods and services.', isCorrect: true },
+        { answerText: 'services the surrounding rural area.', isCorrect: true },
+        { answerText: 'offers high-order goods and services.', isCorrect: false },
         { answerText: 'services only the urban area.', isCorrect: false }
     ],
-    explanation: 'A central place town provides high-order goods and services to the surrounding areas.',
+    explanation: 'A central place town provides goods and services to the surrounding rural areas.',
     image: 'data:image/png;base64,...'
 },
 {
@@ -37,8 +37,8 @@ const questions = [
     answerOptions: [
         { answerText: 'small due to its daily use.', isCorrect: false },
         { answerText: 'large due to its daily use.', isCorrect: false },
-        { answerText: 'large due to its high cost.', isCorrect: true },
         { answerText: 'small due to its high cost.', isCorrect: false },
+        { answerText: 'large due to its high cost.', isCorrect: true },
     ],
     explanation: 'High-order goods are expensive and purchased infrequently, so their range is large.',
     image: 'data:image/png;base64,...'
@@ -62,7 +62,7 @@ const questions = [
         { answerText: 'high because it has more high-order goods.', isCorrect: false },
         { answerText: 'low because it has more low-order goods.', isCorrect: true }
     ],
-    explanation: 'Grocery stores sell low-order goods, which are used frequently and require fewer customers.',
+    explanation: 'Grocery stores sell low-order goods, which are used frequently and require fewer customers./ Accept B',
     image: 'data:image/png;base64,...'
 },
 {
@@ -79,10 +79,10 @@ const questions = [
 {
     questionText: 'The sphere of influence of a city is greater than a village because it has a ...',
     answerOptions: [
-        { answerText: 'population of 1 000.', isCorrect: false },
-        { answerText: 'smaller radius.', isCorrect: false },
-        { answerText: 'population of 100 000.', isCorrect: false },
-        { answerText: 'larger radius.', isCorrect: true }
+        { answerText: 'pop of 1 000 and larger radius', isCorrect: false },
+        { answerText: 'smaller radius and pop of 100 000', isCorrect: false },
+        { answerText: 'pop of 100 000 & larger radius', isCorrect: true },
+        { answerText: 'larger radius & smaller radius', isCorrect: false }
     ],
     explanation: 'Cities have a larger sphere of influence due to more services and a greater population.',
     image: 'data:image/png;base64,...'
