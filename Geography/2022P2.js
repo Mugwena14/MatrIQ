@@ -47,11 +47,11 @@ const questions = [
         questionText: 'A dry-point settlement is located … water because water is …',
         answerOptions: [
         { answerText: 'Far from; scarce', isCorrect: false },
-        { answerText: 'Far from; a threat', isCorrect: false },
-        { answerText: 'Near; a threat', isCorrect: true },
+        { answerText: 'Far from; a threat', isCorrect: true },
+        { answerText: 'Near; a threat', isCorrect: false },
         { answerText: 'Near; scarce', isCorrect: false }
         ],
-        explanation: 'Dry-point settlements avoid flooding by locating on elevated ground near water, which may be a threat.',
+        explanation: 'Dry-point settlements avoid flooding by locating themselves far from water sources, as water is a threat.',
         image: 'data:image/png;base64,...'
     },
     {
@@ -59,10 +59,10 @@ const questions = [
         answerOptions: [
         { answerText: 'Round', isCorrect: false },
         { answerText: 'Semi-circular', isCorrect: false },
-        { answerText: 'Crossroad', isCorrect: false },
-        { answerText: 'Linear', isCorrect: true }
+        { answerText: 'Crossroad', isCorrect: true },
+        { answerText: 'Linear', isCorrect: false }
         ],
-        explanation: 'Linear settlements develop along a road, river, or valley, creating an elongated layout rather than a clustered one.',
+        explanation: 'Crossroads develop where roads intersect.',
         image: 'data:image/png;base64,...'
     },
     {
@@ -70,8 +70,8 @@ const questions = [
         answerOptions: [
         { answerText: 'Lake', isCorrect: true },
         { answerText: 'Coastline', isCorrect: false },
+        { answerText: 'Roads', isCorrect: false },
         { answerText: 'Terrain', isCorrect: false },
-        { answerText: 'Roads', isCorrect: false }
         ],
         explanation: 'Natural features like lakes often encourage circular development as buildings form around the water source.',
         image: 'data:image/png;base64,...'
@@ -82,7 +82,7 @@ const questions = [
         { answerText: '(i) and (ii)', isCorrect: false },
         { answerText: '(ii) and (iii)', isCorrect: false },
         { answerText: '(i) and (iv)', isCorrect: true },
-        { answerText: '(iii) and (iv)', isCorrect: false }
+        { answerText: '(iii) and (iv)', isCorrect: true }
         ],
         explanation: 'Accessibility to transport and fertile soil are key physical factors that influence where settlements are located.',
         image: 'data:image/png;base64,...'
