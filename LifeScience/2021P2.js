@@ -36,9 +36,9 @@ const questions = [
     questionText: 'A person has the genotype IAi for blood type. What is this person\'s blood group?',
     answerOptions: [
         { answerText: 'B', isCorrect: false },
+        { answerText: 'A', isCorrect: true },
         { answerText: 'O', isCorrect: false },
         { answerText: 'AB', isCorrect: false },
-        { answerText: 'A', isCorrect: true },
     ],
     explanation: 'The genotype IAi indicates that the person has blood type A, as IA is dominant over i.',
     image: 'data:image/png;base64,...'
@@ -46,21 +46,21 @@ const questions = [
 {
     questionText: 'In a car accident, the biological father of a girl and three other men were killed. The men could not be identified due to their injuries. DNA profiling was used to identify the girls father. The diagram below shows the DNA profiles of the girl, her mother and the four men. Which ONE of the men is most likely to have been the father of the girl?',
     answerOptions: [
-        { answerText: '4', isCorrect: true },
-        { answerText: '3', isCorrect: false },
+        { answerText: '4', isCorrect: false },
         { answerText: '2', isCorrect: false },
         { answerText: '1', isCorrect: false },
+        { answerText: '3', isCorrect: true },
     ],
-    explanation: 'The DNA profile of Man 4 shares the most bands with the girl\'s DNA profile, indicating that he is most likely her biological father.',
+    explanation: 'The DNA profile of Man 3 shares the most bands with the girl`s DNA profile, indicating that he is most likely her biological father.',
     image: 'data:image/png;base64,...'
 },
 {
     questionText: 'A DNA template strand codes for the amino acid serine with any of the following base triplets: AGA AGG AGT TCA TCG AGC. The anticodon that codes for the amino acid serine is ...',
     answerOptions: [
         { answerText: 'AGT.', isCorrect: false },
+        { answerText: 'UCG.', isCorrect: true },
         { answerText: 'UGA.', isCorrect: false },
         { answerText: 'TCG.', isCorrect: false },
-        { answerText: 'UCG.', isCorrect: true },
     ],
     explanation: 'The anticodon for serine is UCG, which pairs with the codon AGC on the mRNA.',
     image: 'data:image/png;base64,...'
@@ -81,10 +81,10 @@ const questions = [
     answerOptions: [
         { answerText: 'S represents an anticodon', isCorrect: false },
         { answerText: 'W represents mRNA', isCorrect: true },
-        { answerText: 'T represents tRNA', isCorrect: false },
+        { answerText: 'T represents tRNA', isCorrect: true },
         { answerText: 'U represents an amino acid', isCorrect: false },
     ],
-    explanation: 'W is labeled as the strand carrying codons from the nucleus, which identifies it as mRNA — the molecule responsible for transmitting genetic instructions to the ribosome.',
+    explanation: 'W is labeled as the strand carrying codons from the nucleus, which identifies it as mRNA. T is also correct.',
     image: 'data:image/png;base64,...'
 },
 {
@@ -92,8 +92,8 @@ const questions = [
     answerOptions: [
         { answerText: 'position of the attachment of the spine to the head.', isCorrect: false },
         { answerText: 'length of the upper limbs compared to the length of the lower limbs.', isCorrect: false },
-        { answerText: 'number of teeth present in the skull.', isCorrect: false },
         { answerText: 'presence of stone tools.', isCorrect: true },
+        { answerText: 'number of teeth present in the skull.', isCorrect: false },
     ],
     explanation: 'The presence of stone tools in the fossil record indicates cultural evolution among hominids, as it reflects advancements in tool-making and usage.',
     image: 'data:image/png;base64,...'
@@ -101,8 +101,8 @@ const questions = [
 {
     questionText: 'Which diagram shows the possible evolutionary relationships between species?',
     answerOptions: [
-        { answerText: 'Phylogenetic tree', isCorrect: true },
         { answerText: 'Food web', isCorrect: false },
+        { answerText: 'Phylogenetic tree', isCorrect: true },
         { answerText: 'Genetic map', isCorrect: false },
         { answerText: 'Chromosome chart', isCorrect: false }
     ],
@@ -112,9 +112,9 @@ const questions = [
 {
     questionText: 'What type of bond connects amino acids?',
     answerOptions: [
+        { answerText: 'Peptide bond', isCorrect: true },
         { answerText: 'Hydrogen bond', isCorrect: false },
         { answerText: 'Ionic bond', isCorrect: false },
-        { answerText: 'Peptide bond', isCorrect: true },
         { answerText: 'Covalent bond', isCorrect: false }
     ],
     explanation: 'A peptide bond is a covalent chemical bond formed between two amino acid molecules, crucial in forming protein structures.',
@@ -125,8 +125,8 @@ const questions = [
     answerOptions: [
         { answerText: 'Darwin’s theory of natural selection', isCorrect: false },
         { answerText: 'Gradualism', isCorrect: false },
+        { answerText: 'Lamarckism', isCorrect: false },
         { answerText: 'Punctuated equilibrium', isCorrect: true },
-        { answerText: 'Lamarckism', isCorrect: false }
     ],
     explanation: 'Punctuated equilibrium proposes that evolution occurs in rapid bursts separated by long periods of stability.',
     image: 'data:image/png;base64,...'
@@ -134,8 +134,8 @@ const questions = [
 {
     questionText: 'Which term describes similar structures with different functions in different organisms?',
     answerOptions: [
-        { answerText: 'Analogous structures', isCorrect: false },
         { answerText: 'Homologous structures', isCorrect: true },
+        { answerText: 'Analogous structures', isCorrect: false },
         { answerText: 'Vestigial structures', isCorrect: false },
         { answerText: 'Adapted traits', isCorrect: false }
     ],
@@ -158,8 +158,8 @@ const questions = [
     answerOptions: [
         { answerText: 'Incomplete dominance', isCorrect: false },
         { answerText: 'Complete dominance', isCorrect: false },
+        { answerText: 'Recessive inheritance', isCorrect: false },
         { answerText: 'Codominance', isCorrect: true },
-        { answerText: 'Recessive inheritance', isCorrect: false }
     ],
     explanation: 'Codominance occurs when both alleles contribute equally and visibly to the phenotype in heterozygous organisms.',
     image: 'data:image/png;base64,...'
