@@ -70,21 +70,21 @@ const questions = [
         answerOptions: [
         { answerText: '1', isCorrect: false },
         { answerText: '2', isCorrect: false },
-        { answerText: '3', isCorrect: true },
-        { answerText: '4', isCorrect: false },
+        { answerText: '3', isCorrect: false },
+        { answerText: '4', isCorrect: true },
         ],
-        explanation: 'In the neuron diagram, structure 3 represents the axon, which is the long, cable-like extension that transmits electrical impulses away from the cell body.',
+        explanation: 'In the neuron diagram, structure 4 represents the axon, which is the long, cable-like extension that transmits electrical impulses away from the cell body.',
         image: 'data:image/png;base64,...'
     },
     {
         questionText: 'Which labelled part affects the speed of impulse transmission?',
         answerOptions: [
         { answerText: '1', isCorrect: false },
-        { answerText: '2', isCorrect: true },
-        { answerText: '3', isCorrect: false },
+        { answerText: '2', isCorrect: false },
+        { answerText: '3', isCorrect: true },
         { answerText: '4', isCorrect: false },
         ],
-        explanation: 'Structure 2 is the myelin sheath, a fatty layer that insulates the axon and significantly increases the speed at which electrical impulses travel along the neuron.',
+        explanation: 'Structure 3 is the myelin sheath, a fatty layer that insulates the axon and significantly increases the speed at which electrical impulses travel along the neuron.',
         image: 'data:image/png;base64,...'
     },
     {
@@ -95,16 +95,16 @@ const questions = [
         { answerText: 'Phototropism occurred because the auxins moved away from light, which stimulated growth on the upper side of the stem.', isCorrect: false },
         { answerText: 'Geotropism occurred because the auxins moved upwards, which inhibited growth on the upper side of the stem.', isCorrect: false },
         ],
-        explanation: 'Geotropism is the plant’s response to gravity. In a stationary clinostat, gravity affects auxin distribution. Auxins accumulate on the lower side of the stem, stimulating cell elongation and causing the stem to grow upwards.',
+        explanation: 'Geotropism is the plant`s response to gravity. In a stationary clinostat, gravity affects auxin distribution. Auxins accumulate on the lower side of the stem, stimulating cell elongation and causing the stem to grow upwards.',
         image: 'data:image/png;base64,...'
     },
     {
         questionText: 'Which ONE of the following would be the expected results observed in the control using a rotating clinostat?',
         answerOptions: [
         { answerText: 'There will be no growth.', isCorrect: false },
-        { answerText: 'The stem will grow upwards.', isCorrect: true },
+        { answerText: 'The stem will grow upwards.', isCorrect: false },
         { answerText: 'The stem will grow downwards.', isCorrect: false },
-        { answerText: 'The stem will grow horizontally.', isCorrect: false },
+        { answerText: 'The stem will grow horizontally.', isCorrect: true },
         ],
         explanation: 'In a rotating clinostat, the effects of gravity are neutralized because the direction of gravity constantly changes. This results in even auxin distribution and normal upward stem growth, uninfluenced by geotropism.',
         image: 'data:image/png;base64,...'
@@ -115,7 +115,7 @@ const questions = [
             { answerText: 'Femur', isCorrect: false },
             { answerText: 'Humerus', isCorrect: false },
             { answerText: 'Cranium', isCorrect: true },
-        { answerText: 'Tibia', isCorrect: false },
+            { answerText: 'Tibia', isCorrect: false },
         ],
         explanation: 'The cranium is the part of the skull that encloses and protects the brain.',
         image: 'data:image/png;base64,...'
@@ -136,8 +136,8 @@ const questions = [
         answerOptions: [
             { answerText: 'Glaucoma', isCorrect: false },
             { answerText: 'Cataract', isCorrect: true },
-        { answerText: 'Myopia', isCorrect: false },
-        { answerText: 'Hyperopia', isCorrect: false },
+            { answerText: 'Myopia', isCorrect: false },
+            { answerText: 'Hyperopia', isCorrect: false },
         ],
         explanation: 'A cataract is a condition where the lens of the eye becomes cloudy, leading to impaired vision.',
         image: 'data:image/png;base64,...'
@@ -147,8 +147,8 @@ const questions = [
         answerOptions: [
             { answerText: 'Umbilical vein', isCorrect: false },
             { answerText: 'Umbilical artery', isCorrect: true },
-        { answerText: 'Aorta', isCorrect: false },
-        { answerText: 'Pulmonary artery', isCorrect: false },
+            { answerText: 'Aorta', isCorrect: false },
+            { answerText: 'Pulmonary artery', isCorrect: false },
         ],
         explanation: 'The umbilical artery carries deoxygenated blood from the foetus to the placenta.',
         image: 'data:image/png;base64,...'
@@ -201,9 +201,9 @@ const questions = [
         questionText: 'The fluid that protects the developing foetus against mechanical injury',
         answerOptions: [
             { answerText: 'Cerebrospinal fluid', isCorrect: false },
-        { answerText: 'Synovial fluid', isCorrect: false },
+            { answerText: 'Synovial fluid', isCorrect: false },
             { answerText: 'Amniotic fluid', isCorrect: true },
-        { answerText: 'Interstitial fluid', isCorrect: false },
+            { answerText: 'Interstitial fluid', isCorrect: false },
         ],
         explanation: 'Amniotic fluid surrounds the developing foetus, cushioning it against external pressure or injury.',
         image: 'data:image/png;base64,...'
@@ -216,7 +216,7 @@ const questions = [
         { answerText: 'Macula', isCorrect: false },
         { answerText: 'Retinal pigment epithelium', isCorrect: false },
     ],
-    explanation: 'The fovea is the central region of the retina where cone cells are most densely packed, enabling sharp central vision and color perception.',
+    explanation: 'The fovea/Yellow Spot is the central region of the retina where cone cells are most densely packed, enabling sharp central vision and color perception.',
     image: 'data:image/png;base64,...'
     }
 
