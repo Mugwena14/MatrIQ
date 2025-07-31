@@ -47,15 +47,15 @@ const questions = [
     questionText: 'Feature B is known as a ...',
     answerOptions: [
         { answerText: 'Ridge', isCorrect: false },
-        { answerText: 'Trough', isCorrect: true },
+        { answerText: 'Trough', isCorrect: false },
         { answerText: 'Wedge', isCorrect: false },
-        { answerText: 'Saddle', isCorrect: false },
+        { answerText: 'Saddle', isCorrect: true },
     ],
-    explanation: 'Feature B is a trough, which is an elongated area of low pressure often associated with unstable weather conditions.',
+    explanation: 'Feature B is a saddle, which is found between two ridges.',
     image: 'data:image/png;base64,...'
 },
 {
-    questionText: 'The low-pressure cell over the interior has caused north-westerly winds because of ... circulation and overcast conditions due to ... of air.',
+    questionText: 'The low-pressure cell over the ... circulation and overcast conditions due to ... of air.',
     answerOptions: [
         { answerText: 'Clockwise circulation and descending air', isCorrect: false },
         { answerText: 'Anticlockwise circulation and ascending air', isCorrect: true },
@@ -68,12 +68,12 @@ const questions = [
 {
     questionText: 'The low-pressure cell in the sketch is a ...',
     answerOptions: [
-        { answerText: 'Mid-latitude cyclone', isCorrect: true },
+        { answerText: 'Mid-latitude cyclone', isCorrect: false },
         { answerText: 'Tropical depression', isCorrect: false },
         { answerText: 'Coastal low', isCorrect: false },
         { answerText: 'Thermal low', isCorrect: false },
     ],
-    explanation: 'The sketch shows a mid-latitude cyclone characterized by an extensive low-pressure system impacting South Africa’s interior.',
+    explanation: 'The sketch shows an extensive low-pressure cell over the coast from WEST to EAST.',
     image: 'data:image/png;base64,...'
 },
 {
