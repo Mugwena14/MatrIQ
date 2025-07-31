@@ -24,12 +24,12 @@ const questions = [
 {
     questionText: 'The type of settlement illustrated below is a...',
     answerOptions: [
-        { answerText: 'linear settlement.', isCorrect: true },
+        { answerText: 'linear settlement.', isCorrect: false },
         { answerText: 'dry point settlement.', isCorrect: false },
-        { answerText: 'scattered settlement. wet', isCorrect: false },
+        { answerText: 'scattered settlement. wet', isCorrect: true },
         { answerText: 'point settlement.', isCorrect: false }
     ],
-    explanation: 'The diagram shows buildings arranged along a floodplain river, indicating a linear settlement pattern.',
+    explanation: 'The diagram shows buildings arranged along a floodplain river, indicating a Wet Settlement.',
     image: 'data:image/png;base64,...'
 },
 {
@@ -69,11 +69,11 @@ const questions = [
     questionText: 'The urban area below is ...',
     answerOptions: [
         { answerText: 'star-shaped.', isCorrect: false },
-        { answerText: 'linearly formed.', isCorrect: false },
-        { answerText: 'cruciform.', isCorrect: true },
+        { answerText: 'linearly formed.', isCorrect: true },
+        { answerText: 'cruciform.', isCorrect: false },
         { answerText: 'circular.', isCorrect: false }
     ],
-    explanation: 'The diagram shows a cruciform layout, recognizable by its cross-like structure.',
+    explanation: 'The diagram shows a linear/straight layout',
     image: 'data:image/png;base64,...'
 },
 {
