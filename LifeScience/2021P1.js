@@ -36,9 +36,9 @@ const questions = [
         questionText: 'The receptor(s) involved in maintaining balance is/are the …',
         answerOptions: [
         { answerText: 'organ of Corti only.', isCorrect: false },
-        { answerText: 'organ of Corti, maculae and cristae.', isCorrect: true },
+        { answerText: 'organ of Corti, maculae and cristae.', isCorrect: false },
         { answerText: 'maculae only.', isCorrect: false },
-        { answerText: 'maculae and cristae only.', isCorrect: false },
+        { answerText: 'maculae and cristae only.', isCorrect: true },
         ],
         explanation: 'The organ of Corti, maculae, and cristae are all involved in maintaining balance by detecting changes in head position and movement.',
         image: 'data:image/png;base64,...'
@@ -56,7 +56,7 @@ const questions = [
         }, {
         questionText: 'Which of the following structures are protected by the meninges?',
         answerOptions: [
-            { answerText: 'Spinal cord and brain', isCorrect: true },
+        { answerText: 'Spinal cord and brain', isCorrect: true },
         { answerText: 'Spinal cord and receptors', isCorrect: false },
         { answerText: 'Brain and effectors', isCorrect: false },
         { answerText: 'Effectors and receptors', isCorrect: false },
@@ -68,11 +68,11 @@ const questions = [
         questionText: 'Which ONE of the graphs correctly represents the blood glucose levels of the two men?',
         answerOptions: [
         { answerText: 'Graph W', isCorrect: false },
-        { answerText: 'Graph Y', isCorrect: false },
+        { answerText: 'Graph Y', isCorrect: true },
         { answerText: 'Graph Z', isCorrect: false },
-        { answerText: 'Graph X', isCorrect: true },
+        { answerText: 'Graph X', isCorrect: false },
         ],
-        explanation: 'Graph X correctly shows the blood glucose levels of the diabetic and non-diabetic men over a period of 3 hours. The diabetic man’s glucose levels rise and remain high, while the non-diabetic man’s levels rise and then fall back to normal.',
+        explanation: 'Graph Y correctly shows the blood glucose levels of the diabetic and non-diabetic men over a period of 3 hours. The diabetic man`s glucose levels rise and remain high, while the non-diabetic man`s levels is normal.',
         image: 'data:image/png;base64,...'
     },{
         questionText: 'During a reflex action, impulses enter the spinal cord by means of a/an ...',
