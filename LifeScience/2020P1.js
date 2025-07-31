@@ -4,9 +4,9 @@
         questionText: 'Which part controls the amount of light entering the eye?',
         answerOptions: [
         { answerText: 'Cornea', isCorrect: false },
-        { answerText: 'Iris', isCorrect: true },
         { answerText: 'Choroid', isCorrect: false },
         { answerText: 'Lens', isCorrect: false },
+        { answerText: 'Iris', isCorrect: true },
         ],
         explanation: 'The iris regulates the size of the pupil, controlling how much light enters the eye.',
         image: 'data:image/png;base64,...'
@@ -14,9 +14,9 @@
     {
         questionText: 'Which ONE of the following refers to an aquifer?',
         answerOptions: [
+            { answerText: 'An underground permeable rock saturated with water', isCorrect: true },
         { answerText: 'An increase in the temperature of water bodies as a result of water from industries', isCorrect: false },
         { answerText: 'Planting of the same crop on the same area repeatedly', isCorrect: false },
-        { answerText: 'An underground permeable rock saturated with water', isCorrect: true },
         { answerText: 'The release of water with chemicals from mines', isCorrect: false },
         ],
         explanation: 'An aquifer is a water-bearing underground layer of permeable rock, gravel, or sand from which groundwater can be extracted.',
@@ -26,9 +26,9 @@
         questionText: 'The structure in the amniotic egg that removes waste products:',
         answerOptions: [
         { answerText: 'Yolk sac', isCorrect: false },
+        { answerText: 'Allantois', isCorrect: true },
         { answerText: 'Chorion', isCorrect: false },
         { answerText: 'Amnion', isCorrect: false },
-        { answerText: 'Allantois', isCorrect: true },
         ],
         explanation: 'The allantois collects and stores waste products and facilitates gas exchange within the amniotic egg.',
         image: 'data:image/png;base64,...'
@@ -47,8 +47,8 @@
     {
         questionText: 'Which structures secrete progesterone during pregnancy?',
         answerOptions: [
+            { answerText: 'Corpus luteum and placenta', isCorrect: true },
         { answerText: 'Adrenal gland and corpus luteum', isCorrect: false },
-        { answerText: 'Corpus luteum and placenta', isCorrect: true },
         { answerText: 'Thyroid gland and Graafian follicle', isCorrect: false },
         { answerText: 'Pituitary gland and Graafian follicle', isCorrect: false },
         ],
@@ -70,8 +70,8 @@
         answerOptions: [
         { answerText: 'Able to control alien plants without the use of harmful chemicals', isCorrect: false },
         { answerText: 'Some part of the alien plant may be left to regrow when mechanically removed', isCorrect: false },
-        { answerText: 'The species introduced might be alien in the area and outcompete the indigenous species', isCorrect: true },
         { answerText: 'Chemicals might affect the indigenous plants in the area', isCorrect: false },
+        { answerText: 'The species introduced might be alien in the area and out-compete the indigenous species', isCorrect: true },
         ],
         explanation: 'Introducing a new species for control may disrupt native ecosystems, leading to unintended ecological consequences.'
     },
@@ -100,8 +100,8 @@
         answerOptions: [
         { answerText: 'Pancreas | Insulin | Increase', isCorrect: false },
         { answerText: 'Pituitary | Glucagon | Increase', isCorrect: false },
-        { answerText: 'Pancreas | Insulin | Decrease', isCorrect: true },
         { answerText: 'Pituitary | Glucagon | Decrease', isCorrect: false },
+        { answerText: 'Pancreas | Insulin | Decrease', isCorrect: true },
         ],
         explanation: 'Insulin is produced by the pancreas and lowers blood glucose by promoting uptake of glucose by cells.'
     },
@@ -148,7 +148,7 @@
     {
         questionText: 'A hormone that stimulates ovulation in humans:',
         answerOptions: [
-            { answerText: 'LH (Luteinising hormone)', isCorrect: true },
+        { answerText: 'LH (Luteinising hormone)', isCorrect: true },
         { answerText: 'FSH (Follicle-stimulating hormone)', isCorrect: false },
         { answerText: 'Progesterone', isCorrect: false },
         { answerText: 'Estrogen', isCorrect: false },
@@ -168,8 +168,8 @@
     {
         questionText: 'The blood vessel that transports deoxygenated blood from the foetus towards the placenta:',
         answerOptions: [
-            { answerText: 'Umbilical vein', isCorrect: false },
-            { answerText: 'Umbilical artery', isCorrect: true },
+        { answerText: 'Umbilical vein', isCorrect: false },
+        { answerText: 'Umbilical artery', isCorrect: true },
         { answerText: 'Aorta', isCorrect: false },
         { answerText: 'Pulmonary artery', isCorrect: false },
         ],
@@ -198,7 +198,7 @@
     {
         questionText: 'A structure in the eye that absorbs light to prevent internal reflection:',
         answerOptions: [
-            { answerText: 'Choroid', isCorrect: true },
+        { answerText: 'Choroid', isCorrect: true },
         { answerText: 'Retina', isCorrect: false },
         { answerText: 'Optic nerve', isCorrect: false },
         { answerText: 'Sclera', isCorrect: false },
