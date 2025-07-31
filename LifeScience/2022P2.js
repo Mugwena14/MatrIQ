@@ -79,8 +79,8 @@ const questions = [
 {
     questionText: 'Which ONE of the following combinations of cell division events occur in both meiosis and mitosis?',
     answerOptions: [
-        { answerText: '(ii), (iii) and (iv) only', isCorrect: false },
         { answerText: '(ii) and (iv) only', isCorrect: true },
+        { answerText: '(ii), (iii) and (iv) only', isCorrect: false },
         { answerText: '(i), (iii) and (iv) only', isCorrect: false },
         { answerText: '(ii) and (iv) only', isCorrect: false }, 
     ],
@@ -112,9 +112,9 @@ const questions = [
 {
     questionText: 'The type of bonds between nitrogenous bases in a DNA molecule',
     answerOptions: [
-        { answerText: 'Hydrogen bonds', isCorrect: true },
         { answerText: 'Ionic bonds', isCorrect: false },
         { answerText: 'Covalent bonds', isCorrect: false },
+        { answerText: 'Hydrogen bonds', isCorrect: true },
         { answerText: 'Metallic bonds', isCorrect: false },
     ],
     explanation: 'Hydrogen bonds hold together complementary nitrogenous bases in DNA, enabling the double-helix structure.',
@@ -123,8 +123,8 @@ const questions = [
 {
     questionText: 'The structure that joins two chromatids of a chromosome',
     answerOptions: [
-        { answerText: 'Centromere', isCorrect: true },
         { answerText: 'Chromatin', isCorrect: false },
+        { answerText: 'Centromere', isCorrect: true },
         { answerText: 'Nucleolus', isCorrect: false },
         { answerText: 'Spindle fibre', isCorrect: false },
     ],
@@ -161,7 +161,7 @@ const questions = [
         { answerText: 'Ribosomes', isCorrect: false },
         { answerText: 'Centrioles', isCorrect: true },
     ],
-    explanation: 'Centrioles organize spindle fibres, which guide chromosomes during cell division in animal cells.',
+    explanation: 'Centrioles/Centrosomes organize spindle fibres, which guide chromosomes during cell division in animal cells.',
     image: 'data:image/png;base64,...'
 },
 {
@@ -178,10 +178,10 @@ const questions = [
 {
     questionText: 'The phase in the cell cycle during which DNA replication takes place',
     answerOptions: [
-        { answerText: 'S-phase', isCorrect: true },
-        { answerText: 'G1-phase', isCorrect: false },
-        { answerText: 'G2-phase', isCorrect: false },
-        { answerText: 'M-phase', isCorrect: false },
+        { answerText: 'DNA-phase', isCorrect: false },
+        { answerText: 'InterPhase', isCorrect: true },
+        { answerText: 'Crossing Over', isCorrect: false },
+        { answerText: 'Anaphase', isCorrect: false },
     ],
     explanation: 'DNA replication occurs in the S-phase of the cell cycle, ensuring genetic material is doubled before cell division.',
     image: 'data:image/png;base64,...'
