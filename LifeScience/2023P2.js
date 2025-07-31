@@ -128,7 +128,7 @@ const questions =[
         { answerText: 'DNA coil', isCorrect: false },
         { answerText: 'Double helix', isCorrect: true },
     ],
-    explanation: 'DNA’s double helix structure features two strands twisted around each other, held together by base pairs.',
+    explanation: 'DNA`s double helix structure features two strands twisted around each other, held together by base pairs.',
     image: 'data:image/png;base64,...'
 },
 {
@@ -150,7 +150,7 @@ const questions =[
         { answerText: 'Peripheral vision', isCorrect: false },
         { answerText: 'Tunnel vision', isCorrect: false },
     ],
-    explanation: 'Stereoscopic vision allows primates to perceive depth by combining images from both eyes into a single three-dimensional perception.',
+    explanation: 'Stereoscopic/Binocular vision allows primates to perceive depth by combining images from both eyes into a single three-dimensional perception.',
     image: 'data:image/png;base64,...'
 },
 {
@@ -178,7 +178,7 @@ const questions =[
 {
     questionText: 'A tangled mass of chromosomes located within the nucleus',
     answerOptions: [
-        { answerText: 'Chromatin', isCorrect: true },
+        { answerText: 'Chromatin Network', isCorrect: true },
         { answerText: 'Chromatid', isCorrect: false },
         { answerText: 'Centromere', isCorrect: false },
         { answerText: 'Nucleolus', isCorrect: false },
