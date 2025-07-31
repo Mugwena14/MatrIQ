@@ -36,11 +36,11 @@ const questions = [
     questionText: 'The front below is a … front.',
     answerOptions: [
         { answerText: 'Cold', isCorrect: false },
-        { answerText: 'Occluded', isCorrect: true },
-        { answerText: 'Warm', isCorrect: false },
+        { answerText: 'Occluded', isCorrect: false },
+        { answerText: 'Warm', isCorrect: true },
         { answerText: 'Stationary', isCorrect: false },
     ],
-    explanation: 'The diagram shows an occluded front where a cold front overtakes a warm front, often leading to complex weather patterns.',
+    explanation: 'The diagram shows an warm front where as it has semi-circles',
     image: 'data:image/png;base64,...'
 },
 {
@@ -70,21 +70,21 @@ const questions = [
     answerOptions: [
         { answerText: 'A', isCorrect: false },
         { answerText: 'B', isCorrect: false },
-        { answerText: 'C', isCorrect: true },
-        { answerText: 'D', isCorrect: false },
+        { answerText: 'C', isCorrect: false },
+        { answerText: 'D', isCorrect: true },
     ],
-    explanation: 'Symbol C shows alternating triangles and semicircles on the same side of the line, which represents an occluded front—the result of a cold front overtaking a warm front.',
+    explanation: 'Symbol D shows alternating triangles and semicircles on the same side of the line, which represents an occluded front—the result of a cold front overtaking a warm front.',
     image: 'data:image/png;base64,...'
 },
 {
     questionText: 'The station model generally associated with a cold front in the Southern Hemisphere:',
     answerOptions: [
-        { answerText: 'Option A', isCorrect: false },
+        { answerText: 'Option A', isCorrect: true },
         { answerText: 'Option B', isCorrect: false },
         { answerText: 'Option C', isCorrect: false },
-        { answerText: 'Option D', isCorrect: true },
+        { answerText: 'Option D', isCorrect: false },
     ],
-    explanation: 'Option D shows a station model typically linked with cold front conditions: overcast skies, temperature drop, and a wind shift — all common in Southern Hemisphere cold fronts.',
+    explanation: 'Option A shows a station model typically linked with cold front conditions: overcast skies, temperature drop, and a wind shift — all common in Southern Hemisphere cold fronts.',
     image: 'data:image/png;base64,...'
 }
 
