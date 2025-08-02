@@ -3,6 +3,9 @@ import styles from './Benefits.module.css'
 const Benefits = () => {
     return (
         <div className={styles.container}>
+            <div>
+                <p>Why Use MatrIQ?</p>
+            </div>
             <div className={styles.cont}>
                 <div className={styles.image}>
                     <img src="" alt="" />
