@@ -1,4 +1,5 @@
 import styles from './Hero.module.css'
+import image from '../assets/landing.PNG'
 
 const Hero = () => {
     return (
@@ -14,10 +15,10 @@ const Hero = () => {
                 </div>
                 <div className={styles.info}>
                     <p>Join hundreds of SA learners mastering Matric with 
-                        fast, focused quizzes in Geography & Life Sciences.
+                        fast, focused quizzes in Geography & Life Sciences. <br />
                         The goal is simple, to enable full mastery of MCQs
                         in Geo & LS.
-                        No fluff, No stress, Just Success.
+                        No fluff, No stress, Just Success. <br />
                         Made in Mzansi.
                     </p>
                     <button className={styles.btn1}>GEOGRAPHY</button>
@@ -26,7 +27,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className={styles.right}>
-
+                <img src={image} alt="" />
             </div>
         </div>
     )
