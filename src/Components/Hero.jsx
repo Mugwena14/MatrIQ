@@ -4,7 +4,7 @@ import image from '../assets/landing.PNG'
 const Hero = () => {
     return (
         <div className={styles.wrapper}>
-            <div className={styles.left}>
+            <div className={styles.container}>
                 <div className={styles.rated}>
                     <button className={styles.ratedBtn1}>Achievements</button>
                     <button className={styles.ratedBtn2}>Rated No.1 by students</button>
@@ -25,9 +25,6 @@ const Hero = () => {
                     <button className={styles.btn2}>LIFE SCIENCE</button>
                     <h3>200+ Users</h3>
                 </div>
-            </div>
-            <div className={styles.right}>
-                <img src={image} alt="" />
             </div>
         </div>
     )
