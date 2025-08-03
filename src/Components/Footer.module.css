@@ -1,0 +1,126 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 90px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info p{
+    margin-top: 1px;
+}
+
+.top{
+    margin-bottom: 10px;
+}
+
+.top h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.cont p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.logo{
+    font-size: 15px;
+}
+
+.logoL{
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 50%;
+    color: white;
+    margin-right: 5px;
+}
+
+.leftLogo{
+    display: flex;
+    flex-direction: column;
+    justify-items:left;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover{
+    color: #0077B5;
+    transition: ease-in-out;
+}
+
+.icons{
+    display: flex;
+    gap: 5px;
+    margin-top: -3px;
+}
+
+.icon1{
+    font-size: 18px;
+    color: black;
+}
+
+.icon2{
+    font-size: 18px;
+    color: #0077B5;
+}
+
+.icon3{
+    font-size: 18px;
+    color: #1DA1F2;
+}
+
+.icon4{
+    font-size: 20px;
+    color: red;
+}
+
+.icon1:hover , 
+.icon2:hover,
+.icon3:hover,
+.icon4:hover{
+    transform: scale(1.3);
+    transition: ease-in-out;
+}
+
+@media(max-width: 760px){
+    .cont:nth-child(2), .cont:nth-child(4), .cont:nth-child(5){
+        display: none;
+    }.cont p{
+        font-size: 14px;
+    }.footer, .icons{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }.cont{
+        margin-top: -30px;
+    }.icons{
+        flex-direction: row;
+    }.cont:nth-child(3){
+        margin-top: -70px;
+    }.leftLogo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
