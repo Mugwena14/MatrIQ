@@ -1,5 +1,7 @@
 import styles from './Hero.module.css'
 import image from '../assets/landing.PNG'
+import { FaQuoteLeft } from 'react-icons/fa'
+import { FaQuoteRight } from 'react-icons/fa'
 
 const Hero = () => {
     return (
@@ -11,7 +13,12 @@ const Hero = () => {
                 </div>
                 <div className={styles.head}>
                     <h1 className={styles.matriq}>MatrIQ</h1>
-                    <h2>Your Matric Prep Partner.</h2>
+                    <div className={styles.quote}>
+                        <h2 ><span className={styles.quote1}><FaQuoteLeft/></span>
+                        Study Smarter, Not Harder.
+                        <span className={styles.quote2}><FaQuoteRight/></span>
+                        </h2>
+                    </div>
                 </div>
                 <div className={styles.info}>
                     <p>Join hundreds of SA learners mastering Matric with 
