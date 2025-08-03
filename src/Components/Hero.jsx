@@ -1,5 +1,5 @@
 import styles from './Hero.module.css'
-import image from '../assets/landing.PNG'
+import image from '../assets/LPage.jpeg'
 import { FaQuoteLeft } from 'react-icons/fa'
 import { FaQuoteRight } from 'react-icons/fa'
 
@@ -12,12 +12,12 @@ const Hero = () => {
                     <button className={styles.ratedBtn2}>Rated No.1 by students</button>
                 </div>
                 <div className={styles.head}>
-                    <h1 className={styles.matriq}>MatrIQ</h1>
                     <div className={styles.quote}>
-                        <h2 ><span className={styles.quote1}><FaQuoteLeft/></span>
-                        Study Smarter, Not Harder.
+                        <h1 ><span className={styles.quote1}><FaQuoteLeft/></span>
+                        Aim true when you shoot your shot or be ready to
+                        reload.
                         <span className={styles.quote2}><FaQuoteRight/></span>
-                        </h2>
+                        </h1>
                     </div>
                 </div>
                 <div className={styles.info}>
