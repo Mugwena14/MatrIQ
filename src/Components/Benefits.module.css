@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: blue;
+    margin-top: -40px;
 }
 
 .benefits{
@@ -17,4 +19,18 @@
 
 .cont h4{
     text-align: center;
+    font-size: 12px;
+}
+
+.cont p{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.image img{
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -10px;
 }
