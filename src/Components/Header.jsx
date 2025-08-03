@@ -4,22 +4,24 @@ import styles from './Header.module.css'
 
 const Header = () => {
     return (
-        <header>
-            <div className={styles.logo}>
-                LOGO
-            </div>
-            <div className={styles.links}>
-                <nav>
-                    <Link className={styles.link}>HOME</Link>
-                    <Link className={styles.link}>GEOGRAPHY</Link>
-                    <Link className={styles.link}>LIFE SCIENCES</Link>
-                    <Link className={styles.link}>REVIEWS</Link>
-                </nav>
-            </div>
-            <div className={styles.mode}>
-                MODE
-            </div>
-        </header>
+        <div className={styles.head}>
+            <header>
+                <div className={styles.logo}>
+                    <p>LOGO</p>
+                </div>
+                <div className={styles.links}>
+                    <nav>
+                        <a className={styles.link} href='#home'>HOME</a>
+                        <Link className={styles.link}>GEOGRAPHY</Link>
+                        <Link className={styles.link}>LIFE SCIENCES</Link>
+                        <Link className={styles.link}>REVIEWS</Link>
+                    </nav>
+                </div>
+                <div className={styles.mode}>
+                    <p>MODE</p>
+                </div>
+            </header>
+        </div>
     )
 }
 

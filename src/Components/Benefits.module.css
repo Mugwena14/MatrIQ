@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cont{
+    width: 200px;
+}
+
+.cont h4{
+    text-align: center;
+}

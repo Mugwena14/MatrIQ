@@ -2,11 +2,65 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 80px;
+    align-items: center;
+    padding: 0 80px;
+    
+    background-color: hsl(222, 94%, 12%);
+    margin: 0 200px;
+    border-radius: 20px;
+    height: 35px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 50px;
+    z-index: 999;
 }
 
 .link{
     padding: 0 10px;
     color: black;
+    font-size: 13px;
     text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    margin: 0 4px;
+}
+
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.link:active{
+    text-decoration: 1px underline white;
+    background-color: hsl(222, 73%, 26%);
+}
+
+
+
+.mode p{
+    font-size: 13px;
+}
+
+.mode{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    font-size: 15px;
+}
+
+header{
+    color: white;
 }

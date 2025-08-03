@@ -2,15 +2,22 @@ import styles from './Hero.module.css'
 import image from '../assets/LPage.jpeg'
 import { FaQuoteLeft } from 'react-icons/fa'
 import { FaQuoteRight } from 'react-icons/fa'
+import { FaArrowRightLong } from 'react-icons/fa6'
+import { FaArrowRight } from 'react-icons/fa6'
 
 const Hero = () => {
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
-                <div className={styles.rated}>
+                <p className={styles.rated}>
                     <button className={styles.ratedBtn1}>Achievements</button>
-                    <button className={styles.ratedBtn2}>Rated No.1 by students</button>
-                </div>
+                    <button className={styles.ratedBtn2}>Rated No.1 by students 
+                        <span className={styles.arrowShort}><FaArrowRight/></span>
+                        </button>
+                    <button className={styles.arrowBtn}>
+                        <span className={styles.arrowLong}><FaArrowRightLong/></span>
+                    </button>
+                </p>
                 <div className={styles.head}>
                     <div className={styles.quote}>
                         <h1 ><span className={styles.quote1}><FaQuoteLeft/></span>
@@ -30,7 +37,9 @@ const Hero = () => {
                     </p>
                     <button className={styles.btn1}>GEOGRAPHY</button>
                     <button className={styles.btn2}>LIFE SCIENCE</button>
-                    <h3>200+ Users</h3>
+                <div className={styles.trusted}>
+                    <p>Trusted by 200+ Learners</p>
+                </div>
                 </div>
             </div>
         </div>
