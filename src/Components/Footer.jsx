@@ -8,6 +8,8 @@ import {
 } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 
+const date = new Date().getFullYear();
+
 const Footer = () => {
     return (
         <footer>
@@ -16,15 +18,16 @@ const Footer = () => {
                     <div className={styles.leftLogo}>
                         <h2 className={styles.logo}>
                         <span  className={styles.logoL}>
-                            L
+                            M
                         </span>
-                        Kart!
+                        IQ
                         </h2>
                     </div>
-                        <p> Jr FrontEnd Dev | React. <br />
-                        Open to Full-Time Opportunities. <br />
-                        Ideas, Feedbacks or just a simple hi? <br />
-                        REACH OUT:
+                        <p> Your journey only starts here <br />
+                        Keep revising, Keep Growing <br />
+                        "The hungry don't rest" and neither does<br />
+                        MatrIQ. Big features on the way. <br />
+                        HAPPY PREP.
                         </p>
                     <div className={styles.icons}>
                         <Link className={styles.icon1} to='https://github.com/Mugwena14'><FaSquareGithub /></Link>
@@ -58,16 +61,6 @@ const Footer = () => {
                 </div>
                 <div className={styles.cont}>
                     <div className={styles.top}>
-                        <h3>CAREER</h3>
-                    </div>
-                    <div className={styles.info}>
-                        <p><Link className={styles.links} to='/Javascript'>Certified in Algorithms in JavaScript</Link></p>
-                        <p><Link className={styles.links} to='/Responsive'>Certified in Responsive Web Design</Link></p>
-                        <p><Link className={styles.links} to='/Libraries'>Certified in FrontEnd Libraries</Link></p>
-                    </div>
-                </div>
-                <div className={styles.cont}>
-                    <div className={styles.top}>
                         <h3>RESOURCES</h3>
                     </div>
                     <div className={styles.info}>
@@ -78,6 +71,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+                <div className={styles.copyright}>
+                    <p>&copy; {date} Copyright: MatrIQ</p>
+                </div>
         </footer>
     )
 }
