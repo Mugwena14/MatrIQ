@@ -4,6 +4,7 @@ import { FaQuoteLeft } from 'react-icons/fa'
 import { FaQuoteRight } from 'react-icons/fa'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { FaArrowRight } from 'react-icons/fa6'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
     return (
@@ -35,8 +36,8 @@ const Hero = () => {
                         No fluff, No stress, Just Success. <br />
                         Made in Mzansi.
                     </p>
-                    <button className={styles.btn1}>GEOGRAPHY</button>
-                    <button className={styles.btn2}>LIFE SCIENCE</button>
+                    <Link to='/Geo'><button className={styles.btn1}>GEOGRAPHY</button></Link>
+                    <Link to='/LS'><button className={styles.btn2}>LIFE SCIENCE</button></Link>
                 <div className={styles.trusted}>
                     <p>Trusted by 200+ Learners</p>
                 </div>
