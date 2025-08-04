@@ -69,7 +69,7 @@ const Privacy = () => {
             </ul>
             <p>To make a request, contact us at: <a href="mailto:info@matriq.co.za">info@matriq.co.za</a></p>
 
-            <h3>7. Children’s Privacy</h3>
+            <h3>7. Children's Privacy</h3>
             <p>
                 MatrIQ is intended for learners aged 16 and older. We do not knowingly collect personal info from children under 13.
             </p>

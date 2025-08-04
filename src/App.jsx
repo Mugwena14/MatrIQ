@@ -4,6 +4,7 @@ import MainLayout from './Layouts/MainLayout'
 import HomePage from './Pages/HomePage'
 import PrivacyPage from './Pages/PrivacyPage'
 import TermsPage from './Pages/TermsPage'
+import GeoPage from './Pages/GeoPage'
 
 
 const App = () => {
@@ -13,7 +14,8 @@ const App = () => {
     createRoutesFromElements(
       <Route path='/' element={<MainLayout/>}>
         <Route index element={<HomePage/>}/>
-        <Route path='/home' element={<HomePage/>}/>
+        <Route path='/Home' element={<HomePage/>}/>
+        <Route path='/Geo' element={<GeoPage/>}/>
         <Route path='/Privacy' element={<PrivacyPage/>}/>
         <Route path='/Terms' element={<TermsPage/>}/>
       </Route>
