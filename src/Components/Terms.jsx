@@ -43,7 +43,7 @@ const Terms = () => {
             <h3>4. Privacy</h3>
             <p>
                 Your privacy matters. MatrIQ handles data in accordance with our <Link to="/Privacy">Privacy Policy</Link>, 
-                which explains what we collect and how we use it. We comply with South Africa’s POPIA framework and use secure systems 
+                which explains what we collect and how we use it. We comply with South Africa's POPIA framework and use secure systems 
                 such as Firebase to protect personal information.
             </p>
 
