@@ -4,15 +4,11 @@ import styles from './Geo.module.css'
 const Geo = () => {
     return (
         <div className={styles.geo}>
-            <div>
-                <h2>Geography</h2>
-            </div>
-            <div className={styles.paper}>
-                <div className={styles.paper1}>
-
-                </div>
-                <div className={styles.paper2}>
-
+            <div className={styles.box}>
+                <h1>Geography</h1>
+                <div className={styles.paper}>
+                    <p><button>Geography Paper 1</button></p>
+                    <p><button>Geography Paper 2</button></p>
                 </div>
             </div>
         </div>
