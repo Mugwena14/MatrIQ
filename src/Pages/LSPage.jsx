@@ -3,7 +3,7 @@ import LS from '../Components/LS'
 
 const LSPage = () => {
     return (
-        <div>LSPage</div>
+        <LS/>
     )
 }
 
