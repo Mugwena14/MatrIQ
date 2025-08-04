@@ -5,10 +5,15 @@ const Geo = () => {
     return (
         <div className={styles.geo}>
             <div>
-                <h2></h2>
+                <h2>Geography</h2>
             </div>
-            <div>
+            <div className={styles.paper}>
+                <div className={styles.paper1}>
 
+                </div>
+                <div className={styles.paper2}>
+
+                </div>
             </div>
         </div>
     )
