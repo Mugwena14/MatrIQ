@@ -5,6 +5,7 @@ import HomePage from './Pages/HomePage'
 import PrivacyPage from './Pages/PrivacyPage'
 import TermsPage from './Pages/TermsPage'
 import GeoPage from './Pages/GeoPage'
+import LSPage from './Pages/LSPage'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route index element={<HomePage/>}/>
         <Route path='/Home' element={<HomePage/>}/>
         <Route path='/Geo' element={<GeoPage/>}/>
+        <Route path='/LS' element={<LSPage/>}/>
         <Route path='/Privacy' element={<PrivacyPage/>}/>
         <Route path='/Terms' element={<TermsPage/>}/>
       </Route>
