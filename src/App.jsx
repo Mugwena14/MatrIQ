@@ -3,6 +3,7 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import MainLayout from './Layouts/MainLayout'
 import HomePage from './Pages/HomePage'
 import PrivacyPage from './Pages/PrivacyPage'
+import TermsPage from './Pages/TermsPage'
 
 
 const App = () => {
@@ -14,7 +15,7 @@ const App = () => {
         <Route index element={<HomePage/>}/>
         <Route path='/home' element={<HomePage/>}/>
         <Route path='/Privacy' element={<PrivacyPage/>}/>
-        {/* <Route path='/Terms' element={<TermsPage/>}/> */}
+        <Route path='/Terms' element={<TermsPage/>}/>
       </Route>
     )
   )
