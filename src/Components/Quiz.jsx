@@ -45,7 +45,7 @@ const Quiz = () => {
                 { answerText: '0° and 5°', isCorrect: false },
                 { answerText: '60° and 90°', isCorrect: false },
             ],
-            explanation: 'Mid-latitude cyclones develop in the temperate zones between 30° and 60° latitude, where cold and warm air masses often clash.',
+            explanation: 'Mid-latitude cyclones develop in the temperature zones between 30° and 60° latitude, where cold and warm air masses often clash.',
             image: undefined,
         },
         {
@@ -83,8 +83,8 @@ const Quiz = () => {
                     ? styles.correct
                     : selectedAnswer === index
                     ? styles.incorrect
-                    : ''
-                : ''
+                    : styles.empty
+                : styles.empty
             }`}
             >
             {option.answerText}
@@ -102,8 +102,9 @@ const Quiz = () => {
                 <p>{questions[currentQuestion].explanation}</p>
                 )}
             </div>
-
-            <p>Question {currentQuestion + 1} of {questions.length}</p>
+            <div className={styles.qNo}>
+                <p>Question {currentQuestion + 1} of {questions.length}</p>
+            </div>
             {/* <p>Score: {score}</p> */}
             </div>
         </div>

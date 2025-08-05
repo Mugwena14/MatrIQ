@@ -6,23 +6,9 @@
     background-color: #e93939;
 }
 
-.inQuiz{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    margin: 5px 250px;
-}
+.empty{
+    background-color: gainsboro;
 
-.inQuiz .answerBtn{
-    display: block;
-    padding: 10px 50px;
-    margin: 5px 50px;
-}
-
-.nxtQ{
-    display: block;
-    padding: 10px 50px;
-    margin: 15px auto;
 }
 
 .quiz img{
@@ -36,7 +22,45 @@
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
+    
 }
+
+.inQuiz{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid hsl(0, 0%, 70%);
+    margin: 5px 250px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 3px hsl(20, 10%, 70%); */
+    box-shadow: -3px 4px 3px hsla(197, 3%, 41%, 0.5);
+}
+
+.inQuiz .answerBtn{
+    display: block;
+    padding: 10px 50px;
+    margin: 5px 50px;
+    color: hsl(0, 0%, 5%);
+    border: 1px solid hsl(0, 0%, 70%);
+    border-radius: 4px;
+}
+
+.nxtQ{
+    display: block;
+    padding: 10px 50px;
+    margin: 15px auto;
+    background-color: hsl(139, 70%, 32%);
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.nxtQ:hover{
+    background-color: hsl(139, 70%, 22%);
+    transition: ease-in-out, 0.5s;
+    color: black;
+}
+
 
 .quiz p, h3, h2{
     color: black;
@@ -44,6 +68,16 @@
 
 .quiz h3{
     margin: 20px 0;
+}
+
+.explanation{
+    margin: 0 50px;
+    border: 2px solid hsl(0, 0%, 80%);
+}
+
+.qNo p{
+    color: rgb(112, 109, 109);
+    font-size: 13px;
 }
 
 

@@ -7,7 +7,7 @@ const questions = [
         { answerText: '0° and 5°', isCorrect: false },
         { answerText: '60° and 90°', isCorrect: false },
     ],
-    explanation: 'Mid-latitude cyclones develop in the temperate zones between 30° and 60° latitude, where cold and warm air masses often clash.',
+    explanation: 'Mid-latitude cyclones develop in the temperature zones between 30° and 60° latitude, where cold and warm air masses often clash.',
     image: undefined,
 },
 {
