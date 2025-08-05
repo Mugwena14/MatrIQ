@@ -59,7 +59,9 @@
     padding: 8px 115px;
     }.boxQ button{
     padding: 8px 80px;
-    }
+    }.boxQ h1{
+    font-size: 28px;
+}
 }
 
 @media(max-width: 395px){
@@ -67,5 +69,7 @@
     padding: 8px 105px;
     }.boxQ button{
     padding: 8px 70px;
+    }.boxQ h1{
+        font-size: 25px;
     }
 }
