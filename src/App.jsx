@@ -6,6 +6,7 @@ import PrivacyPage from './Pages/PrivacyPage'
 import TermsPage from './Pages/TermsPage'
 import GeoPage from './Pages/GeoPage'
 import LSPage from './Pages/LSPage'
+import GeoQPage from './Pages/GeoQPage'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/Home' element={<HomePage/>}/>
         <Route path='/LS' element={<LSPage/>}/>
         <Route path='/Geo' element={<GeoPage/>}/>
+        <Route path='/GeoQ' element={<GeoQPage/>}/>
         <Route path='/Privacy' element={<PrivacyPage/>}/>
         <Route path='/Terms' element={<TermsPage/>}/>
       </Route>

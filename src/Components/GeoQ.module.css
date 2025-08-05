@@ -1,4 +1,4 @@
-.geo{
+.geoQ{
     margin-top: -50px;
     margin-bottom: -20px;
     background-color: hsl(240, 93%, 5%);
@@ -8,13 +8,13 @@
     justify-content: center;
 }
 
-.box{
+.boxQ{
     margin-top: 50px;
     margin-bottom: 80px;
     padding: 100px 20px;
 }
 
-.box button{
+.boxQ button{
     padding: 10px 150px;
     border: 1px solid hsl(0, 0%, 70%);
     background-color: cornflowerblue;
@@ -22,11 +22,11 @@
     outline: none;
 }
 
-.box button{
+.boxQ button{
     padding: 10px 150px;
 }
 
-.box button:hover{
+.boxQ button:hover{
     background-color: hsl(0, 0%, 90%);
     border-color: cornflowerblue;
     color: cornflowerblue;
@@ -34,23 +34,42 @@
     transition: ease-out, 0.5s;
 }
 
-.box h1{
+.boxQ h1{
     text-align: center;
     margin-bottom: 50px;
     color: white;
-    font-size: 1.9rem;
+    font-size: 2.3rem;
+}
+
+.paperQ .generateQ{
+    background-color: white;
+    border-color: cornflowerblue;
+    color: black;
+    padding: 10px 185px;
+}
+
+.paperQ .generateQ:hover{
+    background-color: hsl(222, 74%, 15%);
+    color: white;
+    border: 1px solid hsl(0, 0%, 70%);
 }
 
 @media(max-width: 760px){
-    .box button{
-        padding: 8px 110px;
-    }.paper{
-        margin-top: 60px;
-    }
+.paperQ .generateQ{
+    padding: 8px 115px;
+    }.boxQ button{
+    padding: 8px 80px;
+    }.boxQ h1{
+    font-size: 28px;
+}
 }
 
 @media(max-width: 395px){
-    .box button{
-        padding: 8px 100px;
+.paperQ .generateQ{
+    padding: 8px 105px;
+    }.boxQ button{
+    padding: 8px 70px;
+    }.boxQ h1{
+        font-size: 25px;
     }
 }
