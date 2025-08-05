@@ -63,13 +63,14 @@ const Quiz = () => {
 
     return (
         <div className={styles.quiz}>
-            <h1>MatrIQ</h1>
+            <h2>Geo Paper 1 2024</h2>
 
             {questions[currentQuestion].image ? (
                 <img src={questions[currentQuestion].image} alt="Question Image"/>
             ) : null}
 
-            <h3>{questions[currentQuestion].questionText}</h3>
+            <div className={styles.inQuiz}>
+                <h3>{questions[currentQuestion].questionText}</h3>
             
             {questions[currentQuestion].answerOptions.map((option, index) => (
             <button
@@ -91,7 +92,7 @@ const Quiz = () => {
             ))}
 
             <div>
-                <button onClick={handleNextQ} disabled={!answered}>
+                <button className={styles.nxtQ} onClick={handleNextQ} disabled={!answered}>
                 Next Question
                 </button>
             </div>
@@ -103,7 +104,8 @@ const Quiz = () => {
             </div>
 
             <p>Question {currentQuestion + 1} of {questions.length}</p>
-            <p>Score: {score}</p>
+            {/* <p>Score: {score}</p> */}
+            </div>
         </div>
     );
 }
