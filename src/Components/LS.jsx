@@ -8,8 +8,12 @@ const LS = () => {
             <div className={styles.box}>
                 <h1>Life Sciences</h1>
                 <div className={styles.paper}>
-                    <Link to='/LSQ'><button>Life Sciences Paper 1</button></Link>
-                    <p><button>Life Sciences Paper 2</button></p>
+                    <p>
+                        <Link to='/LSQ'><button>Life Sciences Paper 1</button></Link>
+                    </p>
+                    <p>
+                        <Link to='/LSQ2'><button>Life Sciences Paper 2</button></Link>
+                    </p>
                 </div>
             </div>
         </div>

@@ -20,6 +20,7 @@
     background-color: cornflowerblue;
     color: white;
     outline: none;
+    cursor: pointer;
 }
 
 .box button{
@@ -38,7 +39,7 @@
     text-align: center;
     margin-bottom: 50px;
     color: white;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
 }
 
 @media(max-width: 760px){

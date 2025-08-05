@@ -9,7 +9,10 @@ const Geo = () => {
                 <h1>Geography</h1>
                 <div className={styles.paper}>
                     <Link to='/GeoQ'><button>Geography Paper 1</button></Link>
-                    <p><button>Geography Paper 2</button></p>
+                    <p><Link to='/GeoQ2'>
+                        <button>Geography Paper 2</button>
+                        </Link>
+                    </p>
                 </div>
             </div>
         </div>
