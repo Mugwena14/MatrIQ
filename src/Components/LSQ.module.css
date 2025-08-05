@@ -1,4 +1,4 @@
-.LS{
+.LSQ{
     margin-top: -50px;
     margin-bottom: -20px;
     background-color: hsl(240, 93%, 5%);
@@ -8,13 +8,13 @@
     justify-content: center;
 }
 
-.box{
+.boxLSQ{
     margin-top: 50px;
     margin-bottom: 80px;
     padding: 100px 20px;
 }
 
-.box button{
+.boxLSQ button{
     padding: 10px 150px;
     border: 1px solid hsl(0, 0%, 70%);
     background-color: cornflowerblue;
@@ -22,11 +22,11 @@
     outline: none;
 }
 
-.box button{
+.boxLSQ button{
     padding: 10px 150px;
 }
 
-.box button:hover{
+.boxLSQ button:hover{
     background-color: hsl(0, 0%, 90%);
     border-color: cornflowerblue;
     color: cornflowerblue;
@@ -34,23 +34,42 @@
     transition: ease-out, 0.5s;
 }
 
-.box h1{
+.boxLSQ h1{
     text-align: center;
     margin-bottom: 50px;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.paperLSQ .generateLSQ{
+    background-color: white;
+    border-color: cornflowerblue;
+    color: black;
+    padding: 10px 192px;
+}
+
+.paperLSQ .generateLSQ:hover{
+    background-color: hsl(222, 74%, 15%);
+    color: white;
+    border: 1px solid hsl(0, 0%, 70%);
 }
 
 @media(max-width: 760px){
-    .box button{
-        padding: 8px 110px;
-    }.paper{
-        margin-top: 60px;
-    }
+.paperLSQ .generateLSQ{
+    padding: 8px 122px;
+    }.boxLSQ button{
+    padding: 8px 80px;
+    }.boxLSQ h1{
+    font-size: 28px;
+}
 }
 
 @media(max-width: 395px){
-    .box button{
-        padding: 8px 100px;
+.paperLSQ .generateLSQ{
+    padding: 8px 92px;
+    }.boxLSQ button{
+    padding: 8px 50px;
+    }.boxLSQ h1{
+        font-size: 25px;
     }
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './LS.module.css'
+import { Link } from 'react-router-dom'
 
 const LS = () => {
     return (
@@ -7,7 +8,7 @@ const LS = () => {
             <div className={styles.box}>
                 <h1>Life Sciences</h1>
                 <div className={styles.paper}>
-                    <p><button>Life Sciences Paper 1</button></p>
+                    <Link to='/LSQ'><button>Life Sciences Paper 1</button></Link>
                     <p><button>Life Sciences Paper 2</button></p>
                 </div>
             </div>
