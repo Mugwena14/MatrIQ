@@ -8,4 +8,40 @@
 
 .answerBtn{
     display: block;
+    padding: 10px 50px;
+    margin: 5px 200px;
+}
+
+.quiz img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.quiz p, h3{
+    color: black;
+}
+
+.quiz h3{
+    margin: 20px 0;
+}
+
+@media(max-width: 760px){
+    .answerBtn{
+        display: block;
+        padding: 3px 50px;
+        margin: 5px 40px;
+        font-size: 13px;
+    }.quiz h3{
+        margin: 20px 20px;
+    }.explanation{
+        margin: 5px 40px;
+    }
 }
