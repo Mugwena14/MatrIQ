@@ -40,3 +40,32 @@
     color: white;
     font-size: 2.3rem;
 }
+
+.paperQ .generateQ{
+    background-color: white;
+    border-color: cornflowerblue;
+    color: black;
+    padding: 10px 185px;
+}
+
+.paperQ .generateQ:hover{
+    background-color: hsl(222, 74%, 15%);
+    color: white;
+    border: 1px solid hsl(0, 0%, 70%);
+}
+
+@media(max-width: 760px){
+.paperQ .generateQ{
+    padding: 8px 115px;
+    }.boxQ button{
+    padding: 8px 80px;
+    }
+}
+
+@media(max-width: 395px){
+.paperQ .generateQ{
+    padding: 8px 105px;
+    }.boxQ button{
+    padding: 8px 70px;
+    }
+}
