@@ -1,4 +1,6 @@
 import React from 'react'
+import styles from './GeoQ.module.css'
+import { Link } from 'react-router-dom'
 
 const GeoQ = () => {
     return (
@@ -6,12 +8,12 @@ const GeoQ = () => {
             <div className={styles.boxQ}>
                 <h1>Geography</h1>
                 <div className={styles.paperQ}>
-                    <Link to='/'><button>Generate My Quiz</button></Link>
-                    <Link to='/'><button>Geography NSC P1 Nov 2024</button></Link>
-                    <Link to='/'><button>Geography NSC P1 Nov 2024</button></Link>
-                    <Link to='/'><button>Geography NSC P1 Nov 2024</button></Link>
-                    <Link to='/'><button>Geography NSC P1 Nov 2024</button></Link>
-                    <Link to='/'><button>Geography NSC P1 Nov 2024</button></Link>
+                    <p><Link to='/'><button className={styles.generateQ}>Generate My Quiz</button></Link></p>
+                    <p><Link to='/'><button>Geography NSC P1 Nov 2024</button></Link></p>
+                    <p><Link to='/'><button>Geography NSC P1 Nov 2024</button></Link></p>
+                    <p><Link to='/'><button>Geography NSC P1 Nov 2024</button></Link></p>
+                    <p><Link to='/'><button>Geography NSC P1 Nov 2024</button></Link></p>
+                    <p><Link to='/'><button>Geography NSC P1 Nov 2024</button></Link></p>
                 </div>
             </div>
         </div>
