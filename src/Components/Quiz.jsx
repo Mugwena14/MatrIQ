@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import styles from '../App.module.css';
 
 const Quiz = () => {
-  const { id } = useParams(); 
+  const { id } = useParams();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answered, setAnswered] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -12,20 +12,23 @@ const Quiz = () => {
   const [questions, setQuestions] = useState([]);
 
   useEffect(() => {
-    async function getData() {
+    async function fetchData() {
       try {
         const res = await fetch(`http://localhost:3001/geo?id=${id}`);
         const data = await res.json();
-        setQuestions(data.questions || []); 
+
+        const combinedQuestions = data.flatMap(item => item.questions || []);
+        setQuestions(combinedQuestions);
       } catch (error) {
-        console.log('Error fetching data', error);
+        console.error('Error fetching data', error);
       }
     }
-    getData();
+
+    fetchData();
   }, [id]);
 
   function handleNextQ() {
-    setCurrentQuestion(currentQuestion + 1);
+    setCurrentQuestion(prev => prev + 1);
     setAnswered(false);
     setSelectedAnswer(null);
     setIsCorrect(null);
@@ -36,22 +39,27 @@ const Quiz = () => {
     setSelectedAnswer(index);
     setIsCorrect(correct);
     if (correct) {
-      setScore(score + 1);
+      setScore(prev => prev + 1);
     }
   }
 
-  if (questions.length === 0) return <div>Loading...</div>;
+  if (!questions.length || !questions[currentQuestion]) {
+    return <div>Loading...</div>;
+  }
 
   const current = questions[currentQuestion];
 
   return (
     <div className={styles.quiz}>
       <h2>Geo Paper 1 2024</h2>
-      {current.image ? (
-        <img src={current.image} alt="Question Image" />
-      ) : null}
+
+      {current.image && (
+        <img src={current.image} alt="Question" className={styles.questionImage} />
+      )}
+
       <div className={styles.inQuiz}>
         <h3>{current.questionText}</h3>
+
         {current.answerOptions.map((option, index) => (
           <button
             key={index}
@@ -70,18 +78,26 @@ const Quiz = () => {
             {option.answerText}
           </button>
         ))}
+
         <div>
-          <button className={styles.nxtQ} onClick={handleNextQ} disabled={!answered}>
-            Next Question
+          <button
+            className={styles.nxtQ}
+            onClick={handleNextQ}
+            disabled={!answered || currentQuestion >= questions.length - 1}
+          >
+            {currentQuestion < questions.length - 1 ? 'Next Question' : 'Finish'}
           </button>
         </div>
+
         <div className={styles.explanation}>
           {answered && isCorrect === false && current.explanation && (
             <p>{current.explanation}</p>
           )}
         </div>
+
         <div className={styles.qNo}>
           <p>Question {currentQuestion + 1} of {questions.length}</p>
+          <p>Score: {score}</p>
         </div>
       </div>
     </div>
