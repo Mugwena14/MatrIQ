@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from '../App.module.css'
 
 const Quiz = () => {
@@ -8,6 +8,20 @@ const Quiz = () => {
     const [selectedAnswer, setSelectedAnswer] = useState(null);
     const [score, setScore] = useState(0);
     const [isCorrect, setIsCorrect] = useState(null);
+    const [question, setQuestion] = useState();
+
+    useEffect(() => {
+        async function getData(){
+            try{
+                const res = await fetch('https://localhost:3001'); 
+                const data = await res.json();
+                setQuestion(data)
+            }catch{
+                console.error('Error fetching data', error);
+            }
+        }
+        getData();
+    },[])
 
     function handleNextQ() {
         setCurrentQuestion(currentQuestion + 1);
