@@ -66,7 +66,7 @@ const questions = [
     image: undefined,
 },
 {
-    questionText: 'The urban area below is ...',
+    questionText: 'The urban area above is ...',
     answerOptions: [
         { answerText: 'star-shaped.', isCorrect: false },
         { answerText: 'linearly formed.', isCorrect: true },
