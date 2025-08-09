@@ -1,9 +1,10 @@
 .gen{
-    background-color: hsl(240, 93%, 13%);
+    background-color: hsl(240, 93%, 5.5%);
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -35px;
 }
 
 .genBox{
@@ -11,22 +12,27 @@
     text-align: center;
     background-color: hsl(240, 93%, 20%);
     border-radius: 15px;
+    display: flex;
+    margin-top: 150px;
 }
 
 .genBox h1{
     /* color: hsl(200, 100%, 60%); */
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 .form{
     padding: 100px 40px;
     border-radius: 15px;
-    box-shadow: 3px 3px 3px hsl(0, 0%, 5%);
+    box-shadow: 3px 3px 5px hsl(0, 0%, 20%);
+    height: 130px;
 }
 
 .genBox h1{
     margin-top: -80px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .field{
@@ -46,6 +52,10 @@ select, input{
     /* background-color: hsl(240, 93%, 80%); */
 }
 
+input::placeholder{
+    color: hsl(0, 0%, 20%);
+}
+
 .form button{
     width: 100px;
     height: 30px;
@@ -56,4 +66,13 @@ select, input{
     background-color: hsl(240, 93%, 10%);
     box-shadow: 2px 2px 2px hsl(0, 0%, 40%);
     /* background-color: hsl(200, 100%, 40%); */
+}
+
+@media(max-width: 760px){
+    .genBox{
+        margin: 90px 50px;
+    }input, select{
+        width: 220px;
+        height: 23px;
+    }
 }

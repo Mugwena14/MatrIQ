@@ -135,7 +135,7 @@ p{
         display: flex;
         flex-direction: column;
     }.cont{
-        margin-top: -30px;
+        margin-top: -10px;
     }.icons{
         flex-direction: row;
     }.cont:nth-child(3){
