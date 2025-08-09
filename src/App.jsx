@@ -11,6 +11,7 @@ import GeoQPage2 from './Pages/GeoQPage2'
 import LSQPage from './Pages/LSQPage'
 import LSQPage2 from './Pages/LSQPage2'
 import QuizPage from './Pages/QuizPage'
+import GenChoosePage from './Pages/GenChoosePage'
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
         <Route path='/GeoQ2' element={<GeoQPage2/>}/>
         <Route path='/LSQ' element={<LSQPage/>}/>
         <Route path='/LSQ2' element={<LSQPage2/>}/>
+        <Route path='/GenChoose' element={<GenChoosePage/>}/>
         <Route path='/Quiz/:id' element={<QuizPage/>}/>
         <Route path='/Privacy' element={<PrivacyPage/>}/>
         <Route path='/Terms' element={<TermsPage/>}/>
