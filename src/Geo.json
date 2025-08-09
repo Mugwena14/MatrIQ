@@ -2250,8 +2250,646 @@
     "explanation": "Codominance occurs when both alleles contribute equally and visibly to the phenotype in heterozygous organisms.",
     "image": null
 }
+  ]},
+  {
+  "id": 18,
+  "questions": [
+    {
+      "questionText": "The scientist who discovered the fossil \"Karabo\" (Australopithecus sediba)",
+      "answerOptions": [
+        { "answerText": "Robert Brown", "isCorrect": false },
+        { "answerText": "Raymond Dart", "isCorrect": false },
+        { "answerText": "Lee Berger", "isCorrect": true },
+        { "answerText": "Ronald Clarke", "isCorrect": false }
+      ],
+      "explanation": "Lee Berger discovered the fossil \"Karabo\" in South Africa in 2008. It belongs to the species Australopithecus sediba and sheds light on early human evolution.",
+      "image": null
+    },
+    {
+      "questionText": "Which ONE of the following is a source of variation during normal meiosis?",
+      "answerOptions": [
+        { "answerText": "Random mating", "isCorrect": false },
+        { "answerText": "Chromosomal mutations", "isCorrect": false },
+        { "answerText": "Cloning", "isCorrect": false },
+        { "answerText": "Random arrangement of chromosomes", "isCorrect": true }
+      ],
+      "explanation": "During meiosis, the random arrangement of homologous chromosomes leads to genetic variation in gametes, enhancing diversity.",
+      "image": null
+    },
+    {
+      "questionText": "How many sex chromosomes does a normal human female inherit from her mother?",
+      "answerOptions": [
+        { "answerText": "1", "isCorrect": true },
+        { "answerText": "2", "isCorrect": false },
+        { "answerText": "23", "isCorrect": false },
+        { "answerText": "46", "isCorrect": false }
+      ],
+      "explanation": "A female inherits one X chromosome from her mother and another X from her father, making a total of two sex chromosomes.",
+      "image": null
+    },
+    {
+      "questionText": "During which phase of meiosis does the nuclear membrane disappear?",
+      "answerOptions": [
+        { "answerText": "Metaphase", "isCorrect": false },
+        { "answerText": "Telophase", "isCorrect": false },
+        { "answerText": "Prophase", "isCorrect": true },
+        { "answerText": "Anaphase", "isCorrect": false }
+      ],
+      "explanation": "In prophase of meiosis, the nuclear membrane breaks down, allowing chromosomes to become visible and begin pairing up.",
+      "image": null
+    },
+    {
+      "questionText": "Which ONE of the following is an example of discontinuous variation in humans?",
+      "answerOptions": [
+        { "answerText": "Height", "isCorrect": false },
+        { "answerText": "Heart rate", "isCorrect": false },
+        { "answerText": "Weight", "isCorrect": false },
+        { "answerText": "Gender", "isCorrect": true }
+      ],
+      "explanation": "Discontinuous variation refers to traits that fall into distinct categories. Gender is a clear example, with no intermediate states.",
+      "image": null
+    },
+    {
+      "questionText": "For a particular characteristic, the offspring inherits …",
+      "answerOptions": [
+        { "answerText": "One allele from the mother and one allele from the father.", "isCorrect": true },
+        { "answerText": "Both alleles from the father.", "isCorrect": false },
+        { "answerText": "Both alleles from the mother.", "isCorrect": false },
+        { "answerText": "The alleles from either the mother or the father randomly.", "isCorrect": false }
+      ],
+      "explanation": "Every individual inherits one allele for each trait from each parent. These alleles may be dominant or recessive and combine to determine the offspring’s phenotype.",
+      "image": null
+    },
+    {
+      "questionText": "Which ONE of the following is CORRECT for speciation through geographic isolation?",
+      "answerOptions": [
+        { "answerText": "The populations undergo phenotypic changes only.", "isCorrect": false },
+        { "answerText": "The conditions on each side of the geographic barrier are the same.", "isCorrect": false },
+        { "answerText": "Each population undergoes natural selection independently.", "isCorrect": true },
+        { "answerText": "The new species formed are genotypically the same as the original species.", "isCorrect": false }
+      ],
+      "explanation": "Geographic isolation leads to reproductive isolation. Over time, populations adapt independently to different environments, resulting in distinct genotypes and eventual speciation.",
+      "image": null
+    },
+    {
+      "questionText": "Which ONE of the following combinations of cell division events occur in both meiosis and mitosis?",
+      "answerOptions": [
+        { "answerText": "(ii) and (iv) only", "isCorrect": true },
+        { "answerText": "(ii), (iii) and (iv) only", "isCorrect": false },
+        { "answerText": "(i), (iii) and (iv) only", "isCorrect": false },
+        { "answerText": "(ii) and (iv) only", "isCorrect": false }
+      ],
+      "explanation": "Both meiosis and mitosis involve chromatids being pulled to opposite poles and individual chromosomes lining up at the equator. Events specific to meiosis, like homologous pairing and random assortment, do not occur in mitosis.",
+      "image":  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAABTCAYAAADXwm9wAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAACpMSURBVHhe7Z0LuFVFFYC3ZqX00HxUZj4ySKEoBYnyRZkFZloKqSmlZFoZmRQZVmZliYpKQSllmXgRRRMEMsFHaSWWloQ9SE0SUrLEDKOMNHfzL846zJ07s/fsc889nAvzf9/57j5z997zWjOzZmbNOpvlhiyRSCQSLWPz2t9EIpFItIjU8SYSiUSLSR1vIpFItJjU8SYSiUSLSR1vIpFItJjU8SYSiUSLSR1vIpFItJjU8SYSiUSLSR1vIpFItJiojve///1vNm/evGz16tXZH//4x2zlypXZz3/+89p/Nx7I13/+85/at/bk3//+d/boo4/WviW0zlQ2ezPPPvts9tBDD9W+bXrcf//92S9+8YvsmWeeqYV0ptXlo7LVE20uquP9yEc+kq1Zs0YK5fOf/3y29dZbZx//+MezP/3pT7U7mssZZ5whH5tzzz03O+WUU2rfeoZ3vvOdbT+g3HTTTdkxxxxT+5bQOlPZbFdWrVqV/frXv659Ww+dzG233SbXTz75ZPaqV71KrtuVX/7yl9k//vGP2rfmgVwffPDB2Zw5c6QclA1ZPipbPdHmSjteCprP+973vuwd73hHdvXVV2cveMELstNOOy379Kc/XburuTz11FPysdGRx+bvf/97l/uAkZH/KWhD7iiKFk9jKHJVQXxPPPFE7dt61q5dm/3zn/+sfVtPzDttSCf3h0Z4+N///pc9/vjj3neSr6effrr2bR18Z5BUQnkAwnk/UL7/+te/5FrR9LlxhNJdlH/+Zzco8uRCg3brGKjLspmIyqYN6fN1EqF4YiHtbpm4kFc7zT/72c+kzbhQV29961tr39bDs3Y9AuXqqw+XUP4Ipx5iUdmz+dCHPtRlAAm1Q9IfSqv7DH3M4YcfLgrWtttuWwvtmfIhbvcevodktyco7XivueYaKZDNNtssu+GGG7J3vetdEs7fH/7wh90S4Eb5y1/+kr3pTW/KxowZI5Xy4Q9/WAoMLfnII4/MDjrooGyfffbJjj322Oy4446TtO60007yHEyZMiUbPHhwNnbs2Ox1r3tddtddd0m4gsC9//3vl8bM3wMPPFAqBb72ta9lAwYMkHeThgMOOEDCQ+98/etfn/3mN7+Ra9hmm23k73XXXZe95S1vyc477zxJ77XXXivhNj/+8Y/lXR/72Mfk769+9SsJpzF84AMfyN797ndnL3vZy7K7775b4nj1q1+d7b///tnJJ58czAN1SLqp07e97W3y3rPOOit7+9vfnu2yyy7ZggULJI6f/OQn2Wtf+1qZ2ey9997Zd77zHQkPpTuUf8rngx/8oMSFtvKFL3xBNBueJU3UGw2B78SFlvHJT35SnmXq+eY3vzk7++yzs6OPPjo7/fTTJdyHLZvE+YlPfELyPmTIEHkWQvHYzJw5U2RGoSPgwyBH3VHmJ5xwQtavX7/s9ttvr921Hsp4v/32y0499dTskEMOkfKA7373u9lvf/vbLlo54fCe97xH/sLnPvc5Sd/uu++effOb35QwOibywv/e+MY3ZldddZWE24TyR2d72GGHSR1TRryHPIXyCt/61rek7M8888zsNa95Tfa73/0u+9GPfiSzXPJAXkLt8JJLLpE4qIfJkyfL+xTfMwz4V1xxRXbjjTeKHNk0s3weeeQR6RdOOumkbNCgQdn3vvc9Cecvaf3sZz+b7bXXXp3aa49hCqoQI7y5qSC5NtOAfNiwYXINpqHmJsO1b83DNJp86NChuekQ6h/iPf744+X/pmPJjbYt10aryQcOHJhff/318pxp4LkZSfN77703f+5zn5ubKajcRzj5+POf/5y/8IUvzB977DEJNwNLbgpbrt/whjfkprOT+0zl5Uazk/BTTjklN9pKvnLlynyrrbbKjfBIuOmE5Jmid+6666754sWL5Rq0yI3g5JdeeqlcG+25/qzNbrvtli9cuFCub7311vwHP/iB1IEZRHLTACTcdMq5aQgSx4tf/GJJC4TywPM77rhjvnz58tx0zvn222+fm8Yh95gOTsoWTGPLTWcm15q/v/3tb950l5WpaQxybRqVvPfRRx/NTWeQb7nlllKmpGvcuHFyD/W555575mZ6l59//vm56RgknHw89NBDcm2jdWbLJmGUCc+QZqM0SHyheGxMI8xN51r7ltflz8wOpO60fMkjcudipsX51KlT5dooJfkWW2yRmxlSl7aj6Hvt65tvvlm+m0EtNwOpXFOec+fOlWvKgbo2Gqx8V0L5mz59em46pbosjBo1SvIUyivwLs2rUWjqdajlDaF2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"
+
+    },
+    {
+      "questionText": "How many nucleotides containing thymine (T) were present in Strand 1?",
+      "answerOptions": [
+        { "answerText": "4", "isCorrect": false },
+        { "answerText": "2", "isCorrect": false },
+        { "answerText": "8", "isCorrect": true },
+        { "answerText": "16", "isCorrect": false }
+      ],
+      "explanation": "Due to base-pairing rules, strand 1 contains the same number of thymine (T) as strand 2 has adenine (A)—which is 8. Therefore, strand 1 has 8 thymine nucleotides.",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "questionText": "The process of change in the characteristics of biological species over time",
+      "answerOptions": [
+        { "answerText": "Evolution", "isCorrect": true },
+        { "answerText": "Mutation", "isCorrect": false },
+        { "answerText": "Inheritance", "isCorrect": false },
+        { "answerText": "Adaptation", "isCorrect": false }
+      ],
+      "explanation": "Evolution is the gradual change in species over time, driven by mechanisms like natural selection and genetic drift.",
+      "image": null
+    },
+    {
+      "questionText": "The type of bonds between nitrogenous bases in a DNA molecule",
+      "answerOptions": [
+        { "answerText": "Ionic bonds", "isCorrect": false },
+        { "answerText": "Covalent bonds", "isCorrect": false },
+        { "answerText": "Hydrogen bonds", "isCorrect": true },
+        { "answerText": "Metallic bonds", "isCorrect": false }
+      ],
+      "explanation": "Hydrogen bonds hold together complementary nitrogenous bases in DNA, enabling the double-helix structure.",
+      "image": null
+    },
+    {
+      "questionText": "The structure that joins two chromatids of a chromosome",
+      "answerOptions": [
+        { "answerText": "Chromatin", "isCorrect": false },
+        { "answerText": "Centromere", "isCorrect": true },
+        { "answerText": "Nucleolus", "isCorrect": false },
+        { "answerText": "Spindle fibre", "isCorrect": false }
+      ],
+      "explanation": "The centromere connects sister chromatids and plays a key role during chromosome alignment in cell division.",
+      "image": null
+    },
+    {
+      "questionText": "The division of the cytoplasm of a cell during cell division",
+      "answerOptions": [
+        { "answerText": "Karyokinesis", "isCorrect": false },
+        { "answerText": "Mitosis", "isCorrect": false },
+        { "answerText": "Cytokinesis", "isCorrect": true },
+        { "answerText": "Meiosis", "isCorrect": false }
+      ],
+      "explanation": "Cytokinesis is the final step in cell division where the cytoplasm splits, producing two separate cells.",
+      "image": null
+    },
+    {
+      "questionText": "The process during meiosis where there is an exchange of genetic material between chromatids",
+      "answerOptions": [
+        { "answerText": "Replication", "isCorrect": false },
+        { "answerText": "Independent assortment", "isCorrect": false },
+        { "answerText": "Crossing over", "isCorrect": true },
+        { "answerText": "Mutation", "isCorrect": false }
+      ],
+      "explanation": "Crossing over during prophase I of meiosis increases genetic variation by exchanging segments between chromatids.",
+      "image": null
+    },
+        {
+      "questionText": "The structures in animal cells that give rise to spindle fibres during cell division",
+      "answerOptions": [
+        { "answerText": "Nucleosomes", "isCorrect": false },
+        { "answerText": "Lysosomes", "isCorrect": false },
+        { "answerText": "Ribosomes", "isCorrect": false },
+        { "answerText": "Centrioles", "isCorrect": true }
+      ],
+      "explanation": "Centrioles/Centrosomes organize spindle fibres, which guide chromosomes during cell division in animal cells.",
+      "image": null
+    },
+    {
+      "questionText": "Similar structures that are inherited from a common ancestor and are modified for different functions",
+      "answerOptions": [
+        { "answerText": "Homologous structures", "isCorrect": true },
+        { "answerText": "Analogous structures", "isCorrect": false },
+        { "answerText": "Vestigial structures", "isCorrect": false },
+        { "answerText": "Adaptive structures", "isCorrect": false }
+      ],
+      "explanation": "Homologous structures like the limbs of vertebrates share a common origin but serve different functions due to evolution.",
+      "image": null
+    },
+    {
+      "questionText": "The phase in the cell cycle during which DNA replication takes place",
+      "answerOptions": [
+        { "answerText": "DNA-phase", "isCorrect": false },
+        { "answerText": "InterPhase", "isCorrect": true },
+        { "answerText": "Crossing Over", "isCorrect": false },
+        { "answerText": "Anaphase", "isCorrect": false }
+      ],
+      "explanation": "DNA replication occurs in the S-phase of the cell cycle, ensuring genetic material is doubled before cell division.",
+      "image": null
+    },
+    {
+      "questionText": "The organelle where translation occurs during protein synthesis",
+      "answerOptions": [
+        { "answerText": "Nucleus", "isCorrect": false },
+        { "answerText": "Mitochondrion", "isCorrect": false },
+        { "answerText": "Ribosome", "isCorrect": true },
+        { "answerText": "Golgi body", "isCorrect": false }
+      ],
+      "explanation": "Ribosomes are the sites of translation, where mRNA is decoded into a polypeptide chain during protein synthesis.",
+      "image": null
+    }
+  ]
+},{
+  "id": 19,
+  "questions": [
+    {
+      "questionText": "The base pairing in DNA was discovered by …",
+      "answerOptions": [
+        { "answerText": "Franklin and Wilkins", "isCorrect": false },
+        { "answerText": "Watson and Wilkins", "isCorrect": false },
+        { "answerText": "Crick and Watson", "isCorrect": true },
+        { "answerText": "Franklin and Crick", "isCorrect": false }
+      ],
+      "explanation": "James Watson and Francis Crick discovered the base pairing mechanism of DNA, building on foundational work by Rosalind Franklin and Maurice Wilkins.",
+      "image": null
+    },
+    {
+      "questionText": "A gene codes for the production of …",
+      "answerOptions": [
+        { "answerText": "An allele", "isCorrect": false },
+        { "answerText": "A chromosome", "isCorrect": false },
+        { "answerText": "DNA", "isCorrect": false },
+        { "answerText": "A protein", "isCorrect": true }
+      ],
+      "explanation": "Genes contain instructions for synthesizing specific proteins, which carry out various functions in the body.",
+      "image": null
+    },
+    {
+      "questionText": "Which ONE of the following is a characteristic of stem cells?",
+      "answerOptions": [
+        { "answerText": "They are easily obtained from any organ", "isCorrect": false },
+        { "answerText": "They divide by meiosis", "isCorrect": false },
+        { "answerText": "They can be stimulated to form any type of cell needed", "isCorrect": true },
+        { "answerText": "They are haploid", "isCorrect": false }
+      ],
+      "explanation": "Stem cells are pluripotent, meaning they can differentiate into various types of cells depending on the body’s needs.",
+      "image": null
+    },
+    {
+      "questionText": "The chances of having a female child in humans is …",
+      "answerOptions": [
+        { "answerText": "25%", "isCorrect": false },
+        { "answerText": "50%", "isCorrect": true },
+        { "answerText": "75%", "isCorrect": false },
+        { "answerText": "100%", "isCorrect": false }
+      ],
+      "explanation": "Each parent contributes one sex chromosome. Since males produce equal numbers of X and Y sperm, the chance is 50% for either sex.",
+      "image": null
+    },
+    {
+      "questionText": "Which ONE of the following is part of the reason why colour-blindness is more common in males than in females?",
+      "answerOptions": [
+        { "answerText": "The allele for colour-blindness is recessive and located on the X-chromosome", "isCorrect": true },
+        { "answerText": "Colour-blind males have two copies of the allele for colour-blindness", "isCorrect": false },
+        { "answerText": "The allele for colour-blindness is recessive and located on the Y-chromosome", "isCorrect": false },
+        { "answerText": "Fathers pass the allele of colour-blindness to their sons only", "isCorrect": false }
+      ],
+      "explanation": "Since males have only one X chromosome, a recessive allele on it expresses the trait. Females need two copies to be affected, making it less common.",
+      "image": null
+    },
+    {
+      "questionText": "Which individuals are possible members of the same family based on the DNA profiles provided?",
+      "answerOptions": [
+        { "answerText": "X and Z only", "isCorrect": false },
+        { "answerText": "X, Y and Z only", "isCorrect": false },
+        { "answerText": "W, X and Y only", "isCorrect": true },
+        { "answerText": "W, Y and Z only", "isCorrect": false }
+      ],
+      "explanation": "Family members tend to share DNA banding patterns. W, X, and Y have overlapping fragments suggesting a genetic relationship, while Z’s pattern differs significantly.",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "questionText": "What is the expected phenotype ratio when two plants heterozygous for a trait are crossed?",
+      "answerOptions": [
+        { "answerText": "Dominant phenotype 3 : Recessive phenotype 1", "isCorrect": true },
+        { "answerText": "Dominant phenotype 1 : Recessive phenotype 3", "isCorrect": false },
+        { "answerText": "Dominant phenotype 1 : Recessive phenotype 2", "isCorrect": false },
+        { "answerText": "Dominant phenotype 1 : Recessive phenotype 1", "isCorrect": false }
+      ],
+      "explanation": "In a monohybrid cross involving two heterozygotes (Aa × Aa), the offspring ratio is 3 showing the dominant trait and 1 showing the recessive trait.",
+      "image": null
+    },
+    {
+      "questionText": "Which ONE of the chromosomes (Q, R, S or T) would most likely be found in a cell during late Anaphase II of meiosis?",
+      "answerOptions": [
+        { "answerText": "Q", "isCorrect": false },
+        { "answerText": "R", "isCorrect": false },
+        { "answerText": "S", "isCorrect": true },
+        { "answerText": "T", "isCorrect": false }
+      ],
+      "explanation": "In late Anaphase II, sister chromatids are separating and moving toward opposite poles. Structure S represents a single chromatid being pulled apart, which matches this phase.",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXcAAAChCAYAAAA80P94AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAF8jSURBVHhe7d0JnGRXVQbwwhCjuK+IIu64G1dQNjWAioCBxAgGYhyQTSGCoqIRRYGIgkoUFTQYkyjogBDEBRU1ItGICxJcCIsIxF1ENEZFYln/O/0Nd2qqurb3quu9ft/v1zPdXd2v37v33HO+851zb91sPMFowIABAwb0Cic493/4h38Y/dM//dPo3d7t3crXN7vZzUZezv81Zr02/XP7vVZj1mv53qxrwrzXpq8TzLsezHptmWvVmHUN8DXMe236OsG868Gs15a51iwse33wNcx7bfo6wbzrwazXlrlWjVnXAF/DvNemrxPMux7Mem2Za9WYdY1g3mu+hnmvTV8nmHc9mPXaMteqMesa4GuY99r0dYJ514NZry1zrRqzrgG+hnVeq7+ukddm/cys15a5Vo36GjfddNPofd/3fUcf/dEfvffq5PXJi+U33vGOd4w+/uM/fvSWt7ylvDBgwIABA7oDTh5B/9AP/dBjX8e5v/3tbx+9//u//+iXfumXRl/4hV84uuGGG06IDMHej5/wvRr7vT7rtVx/0Wuzrldj3s/W193vtVmY9Xqusei1edcM5v1sfd39XpuFWa/nGpu8Vn9/Fub9bH3d/V6bhVmv5xqLXpt3zWDez9bX3e+1WZj1eq6xyWv192dh3s/W193vtVmY9Xqusei1edcM5v1sfd39XpuFWa/nGote2++a814L5l3H17DotVmY9XquMe+10047bXTdddeN7njHO47e+MY3Hmfvx537v//7v4/e7/3eb3TNNdeMbn/725cXBwwYMGDA7uOv//qvRx/3cR83+pu/+ZvRR33UR5XvHRPXK7zzne/c+2zAgAEDBnQBs/z2Sc59wIABAwZ0H4NzHzBgwIAeYnDuAwYMGNBDnOTc51VxBwwYMGBAd3CSc0+7zYABAwYM6C4G5j5gwIABPcTA3AcMGDBgCvGDdu5fccUVo8c+9rGjH/mRHxn98z//c/l+U/if//mf0W/+5m+Ofu7nfm70qle9au+7zeCkTUwvf/nLy06nwwCPnkzlT/7kT0bXX3/96BM+4RNGn/Ipn1K+V7++Durf//u///vRf//3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"
+    },
+    {
+      "questionText": "Which scientist discovered the hominid fossil known as “Little Foot”?",
+      "answerOptions": [
+        { "answerText": "Ron Clarke", "isCorrect": true },
+        { "answerText": "Lee Berger", "isCorrect": false },
+        { "answerText": "Raymond Dart", "isCorrect": false },
+        { "answerText": "Robert Broom", "isCorrect": false }
+      ],
+      "explanation": "Ron Clarke discovered “Little Foot,” a nearly complete Australopithecus skeleton found in the Sterkfontein Caves, contributing major insights into human evolution.",
+      "image": null
+    },
+    {
+      "questionText": "The position of a gene on a chromosome is called a ...",
+      "answerOptions": [
+        { "answerText": "Karyotype", "isCorrect": false },
+        { "answerText": "Locus", "isCorrect": true },
+        { "answerText": "Centromere", "isCorrect": false },
+        { "answerText": "Allele", "isCorrect": false }
+      ],
+      "explanation": "A locus is the specific, fixed position on a chromosome where a particular gene or genetic marker is located.",
+      "image": null
+    },
+    {
+      "questionText": "The type of evolution characterised by long periods of little or no change followed by short periods of rapid change is called ...",
+      "answerOptions": [
+        { "answerText": "Gradualism", "isCorrect": false },
+        { "answerText": "Genetic drift", "isCorrect": false },
+        { "answerText": "Natural selection", "isCorrect": false },
+        { "answerText": "Punctuated equilibrium", "isCorrect": true }
+      ],
+      "explanation": "Punctuated equilibrium suggests species experience long periods of stability interrupted by short bursts of rapid evolutionary change.",
+      "image": null
+    },
+    {
+      "questionText": "The natural shape of a DNA molecule is referred to as a ...",
+      "answerOptions": [
+        { "answerText": "Alpha helix", "isCorrect": false },
+        { "answerText": "Triple strand", "isCorrect": false },
+        { "answerText": "DNA coil", "isCorrect": false },
+        { "answerText": "Double helix", "isCorrect": true }
+      ],
+      "explanation": "DNA`s double helix structure features two strands twisted around each other, held together by base pairs.",
+      "image": null
+    },
+    {
+      "questionText": "The type of bond found between two amino acids during protein synthesis is a ...",
+      "answerOptions": [
+        { "answerText": "Peptide bond", "isCorrect": true },
+        { "answerText": "Hydrogen bond", "isCorrect": false },
+        { "answerText": "Ionic bond", "isCorrect": false },
+        { "answerText": "Covalent bond", "isCorrect": false }
+      ],
+      "explanation": "Peptide bonds form between the amino group of one amino acid and the carboxyl group of another, linking them in a protein chain.",
+      "image": null
+    },
+    {
+      "questionText": "The type of vision shared by primates that allows for depth perception is called ...",
+      "answerOptions": [
+        { "answerText": "Monocular vision", "isCorrect": false },
+        { "answerText": "Stereoscopic vision", "isCorrect": true },
+        { "answerText": "Peripheral vision", "isCorrect": false },
+        { "answerText": "Tunnel vision", "isCorrect": false }
+    ],
+    "explanation": "Stereoscopic/Binocular vision allows primates to perceive depth by combining images from both eyes into a single three-dimensional perception.",
+    "image": null
+  },    {
+      "questionText": "The type of dominance which results in an intermediate phenotype in the heterozygous condition",
+      "answerOptions": [
+        { "answerText": "Complete dominance", "isCorrect": false },
+        { "answerText": "Codominance", "isCorrect": false },
+        { "answerText": "Incomplete dominance", "isCorrect": true },
+        { "answerText": "Recessive inheritance", "isCorrect": false }
+      ],
+      "explanation": "Incomplete dominance occurs when the heterozygous genotype produces a phenotype that is a blend of both alleles, not fully dominant or recessive.",
+      "image": null
+    },
+    {
+      "questionText": "The fluid of the nucleus where free nucleotides are found",
+      "answerOptions": [
+        { "answerText": "Cytosol", "isCorrect": false },
+        { "answerText": "Nucleoplasm", "isCorrect": true },
+        { "answerText": "Plasma membrane", "isCorrect": false },
+        { "answerText": "Endoplasm", "isCorrect": false }
+      ],
+      "explanation": "Nucleoplasm is the semi-fluid substance inside the nucleus that houses chromatin and free nucleotides used during DNA replication and transcription.",
+      "image": null
+    },
+    {
+      "questionText": "A tangled mass of chromosomes located within the nucleus",
+      "answerOptions": [
+        { "answerText": "Chromatin Network", "isCorrect": true },
+        { "answerText": "Chromatid", "isCorrect": false },
+        { "answerText": "Centromere", "isCorrect": false },
+        { "answerText": "Nucleolus", "isCorrect": false }
+      ],
+      "explanation": "Chromatin is the loose, thread-like form of DNA and proteins found in the nucleus during interphase, prior to chromosome condensation.",
+      "image": null
+    },
+    {
+      "questionText": "The division of the cytoplasm after a nuclear division",
+      "answerOptions": [
+        { "answerText": "Karyokinesis", "isCorrect": false },
+        { "answerText": "Mitosis", "isCorrect": false },
+        { "answerText": "Cytokinesis", "isCorrect": true },
+        { "answerText": "Meiosis", "isCorrect": false }
+      ],
+      "explanation": "Cytokinesis is the process of dividing the cytoplasm following the division of the nucleus, completing the formation of two separate cells.",
+      "image": null
+    },
+    {
+      "questionText": "The name for the X and Y sex chromosomes in humans",
+      "answerOptions": [
+        { "answerText": "Autosomes", "isCorrect": false },
+        { "answerText": "Heterosomes", "isCorrect": false },
+        { "answerText": "Chromatids", "isCorrect": false },
+        { "answerText": "Gonosomes", "isCorrect": true }
+      ],
+      "explanation": "Gonosomes are the sex chromosomes—X and Y—that determine an individual’s genetic sex. Females typically have XX and males XY.",
+      "image": null
+    },{
+    "questionText": "The name for the X and Y sex chromosomes in humans",
+    "answerOptions": [
+        { "answerText": "Autosomes", "isCorrect": false },
+        { "answerText": "Heterosomes", "isCorrect": false },
+        { "answerText": "Chromatids", "isCorrect": false },
+        { "answerText": "Gonosomes", "isCorrect": true }
+    ],
+    "explanation": "Gonosomes are the sex chromosomes—X and Y—that determine an individual’s genetic sex. Females typically have XX and males XY.",
+    "image": null
+  }
+  ]
+},{
+  "id": 20,
+  "questions": [
+    {
+      "questionText": "Which ONE of the following organelles is the site of protein synthesis?",
+      "answerOptions": [
+        { "answerText": "Chloroplasts", "isCorrect": false },
+        { "answerText": "Ribosomes", "isCorrect": true },
+        { "answerText": "Mitochondria", "isCorrect": false },
+        { "answerText": "Centrosomes", "isCorrect": false }
+      ],
+      "explanation": "Ribosomes are the cellular structures responsible for protein synthesis by translating messenger RNA (mRNA) into polypeptide chains.",
+      "image": null
+    },
+    {
+      "questionText": "In humans, the gonosomes determine the gender. Which combination below shows the CORRECT gonosomes for males and females?",
+      "answerOptions": [
+        { "answerText": "XY, YY", "isCorrect": false },
+        { "answerText": "YY, XY", "isCorrect": false },
+        { "answerText": "XY, XX", "isCorrect": true },
+        { "answerText": "XX, XY", "isCorrect": false }
+      ],
+      "explanation": "In humans, males have one X and one Y chromosome (XY), while females have two X chromosomes (XX).",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "questionText": "An organism has the genotype TT. The CORRECT term which describes this organism's genotype is ...",
+      "answerOptions": [
+        { "answerText": "heterozygous dominant.", "isCorrect": false },
+        { "answerText": "heterozygous recessive.", "isCorrect": false },
+        { "answerText": "homozygous recessive.", "isCorrect": false },
+        { "answerText": "homozygous dominant.", "isCorrect": true }
+      ],
+      "explanation": "A genotype with two identical alleles, such as TT, is described as homozygous. Since T is dominant, the genotype is homozygous dominant.",
+      "image": null
+    },
+    {
+      "questionText": "Down syndrome is a genetic disorder where an individual has an extra copy of chromosome 21. Which ONE of the following may lead to Down syndrome?",
+      "answerOptions": [
+        { "answerText": "Failure of chromosomes to replicate during mitosis", "isCorrect": false },
+        { "answerText": "Failure of chromosome pairs to separate during meiosis", "isCorrect": true },
+        { "answerText": "Failure of chromosomes to form pairs during fertilisation", "isCorrect": false },
+        { "answerText": "Failure of chromosome pairs to cross over during meiosis", "isCorrect": false }
+      ],
+      "explanation": "Down syndrome is typically caused by nondisjunction during meiosis, where chromosome pairs fail to separate properly, resulting in an extra copy of chromosome 21.",
+      "image": null
+    },
+    {
+      "questionText": "A gradual change in the characteristics of a species over time is known as ...",
+      "answerOptions": [
+        { "answerText": "Biological evolution", "isCorrect": true },
+        { "answerText": "Punctuated equilibrium", "isCorrect": false },
+        { "answerText": "Genetic engineering", "isCorrect": false },
+        { "answerText": "Speciation", "isCorrect": false }
+      ],
+      "explanation": "Biological evolution refers to the slow and continuous changes in species characteristics over generations due to genetic variation and natural selection.",
+      "image": null
+    },
+    {
+      "questionText": "Which ONE of the following is a reproductive isolation mechanism?",
+      "answerOptions": [
+        { "answerText": "Adaptation to the same pollinator", "isCorrect": false },
+        { "answerText": "Species-specific courtship behaviour", "isCorrect": true },
+        { "answerText": "Production of fertile offspring", "isCorrect": false },
+        { "answerText": "Breeding at the same time of the year", "isCorrect": false }
+      ],
+      "explanation": "Species-specific courtship behaviour prevents interbreeding between species, serving as a reproductive isolation mechanism that preserves genetic integrity.",
+      "image": null
+    },
+    {
+      "questionText": "Analysis of mitochondrial DNA is an example of this line of evidence:",
+      "answerOptions": [
+        { "answerText": "Fossil evidence", "isCorrect": false },
+        { "answerText": "Modification by descent", "isCorrect": false },
+        { "answerText": "Biogeography", "isCorrect": false },
+        { "answerText": "Genetic evidence", "isCorrect": true }
+      ],
+      "explanation": "Mitochondrial DNA analysis reveals inherited traits and relationships between species, making it a form of genetic evidence used in evolutionary studies.",
+      "image": null
+    },
+    {
+      "questionText": "Which option below shows the CORRECT comparison between mitosis and meiosis?",
+      "answerOptions": [
+        { "answerText": "MTS-Produces four daughter cells / MEOS-Produces two daughter cells", "isCorrect": false },
+        { "answerText": "MTS-The chromosome number remains the same / MEOS-The chromosome number is halved", "isCorrect": true },
+        { "answerText": "MTS-Produces genetically different cells / MEOS-Produces genetically identical cells", "isCorrect": false },
+        { "answerText": "MTS-Two divisions occur / MEOS-Four divisions occur", "isCorrect": false }
+      ],
+      "explanation": "Mitosis preserves chromosome number while meiosis reduces it by half, enabling sexual reproduction with correct genetic contribution.",
+      "image": null
+    },
+    {
+      "questionText": "Which ONE of the following scientists discovered the fossil Taung Child?",
+      "answerOptions": [
+        { "answerText": "Lee Berger", "isCorrect": false },
+        { "answerText": "Ron Clarke", "isCorrect": false },
+        { "answerText": "Robert Broom", "isCorrect": false },
+        { "answerText": "Raymond Dart", "isCorrect": true }
+      ],
+      "explanation": "Raymond Dart discovered the Taung Child fossil in 1924, marking a pivotal moment in understanding human evolution in southern Africa.",
+      "image": null
+    },
+    {
+      "questionText": "Which ONE of the following is produced at the end of translation?",
+      "answerOptions": [
+        { "answerText": "A protein", "isCorrect": true },
+        { "answerText": "A DNA molecule", "isCorrect": false },
+        { "answerText": "A messenger RNA molecule", "isCorrect": false },
+        { "answerText": "An amino acid", "isCorrect": false }
+      ],
+      "explanation": "Translation is the final stage of protein synthesis where ribosomes assemble amino acids into a polypeptide chain, producing a functional protein.",
+      "image": null
+    },
+    {
+      "questionText": "Which nucleic acid carries hereditary information?",
+      "answerOptions": [
+        { "answerText": "DNA", "isCorrect": true },
+        { "answerText": "RNA", "isCorrect": false },
+        { "answerText": "ATP", "isCorrect": false },
+        { "answerText": "Enzymes", "isCorrect": false }
+      ],
+      "explanation": "DNA (deoxyribonucleic acid) is the molecule that carries genetic instructions used in growth, development, functioning, and reproduction.",
+      "image": null
+    },
+    {
+      "questionText": "What is the chromosome condition of a cell with only one set of chromosomes?",
+      "answerOptions": [
+        { "answerText": "Diploid", "isCorrect": false },
+        { "answerText": "Haploid", "isCorrect": true },
+        { "answerText": "Triploid", "isCorrect": false },
+        { "answerText": "Polyploid", "isCorrect": false }
+      ],
+      "explanation": "A haploid cell contains only one set of chromosomes, commonly found in gametes such as sperm and egg cells.",
+      "image": null
+    },
+    {
+      "questionText": "Which structure holds the two chromatids of a chromosome together?",
+      "answerOptions": [
+        { "answerText": "Centrioles", "isCorrect": false },
+        { "answerText": "Spindle fibres", "isCorrect": false },
+        { "answerText": "Centromere", "isCorrect": true },
+        { "answerText": "Kinetochore", "isCorrect": false }
+      ],
+      "explanation": "The centromere is the region that holds sister chromatids together and plays a key role during cell division.",
+      "image": null
+    },
+    {
+      "questionText": "Which type of RNA delivers specific amino acids during protein synthesis?",
+      "answerOptions": [
+        { "answerText": "tRNA", "isCorrect": true },
+        { "answerText": "mRNA", "isCorrect": false },
+        { "answerText": "rRNA", "isCorrect": false },
+        { "answerText": "snRNA", "isCorrect": false }
+      ],
+      "explanation": "Transfer RNA (tRNA) transports amino acids to the ribosome during translation, ensuring correct sequencing in proteins.",
+      "image": null
+    },{
+      "questionText": "What is the analysis of DNA samples to identify individuals or relationships called?",
+      "answerOptions": [
+        { "answerText": "Genetic engineering", "isCorrect": false },
+        { "answerText": "DNA profiling", "isCorrect": true },
+        { "answerText": "Gene cloning", "isCorrect": false },
+        { "answerText": "Forensic cytology", "isCorrect": false }
+      ],
+      "explanation": "DNA profiling is a forensic technique used to identify individuals by examining their unique genetic makeup.",
+      "image": null
+    },
+    {
+      "questionText": "What shows the number and structure of all chromosomes in a somatic cell nucleus?",
+      "answerOptions": [
+        { "answerText": "Karyotype", "isCorrect": true },
+        { "answerText": "Genome", "isCorrect": false },
+        { "answerText": "Gene map", "isCorrect": false },
+        { "answerText": "Chromosomal matrix", "isCorrect": false }
+      ],
+      "explanation": "A karyotype is a photographic or digital representation of chromosomes arranged by size, number, and type in a somatic cell.",
+      "image": null
+    },
+    {
+      "questionText": "A group of similar organisms that interbreed to produce fertile offspring is called a ...",
+      "answerOptions": [
+        { "answerText": "Family", "isCorrect": false },
+        { "answerText": "Population", "isCorrect": false },
+        { "answerText": "Genus", "isCorrect": false },
+        { "answerText": "Species", "isCorrect": true }
+      ],
+      "explanation": "Species is the basic unit of biological classification, defined by the ability to interbreed and produce fertile offspring.",
+      "image": null
+    },
+    {
+      "questionText": "In which phase of meiosis are paired chromosomes arranged at the equator?",
+      "answerOptions": [
+        { "answerText": "Anaphase I", "isCorrect": false },
+        { "answerText": "Prophase II", "isCorrect": false },
+        { "answerText": "Metaphase I", "isCorrect": true },
+        { "answerText": "Telophase I", "isCorrect": false }
+      ],
+      "explanation": "During Metaphase I of meiosis, homologous chromosomes align at the cell equator in preparation for separation.",
+      "image": null
+    },
+    {
+      "questionText": "What biotechnological process produces genetically identical organisms?",
+      "answerOptions": [
+        { "answerText": "Recombination", "isCorrect": false },
+        { "answerText": "Cloning", "isCorrect": true },
+        { "answerText": "Mutagenesis", "isCorrect": false },
+        { "answerText": "Hybridisation", "isCorrect": false }
+      ],
+      "explanation": "Cloning is a process that produces organisms genetically identical to the original, commonly used in biotechnology and agriculture.",
+      "image": null
+    }
+  ]}
 
   ]}
+
 
   
-  ]}
