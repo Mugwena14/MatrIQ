@@ -97,7 +97,8 @@
             "image": null
         }]
         },{
-"id": 2,
+    "id": 2,
+    "questions": [{
     "questionText": "A mid-latitude cyclone occurs between … north and south of the equator.",
     "answerOptions": [
         { "answerText": "5° and 25°", "isCorrect": false },
@@ -107,6 +108,7 @@
     ],
     "explanation": "Mid-latitude cyclones develop in the temperature zones between 30° and 60° latitude, where cold and warm air masses often clash.",
     "image": null
+        }]
 },
 {
     "id": 2,
