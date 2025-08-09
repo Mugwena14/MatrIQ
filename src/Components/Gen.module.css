@@ -1,0 +1,59 @@
+.gen{
+    background-color: hsl(240, 93%, 13%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.genBox{
+    margin: 100px 10px;
+    text-align: center;
+    background-color: hsl(240, 93%, 20%);
+    border-radius: 15px;
+}
+
+.genBox h1{
+    /* color: hsl(200, 100%, 60%); */
+    color: white;
+}
+
+.form{
+    padding: 100px 40px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px hsl(0, 0%, 5%);
+}
+
+.genBox h1{
+    margin-top: -80px;
+    margin-bottom: 30px;
+}
+
+.field{
+    margin-bottom: 30px;
+}
+
+select, input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 20%);
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 2px hsl(0, 0%, 50%);
+    /* background-color: hsl(240, 93%, 80%); */
+}
+
+.form button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    color: hsl(0, 0%, 80%);
+    background-color: hsl(240, 93%, 10%);
+    box-shadow: 2px 2px 2px hsl(0, 0%, 40%);
+    /* background-color: hsl(200, 100%, 40%); */
+}

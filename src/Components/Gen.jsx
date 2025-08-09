@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Geo.module.css'
+import styles from './Gen.module.css'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -11,12 +11,11 @@ const Gen = () => {
     const [length, setLength] = useState()
 
     return (
-        <div className={styles.geo}>
-            <div className={styles.box}>
-                <h1>Geography Paper 1</h1>
-                <form action="">
-                    <div className=''>
-                        <label htmlFor="topic">Filter by topic.</label>
+        <div className={styles.gen}>
+            <div className={styles.genBox}>
+                <form action="" className={styles.form}>
+                        <h1>Generate Quiz</h1>
+                    <div className={styles.field}>
                         <select 
                         value={topic}
                         onChange={(e) => {
@@ -28,8 +27,7 @@ const Gen = () => {
                             <option value="Geomorphology">Geomorphology</option>
                         </select>
                     </div>
-                    <div className=''>
-                        <label htmlFor="difficulty">Difficulty Level</label>
+                    <div className={styles.field}>
                         <select 
                         value={difficulty}
                         onChange={(e) => {
@@ -42,14 +40,13 @@ const Gen = () => {
                             <option value="Hard">Hard</option>
                         </select>
                     </div>
-                    <div className=''>
-                        <label htmlFor="length">Number of questions</label>
+                    <div className={styles.field}>
                         <input
                         value={length}
                         onChange={(e) => {
                             setLength(e.target.value)
                         }}
-                        type="number" placeholder="Max is 10" min={1} max={10} required/>
+                        type="number" placeholder="No of Qs. Max = 10" min={1} max={10} required/>
                     </div>
                     <button>Submit</button>
                 </form>
