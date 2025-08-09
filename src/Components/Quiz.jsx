@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import styles from '../App.module.css';
+import BeatLoad from "./Spinner";
 
 const Quiz = () => {
   const { id } = useParams();
@@ -10,6 +11,7 @@ const Quiz = () => {
   const [score, setScore] = useState(0);
   const [isCorrect, setIsCorrect] = useState(null);
   const [questions, setQuestions] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function fetchData() {
@@ -21,6 +23,10 @@ const Quiz = () => {
         setQuestions(combinedQuestions);
       } catch (error) {
         console.error('Error fetching data', error);
+      } finally{
+        const timer = setTimeout(() => {
+          setLoading(false);
+        }, 500)
       }
     }
 
@@ -43,15 +49,18 @@ const Quiz = () => {
     }
   }
 
-  if (!questions.length || !questions[currentQuestion]) {
-    return <div>Loading...</div>;
-  }
+  // if (!questions.length || !questions[currentQuestion]) {
+  //   return <div>Loading...</div>;
+  // }
 
   const current = questions[currentQuestion];
 
   return (
     <div className={styles.quiz}>
-      <h2>Geo Paper 1 2024</h2>
+
+      {loading ? <BeatLoad /> : 
+        <div>
+            <h2>Geo Paper 1 2024</h2>
 
       {current.image && (
         <img src={current.image} alt="Question" className={styles.questionImage} />
@@ -100,6 +109,9 @@ const Quiz = () => {
           <p>Score: {score}</p>
         </div>
       </div>
+
+        </div>
+      }
     </div>
   );
 };

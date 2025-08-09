@@ -75,11 +75,19 @@
     border: 2px solid hsl(0, 0%, 80%);
 }
 
+.explanation p{
+    padding: 10px;
+    color: hsl(0, 0%, 10%);
+}
+
 .qNo p{
     color: rgb(112, 109, 109);
     font-size: 13px;
 }
 
+.inQuiz h3{
+    padding: 10px;
+}
 
 @media(max-width: 760px){
     .inQuiz .answerBtn{
