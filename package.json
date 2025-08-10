@@ -8,7 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "json-server --watch src/Geo.json --port 3001"
+    "server:questions": "json-server --watch src/Geo.json --port 3001",
+    "server:generate": "json-server --watch src/Gen.json --port 3002",
+    "server": "concurrently \"npm run server:questions\" \"npm run server:generate\""
   },
   "dependencies": {
     "concurrently": "^9.2.0",

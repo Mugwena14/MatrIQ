@@ -5,8 +5,14 @@ import { FaQuoteRight } from 'react-icons/fa'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { FaArrowRight } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
+import quizData from '../Gen'
 
 const Hero = () => {
+
+    const { Climate } = quizData;
+    const easyQuestions = Climate.easy.questions;
+    console.log(quizData);
+
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
