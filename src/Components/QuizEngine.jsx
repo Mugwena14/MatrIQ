@@ -1268,8 +1268,641 @@ const rawQuizData = [
     ],
     explanation: "An antecedent river maintains its course while the land is uplifted, cutting through the rising terrain.",
     image: null
+  },
+  // SETTLEMENT GEOGRAPHY
+    {
+    id: 91,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "Which term describes a group of houses and buildings clustered together?",
+    answerOptions: [
+      { answerText: "Nucleated settlement", isCorrect: true },
+      { answerText: "Dispersed settlement", isCorrect: false },
+      { answerText: "Linear settlement", isCorrect: false },
+      { answerText: "Radial settlement", isCorrect: false }
+    ],
+    explanation: "Nucleated settlements have buildings grouped closely together, often around a central point such as a market or church.",
+    image: null
+  },
+  {
+    id: 92,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "Which type of settlement is built along a transport route such as a road or river?",
+    answerOptions: [
+      { answerText: "Linear settlement", isCorrect: true },
+      { answerText: "Dispersed settlement", isCorrect: false },
+      { answerText: "Nucleated settlement", isCorrect: false },
+      { answerText: "Scattered settlement", isCorrect: false }
+    ],
+    explanation: "Linear settlements develop along roads, rivers, or railways for easy access to transport and trade.",
+    image: null
+  },
+  {
+    id: 93,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "What does the term 'site' refer to in settlement geography?",
+    answerOptions: [
+      { answerText: "The actual land where a settlement is located", isCorrect: true },
+      { answerText: "The surrounding region of a settlement", isCorrect: false },
+      { answerText: "The economic role of a settlement", isCorrect: false },
+      { answerText: "The political influence of a settlement", isCorrect: false }
+    ],
+    explanation: "Site refers to the specific piece of land and its physical characteristics where a settlement is built.",
+    image: null
+  },
+  {
+    id: 94,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "Which factor most commonly influences the location of early settlements?",
+    answerOptions: [
+      { answerText: "Availability of water", isCorrect: true },
+      { answerText: "Access to internet", isCorrect: false },
+      { answerText: "Presence of shopping malls", isCorrect: false },
+      { answerText: "Political boundaries", isCorrect: false }
+    ],
+    explanation: "Water is a vital resource for drinking, farming, and transportation, making it key to settlement location.",
+    image: null
+  },
+  {
+    id: 95,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "Which of the following is an example of a rural settlement?",
+    answerOptions: [
+      { answerText: "Farming village", isCorrect: true },
+      { answerText: "Industrial estate", isCorrect: false },
+      { answerText: "Central Business District", isCorrect: false },
+      { answerText: "Port city", isCorrect: false }
+    ],
+    explanation: "Rural settlements are found in the countryside and are often based on primary activities such as farming.",
+    image: null
+  },
+  {
+    id: 96,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "What does the term 'function' of a settlement refer to?",
+    answerOptions: [
+      { answerText: "Its main economic or social role", isCorrect: true },
+      { answerText: "Its political boundaries", isCorrect: false },
+      { answerText: "Its shape on a map", isCorrect: false },
+      { answerText: "Its population size", isCorrect: false }
+    ],
+    explanation: "Function refers to the main purpose of a settlement, such as farming, trade, or industry.",
+    image: null
+  },
+  {
+    id: 97,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "Which urban land-use zone is typically located in the center of a city?",
+    answerOptions: [
+      { answerText: "Central Business District", isCorrect: true },
+      { answerText: "Residential suburb", isCorrect: false },
+      { answerText: "Industrial area", isCorrect: false },
+      { answerText: "Rural-urban fringe", isCorrect: false }
+    ],
+    explanation: "The CBD is at the heart of a city and is the focus for business and commerce.",
+    image: null
+  },
+  {
+    id: 98,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "Which shape describes a settlement built in a circle around a central point?",
+    answerOptions: [
+      { answerText: "Radial", isCorrect: true },
+      { answerText: "Linear", isCorrect: false },
+      { answerText: "Nucleated", isCorrect: false },
+      { answerText: "Dispersed", isCorrect: false }
+    ],
+    explanation: "Radial settlements grow outward in all directions from a central point, often a market or important building.",
+    image: null
+  },
+  {
+    id: 99,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "What is the main difference between rural and urban settlements?",
+    answerOptions: [
+      { answerText: "Population size and function", isCorrect: true },
+      { answerText: "Climate and weather", isCorrect: false },
+      { answerText: "Type of vegetation", isCorrect: false },
+      { answerText: "Distance from the equator", isCorrect: false }
+    ],
+    explanation: "Urban settlements are larger and have more varied functions, while rural settlements are smaller and mainly rely on primary activities.",
+    image: null
+  },
+  {
+    id: 100,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "What does the term 'situation' refer to in settlement geography?",
+    answerOptions: [
+      { answerText: "The position of a settlement relative to its surroundings", isCorrect: true },
+      { answerText: "The actual land where the settlement is built", isCorrect: false },
+      { answerText: "The climate of a settlement", isCorrect: false },
+      { answerText: "The political importance of a settlement", isCorrect: false }
+    ],
+    explanation: "Situation describes the location of a settlement in relation to other places and features.",
+    image: null
+  },
+  {
+    id: 101,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "Which settlement pattern is most common in farming areas with large fields?",
+    answerOptions: [
+      { answerText: "Dispersed settlement", isCorrect: true },
+      { answerText: "Linear settlement", isCorrect: false },
+      { answerText: "Nucleated settlement", isCorrect: false },
+      { answerText: "Radial settlement", isCorrect: false }
+    ],
+    explanation: "In dispersed patterns, houses are spread out over large areas, often to access farmland.",
+    image: null
+  },
+  {
+    id: 102,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "Which of the following is an example of a secondary activity in settlements?",
+    answerOptions: [
+      { answerText: "Manufacturing", isCorrect: true },
+      { answerText: "Fishing", isCorrect: false },
+      { answerText: "Farming", isCorrect: false },
+      { answerText: "Forestry", isCorrect: false }
+    ],
+    explanation: "Secondary activities involve manufacturing and processing of raw materials.",
+    image: null
+  },
+  {
+    id: 103,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "Which type of settlement is usually located along coasts and rivers for transport and trade?",
+    answerOptions: [
+      { answerText: "Port settlement", isCorrect: true },
+      { answerText: "Mining settlement", isCorrect: false },
+      { answerText: "Farming village", isCorrect: false },
+      { answerText: "Tourist settlement", isCorrect: false }
+    ],
+    explanation: "Port settlements develop in areas with good water access for shipping and trade.",
+    image: null
+  },
+  {
+    id: 104,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "Which type of settlement shape is most common where roads intersect?",
+    answerOptions: [
+      { answerText: "Radial", isCorrect: true },
+      { answerText: "Linear", isCorrect: false },
+      { answerText: "Nucleated", isCorrect: false },
+      { answerText: "Dispersed", isCorrect: false }
+    ],
+    explanation: "Radial settlements spread out from a central point such as a crossroads.",
+    image: null
+  },
+  {
+    id: 105,
+    topic: "Settlement",
+    difficulty: "Easy",
+    questionText: "Which of the following is a primary activity in a rural settlement?",
+    answerOptions: [
+      { answerText: "Farming", isCorrect: true },
+      { answerText: "Banking", isCorrect: false },
+      { answerText: "Retail trade", isCorrect: false },
+      { answerText: "Car manufacturing", isCorrect: false }
+    ],
+    explanation: "Primary activities involve extracting resources from nature, such as farming, mining, and fishing.",
+    image: null
+  },
+  // MEDIUM
+  {
+    id: 106,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "Which factor often leads to the growth of informal settlements on the outskirts of cities?",
+    answerOptions: [
+      { answerText: "Rural-urban migration", isCorrect: true },
+      { answerText: "Declining birth rates", isCorrect: false },
+      { answerText: "Increased agricultural mechanisation", isCorrect: false },
+      { answerText: "Urban renewal", isCorrect: false }
+    ],
+    explanation: "Many people migrate from rural to urban areas for job opportunities, leading to the expansion of informal housing.",
+    image: null
+  },
+  {
+    id: 107,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "What does the concept of 'urban sprawl' describe?",
+    answerOptions: [
+      { answerText: "Unplanned outward expansion of urban areas", isCorrect: true },
+      { answerText: "Redevelopment of inner-city areas", isCorrect: false },
+      { answerText: "Decline of old industrial zones", isCorrect: false },
+      { answerText: "Concentration of businesses in the CBD", isCorrect: false }
+    ],
+    explanation: "Urban sprawl is the uncontrolled spread of built-up areas into rural land, often leading to increased commuting and loss of farmland.",
+    image: null
+  },
+  {
+    id: 108,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "Which urban land-use zone is most likely to contain old factories and warehouses?",
+    answerOptions: [
+      { answerText: "Transition zone", isCorrect: true },
+      { answerText: "Residential suburb", isCorrect: false },
+      { answerText: "Central Business District", isCorrect: false },
+      { answerText: "Rural-urban fringe", isCorrect: false }
+    ],
+    explanation: "The transition zone lies between the CBD and residential areas and often contains older industries and lower-income housing.",
+    image: null
+  },
+  {
+    id: 109,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "What is the main aim of urban renewal projects?",
+    answerOptions: [
+      { answerText: "To improve and redevelop run-down urban areas", isCorrect: true },
+      { answerText: "To expand urban sprawl", isCorrect: false },
+      { answerText: "To reduce rural-urban migration", isCorrect: false },
+      { answerText: "To establish new informal settlements", isCorrect: false }
+    ],
+    explanation: "Urban renewal focuses on improving infrastructure, housing, and services in decaying urban areas.",
+    image: null
+  },
+  {
+    id: 110,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "Which factor is the most important in the location of industrial areas in cities?",
+    answerOptions: [
+      { answerText: "Accessibility to transport routes", isCorrect: true },
+      { answerText: "Proximity to shopping malls", isCorrect: false },
+      { answerText: "Availability of entertainment facilities", isCorrect: false },
+      { answerText: "Number of schools nearby", isCorrect: false }
+    ],
+    explanation: "Industries require efficient transport access for raw materials and distribution of products.",
+    image: null
+  },
+  {
+    id: 111,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "What is the term for the merging of towns and cities into one continuous built-up area?",
+    answerOptions: [
+      { answerText: "Conurbation", isCorrect: true },
+      { answerText: "Urban fringe", isCorrect: false },
+      { answerText: "Rural cluster", isCorrect: false },
+      { answerText: "Suburbanisation", isCorrect: false }
+    ],
+    explanation: "Conurbations form when urban areas grow and merge into one large, continuous settlement.",
+    image: null
+  },
+  {
+    id: 112,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "Which factor can lead to urban decay in the CBD?",
+    answerOptions: [
+      { answerText: "Relocation of businesses to suburbs", isCorrect: true },
+      { answerText: "Increase in public transport availability", isCorrect: false },
+      { answerText: "Development of pedestrian zones", isCorrect: false },
+      { answerText: "Introduction of green belts", isCorrect: false }
+    ],
+    explanation: "When businesses move to suburbs, the CBD can experience reduced activity and decline.",
+    image: null
+  },
+  {
+    id: 113,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "Which type of settlement develops mainly around a single economic activity, such as mining?",
+    answerOptions: [
+      { answerText: "Specialised settlement", isCorrect: true },
+      { answerText: "Linear settlement", isCorrect: false },
+      { answerText: "Nucleated settlement", isCorrect: false },
+      { answerText: "Dispersed settlement", isCorrect: false }
+    ],
+    explanation: "Specialised settlements exist primarily to support one main function, such as mining towns or fishing villages.",
+    image: null
+  },
+  {
+    id: 114,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "What is the main function of a rural service centre?",
+    answerOptions: [
+      { answerText: "Provide goods and services to surrounding farming areas", isCorrect: true },
+      { answerText: "Produce manufactured goods", isCorrect: false },
+      { answerText: "Serve as the CBD of a large city", isCorrect: false },
+      { answerText: "Act as a tourist attraction", isCorrect: false }
+    ],
+    explanation: "Rural service centres supply goods, markets, and services to the surrounding rural population.",
+    image: null
+  },
+  {
+    id: 115,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "Which planning approach tries to integrate housing, jobs, and transport to create sustainable cities?",
+    answerOptions: [
+      { answerText: "Integrated urban planning", isCorrect: true },
+      { answerText: "Urban sprawl", isCorrect: false },
+      { answerText: "Gentrification", isCorrect: false },
+      { answerText: "Informal settlement upgrading", isCorrect: false }
+    ],
+    explanation: "Integrated planning aims to create cities where living, working, and services are located close together to reduce travel and environmental impact.",
+    image: null
+  },
+  {
+    id: 116,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "Which term describes the outward movement of middle-class families from inner cities to suburbs?",
+    answerOptions: [
+      { answerText: "Suburbanisation", isCorrect: true },
+      { answerText: "Urbanisation", isCorrect: false },
+      { answerText: "Counter-urbanisation", isCorrect: false },
+      { answerText: "Decentralisation", isCorrect: false }
+    ],
+    explanation: "Suburbanisation is the movement of people from the city centre to residential areas on the outskirts.",
+    image: null
+  },
+  {
+    id: 117,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "Which transport improvement often leads to the development of edge cities?",
+    answerOptions: [
+      { answerText: "Highway construction", isCorrect: true },
+      { answerText: "Pedestrian zones", isCorrect: false },
+      { answerText: "Railway closures", isCorrect: false },
+      { answerText: "Cycle lanes", isCorrect: false }
+    ],
+    explanation: "Highways allow businesses and retail centres to develop on the outskirts of cities, forming edge cities.",
+    image: null
+  },
+  {
+    id: 118,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "Which factor often leads to the decline of inner-city residential areas?",
+    answerOptions: [
+      { answerText: "Overcrowding and poor maintenance", isCorrect: true },
+      { answerText: "Increased green space", isCorrect: false },
+      { answerText: "Improved housing conditions", isCorrect: false },
+      { answerText: "Upgrading of infrastructure", isCorrect: false }
+    ],
+    explanation: "When housing is overcrowded and poorly maintained, it leads to social and physical decline in inner-city areas.",
+    image: null
+  },
+  {
+    id: 119,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "Which urban land-use zone is located at the edge of a city where it meets the countryside?",
+    answerOptions: [
+      { answerText: "Rural-urban fringe", isCorrect: true },
+      { answerText: "Central Business District", isCorrect: false },
+      { answerText: "Transition zone", isCorrect: false },
+      { answerText: "Industrial area", isCorrect: false }
+    ],
+    explanation: "The rural-urban fringe is a zone where urban and rural activities mix, often experiencing rapid change.",
+    image: null
+  },
+  {
+    id: 120,
+    topic: "Settlement Geography",
+    difficulty: "Medium",
+    questionText: "Which challenge is often linked with rapid urbanisation in developing countries?",
+    answerOptions: [
+      { answerText: "Shortage of housing and basic services", isCorrect: true },
+      { answerText: "Decline in public transport usage", isCorrect: false },
+      { answerText: "Increase in rural employment", isCorrect: false },
+      { answerText: "Low population growth", isCorrect: false }
+    ],
+    explanation: "Rapid urbanisation often outpaces infrastructure development, leading to housing and service shortages.",
+    image: null
+  },
+  // HARD
+   {
+    id: 121,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which urban model suggests that cities develop in a series of rings with the CBD at the centre?",
+    answerOptions: [
+      { answerText: "Burgess Concentric Zone Model", isCorrect: true },
+      { answerText: "Hoyt Sector Model", isCorrect: false },
+      { answerText: "Multiple Nuclei Model", isCorrect: false },
+      { answerText: "Urban Realms Model", isCorrect: false }
+    ],
+    explanation: "The Burgess Model describes cities expanding in concentric rings outward from the CBD.",
+    image: null
+  },
+  {
+    id: 122,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which process involves wealthier people moving into a run-down urban area, improving housing, and displacing lower-income residents?",
+    answerOptions: [
+      { answerText: "Gentrification", isCorrect: true },
+      { answerText: "Urban sprawl", isCorrect: false },
+      { answerText: "Urban decay", isCorrect: false },
+      { answerText: "Counter-urbanisation", isCorrect: false }
+    ],
+    explanation: "Gentrification upgrades an area but often increases rents, forcing poorer residents to leave.",
+    image: null
+  },
+  {
+    id: 123,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "In terms of settlement hierarchy, which type of settlement typically offers the widest range of specialised services?",
+    answerOptions: [
+      { answerText: "City", isCorrect: true },
+      { answerText: "Village", isCorrect: false },
+      { answerText: "Hamlet", isCorrect: false },
+      { answerText: "Town", isCorrect: false }
+    ],
+    explanation: "Cities, at the top of the settlement hierarchy, offer the greatest variety and specialisation of services.",
+    image: null
+  },
+  {
+    id: 124,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which factor is the primary reason for the decentralisation of retail from CBDs to suburban malls?",
+    answerOptions: [
+      { answerText: "Availability of cheaper land and parking space", isCorrect: true },
+      { answerText: "Better quality of air", isCorrect: false },
+      { answerText: "Access to rail transport", isCorrect: false },
+      { answerText: "Higher pedestrian density", isCorrect: false }
+    ],
+    explanation: "Suburban malls benefit from larger, cheaper plots and extensive parking facilities compared to CBDs.",
+    image: null
+  },
+  {
+    id: 125,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which South African policy aims to integrate previously segregated urban areas and improve access to services?",
+    answerOptions: [
+      { answerText: "Integrated Development Plan (IDP)", isCorrect: true },
+      { answerText: "Urban Sprawl Management Plan", isCorrect: false },
+      { answerText: "Industrial Development Strategy", isCorrect: false },
+      { answerText: "Smart City Initiative", isCorrect: false }
+    ],
+    explanation: "IDPs provide a framework for coordinated development and service delivery in municipalities.",
+    image: null
+  },
+  {
+    id: 126,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which concept explains the maximum distance people are willing to travel for a service?",
+    answerOptions: [
+      { answerText: "Range", isCorrect: true },
+      { answerText: "Threshold population", isCorrect: false },
+      { answerText: "Carrying capacity", isCorrect: false },
+      { answerText: "Sphere of influence", isCorrect: false }
+    ],
+    explanation: "The range of a good or service is the maximum distance customers are prepared to travel to obtain it.",
+    image: null
+  },
+  {
+    id: 127,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "According to central place theory, which factor determines the spacing and size of settlements?",
+    answerOptions: [
+      { answerText: "Threshold population and range", isCorrect: true },
+      { answerText: "Altitude and climate", isCorrect: false },
+      { answerText: "Historical age of the settlement", isCorrect: false },
+      { answerText: "Availability of entertainment", isCorrect: false }
+    ],
+    explanation: "Central place theory states that settlements are spaced based on the minimum population needed to support services and the range people will travel.",
+    image: null
+  },
+  {
+    id: 128,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which urban model is most useful for describing cities with multiple centres of activity?",
+    answerOptions: [
+      { answerText: "Multiple Nuclei Model", isCorrect: true },
+      { answerText: "Burgess Concentric Zone Model", isCorrect: false },
+      { answerText: "Hoyt Sector Model", isCorrect: false },
+      { answerText: "Urban Realms Model", isCorrect: false }
+    ],
+    explanation: "The Multiple Nuclei Model suggests cities grow around several nodes such as industrial areas, commercial zones, and residential districts.",
+    image: null
+  },
+  {
+    id: 129,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which phenomenon describes the movement of people from cities to rural areas in search of a better quality of life?",
+    answerOptions: [
+      { answerText: "Counter-urbanisation", isCorrect: true },
+      { answerText: "Urban sprawl", isCorrect: false },
+      { answerText: "Gentrification", isCorrect: false },
+      { answerText: "Suburbanisation", isCorrect: false }
+    ],
+    explanation: "Counter-urbanisation is driven by people leaving congested urban areas for rural environments.",
+    image: null
+  },
+  {
+    id: 130,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which term describes a city that dominates the economic, political, and cultural life of a country?",
+    answerOptions: [
+      { answerText: "Primate city", isCorrect: true },
+      { answerText: "Edge city", isCorrect: false },
+      { answerText: "Conurbation", isCorrect: false },
+      { answerText: "Satellite town", isCorrect: false }
+    ],
+    explanation: "A primate city is disproportionately larger and more influential than other cities in a country.",
+    image: null
+  },
+  {
+    id: 131,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "What is the main disadvantage of radial road patterns in cities?",
+    answerOptions: [
+      { answerText: "Traffic congestion at the centre", isCorrect: true },
+      { answerText: "Poor accessibility to the outskirts", isCorrect: false },
+      { answerText: "High construction costs", isCorrect: false },
+      { answerText: "Difficulty in navigation", isCorrect: false }
+    ],
+    explanation: "Radial patterns funnel traffic toward the centre, often leading to congestion in the CBD.",
+    image: null
+  },
+  {
+    id: 132,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which factor has most influenced the location of South Africa's major cities along the coast?",
+    answerOptions: [
+      { answerText: "Access to harbours and trade routes", isCorrect: true },
+      { answerText: "Mild climate", isCorrect: false },
+      { answerText: "Tourism potential", isCorrect: false },
+      { answerText: "Availability of flat land", isCorrect: false }
+    ],
+    explanation: "Ports facilitate trade, making coastal locations ideal for economic growth.",
+    image: null
+  },
+  {
+    id: 133,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which urban policy encourages higher-density housing near public transport routes to reduce car dependency?",
+    answerOptions: [
+      { answerText: "Transit-oriented development", isCorrect: true },
+      { answerText: "Urban sprawl management", isCorrect: false },
+      { answerText: "Gentrification", isCorrect: false },
+      { answerText: "Integrated rural development", isCorrect: false }
+    ],
+    explanation: "Transit-oriented development aims to reduce traffic and promote sustainable urban living.",
+    image: null
+  },
+  {
+    id: 134,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which South African city is an example of a conurbation?",
+    answerOptions: [
+      { answerText: "Johannesburg–Pretoria region", isCorrect: true },
+      { answerText: "Durban", isCorrect: false },
+      { answerText: "Cape Town", isCorrect: false },
+      { answerText: "Port Elizabeth", isCorrect: false }
+    ],
+    explanation: "Johannesburg and Pretoria have grown towards each other, forming a continuous built-up area.",
+    image: null
+  },
+  {
+    id: 135,
+    topic: "Settlement Geography",
+    difficulty: "Hard",
+    questionText: "Which factor has contributed most to the emergence of 'edge cities' in South Africa?",
+    answerOptions: [
+      { answerText: "Development of major highways and decentralised business districts", isCorrect: true },
+      { answerText: "Decline in rural industries", isCorrect: false },
+      { answerText: "High population growth in rural areas", isCorrect: false },
+      { answerText: "Increase in small-scale farming", isCorrect: false }
+    ],
+    explanation: "Improved transport networks and decentralisation have led to the growth of commercial hubs outside traditional CBDs.",
+    image: null
   }
-  
+
 
 ];
 
