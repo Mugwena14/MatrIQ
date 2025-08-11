@@ -3,7 +3,216 @@ import styles from '../App.module.css';
 import BeatLoad from './Spinner'; 
 
 const rawQuizData = [
-  
+  {
+    id: 1,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "Define the term 'weather'.",
+    answerOptions: [
+      { answerText: "The condition of the atmosphere at a specific time and place", isCorrect: true },
+      { answerText: "The long-term average of temperature and rainfall", isCorrect: false },
+      { answerText: "The study of rocks and minerals", isCorrect: false },
+      { answerText: "A sudden change in tectonic plates", isCorrect: false }
+    ],
+    explanation: "Weather refers to the short-term conditions of the atmosphere, such as temperature, humidity, precipitation, and wind.",
+    image: null
+  },
+  {
+    id: 2,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "Which layer of the atmosphere contains almost all weather events?",
+    answerOptions: [
+      { answerText: "Troposphere", isCorrect: true },
+      { answerText: "Stratosphere", isCorrect: false },
+      { answerText: "Mesosphere", isCorrect: false },
+      { answerText: "Thermosphere", isCorrect: false }
+    ],
+    explanation: "The troposphere is the lowest layer of the atmosphere where nearly all weather phenomena occur.",
+    image: null
+  },
+  {
+    id: 3,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "Name the instrument used to measure air pressure.",
+    answerOptions: [
+      { answerText: "Barometer", isCorrect: true },
+      { answerText: "Anemometer", isCorrect: false },
+      { answerText: "Hygrometer", isCorrect: false },
+      { answerText: "Thermometer", isCorrect: false }
+    ],
+    explanation: "A barometer measures atmospheric pressure, which helps forecast weather changes.",
+    image: null
+  },
+  {
+    id: 4,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "Which gas in the atmosphere is the most abundant?",
+    answerOptions: [
+      { answerText: "Nitrogen", isCorrect: true },
+      { answerText: "Oxygen", isCorrect: false },
+      { answerText: "Carbon dioxide", isCorrect: false },
+      { answerText: "Argon", isCorrect: false }
+    ],
+    explanation: "Nitrogen makes up about 78% of Earth's atmosphere.",
+    image: null
+  },
+  {
+    id: 5,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "Identify the main energy source that drives the Earth's weather systems.",
+    answerOptions: [
+      { answerText: "The Sun", isCorrect: true },
+      { answerText: "The Moon", isCorrect: false },
+      { answerText: "Volcanoes", isCorrect: false },
+      { answerText: "Ocean tides", isCorrect: false }
+    ],
+    explanation: "Solar energy heats Earth's surface unevenly, driving winds and weather patterns.",
+    image: null
+  },
+  {
+    id: 6,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "What is the term for precipitation that falls as ice pellets?",
+    answerOptions: [
+      { answerText: "Sleet", isCorrect: true },
+      { answerText: "Hail", isCorrect: false },
+      { answerText: "Snow", isCorrect: false },
+      { answerText: "Freezing rain", isCorrect: false }
+    ],
+    explanation: "Sleet consists of small ice pellets that form when raindrops freeze before hitting the ground.",
+    image: null
+  },
+  {
+    id: 7,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "Name the process by which water changes from liquid to gas.",
+    answerOptions: [
+      { answerText: "Evaporation", isCorrect: true },
+      { answerText: "Condensation", isCorrect: false },
+      { answerText: "Sublimation", isCorrect: false },
+      { answerText: "Precipitation", isCorrect: false }
+    ],
+    explanation: "Evaporation is the process where water turns into water vapor, driven by heat from the Sun.",
+    image: null
+  },
+  {
+    id: 8,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "Which ocean current warms the climate of northwestern Europe?",
+    answerOptions: [
+      { answerText: "Gulf Stream", isCorrect: true },
+      { answerText: "California Current", isCorrect: false },
+      { answerText: "Humboldt Current", isCorrect: false },
+      { answerText: "Canary Current", isCorrect: false }
+    ],
+    explanation: "The Gulf Stream carries warm water from the tropics to northwestern Europe, moderating its climate.",
+    image: null
+  },
+  {
+    id: 9,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "What is the term for a long period of significantly less rainfall than average?",
+    answerOptions: [
+      { answerText: "Drought", isCorrect: true },
+      { answerText: "Monsoon", isCorrect: false },
+      { answerText: "Flood", isCorrect: false },
+      { answerText: "Cyclone", isCorrect: false }
+    ],
+    explanation: "A drought occurs when an area experiences a prolonged shortage of rainfall.",
+    image: null
+  },
+  {
+    id: 10,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "What type of cloud is thin, wispy, and found at high altitudes?",
+    answerOptions: [
+      { answerText: "Cirrus", isCorrect: true },
+      { answerText: "Cumulus", isCorrect: false },
+      { answerText: "Stratus", isCorrect: false },
+      { answerText: "Nimbus", isCorrect: false }
+    ],
+    explanation: "Cirrus clouds are high-altitude clouds made mostly of ice crystals.",
+    image: null
+  },
+  {
+    id: 11,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "Which wind belt lies between 30° and 60° latitude?",
+    answerOptions: [
+      { answerText: "Westerlies", isCorrect: true },
+      { answerText: "Trade winds", isCorrect: false },
+      { answerText: "Polar easterlies", isCorrect: false },
+      { answerText: "Monsoon winds", isCorrect: false }
+    ],
+    explanation: "The westerlies blow from the west to the east in the mid-latitudes.",
+    image: null
+  },
+  {
+    id: 12,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "What is the difference between weather and climate?",
+    answerOptions: [
+      { answerText: "Weather is short-term; climate is long-term", isCorrect: true },
+      { answerText: "Weather is long-term; climate is short-term", isCorrect: false },
+      { answerText: "Both mean the same thing", isCorrect: false },
+      { answerText: "Climate refers to daily changes", isCorrect: false }
+    ],
+    explanation: "Weather refers to short-term atmospheric conditions, while climate describes the long-term average patterns.",
+    image: null
+  },
+  {
+    id: 13,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "Which month marks the start of summer in the Southern Hemisphere?",
+    answerOptions: [
+      { answerText: "December", isCorrect: true },
+      { answerText: "June", isCorrect: false },
+      { answerText: "September", isCorrect: false },
+      { answerText: "March", isCorrect: false }
+    ],
+    explanation: "Summer in the Southern Hemisphere begins in December due to the tilt of Earth's axis.",
+    image: null
+  },
+  {
+    id: 14,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "What is the general name for winds that blow toward the equator from the subtropical highs?",
+    answerOptions: [
+      { answerText: "Trade winds", isCorrect: true },
+      { answerText: "Westerlies", isCorrect: false },
+      { answerText: "Polar easterlies", isCorrect: false },
+      { answerText: "Jet stream", isCorrect: false }
+    ],
+    explanation: "Trade winds are steady winds that blow from subtropical high-pressure belts toward the equator.",
+    image: null
+  },
+  {
+    id: 15,
+    topic: "Climate",
+    difficulty: "Easy",
+    questionText: "Name the boundary where two different air masses meet.",
+    answerOptions: [
+      { answerText: "Front", isCorrect: true },
+      { answerText: "Trough", isCorrect: false },
+      { answerText: "Isobar", isCorrect: false },
+      { answerText: "Thermocline", isCorrect: false }
+    ],
+    explanation: "A front is the boundary between two air masses with different temperatures and humidity levels.",
+    image: null
+  }
 ];
 
 // Normalize mixed schemas into flat structure
