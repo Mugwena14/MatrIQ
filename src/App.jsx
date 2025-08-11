@@ -13,6 +13,9 @@ import LSQPage2 from './Pages/LSQPage2'
 import QuizPage from './Pages/QuizPage'
 import GenChoosePage from './Pages/GenChoosePage'
 import QuizEnginePage from './Pages/QuizEnginePage'
+import QuizEngine2Page from './Pages/QuizEngine2Page'
+import QuizEngine3Page from './Pages/QuizEngine3Page'
+import QuizEngine4Page from './Pages/QuizEngine4Page'
 
 
 const App = () => {
@@ -32,6 +35,9 @@ const App = () => {
         <Route path='/GenChoose1' element={<GenChoosePage/>}/>
         <Route path='/Quiz/:id' element={<QuizPage/>}/>
         <Route path='/QuizEngine' element={<QuizEnginePage/>}/>
+        <Route path='/QuizEngine2' element={<QuizEngine2Page/>}/>
+        <Route path='/QuizEngine3' element={<QuizEngine3Page/>}/>
+        <Route path='/QuizEngine4' element={<QuizEngine4Page/>}/>
         <Route path='/Privacy' element={<PrivacyPage/>}/>
         <Route path='/Terms' element={<TermsPage/>}/>
       </Route>

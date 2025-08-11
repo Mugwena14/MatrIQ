@@ -8,7 +8,7 @@ const GeoQ2 = () => {
             <div className={styles.boxQ}>
                 <h1>Geography Paper 2</h1>
                 <div className={styles.paperQ}>
-                    <p><Link to='/'><button className={styles.generateQ}>Generate My Quiz</button></Link></p>
+                    <p><Link to='/QuizEngine2'><button className={styles.generateQ}>Generate My Quiz</button></Link></p>
                     <p><Link to='/Quiz/9'><button>Geography NSC P2 Nov 2024</button></Link></p>
                     <p><Link to='/Quiz/8'><button>Geography NSC P2 Nov 2023</button></Link></p>
                     <p><Link to='/Quiz/7'><button>Geography NSC P2 Nov 2022</button></Link></p>
