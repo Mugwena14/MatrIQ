@@ -1483,7 +1483,7 @@ const rawQuizData = [
   // MEDIUM
   {
     id: 106,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor often leads to the growth of informal settlements on the outskirts of cities?",
     answerOptions: [
@@ -1497,7 +1497,7 @@ const rawQuizData = [
   },
   {
     id: 107,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What does the concept of 'urban sprawl' describe?",
     answerOptions: [
@@ -1511,7 +1511,7 @@ const rawQuizData = [
   },
   {
     id: 108,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which urban land-use zone is most likely to contain old factories and warehouses?",
     answerOptions: [
@@ -1525,7 +1525,7 @@ const rawQuizData = [
   },
   {
     id: 109,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What is the main aim of urban renewal projects?",
     answerOptions: [
@@ -1539,7 +1539,7 @@ const rawQuizData = [
   },
   {
     id: 110,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor is the most important in the location of industrial areas in cities?",
     answerOptions: [
@@ -1553,7 +1553,7 @@ const rawQuizData = [
   },
   {
     id: 111,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What is the term for the merging of towns and cities into one continuous built-up area?",
     answerOptions: [
@@ -1567,7 +1567,7 @@ const rawQuizData = [
   },
   {
     id: 112,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor can lead to urban decay in the CBD?",
     answerOptions: [
@@ -1581,7 +1581,7 @@ const rawQuizData = [
   },
   {
     id: 113,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which type of settlement develops mainly around a single economic activity, such as mining?",
     answerOptions: [
@@ -1595,7 +1595,7 @@ const rawQuizData = [
   },
   {
     id: 114,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What is the main function of a rural service centre?",
     answerOptions: [
@@ -1609,7 +1609,7 @@ const rawQuizData = [
   },
   {
     id: 115,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which planning approach tries to integrate housing, jobs, and transport to create sustainable cities?",
     answerOptions: [
@@ -1623,7 +1623,7 @@ const rawQuizData = [
   },
   {
     id: 116,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which term describes the outward movement of middle-class families from inner cities to suburbs?",
     answerOptions: [
@@ -1637,7 +1637,7 @@ const rawQuizData = [
   },
   {
     id: 117,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which transport improvement often leads to the development of edge cities?",
     answerOptions: [
@@ -1651,7 +1651,7 @@ const rawQuizData = [
   },
   {
     id: 118,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor often leads to the decline of inner-city residential areas?",
     answerOptions: [
@@ -1665,7 +1665,7 @@ const rawQuizData = [
   },
   {
     id: 119,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which urban land-use zone is located at the edge of a city where it meets the countryside?",
     answerOptions: [
@@ -1679,7 +1679,7 @@ const rawQuizData = [
   },
   {
     id: 120,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which challenge is often linked with rapid urbanisation in developing countries?",
     answerOptions: [
@@ -1694,7 +1694,7 @@ const rawQuizData = [
   // HARD
    {
     id: 121,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which urban model suggests that cities develop in a series of rings with the CBD at the centre?",
     answerOptions: [
@@ -1708,7 +1708,7 @@ const rawQuizData = [
   },
   {
     id: 122,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which process involves wealthier people moving into a run-down urban area, improving housing, and displacing lower-income residents?",
     answerOptions: [
@@ -1722,7 +1722,7 @@ const rawQuizData = [
   },
   {
     id: 123,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "In terms of settlement hierarchy, which type of settlement typically offers the widest range of specialised services?",
     answerOptions: [
@@ -1736,7 +1736,7 @@ const rawQuizData = [
   },
   {
     id: 124,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which factor is the primary reason for the decentralisation of retail from CBDs to suburban malls?",
     answerOptions: [
@@ -1750,7 +1750,7 @@ const rawQuizData = [
   },
   {
     id: 125,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which South African policy aims to integrate previously segregated urban areas and improve access to services?",
     answerOptions: [
@@ -1764,7 +1764,7 @@ const rawQuizData = [
   },
   {
     id: 126,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which concept explains the maximum distance people are willing to travel for a service?",
     answerOptions: [
@@ -1778,7 +1778,7 @@ const rawQuizData = [
   },
   {
     id: 127,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "According to central place theory, which factor determines the spacing and size of settlements?",
     answerOptions: [
@@ -1792,7 +1792,7 @@ const rawQuizData = [
   },
   {
     id: 128,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which urban model is most useful for describing cities with multiple centres of activity?",
     answerOptions: [
@@ -1806,7 +1806,7 @@ const rawQuizData = [
   },
   {
     id: 129,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which phenomenon describes the movement of people from cities to rural areas in search of a better quality of life?",
     answerOptions: [
@@ -1820,7 +1820,7 @@ const rawQuizData = [
   },
   {
     id: 130,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which term describes a city that dominates the economic, political, and cultural life of a country?",
     answerOptions: [
@@ -1834,7 +1834,7 @@ const rawQuizData = [
   },
   {
     id: 131,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "What is the main disadvantage of radial road patterns in cities?",
     answerOptions: [
@@ -1848,7 +1848,7 @@ const rawQuizData = [
   },
   {
     id: 132,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which factor has most influenced the location of South Africa's major cities along the coast?",
     answerOptions: [
@@ -1862,7 +1862,7 @@ const rawQuizData = [
   },
   {
     id: 133,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which urban policy encourages higher-density housing near public transport routes to reduce car dependency?",
     answerOptions: [
@@ -1876,7 +1876,7 @@ const rawQuizData = [
   },
   {
     id: 134,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which South African city is an example of a conurbation?",
     answerOptions: [
@@ -1890,7 +1890,7 @@ const rawQuizData = [
   },
   {
     id: 135,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which factor has contributed most to the emergence of 'edge cities' in South Africa?",
     answerOptions: [
@@ -1905,7 +1905,7 @@ const rawQuizData = [
   // ECONOMIC GEOGRAPGY
   {
     id: 136,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which sector of the economy includes activities like farming, fishing, and mining?",
     answerOptions: [
@@ -1919,7 +1919,7 @@ const rawQuizData = [
   },
   {
     id: 137,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which sector of the economy focuses on manufacturing and processing raw materials?",
     answerOptions: [
@@ -1933,7 +1933,7 @@ const rawQuizData = [
   },
   {
     id: 138,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which term describes the exchange of goods and services across countries?",
     answerOptions: [
@@ -1947,7 +1947,7 @@ const rawQuizData = [
   },
   {
     id: 139,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which type of farming is aimed mainly at producing food for the farmer's family?",
     answerOptions: [
@@ -1961,7 +1961,7 @@ const rawQuizData = [
   },
   {
     id: 140,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which economic activity involves services such as teaching, banking, and healthcare?",
     answerOptions: [
@@ -1975,7 +1975,7 @@ const rawQuizData = [
   },
   {
     id: 141,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which country is South Africa's largest trading partner for both imports and exports?",
     answerOptions: [
@@ -1989,7 +1989,7 @@ const rawQuizData = [
   },
   {
     id: 142,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "What is the main purpose of the Industrial Development Zones (IDZs) in South Africa?",
     answerOptions: [
@@ -2003,7 +2003,7 @@ const rawQuizData = [
   },
   {
     id: 143,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which energy source is most widely used for electricity generation in South Africa?",
     answerOptions: [
@@ -2017,7 +2017,7 @@ const rawQuizData = [
   },
   {
     id: 144,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which term describes goods that are brought into a country from abroad?",
     answerOptions: [
@@ -2031,7 +2031,7 @@ const rawQuizData = [
   },
   {
     id: 145,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which province is South Africa’s main producer of gold?",
     answerOptions: [
@@ -2045,7 +2045,7 @@ const rawQuizData = [
   },
   {
     id: 146,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which measure compares the value of exports to imports in a country?",
     answerOptions: [
@@ -2059,7 +2059,7 @@ const rawQuizData = [
   },
   {
     id: 147,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which farming type focuses on growing crops and raising animals for sale?",
     answerOptions: [
@@ -2073,7 +2073,7 @@ const rawQuizData = [
   },
   {
     id: 148,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which economic sector includes research, technology, and information services?",
     answerOptions: [
@@ -2087,7 +2087,7 @@ const rawQuizData = [
   },
   {
     id: 149,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which term refers to the value of all goods and services produced in a country in a year?",
     answerOptions: [
@@ -2101,7 +2101,7 @@ const rawQuizData = [
   },
   {
     id: 150,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which South African port is the largest container terminal in the Southern Hemisphere?",
     answerOptions: [
@@ -2116,7 +2116,7 @@ const rawQuizData = [
   // MEDIUM
    {
     id: 151,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which factor is most likely to encourage the location of a factory near a port?",
     answerOptions: [
@@ -2130,7 +2130,7 @@ const rawQuizData = [
   },
   {
     id: 152,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "What is the main purpose of the Spatial Development Initiatives (SDIs) in South Africa?",
     answerOptions: [
@@ -2144,7 +2144,7 @@ const rawQuizData = [
   },
   {
     id: 153,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which factor is a human influence on the location of industries?",
     answerOptions: [
@@ -2158,7 +2158,7 @@ const rawQuizData = [
   },
   {
     id: 154,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which type of farming involves the production of high-value crops such as fruit and flowers for export?",
     answerOptions: [
@@ -2172,7 +2172,7 @@ const rawQuizData = [
   },
   {
     id: 155,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which term describes the manufacturing of goods in people’s homes or small workshops?",
     answerOptions: [
@@ -2186,7 +2186,7 @@ const rawQuizData = [
   },
   {
     id: 156,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which South African province is most associated with large-scale sugarcane production?",
     answerOptions: [
@@ -2200,7 +2200,7 @@ const rawQuizData = [
   },
   {
     id: 157,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which economic term describes a country's ability to produce goods at a lower cost than its trading partners?",
     answerOptions: [
@@ -2214,7 +2214,7 @@ const rawQuizData = [
   },
   {
     id: 158,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which industrial area in South Africa is known for its iron and steel production?",
     answerOptions: [
@@ -2228,7 +2228,7 @@ const rawQuizData = [
   },
   {
     id: 159,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which factor has contributed most to the decline of the South African textile industry?",
     answerOptions: [
@@ -2242,7 +2242,7 @@ const rawQuizData = [
   },
   {
     id: 160,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which type of mining is used to extract minerals found close to the Earth's surface?",
     answerOptions: [
@@ -2256,7 +2256,7 @@ const rawQuizData = [
   },
   {
     id: 161,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "What is a common environmental impact of large-scale mining in South Africa?",
     answerOptions: [
@@ -2270,7 +2270,7 @@ const rawQuizData = [
   },
   {
     id: 162,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which factor is NOT typically considered when deciding where to locate a factory?",
     answerOptions: [
@@ -2284,7 +2284,7 @@ const rawQuizData = [
   },
   {
     id: 163,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which South African port is mainly used for exporting coal?",
     answerOptions: [
@@ -2298,7 +2298,7 @@ const rawQuizData = [
   },
   {
     id: 164,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which factor has encouraged the growth of high-technology industries in urban areas?",
     answerOptions: [
@@ -2312,7 +2312,7 @@ const rawQuizData = [
   },
   {
     id: 165,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which policy encourages local industries to produce goods that would otherwise be imported?",
     answerOptions: [
@@ -2327,7 +2327,7 @@ const rawQuizData = [
   // HARD
    {
     id: 166,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which factor best explains why the automobile industry is often located close to major transport routes and urban markets?",
     answerOptions: [
@@ -2341,7 +2341,7 @@ const rawQuizData = [
   },
   {
     id: 167,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which concept refers to the decline in industrial activity in a region due to factory closures or relocations?",
     answerOptions: [
@@ -2355,7 +2355,7 @@ const rawQuizData = [
   },
   {
     id: 168,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "In South Africa, the Maputo Development Corridor is an example of:",
     answerOptions: [
@@ -2369,7 +2369,7 @@ const rawQuizData = [
   },
   {
     id: 169,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which economic activity is most vulnerable to fluctuations in global commodity prices?",
     answerOptions: [
@@ -2383,7 +2383,7 @@ const rawQuizData = [
   },
   {
     id: 170,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which industrial development strategy focuses on producing goods for export rather than for local consumption?",
     answerOptions: [
@@ -2397,7 +2397,7 @@ const rawQuizData = [
   },
   {
     id: 171,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Why is beneficiation important for South Africa’s mineral-based economy?",
     answerOptions: [
@@ -2411,7 +2411,7 @@ const rawQuizData = [
   },
   {
     id: 172,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which port is the primary gateway for South Africa’s motor vehicle exports?",
     answerOptions: [
@@ -2425,7 +2425,7 @@ const rawQuizData = [
   },
   {
     id: 173,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which is NOT a likely challenge faced by secondary economic activities in South Africa?",
     answerOptions: [
@@ -2439,7 +2439,7 @@ const rawQuizData = [
   },
   {
     id: 174,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which statement best describes the term 'agglomeration' in industrial geography?",
     answerOptions: [
@@ -2453,7 +2453,7 @@ const rawQuizData = [
   },
   {
     id: 175,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which sector contributes the largest share to South Africa’s GDP?",
     answerOptions: [
@@ -2467,7 +2467,7 @@ const rawQuizData = [
   },
   {
     id: 176,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which factor explains why some mining towns in South Africa have become ghost towns?",
     answerOptions: [
@@ -2481,7 +2481,7 @@ const rawQuizData = [
   },
   {
     id: 177,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which policy encourages foreign companies to establish production facilities in South Africa?",
     answerOptions: [
@@ -2495,7 +2495,7 @@ const rawQuizData = [
   },
   {
     id: 178,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which city is at the centre of South Africa’s gold mining industry?",
     answerOptions: [
@@ -2509,7 +2509,7 @@ const rawQuizData = [
   },
   {
     id: 179,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Why are Special Economic Zones (SEZs) established in South Africa?",
     answerOptions: [
@@ -2523,7 +2523,7 @@ const rawQuizData = [
   },
   {
     id: 180,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which term describes the increasing integration of economies through trade, investment, and communication?",
     answerOptions: [
@@ -3734,7 +3734,7 @@ const rawQuizData = [
   // Response to Enviromant(Humans): EASY
    {
     id: 266,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which part of the brain controls balance and coordination?",
     answerOptions: [
@@ -3748,7 +3748,7 @@ const rawQuizData = [
   },
   {
     id: 267,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "What is the main function of the iris in the eye?",
     answerOptions: [
@@ -3762,7 +3762,7 @@ const rawQuizData = [
   },
   {
     id: 268,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which part of the nervous system includes the brain and spinal cord?",
     answerOptions: [
@@ -3776,7 +3776,7 @@ const rawQuizData = [
   },
   {
     id: 269,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "What is the basic unit of the nervous system?",
     answerOptions: [
@@ -3790,7 +3790,7 @@ const rawQuizData = [
   },
   {
     id: 270,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which structure in the ear detects sound vibrations?",
     answerOptions: [
@@ -3804,7 +3804,7 @@ const rawQuizData = [
   },
   {
     id: 271,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which photoreceptor cells detect colour in the retina?",
     answerOptions: [
@@ -3818,7 +3818,7 @@ const rawQuizData = [
   },
   {
     id: 272,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which part of the brain regulates body temperature and hunger?",
     answerOptions: [
@@ -3832,7 +3832,7 @@ const rawQuizData = [
   },
   {
     id: 273,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which part of a neuron carries impulses away from the cell body?",
     answerOptions: [
@@ -3846,7 +3846,7 @@ const rawQuizData = [
   },
   {
     id: 274,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "What is the function of the semicircular canals in the ear?",
     answerOptions: [
@@ -3860,7 +3860,7 @@ const rawQuizData = [
   },
   {
     id: 275,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which part of the eye focuses light onto the retina?",
     answerOptions: [
@@ -3875,7 +3875,7 @@ const rawQuizData = [
   //MEDIUM
   {
     id: 276,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which part of the brain controls involuntary activities such as heartbeat and breathing?",
     answerOptions: [
@@ -3889,7 +3889,7 @@ const rawQuizData = [
   },
   {
     id: 277,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "What is the role of the myelin sheath in neurons?",
     answerOptions: [
@@ -3903,7 +3903,7 @@ const rawQuizData = [
   },
   {
     id: 278,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which eye structure contains photoreceptor cells?",
     answerOptions: [
@@ -3917,7 +3917,7 @@ const rawQuizData = [
   },
   {
     id: 279,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which nerve transmits impulses from the ear to the brain?",
     answerOptions: [
@@ -3931,7 +3931,7 @@ const rawQuizData = [
   },
   {
     id: 280,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "What is the function of the corpus callosum?",
     answerOptions: [
@@ -3945,7 +3945,7 @@ const rawQuizData = [
   },
   {
     id: 281,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which part of the ear helps equalise pressure on either side of the eardrum?",
     answerOptions: [
@@ -3959,7 +3959,7 @@ const rawQuizData = [
   },
   {
     id: 282,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which receptor in the skin detects pressure?",
     answerOptions: [
@@ -3973,7 +3973,7 @@ const rawQuizData = [
   },
   {
     id: 283,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which brain structure acts as a relay centre for sensory information?",
     answerOptions: [
@@ -3987,7 +3987,7 @@ const rawQuizData = [
   },
   {
     id: 284,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which part of the brain is responsible for reasoning, problem-solving, and voluntary movement?",
     answerOptions: [
@@ -4001,7 +4001,7 @@ const rawQuizData = [
   },
   {
     id: 285,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "What is the function of the fovea centralis in the eye?",
     answerOptions: [
@@ -4016,7 +4016,7 @@ const rawQuizData = [
   //HARD
    {
     id: 286,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which part of the brain controls body temperature, hunger, and water balance?",
     answerOptions: [
@@ -4030,7 +4030,7 @@ const rawQuizData = [
   },
   {
     id: 287,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which structure in the inner ear is responsible for detecting rotational movement?",
     answerOptions: [
@@ -4044,7 +4044,7 @@ const rawQuizData = [
   },
   {
     id: 288,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "What is the main neurotransmitter involved in stimulating muscle contraction?",
     answerOptions: [
@@ -4058,7 +4058,7 @@ const rawQuizData = [
   },
   {
     id: 289,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Damage to which part of the brain would most likely affect coordination and balance?",
     answerOptions: [
@@ -4072,7 +4072,7 @@ const rawQuizData = [
   },
   {
     id: 290,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which photoreceptor cells are responsible for colour vision?",
     answerOptions: [
@@ -4086,7 +4086,7 @@ const rawQuizData = [
   },
   {
     id: 291,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which type of neuron carries impulses from receptors to the central nervous system?",
     answerOptions: [
@@ -4100,7 +4100,7 @@ const rawQuizData = [
   },
   {
     id: 292,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which part of the eye controls the amount of light entering?",
     answerOptions: [
@@ -4114,7 +4114,7 @@ const rawQuizData = [
   },
   {
     id: 293,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which lobe of the cerebrum is responsible for processing visual information?",
     answerOptions: [
@@ -4128,7 +4128,7 @@ const rawQuizData = [
   },
   {
     id: 294,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "What is the function of the semicircular canals and vestibule together?",
     answerOptions: [
@@ -4142,7 +4142,7 @@ const rawQuizData = [
   },
   {
     id: 295,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which brain structure links the nervous system to the endocrine system?",
     answerOptions: [
@@ -4157,7 +4157,7 @@ const rawQuizData = [
   //RESPONSE TO THE ENVIROMANT(PLANTS): EASY
    {
     id: 296,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the bending of a plant towards light called?",
     answerOptions: [
@@ -4171,7 +4171,7 @@ const rawQuizData = [
   },
   {
     id: 297,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which plant hormone is responsible for cell elongation during phototropism?",
     answerOptions: [
@@ -4185,7 +4185,7 @@ const rawQuizData = [
   },
   {
     id: 298,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What type of tropism is the growth of roots downward due to gravity?",
     answerOptions: [
@@ -4199,7 +4199,7 @@ const rawQuizData = [
   },
   {
     id: 299,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the growth response of a plant to touch called?",
     answerOptions: [
@@ -4213,7 +4213,7 @@ const rawQuizData = [
   },
   {
     id: 300,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which plant hormone promotes ripening of fruit?",
     answerOptions: [
@@ -4227,7 +4227,7 @@ const rawQuizData = [
   },
   {
     id: 301,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the growth response of a plant towards water called?",
     answerOptions: [
@@ -4241,7 +4241,7 @@ const rawQuizData = [
   },
   {
     id: 302,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which hormone is responsible for seed germination and stem elongation?",
     answerOptions: [
@@ -4255,7 +4255,7 @@ const rawQuizData = [
   },
   {
     id: 303,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the name for the growth of a plant stem away from gravity?",
     answerOptions: [
@@ -4269,7 +4269,7 @@ const rawQuizData = [
   },
   {
     id: 304,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which hormone causes the abscission (shedding) of leaves?",
     answerOptions: [
@@ -4283,7 +4283,7 @@ const rawQuizData = [
   },
   {
     id: 305,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the term for a plant’s response to seasonal changes in day length?",
     answerOptions: [
@@ -4297,7 +4297,7 @@ const rawQuizData = [
   },
   {
     id: 306,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which plant hormone promotes lateral bud growth?",
     answerOptions: [
@@ -4311,7 +4311,7 @@ const rawQuizData = [
   },
   {
     id: 307,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which part of the plant detects light direction?",
     answerOptions: [
@@ -4325,7 +4325,7 @@ const rawQuizData = [
   },
   {
     id: 308,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which hormone helps plants close their stomata during water stress?",
     answerOptions: [
@@ -4339,7 +4339,7 @@ const rawQuizData = [
   },
   {
     id: 309,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the term for growth in response to temperature changes?",
     answerOptions: [
@@ -4353,7 +4353,7 @@ const rawQuizData = [
   },
   {
     id: 310,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which hormone delays leaf senescence (aging)?",
     answerOptions: [
@@ -4368,7 +4368,7 @@ const rawQuizData = [
   //MEDIUM
   {
     id: 311,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "Why does a plant stem bend towards light during phototropism?",
     answerOptions: [
@@ -4382,7 +4382,7 @@ const rawQuizData = [
   },
   {
     id: 312,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "In roots, how does auxin affect cell elongation?",
     answerOptions: [
@@ -4396,7 +4396,7 @@ const rawQuizData = [
   },
   {
     id: 313,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "What is the role of the root cap in geotropism?",
     answerOptions: [
@@ -4410,7 +4410,7 @@ const rawQuizData = [
   },
   {
     id: 314,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "Which hormone works with auxin to promote cell division in plant tissues?",
     answerOptions: [
@@ -4424,7 +4424,7 @@ const rawQuizData = [
   },
   {
     id: 315,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "What is the function of phytochrome in plants?",
     answerOptions: [
@@ -4438,7 +4438,7 @@ const rawQuizData = [
   },
   {
     id: 316,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "Why do climbing plants wrap around supports?",
     answerOptions: [
@@ -4452,7 +4452,7 @@ const rawQuizData = [
   },
   {
     id: 317,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "How does abscisic acid help plants survive drought conditions?",
     answerOptions: [
@@ -4466,7 +4466,7 @@ const rawQuizData = [
   },
   {
     id: 318,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "What is the effect of gibberellins on plant growth?",
     answerOptions: [
@@ -4480,7 +4480,7 @@ const rawQuizData = [
   },
   {
     id: 319,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "In photoperiodism, what triggers flowering in short-day plants?",
     answerOptions: [
@@ -4494,7 +4494,7 @@ const rawQuizData = [
   },
   {
     id: 320,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "How does auxin distribution differ in stems versus roots?",
     answerOptions: [
@@ -4508,7 +4508,7 @@ const rawQuizData = [
   },
   {
     id: 321,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "Which environmental cue is most important for seed germination in many desert plants?",
     answerOptions: [
@@ -4522,7 +4522,7 @@ const rawQuizData = [
   },
   {
     id: 322,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "What type of plant movement occurs without directional growth?",
     answerOptions: [
@@ -4536,7 +4536,7 @@ const rawQuizData = [
   },
   {
     id: 323,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "How do statoliths function in gravity perception?",
     answerOptions: [
@@ -4550,7 +4550,7 @@ const rawQuizData = [
   },
   {
     id: 324,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "In positive phototropism, which side of the plant has more auxin?",
     answerOptions: [
@@ -4564,7 +4564,7 @@ const rawQuizData = [
   },
   {
     id: 325,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "Which pigment system regulates photoperiodism in plants?",
     answerOptions: [
@@ -4579,7 +4579,7 @@ const rawQuizData = [
   //HARD
   {
     id: 326,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "In phototropism, how does auxin move from the lit side to the shaded side of the stem?",
     answerOptions: [
@@ -4593,7 +4593,7 @@ const rawQuizData = [
   },
   {
     id: 327,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Why does the root exhibit a slower geotropic response compared to the shoot's phototropic response?",
     answerOptions: [
@@ -4607,7 +4607,7 @@ const rawQuizData = [
   },
   {
     id: 328,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Which part of the plant detects light direction in phototropism?",
     answerOptions: [
@@ -4621,7 +4621,7 @@ const rawQuizData = [
   },
   {
     id: 329,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "What is the role of far-red light in photoperiodism?",
     answerOptions: [
@@ -4635,7 +4635,7 @@ const rawQuizData = [
   },
   {
     id: 330,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "In positive geotropism of roots, where is auxin concentration highest?",
     answerOptions: [
@@ -4649,7 +4649,7 @@ const rawQuizData = [
   },
   {
     id: 331,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "What adaptive advantage does thigmotropism give climbing plants?",
     answerOptions: [
@@ -4663,7 +4663,7 @@ const rawQuizData = [
   },
   {
     id: 332,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Why do short-day plants not flower if their dark period is interrupted by light?",
     answerOptions: [
@@ -4677,7 +4677,7 @@ const rawQuizData = [
   },
   {
     id: 333,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "What is the main role of statolith sedimentation in root cap cells?",
     answerOptions: [
@@ -4691,7 +4691,7 @@ const rawQuizData = [
   },
   {
     id: 334,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Why do gibberellins promote seed germination in some plants?",
     answerOptions: [
@@ -4705,7 +4705,7 @@ const rawQuizData = [
   },
   {
     id: 335,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "In which part of the plant does auxin synthesis primarily occur?",
     answerOptions: [
@@ -4719,7 +4719,7 @@ const rawQuizData = [
   },
   {
     id: 336,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Which mechanism explains the bending of shoots during phototropism?",
     answerOptions: [
@@ -4733,7 +4733,7 @@ const rawQuizData = [
   },
   {
     id: 337,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Why do desert plants often have CAM photosynthesis alongside photoperiodic adaptations?",
     answerOptions: [
@@ -4747,7 +4747,7 @@ const rawQuizData = [
   },
   {
     id: 338,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "How do plants integrate multiple stimuli like light and gravity for growth direction?",
     answerOptions: [
@@ -4761,7 +4761,7 @@ const rawQuizData = [
   },
   {
     id: 339,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Why do some alpine plants have photoperiodic responses different from lowland plants?",
     answerOptions: [
@@ -4775,7 +4775,7 @@ const rawQuizData = [
   },
   {
     id: 340,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "What is the main role of vernalization in plants?",
     answerOptions: [
@@ -4790,7 +4790,7 @@ const rawQuizData = [
   //EDNOCRINE SYSTEM: EASY
    {
     id: 341,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which gland is often called the 'master gland'?",
     answerOptions: [
@@ -4804,7 +4804,7 @@ const rawQuizData = [
   },
   {
     id: 342,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which hormone regulates blood sugar by lowering glucose levels?",
     answerOptions: [
@@ -4818,7 +4818,7 @@ const rawQuizData = [
   },
   {
     id: 343,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which gland produces thyroxine?",
     answerOptions: [
@@ -4832,7 +4832,7 @@ const rawQuizData = [
   },
   {
     id: 344,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "What is the role of adrenaline in the body?",
     answerOptions: [
@@ -4846,7 +4846,7 @@ const rawQuizData = [
   },
   {
     id: 345,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which endocrine gland is located on top of each kidney?",
     answerOptions: [
@@ -4860,7 +4860,7 @@ const rawQuizData = [
   },
   {
     id: 346,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which gland controls the body's circadian rhythms by releasing melatonin?",
     answerOptions: [
@@ -4874,7 +4874,7 @@ const rawQuizData = [
   },
   {
     id: 347,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which hormone increases blood calcium levels?",
     answerOptions: [
@@ -4888,7 +4888,7 @@ const rawQuizData = [
   },
   {
     id: 348,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which gland is responsible for regulating metabolism?",
     answerOptions: [
@@ -4902,7 +4902,7 @@ const rawQuizData = [
   },
   {
     id: 349,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which hormone stimulates milk production after childbirth?",
     answerOptions: [
@@ -4916,7 +4916,7 @@ const rawQuizData = [
   },
   {
     id: 350,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which hormone stimulates the uterus to contract during childbirth?",
     answerOptions: [
@@ -4930,7 +4930,7 @@ const rawQuizData = [
   },
   {
     id: 351,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which part of the brain controls the pituitary gland?",
     answerOptions: [
@@ -4944,7 +4944,7 @@ const rawQuizData = [
   },
   {
     id: 352,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which hormone is released when blood sugar levels fall?",
     answerOptions: [
@@ -4958,7 +4958,7 @@ const rawQuizData = [
   },
   {
     id: 353,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Where are the parathyroid glands located?",
     answerOptions: [
@@ -4972,7 +4972,7 @@ const rawQuizData = [
   },
   {
     id: 354,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which hormone is responsible for secondary sexual characteristics in males?",
     answerOptions: [
@@ -4986,7 +4986,7 @@ const rawQuizData = [
   },
   {
     id: 355,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Easy",
     questionText: "Which hormone helps the body retain water by acting on the kidneys?",
     answerOptions: [
@@ -5001,7 +5001,7 @@ const rawQuizData = [
   // MEDIUM
   {
     id: 356,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "What is the function of cortisol in the body?",
     answerOptions: [
@@ -5015,7 +5015,7 @@ const rawQuizData = [
   },
   {
     id: 357,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "Which gland produces both endocrine and exocrine secretions?",
     answerOptions: [
@@ -5029,7 +5029,7 @@ const rawQuizData = [
   },
   {
     id: 358,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "What effect does thyroxine have on the body?",
     answerOptions: [
@@ -5043,7 +5043,7 @@ const rawQuizData = [
   },
   {
     id: 359,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "How does negative feedback regulate hormone levels?",
     answerOptions: [
@@ -5057,7 +5057,7 @@ const rawQuizData = [
   },
   {
     id: 360,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "Which hormone is released by the posterior pituitary and increases water reabsorption in kidneys?",
     answerOptions: [
@@ -5071,7 +5071,7 @@ const rawQuizData = [
   },
   {
     id: 361,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "Which hormone stimulates the adrenal cortex to release cortisol?",
     answerOptions: [
@@ -5085,7 +5085,7 @@ const rawQuizData = [
   },
   {
     id: 362,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "Which disorder results from an overproduction of growth hormone in adults?",
     answerOptions: [
@@ -5099,7 +5099,7 @@ const rawQuizData = [
   },
   {
     id: 363,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "What is the role of the hypothalamus in endocrine control?",
     answerOptions: [
@@ -5113,7 +5113,7 @@ const rawQuizData = [
   },
   {
     id: 364,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "Which hormone regulates the body’s circadian rhythms?",
     answerOptions: [
@@ -5127,7 +5127,7 @@ const rawQuizData = [
   },
   {
     id: 365,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "Which hormone lowers blood calcium levels?",
     answerOptions: [
@@ -5141,7 +5141,7 @@ const rawQuizData = [
   },
   {
     id: 366,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "Which hormone is produced in the testes and regulated by LH?",
     answerOptions: [
@@ -5155,7 +5155,7 @@ const rawQuizData = [
   },
   {
     id: 367,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "What is the main function of aldosterone?",
     answerOptions: [
@@ -5169,7 +5169,7 @@ const rawQuizData = [
   },
   {
     id: 368,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "Which hormone stimulates ovulation in females?",
     answerOptions: [
@@ -5183,7 +5183,7 @@ const rawQuizData = [
   },
   {
     id: 369,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "Which hormone prepares the uterus lining for possible implantation?",
     answerOptions: [
@@ -5197,7 +5197,7 @@ const rawQuizData = [
   },
   {
     id: 370,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Medium",
     questionText: "Which gland releases growth hormone (GH)?",
     answerOptions: [
@@ -5212,7 +5212,7 @@ const rawQuizData = [
   // HARD
   {
     id: 371,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "A patient has persistently high blood glucose despite normal insulin secretion. Which condition is most likely?",
     answerOptions: [
@@ -5226,7 +5226,7 @@ const rawQuizData = [
   },
   {
     id: 372,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "Which hormonal imbalance is responsible for the development of a goitre in iodine-deficient individuals?",
     answerOptions: [
@@ -5240,7 +5240,7 @@ const rawQuizData = [
   },
   {
     id: 373,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "A tumour in the adrenal medulla would cause excessive production of which hormones?",
     answerOptions: [
@@ -5254,7 +5254,7 @@ const rawQuizData = [
   },
   {
     id: 374,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "In Addison’s disease, the adrenal cortex produces insufficient cortisol and aldosterone. Which symptom would be expected?",
     answerOptions: [
@@ -5268,7 +5268,7 @@ const rawQuizData = [
   },
   {
     id: 375,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "A child with delayed growth and development is diagnosed with hypothyroidism. Which treatment is most effective?",
     answerOptions: [
@@ -5282,7 +5282,7 @@ const rawQuizData = [
   },
   {
     id: 376,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "Why does long-term use of anabolic steroids disrupt normal testosterone production?",
     answerOptions: [
@@ -5296,7 +5296,7 @@ const rawQuizData = [
   },
   {
     id: 377,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "Which gland is most likely to be affected in a person experiencing both hormonal and temperature regulation issues?",
     answerOptions: [
@@ -5310,7 +5310,7 @@ const rawQuizData = [
   },
   {
     id: 378,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "Which hormonal disorder is caused by autoimmune destruction of pancreatic beta cells?",
     answerOptions: [
@@ -5324,7 +5324,7 @@ const rawQuizData = [
   },
   {
     id: 379,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "Excess growth hormone in children before puberty leads to which condition?",
     answerOptions: [
@@ -5338,7 +5338,7 @@ const rawQuizData = [
   },
   {
     id: 380,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "Why can a pituitary tumour cause vision problems?",
     answerOptions: [
@@ -5352,7 +5352,7 @@ const rawQuizData = [
   },
   {
     id: 381,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "A patient presents with high cortisol levels but low ACTH. Which is the most likely cause?",
     answerOptions: [
@@ -5366,7 +5366,7 @@ const rawQuizData = [
   },
   {
     id: 382,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "Which hormone imbalance would lead to increased urine output and constant thirst?",
     answerOptions: [
@@ -5380,7 +5380,7 @@ const rawQuizData = [
   },
   {
     id: 383,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "Which disorder is associated with hypersecretion of cortisol due to a pituitary tumour?",
     answerOptions: [
@@ -5394,7 +5394,7 @@ const rawQuizData = [
   },
   {
     id: 384,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "In Graves’ disease, which type of feedback loop is disrupted?",
     answerOptions: [
@@ -5408,7 +5408,7 @@ const rawQuizData = [
   },
   {
     id: 385,
-    topic: "Human Endocrine System",
+    topic: "Endocrine System",
     difficulty: "Hard",
     questionText: "A sudden drop in blood calcium would immediately stimulate the release of which hormone?",
     answerOptions: [
@@ -5423,7 +5423,7 @@ const rawQuizData = [
   // HOMEOSTASIS
   {
     id: 346,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which organ is primarily responsible for filtering blood and removing urea?",
     answerOptions: [
@@ -5437,7 +5437,7 @@ const rawQuizData = [
   },
   {
     id: 347,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which hormone regulates blood sugar by lowering glucose levels?",
     answerOptions: [
@@ -5451,7 +5451,7 @@ const rawQuizData = [
   },
   {
     id: 348,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which part of the brain is responsible for regulating body temperature?",
     answerOptions: [
@@ -5465,7 +5465,7 @@ const rawQuizData = [
   },
   {
     id: 349,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which hormone increases blood sugar levels during fasting?",
     answerOptions: [
@@ -5479,7 +5479,7 @@ const rawQuizData = [
   },
   {
     id: 350,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which structure in the kidney contains the glomerulus?",
     answerOptions: [
@@ -5493,7 +5493,7 @@ const rawQuizData = [
   },
   {
     id: 351,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which hormone helps the kidneys reabsorb water?",
     answerOptions: [
@@ -5507,7 +5507,7 @@ const rawQuizData = [
   },
   {
     id: 352,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "What is the normal human body temperature in degrees Celsius?",
     answerOptions: [
@@ -5521,7 +5521,7 @@ const rawQuizData = [
   },
   {
     id: 353,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which gland produces insulin and glucagon?",
     answerOptions: [
@@ -5535,7 +5535,7 @@ const rawQuizData = [
   },
   {
     id: 354,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "What is the process by which the body maintains a stable internal environment?",
     answerOptions: [
@@ -5549,7 +5549,7 @@ const rawQuizData = [
   },
   {
     id: 355,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which blood vessels carry blood into the kidneys for filtration?",
     answerOptions: [
@@ -5563,7 +5563,7 @@ const rawQuizData = [
   },
   {
     id: 356,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which organ regulates water balance by producing urine?",
     answerOptions: [
@@ -5577,7 +5577,7 @@ const rawQuizData = [
   },
   {
     id: 357,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which gland produces ADH?",
     answerOptions: [
@@ -5591,7 +5591,7 @@ const rawQuizData = [
   },
   {
     id: 358,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "What is the name of the functional unit of the kidney?",
     answerOptions: [
@@ -5605,7 +5605,7 @@ const rawQuizData = [
   },
   {
     id: 359,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which blood vessels carry filtered blood away from the kidneys?",
     answerOptions: [
@@ -5619,7 +5619,7 @@ const rawQuizData = [
   },
   {
     id: 360,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Easy",
     questionText: "Which hormone regulates sodium and potassium levels in the blood?",
     answerOptions: [
@@ -5634,7 +5634,7 @@ const rawQuizData = [
   // MEDIUM
   {
     id: 361,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "During dehydration, which hormone increases to conserve water in the body?",
     answerOptions: [
@@ -5648,7 +5648,7 @@ const rawQuizData = [
   },
   {
     id: 362,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "Which part of the nephron is responsible for most reabsorption of water and nutrients?",
     answerOptions: [
@@ -5662,7 +5662,7 @@ const rawQuizData = [
   },
   {
     id: 363,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "Which feedback mechanism controls blood glucose regulation?",
     answerOptions: [
@@ -5676,7 +5676,7 @@ const rawQuizData = [
   },
   {
     id: 364,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "What is the main role of the loop of Henle?",
     answerOptions: [
@@ -5690,7 +5690,7 @@ const rawQuizData = [
   },
   {
     id: 365,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "Which blood vessel carries blood away from the glomerulus?",
     answerOptions: [
@@ -5704,7 +5704,7 @@ const rawQuizData = [
   },
   {
     id: 366,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "What effect would a lack of ADH have on urine output?",
     answerOptions: [
@@ -5718,7 +5718,7 @@ const rawQuizData = [
   },
   {
     id: 367,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "Which condition results from the pancreas producing little or no insulin?",
     answerOptions: [
@@ -5732,7 +5732,7 @@ const rawQuizData = [
   },
   {
     id: 368,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "Which hormone is secreted when blood sodium levels are low?",
     answerOptions: [
@@ -5746,7 +5746,7 @@ const rawQuizData = [
   },
   {
     id: 369,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "What is the function of osmoreceptors in the hypothalamus?",
     answerOptions: [
@@ -5760,7 +5760,7 @@ const rawQuizData = [
   },
   {
     id: 370,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "Why does sweating help cool the body?",
     answerOptions: [
@@ -5774,7 +5774,7 @@ const rawQuizData = [
   },
   {
     id: 371,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "Which part of the nephron connects to the collecting duct?",
     answerOptions: [
@@ -5788,7 +5788,7 @@ const rawQuizData = [
   },
   {
     id: 372,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "In a healthy person, which substance is not found in urine?",
     answerOptions: [
@@ -5802,7 +5802,7 @@ const rawQuizData = [
   },
   {
     id: 373,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "Which blood vessel brings blood into the glomerulus?",
     answerOptions: [
@@ -5816,7 +5816,7 @@ const rawQuizData = [
   },
   {
     id: 374,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "What happens to ADH secretion when blood water concentration is high?",
     answerOptions: [
@@ -5830,7 +5830,7 @@ const rawQuizData = [
   },
   {
     id: 375,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Medium",
     questionText: "Which gland releases aldosterone?",
     answerOptions: [
@@ -5845,7 +5845,7 @@ const rawQuizData = [
   // HARD
   {
     id: 376,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Explain how negative feedback involving ADH helps maintain water balance during dehydration.",
     answerOptions: [
@@ -5859,7 +5859,7 @@ const rawQuizData = [
   },
   {
     id: 377,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Describe how aldosterone and ADH work together to conserve water.",
     answerOptions: [
@@ -5873,7 +5873,7 @@ const rawQuizData = [
   },
   {
     id: 378,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Explain why glucose in the urine is an indicator of possible diabetes mellitus.",
     answerOptions: [
@@ -5887,7 +5887,7 @@ const rawQuizData = [
   },
   {
     id: 379,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "How does the loop of Henle create a concentration gradient in the medulla?",
     answerOptions: [
@@ -5901,7 +5901,7 @@ const rawQuizData = [
   },
   {
     id: 380,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Describe the role of the hypothalamus in thermoregulation.",
     answerOptions: [
@@ -5915,7 +5915,7 @@ const rawQuizData = [
   },
   {
     id: 381,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Explain why excessive sweating without fluid replacement can lead to dehydration.",
     answerOptions: [
@@ -5929,7 +5929,7 @@ const rawQuizData = [
   },
   {
     id: 382,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Describe how the kidneys respond to low blood pressure.",
     answerOptions: [
@@ -5943,7 +5943,7 @@ const rawQuizData = [
   },
   {
     id: 383,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Why does prolonged high salt intake increase the risk of hypertension?",
     answerOptions: [
@@ -5957,7 +5957,7 @@ const rawQuizData = [
   },
   {
     id: 384,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Explain why untreated diabetes insipidus causes frequent urination.",
     answerOptions: [
@@ -5971,7 +5971,7 @@ const rawQuizData = [
   },
   {
     id: 385,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "How do baroreceptors contribute to blood pressure regulation?",
     answerOptions: [
@@ -5985,7 +5985,7 @@ const rawQuizData = [
   },
   {
     id: 386,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Why is thermoregulation more challenging in elderly individuals?",
     answerOptions: [
@@ -5999,7 +5999,7 @@ const rawQuizData = [
   },
   {
     id: 387,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Explain how shivering helps restore body temperature.",
     answerOptions: [
@@ -6013,7 +6013,7 @@ const rawQuizData = [
   },
   {
     id: 388,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Why is the medulla of the kidney hypertonic compared to the cortex?",
     answerOptions: [
@@ -6027,7 +6027,7 @@ const rawQuizData = [
   },
   {
     id: 389,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Why is protein normally absent from urine?",
     answerOptions: [
@@ -6041,7 +6041,7 @@ const rawQuizData = [
   },
   {
     id: 390,
-    topic: "Homeostasis in Humans",
+    topic: "Homeostasis",
     difficulty: "Hard",
     questionText: "Explain why marathon runners are advised to replace electrolytes as well as water.",
     answerOptions: [
@@ -8772,8 +8772,8 @@ const QuizEngine2 = () => {
                   required
                 >
                   <option value="">Choose Topic</option>
-                  <option value="Climate">Climate & Weather</option>
-                  <option value="Geomorphology">Geomorphology</option>
+                  <option value="Settlement">Settlement</option>
+                  <option value="Economic">Economic</option>
                 </select>
               </div>
 
