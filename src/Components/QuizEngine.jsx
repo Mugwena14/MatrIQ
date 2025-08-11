@@ -7984,6 +7984,639 @@ const rawQuizData = [
     ],
     "explanation": "A homozygous dominant female (XRXR) ensures all offspring inherit at least one red-eye allele.",
     "image": null
+  },
+  //EVOLUTION: EASY
+   {
+    "id": 469,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "What does the term 'evolution' mean?",
+    "answerOptions": [
+      { "answerText": "Change in species over time", "isCorrect": true },
+      { "answerText": "Growth of an individual organism", "isCorrect": false },
+      { "answerText": "Movement of animals between areas", "isCorrect": false },
+      { "answerText": "Increase in population size", "isCorrect": false }
+    ],
+    "explanation": "Evolution is the process by which species change over many generations.",
+    "image": null
+  },
+  {
+    "id": 470,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "Which scientist is most closely linked with the theory of natural selection?",
+    "answerOptions": [
+      { "answerText": "Charles Darwin", "isCorrect": true },
+      { "answerText": "Albert Einstein", "isCorrect": false },
+      { "answerText": "Louis Pasteur", "isCorrect": false },
+      { "answerText": "Isaac Newton", "isCorrect": false }
+    ],
+    "explanation": "Darwin developed the idea of natural selection to explain how evolution happens.",
+    "image": null
+  },
+  {
+    "id": 471,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "What does 'natural selection' mean?",
+    "answerOptions": [
+      { "answerText": "Organisms with traits that help them survive are more likely to reproduce", "isCorrect": true },
+      { "answerText": "Humans choose which animals to breed", "isCorrect": false },
+      { "answerText": "Species change instantly when the environment changes", "isCorrect": false },
+      { "answerText": "Only the strongest animals survive", "isCorrect": false }
+    ],
+    "explanation": "Natural selection favours traits that help survival and reproduction.",
+    "image": null
+  },
+  {
+    "id": 472,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "Which of the following is a fossil?",
+    "answerOptions": [
+      { "answerText": "A preserved bone from a dinosaur", "isCorrect": true },
+      { "answerText": "A bird flying in the sky", "isCorrect": false },
+      { "answerText": "A tree in a forest", "isCorrect": false },
+      { "answerText": "A rock formed last year", "isCorrect": false }
+    ],
+    "explanation": "Fossils are remains or impressions of ancient organisms preserved in rock.",
+    "image": null
+  },
+  {
+    "id": 473,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "What is the main source of variation in a population?",
+    "answerOptions": [
+      { "answerText": "Mutations and sexual reproduction", "isCorrect": true },
+      { "answerText": "Eating different foods", "isCorrect": false },
+      { "answerText": "Learning new skills", "isCorrect": false },
+      { "answerText": "Climate change", "isCorrect": false }
+    ],
+    "explanation": "Mutations and genetic recombination produce variation.",
+    "image": null
+  },
+  {
+    "id": 474,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "What are homologous structures?",
+    "answerOptions": [
+      { "answerText": "Body parts with similar structures due to a common ancestor", "isCorrect": true },
+      { "answerText": "Body parts with the same function but different structures", "isCorrect": false },
+      { "answerText": "Organs that no longer function", "isCorrect": false },
+      { "answerText": "Newly formed body parts", "isCorrect": false }
+    ],
+    "explanation": "Homologous structures have the same basic anatomy, even if they serve different functions.",
+    "image": null
+  },
+  {
+    "id": 475,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "Which of these is an example of natural selection in action?",
+    "answerOptions": [
+      { "answerText": "Bacteria becoming resistant to antibiotics", "isCorrect": true },
+      { "answerText": "A person training to run faster", "isCorrect": false },
+      { "answerText": "A dog learning tricks", "isCorrect": false },
+      { "answerText": "Moving to a new country", "isCorrect": false }
+    ],
+    "explanation": "Bacteria that survive antibiotics pass on resistance genes to offspring.",
+    "image": null
+  },
+  {
+    "id": 476,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "What does 'extinction' mean?",
+    "answerOptions": [
+      { "answerText": "The complete disappearance of a species", "isCorrect": true },
+      { "answerText": "A species moving to another area", "isCorrect": false },
+      { "answerText": "A species changing colour", "isCorrect": false },
+      { "answerText": "An individual animal dying", "isCorrect": false }
+    ],
+    "explanation": "Extinction happens when no individuals of a species are left alive.",
+    "image": null
+  },
+  {
+    "id": 477,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "Which evidence for evolution comes from studying where organisms live?",
+    "answerOptions": [
+      { "answerText": "Biogeography", "isCorrect": true },
+      { "answerText": "Genetics", "isCorrect": false },
+      { "answerText": "Comparative anatomy", "isCorrect": false },
+      { "answerText": "Fossils", "isCorrect": false }
+    ],
+    "explanation": "Biogeography looks at the distribution of species across the planet.",
+    "image": null
+  },
+  {
+    "id": 478,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "What are vestigial organs?",
+    "answerOptions": [
+      { "answerText": "Structures with no current function but present in ancestors", "isCorrect": true },
+      { "answerText": "Newly developed organs", "isCorrect": false },
+      { "answerText": "Organs that work the same in all species", "isCorrect": false },
+      { "answerText": "Organs that appear only in young animals", "isCorrect": false }
+    ],
+    "explanation": "Vestigial organs are evolutionary leftovers from ancestors.",
+    "image": null
+  },
+  {
+    "id": 479,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "Which of these is a cause of extinction?",
+    "answerOptions": [
+      { "answerText": "Habitat loss", "isCorrect": true },
+      { "answerText": "Increased reproduction", "isCorrect": false },
+      { "answerText": "Better camouflage", "isCorrect": false },
+      { "answerText": "Seasonal migration", "isCorrect": false }
+    ],
+    "explanation": "Loss of habitat removes resources needed for survival.",
+    "image": null
+  },
+  {
+    "id": 480,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "What is the study of fossils called?",
+    "answerOptions": [
+      { "answerText": "Paleontology", "isCorrect": true },
+      { "answerText": "Biogeography", "isCorrect": false },
+      { "answerText": "Archaeology", "isCorrect": false },
+      { "answerText": "Geology", "isCorrect": false }
+    ],
+    "explanation": "Paleontology studies fossils to understand ancient life.",
+    "image": null
+  },
+  {
+    "id": 481,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "Which type of selection favours the average form of a trait?",
+    "answerOptions": [
+      { "answerText": "Stabilising selection", "isCorrect": true },
+      { "answerText": "Directional selection", "isCorrect": false },
+      { "answerText": "Disruptive selection", "isCorrect": false },
+      { "answerText": "Artificial selection", "isCorrect": false }
+    ],
+    "explanation": "Stabilising selection keeps traits close to the average.",
+    "image": null
+  },
+  {
+    "id": 482,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "Which type of evolution happens when unrelated species develop similar traits?",
+    "answerOptions": [
+      { "answerText": "Convergent evolution", "isCorrect": true },
+      { "answerText": "Divergent evolution", "isCorrect": false },
+      { "answerText": "Co-evolution", "isCorrect": false },
+      { "answerText": "Parallel evolution", "isCorrect": false }
+    ],
+    "explanation": "Convergent evolution produces similar traits due to similar environments, not ancestry.",
+    "image": null
+  },
+  {
+    "id": 483,
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "questionText": "What is meant by 'species'?",
+    "answerOptions": [
+      { "answerText": "A group of organisms that can breed and produce fertile offspring", "isCorrect": true },
+      { "answerText": "Any group of similar-looking animals", "isCorrect": false },
+      { "answerText": "Animals living in the same place", "isCorrect": false },
+      { "answerText": "Organisms that eat the same food", "isCorrect": false }
+    ],
+    "explanation": "A species is a group that can interbreed and produce fertile offspring.",
+    "image": null
+  },
+  // MEDUIM
+  {
+    "id": 484,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "What is natural selection?",
+    "answerOptions": [
+      { "answerText": "When individuals with better traits survive and reproduce more", "isCorrect": true },
+      { "answerText": "When all individuals reproduce equally", "isCorrect": false },
+      { "answerText": "When humans choose which traits to breed", "isCorrect": false },
+      { "answerText": "When all traits are passed on", "isCorrect": false }
+    ],
+    "explanation": "Natural selection means organisms with beneficial traits are more likely to survive and pass them on.",
+    "image": null
+  },
+  {
+    "id": 485,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "Why are fossils important for studying evolution?",
+    "answerOptions": [
+      { "answerText": "They show how organisms have changed over time", "isCorrect": true },
+      { "answerText": "They prove all organisms are the same", "isCorrect": false },
+      { "answerText": "They are the only evidence for life", "isCorrect": false },
+      { "answerText": "They show only bones", "isCorrect": false }
+    ],
+    "explanation": "Fossils give a record of past life and show how species have evolved.",
+    "image": null
+  },
+  {
+    "id": 486,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "What does ‘variation’ mean in evolution?",
+    "answerOptions": [
+      { "answerText": "Differences between individuals in a population", "isCorrect": true },
+      { "answerText": "The process of making fossils", "isCorrect": false },
+      { "answerText": "When all individuals are the same", "isCorrect": false },
+      { "answerText": "A sudden change in climate", "isCorrect": false }
+    ],
+    "explanation": "Variation is the range of differences in traits among individuals of the same species.",
+    "image": null
+  },
+  {
+    "id": 487,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "Why is Charles Darwin famous in biology?",
+    "answerOptions": [
+      { "answerText": "He explained natural selection", "isCorrect": true },
+      { "answerText": "He discovered DNA", "isCorrect": false },
+      { "answerText": "He invented microscopes", "isCorrect": false },
+      { "answerText": "He classified plants", "isCorrect": false }
+    ],
+    "explanation": "Darwin’s theory of natural selection is a major idea in evolution.",
+    "image": null
+  },
+  {
+    "id": 488,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "What is meant by ‘common ancestor’?",
+    "answerOptions": [
+      { "answerText": "An earlier species that gave rise to later species", "isCorrect": true },
+      { "answerText": "The first species ever on Earth", "isCorrect": false },
+      { "answerText": "A modern species that is related to all others", "isCorrect": false },
+      { "answerText": "An unrelated extinct species", "isCorrect": false }
+    ],
+    "explanation": "A common ancestor is an earlier organism from which different species evolved.",
+    "image": null
+  },
+  {
+    "id": 489,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "Why are homologous structures evidence for evolution?",
+    "answerOptions": [
+      { "answerText": "They suggest organisms share a common ancestor", "isCorrect": true },
+      { "answerText": "They show organisms are unrelated", "isCorrect": false },
+      { "answerText": "They have exactly the same function", "isCorrect": false },
+      { "answerText": "They are always identical in shape", "isCorrect": false }
+    ],
+    "explanation": "Homologous structures are similar in form and suggest shared ancestry.",
+    "image": null
+  },
+  {
+    "id": 490,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "What is artificial selection?",
+    "answerOptions": [
+      { "answerText": "Humans choosing which organisms to breed", "isCorrect": true },
+      { "answerText": "Nature choosing the strongest organisms", "isCorrect": false },
+      { "answerText": "When traits change without cause", "isCorrect": false },
+      { "answerText": "Random genetic changes", "isCorrect": false }
+    ],
+    "explanation": "Artificial selection happens when humans select which traits to keep in a population.",
+    "image": null
+  },
+  {
+    "id": 491,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "What is speciation?",
+    "answerOptions": [
+      { "answerText": "The formation of new species", "isCorrect": true },
+      { "answerText": "The extinction of a species", "isCorrect": false },
+      { "answerText": "A change in colour only", "isCorrect": false },
+      { "answerText": "A seasonal change in behaviour", "isCorrect": false }
+    ],
+    "explanation": "Speciation occurs when populations change enough to form new species.",
+    "image": null
+  },
+  {
+    "id": 492,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "What is the main role of mutations in evolution?",
+    "answerOptions": [
+      { "answerText": "They create new traits in a population", "isCorrect": true },
+      { "answerText": "They remove harmful traits instantly", "isCorrect": false },
+      { "answerText": "They keep species unchanged", "isCorrect": false },
+      { "answerText": "They only occur in large animals", "isCorrect": false }
+    ],
+    "explanation": "Mutations add new genetic variation for natural selection to act upon.",
+    "image": null
+  },
+  {
+    "id": 493,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "Which type of isolation happens when species live in different places?",
+    "answerOptions": [
+      { "answerText": "Geographical isolation", "isCorrect": true },
+      { "answerText": "Behavioural isolation", "isCorrect": false },
+      { "answerText": "Temporal isolation", "isCorrect": false },
+      { "answerText": "Mechanical isolation", "isCorrect": false }
+    ],
+    "explanation": "Geographical isolation occurs when physical barriers separate populations.",
+    "image": null
+  },
+  {
+    "id": 494,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "Why do species produce more offspring than can survive?",
+    "answerOptions": [
+      { "answerText": "To increase the chances that some will survive", "isCorrect": true },
+      { "answerText": "Because there is unlimited food", "isCorrect": false },
+      { "answerText": "Because no predators exist", "isCorrect": false },
+      { "answerText": "Because all offspring survive", "isCorrect": false }
+    ],
+    "explanation": "Producing many offspring ensures survival despite competition and predation.",
+    "image": null
+  },
+  {
+    "id": 495,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "What is adaptation?",
+    "answerOptions": [
+      { "answerText": "A feature that helps an organism survive in its environment", "isCorrect": true },
+      { "answerText": "A random feature with no purpose", "isCorrect": false },
+      { "answerText": "A sudden climate change", "isCorrect": false },
+      { "answerText": "A decrease in population size", "isCorrect": false }
+    ],
+    "explanation": "Adaptations are traits that improve survival or reproduction.",
+    "image": null
+  },
+  {
+    "id": 496,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "What is genetic drift?",
+    "answerOptions": [
+      { "answerText": "A random change in allele frequencies in a population", "isCorrect": true },
+      { "answerText": "A change due to migration", "isCorrect": false },
+      { "answerText": "A sudden mutation in one organism", "isCorrect": false },
+      { "answerText": "Selection for the best traits", "isCorrect": false }
+    ],
+    "explanation": "Genetic drift is a random process affecting small populations most strongly.",
+    "image": null
+  },
+  {
+    "id": 497,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "Why are vestigial structures important in evolution?",
+    "answerOptions": [
+      { "answerText": "They are leftovers from ancestors", "isCorrect": true },
+      { "answerText": "They are used every day", "isCorrect": false },
+      { "answerText": "They show unrelatedness", "isCorrect": false },
+      { "answerText": "They only occur in plants", "isCorrect": false }
+    ],
+    "explanation": "Vestigial structures show that organisms evolved from ancestors with different lifestyles.",
+    "image": null
+  },
+  {
+    "id": 498,
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "questionText": "What is the difference between microevolution and macroevolution?",
+    "answerOptions": [
+      { "answerText": "Small changes within a species vs. formation of new species", "isCorrect": true },
+      { "answerText": "Fast changes vs. slow changes", "isCorrect": false },
+      { "answerText": "Natural vs. artificial changes", "isCorrect": false },
+      { "answerText": "They are the same", "isCorrect": false }
+    ],
+    "explanation": "Microevolution changes traits in a species; macroevolution creates new species.",
+    "image": null
+  },
+  //HARD
+   {
+    "id": 501,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Which type of natural selection results in extreme phenotypes being favoured over intermediate ones?",
+    "answerOptions": [
+      { "answerText": "Disruptive selection", "isCorrect": true },
+      { "answerText": "Directional selection", "isCorrect": false },
+      { "answerText": "Stabilising selection", "isCorrect": false },
+      { "answerText": "Artificial selection", "isCorrect": false }
+    ],
+    "explanation": "Disruptive selection favours both extremes of a trait, potentially leading to the formation of new species.",
+    "image": null
+  },
+  {
+    "id": 502,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Which characteristic is unique to humans when compared with apes?",
+    "answerOptions": [
+      { "answerText": "Fully bipedal locomotion", "isCorrect": true },
+      { "answerText": "Opposable thumbs", "isCorrect": false },
+      { "answerText": "Colour vision", "isCorrect": false },
+      { "answerText": "Use of tools", "isCorrect": false }
+    ],
+    "explanation": "While apes can walk bipedally for short distances, humans are fully adapted to bipedal locomotion.",
+    "image": null
+  },
+  {
+    "id": 503,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "In a phylogenetic tree, what does a node represent?",
+    "answerOptions": [
+      { "answerText": "A common ancestor", "isCorrect": true },
+      { "answerText": "A mutation event", "isCorrect": false },
+      { "answerText": "An extinct species", "isCorrect": false },
+      { "answerText": "A fossil site", "isCorrect": false }
+    ],
+    "explanation": "A node represents the most recent common ancestor shared by the branches that emerge from it.",
+    "image": null
+  },
+  {
+    "id": 504,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Allopatric speciation is caused primarily by:",
+    "answerOptions": [
+      { "answerText": "Geographical isolation", "isCorrect": true },
+      { "answerText": "Behavioural differences", "isCorrect": false },
+      { "answerText": "Temporal isolation", "isCorrect": false },
+      { "answerText": "Artificial breeding", "isCorrect": false }
+    ],
+    "explanation": "In allopatric speciation, physical barriers such as mountains or rivers separate populations, preventing gene flow.",
+    "image": null
+  },
+  {
+    "id": 505,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Which theory suggests that species remain unchanged for long periods before rapid evolutionary change occurs?",
+    "answerOptions": [
+      { "answerText": "Punctuated equilibrium", "isCorrect": true },
+      { "answerText": "Gradualism", "isCorrect": false },
+      { "answerText": "Catastrophism", "isCorrect": false },
+      { "answerText": "Directional selection", "isCorrect": false }
+    ],
+    "explanation": "Punctuated equilibrium proposes rapid speciation events separated by long periods of stability.",
+    "image": null
+  },
+  {
+    "id": 506,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Which type of evidence compares the DNA sequences of humans and chimpanzees to show common ancestry?",
+    "answerOptions": [
+      { "answerText": "Molecular evidence", "isCorrect": true },
+      { "answerText": "Fossil evidence", "isCorrect": false },
+      { "answerText": "Anatomical evidence", "isCorrect": false },
+      { "answerText": "Biogeographical evidence", "isCorrect": false }
+    ],
+    "explanation": "Molecular evidence uses similarities in DNA sequences to support evolutionary relationships.",
+    "image": null
+  },
+  {
+    "id": 507,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Which feature in the human skeleton is most directly linked to upright posture?",
+    "answerOptions": [
+      { "answerText": "Foramen magnum positioned under the skull", "isCorrect": true },
+      { "answerText": "Long arms relative to legs", "isCorrect": false },
+      { "answerText": "Curved phalanges", "isCorrect": false },
+      { "answerText": "Long clavicles", "isCorrect": false }
+    ],
+    "explanation": "The forward placement of the foramen magnum allows the head to balance on an upright spine.",
+    "image": null
+  },
+  {
+    "id": 508,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Which dating method measures the decay of carbon-14 in organic material?",
+    "answerOptions": [
+      { "answerText": "Radiocarbon dating", "isCorrect": true },
+      { "answerText": "Potassium-argon dating", "isCorrect": false },
+      { "answerText": "Relative dating", "isCorrect": false },
+      { "answerText": "Thermoluminescence", "isCorrect": false }
+    ],
+    "explanation": "Radiocarbon dating is used to determine the age of once-living materials up to about 50 000 years old.",
+    "image": null
+  },
+  {
+    "id": 509,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Which factor can cause sympatric speciation?",
+    "answerOptions": [
+      { "answerText": "Behavioural isolation", "isCorrect": true },
+      { "answerText": "Continental drift", "isCorrect": false },
+      { "answerText": "Mountain formation", "isCorrect": false },
+      { "answerText": "Sea-level rise", "isCorrect": false }
+    ],
+    "explanation": "In sympatric speciation, new species form without geographical barriers, often due to behavioural or temporal isolation.",
+    "image": null
+  },
+  {
+    "id": 510,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Which genus includes the earliest known bipedal hominins?",
+    "answerOptions": [
+      { "answerText": "Australopithecus", "isCorrect": true },
+      { "answerText": "Homo", "isCorrect": false },
+      { "answerText": "Pan", "isCorrect": false },
+      { "answerText": "Gorilla", "isCorrect": false }
+    ],
+    "explanation": "Australopithecus species walked upright and are among the earliest direct human ancestors.",
+    "image": null
+  },
+  {
+    "id": 511,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Why is the pelvis of humans shorter and broader than that of apes?",
+    "answerOptions": [
+      { "answerText": "To support internal organs during upright walking", "isCorrect": true },
+      { "answerText": "To allow greater arm rotation", "isCorrect": false },
+      { "answerText": "To increase stride length", "isCorrect": false },
+      { "answerText": "To aid in tree climbing", "isCorrect": false }
+    ],
+    "explanation": "A short, broad pelvis stabilises the body’s centre of gravity in bipedal locomotion.",
+    "image": null
+  },
+  {
+    "id": 512,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Which evolutionary concept explains the rapid diversification of mammals after the extinction of dinosaurs?",
+    "answerOptions": [
+      { "answerText": "Adaptive radiation", "isCorrect": true },
+      { "answerText": "Punctuated equilibrium", "isCorrect": false },
+      { "answerText": "Convergent evolution", "isCorrect": false },
+      { "answerText": "Gradualism", "isCorrect": false }
+    ],
+    "explanation": "Adaptive radiation occurs when a group rapidly evolves into a variety of forms adapted to different environments.",
+    "image": null
+  },
+  {
+    "id": 513,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Which is the most important anatomical change that enabled precise speech in humans?",
+    "answerOptions": [
+      { "answerText": "Lowered larynx", "isCorrect": true },
+      { "answerText": "Opposable thumbs", "isCorrect": false },
+      { "answerText": "Longer femur", "isCorrect": false },
+      { "answerText": "Forward-facing eyes", "isCorrect": false }
+    ],
+    "explanation": "The lowering of the larynx in humans increased the range of possible vocal sounds, aiding speech development.",
+    "image": null
+  },
+  {
+    "id": 514,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "Which evidence best supports the theory that humans and apes share a common ancestor?",
+    "answerOptions": [
+      { "answerText": "Similarities in DNA and protein structure", "isCorrect": true },
+      { "answerText": "Different reproductive strategies", "isCorrect": false },
+      { "answerText": "Differences in social behaviour", "isCorrect": false },
+      { "answerText": "Unique skeletal structures", "isCorrect": false }
+    ],
+    "explanation": "DNA evidence shows that humans and chimpanzees share about 98–99% of their genetic material.",
+    "image": null
+  },
+  {
+    "id": 515,
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "questionText": "What role did continental drift play in human evolution?",
+    "answerOptions": [
+      { "answerText": "It altered climate and habitats, driving adaptation", "isCorrect": true },
+      { "answerText": "It directly caused genetic mutations", "isCorrect": false },
+      { "answerText": "It increased gene flow between populations", "isCorrect": false },
+      { "answerText": "It eliminated all natural predators", "isCorrect": false }
+    ],
+    "explanation": "Continental drift changed habitats and climates, influencing evolutionary pressures on populations.",
+    "image": null
   }
 
 ];
