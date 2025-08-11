@@ -2535,8 +2535,5456 @@ const rawQuizData = [
     explanation: "Globalisation connects economies worldwide through trade, investment, and technology.",
     image: null
   },
-  
+  // LIFE SCIENCES: HUMAN REPRODUCTION
+   {
+    id: 181,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "Which organ produces sperm cells in males?",
+    answerOptions: [
+      { answerText: "Testes", isCorrect: true },
+      { answerText: "Prostate gland", isCorrect: false },
+      { answerText: "Urethra", isCorrect: false },
+      { answerText: "Seminal vesicle", isCorrect: false }
+    ],
+    explanation: "The testes produce sperm cells and secrete testosterone.",
+    image: null
+  },
+  {
+    id: 182,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "What is the site of fertilisation in humans?",
+    answerOptions: [
+      { answerText: "Fallopian tube", isCorrect: true },
+      { answerText: "Uterus", isCorrect: false },
+      { answerText: "Ovary", isCorrect: false },
+      { answerText: "Cervix", isCorrect: false }
+    ],
+    explanation: "Fertilisation usually occurs in the fallopian tube before the zygote moves to the uterus.",
+    image: null
+  },
+  {
+    id: 183,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "Which hormone triggers ovulation in the menstrual cycle?",
+    answerOptions: [
+      { answerText: "Luteinising hormone (LH)", isCorrect: true },
+      { answerText: "Progesterone", isCorrect: false },
+      { answerText: "Oestrogen", isCorrect: false },
+      { answerText: "Follicle-stimulating hormone (FSH)", isCorrect: false }
+    ],
+    explanation: "A surge in luteinising hormone triggers the release of an egg from the ovary.",
+    image: null
+  },
+  {
+    id: 184,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "Which structure connects a developing foetus to the placenta?",
+    answerOptions: [
+      { answerText: "Umbilical cord", isCorrect: true },
+      { answerText: "Amniotic sac", isCorrect: false },
+      { answerText: "Cervix", isCorrect: false },
+      { answerText: "Fallopian tube", isCorrect: false }
+    ],
+    explanation: "The umbilical cord carries nutrients and oxygen from the placenta to the foetus.",
+    image: null
+  },
+  {
+    id: 185,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "Which female reproductive organ produces eggs?",
+    answerOptions: [
+      { answerText: "Ovary", isCorrect: true },
+      { answerText: "Uterus", isCorrect: false },
+      { answerText: "Vagina", isCorrect: false },
+      { answerText: "Cervix", isCorrect: false }
+    ],
+    explanation: "Ovaries produce eggs (ova) and secrete female sex hormones.",
+    image: null
+  },
+  {
+    id: 186,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "What is the role of the amniotic fluid during pregnancy?",
+    answerOptions: [
+      { answerText: "Protects the foetus and cushions it from shocks", isCorrect: true },
+      { answerText: "Supplies oxygen to the foetus", isCorrect: false },
+      { answerText: "Triggers labour contractions", isCorrect: false },
+      { answerText: "Produces hormones", isCorrect: false }
+    ],
+    explanation: "Amniotic fluid cushions the foetus, allowing free movement and protection.",
+    image: null
+  },
+  {
+    id: 187,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "Which structure stores sperm before ejaculation?",
+    answerOptions: [
+      { answerText: "Epididymis", isCorrect: true },
+      { answerText: "Prostate gland", isCorrect: false },
+      { answerText: "Vas deferens", isCorrect: false },
+      { answerText: "Urethra", isCorrect: false }
+    ],
+    explanation: "Sperm mature and are stored in the epididymis before ejaculation.",
+    image: null
+  },
+  {
+    id: 188,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "Which hormone maintains the thickened lining of the uterus during pregnancy?",
+    answerOptions: [
+      { answerText: "Progesterone", isCorrect: true },
+      { answerText: "LH", isCorrect: false },
+      { answerText: "FSH", isCorrect: false },
+      { answerText: "Testosterone", isCorrect: false }
+    ],
+    explanation: "Progesterone maintains the endometrium to support pregnancy.",
+    image: null
+  },
+  {
+    id: 189,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "Where does implantation of the embryo occur?",
+    answerOptions: [
+      { answerText: "Uterus", isCorrect: true },
+      { answerText: "Fallopian tube", isCorrect: false },
+      { answerText: "Ovary", isCorrect: false },
+      { answerText: "Cervix", isCorrect: false }
+    ],
+    explanation: "The embryo implants into the endometrium of the uterus for further development.",
+    image: null
+  },
+  {
+    id: 190,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "What is the function of the placenta?",
+    answerOptions: [
+      { answerText: "Transfers nutrients and oxygen from mother to foetus", isCorrect: true },
+      { answerText: "Stores urine", isCorrect: false },
+      { answerText: "Produces digestive enzymes", isCorrect: false },
+      { answerText: "Secretes sperm", isCorrect: false }
+    ],
+    explanation: "The placenta facilitates exchange of nutrients, gases, and wastes between mother and foetus.",
+    image: null
+  },
+  {
+    id: 191,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "Which hormone stimulates the production of sperm in males?",
+    answerOptions: [
+      { answerText: "Follicle-stimulating hormone (FSH)", isCorrect: true },
+      { answerText: "Progesterone", isCorrect: false },
+      { answerText: "Oestrogen", isCorrect: false },
+      { answerText: "LH", isCorrect: false }
+    ],
+    explanation: "FSH stimulates sperm production in the testes.",
+    image: null
+  },
+  {
+    id: 192,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "Which term describes the union of sperm and egg?",
+    answerOptions: [
+      { answerText: "Fertilisation", isCorrect: true },
+      { answerText: "Ovulation", isCorrect: false },
+      { answerText: "Implantation", isCorrect: false },
+      { answerText: "Menstruation", isCorrect: false }
+    ],
+    explanation: "Fertilisation occurs when a sperm cell fuses with an egg cell.",
+    image: null
+  },
+  {
+    id: 193,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "Which male reproductive structure transports sperm from the testes to the urethra?",
+    answerOptions: [
+      { answerText: "Vas deferens", isCorrect: true },
+      { answerText: "Epididymis", isCorrect: false },
+      { answerText: "Prostate gland", isCorrect: false },
+      { answerText: "Scrotum", isCorrect: false }
+    ],
+    explanation: "The vas deferens carries sperm from the epididymis to the urethra.",
+    image: null
+  },
+  {
+    id: 194,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "What is the average duration of a normal human pregnancy?",
+    answerOptions: [
+      { answerText: "Approximately 9 months", isCorrect: true },
+      { answerText: "6 months", isCorrect: false },
+      { answerText: "12 months", isCorrect: false },
+      { answerText: "3 months", isCorrect: false }
+    ],
+    explanation: "A full-term pregnancy lasts about 40 weeks, roughly 9 months.",
+    image: null
+  },
+  {
+    id: 195,
+    topic: "Human Reproduction",
+    difficulty: "Easy",
+    questionText: "Which part of the sperm contains genetic material?",
+    answerOptions: [
+      { answerText: "Head", isCorrect: true },
+      { answerText: "Tail", isCorrect: false },
+      { answerText: "Midpiece", isCorrect: false },
+      { answerText: "Acrosome", isCorrect: false }
+    ],
+    explanation: "The head of the sperm contains the nucleus with genetic material.",
+    image: null
+  },
+  // MEDIUM
+  {
+    id: 196,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "Which part of the male reproductive system adds a fluid that nourishes and protects sperm?",
+    answerOptions: [
+      { answerText: "Seminal vesicles", isCorrect: true },
+      { answerText: "Vas deferens", isCorrect: false },
+      { answerText: "Scrotum", isCorrect: false },
+      { answerText: "Penis", isCorrect: false }
+    ],
+    explanation: "The seminal vesicles secrete a fluid rich in fructose that nourishes sperm.",
+    image: null
+  },
+  {
+    id: 197,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "What is the main role of luteinising hormone (LH) in males?",
+    answerOptions: [
+      { answerText: "Stimulates testosterone production", isCorrect: true },
+      { answerText: "Triggers spermatogenesis directly", isCorrect: false },
+      { answerText: "Promotes growth of the endometrium", isCorrect: false },
+      { answerText: "Causes erection", isCorrect: false }
+    ],
+    explanation: "In males, LH stimulates the Leydig cells in the testes to produce testosterone.",
+    image: null
+  },
+  {
+    id: 198,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "What happens during the follicular phase of the menstrual cycle?",
+    answerOptions: [
+      { answerText: "An egg matures in the ovary", isCorrect: true },
+      { answerText: "The endometrium sheds", isCorrect: false },
+      { answerText: "Ovulation occurs", isCorrect: false },
+      { answerText: "The corpus luteum degenerates", isCorrect: false }
+    ],
+    explanation: "During the follicular phase, FSH stimulates the development of a follicle and the maturation of an egg.",
+    image: null
+  },
+  {
+    id: 199,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "What is capacitation in sperm?",
+    answerOptions: [
+      { answerText: "Changes that make sperm capable of fertilising an egg", isCorrect: true },
+      { answerText: "Storage of sperm in the epididymis", isCorrect: false },
+      { answerText: "Production of sperm in the testes", isCorrect: false },
+      { answerText: "Fusion of sperm with the egg membrane", isCorrect: false }
+    ],
+    explanation: "Capacitation is a process that alters the sperm’s membrane, enabling it to penetrate the egg.",
+    image: null
+  },
+  {
+    id: 200,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "Which hormone is tested for in most pregnancy tests?",
+    answerOptions: [
+      { answerText: "Human chorionic gonadotropin (hCG)", isCorrect: true },
+      { answerText: "Oestrogen", isCorrect: false },
+      { answerText: "Progesterone", isCorrect: false },
+      { answerText: "FSH", isCorrect: false }
+    ],
+    explanation: "Pregnancy tests detect hCG, produced by the placenta shortly after implantation.",
+    image: null
+  },
+  {
+    id: 201,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "What is the main function of the corpus luteum?",
+    answerOptions: [
+      { answerText: "Secretes progesterone to maintain the uterine lining", isCorrect: true },
+      { answerText: "Stores the ovum", isCorrect: false },
+      { answerText: "Releases FSH", isCorrect: false },
+      { answerText: "Produces sperm", isCorrect: false }
+    ],
+    explanation: "The corpus luteum forms from the ruptured follicle after ovulation and secretes progesterone.",
+    image: null
+  },
+  {
+    id: 202,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "Why are the testes located outside the abdominal cavity?",
+    answerOptions: [
+      { answerText: "To maintain a cooler temperature for sperm production", isCorrect: true },
+      { answerText: "For easier delivery of sperm", isCorrect: false },
+      { answerText: "To allow testosterone production", isCorrect: false },
+      { answerText: "For better blood supply", isCorrect: false }
+    ],
+    explanation: "Sperm production requires a temperature slightly lower than body temperature.",
+    image: null
+  },
+  {
+    id: 203,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "During which stage of the menstrual cycle is progesterone at its highest?",
+    answerOptions: [
+      { answerText: "Luteal phase", isCorrect: true },
+      { answerText: "Follicular phase", isCorrect: false },
+      { answerText: "Ovulation", isCorrect: false },
+      { answerText: "Menstruation", isCorrect: false }
+    ],
+    explanation: "Progesterone peaks during the luteal phase to prepare and maintain the uterine lining.",
+    image: null
+  },
+  {
+    id: 204,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "Which structure produces seminal fluid that neutralises acidity in the urethra?",
+    answerOptions: [
+      { answerText: "Prostate gland", isCorrect: true },
+      { answerText: "Epididymis", isCorrect: false },
+      { answerText: "Vas deferens", isCorrect: false },
+      { answerText: "Bulbourethral glands", isCorrect: false }
+    ],
+    explanation: "The prostate gland secretes alkaline fluid to protect sperm in acidic conditions.",
+    image: null
+  },
+  {
+    id: 205,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "Which part of the sperm contains mitochondria to provide energy for movement?",
+    answerOptions: [
+      { answerText: "Midpiece", isCorrect: true },
+      { answerText: "Head", isCorrect: false },
+      { answerText: "Tail", isCorrect: false },
+      { answerText: "Acrosome", isCorrect: false }
+    ],
+    explanation: "The midpiece contains mitochondria that generate energy for the sperm’s tail movement.",
+    image: null
+  },
+  {
+    id: 206,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "What is the function of the acrosome in the sperm head?",
+    answerOptions: [
+      { answerText: "Releases enzymes to penetrate the egg", isCorrect: true },
+      { answerText: "Stores genetic material", isCorrect: false },
+      { answerText: "Generates energy", isCorrect: false },
+      { answerText: "Assists in swimming", isCorrect: false }
+    ],
+    explanation: "The acrosome contains enzymes that digest the outer layers of the egg for fertilisation.",
+    image: null
+  },
+  {
+    id: 207,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "Why is the umbilical vein important for the foetus?",
+    answerOptions: [
+      { answerText: "It carries oxygenated blood from the placenta", isCorrect: true },
+      { answerText: "It removes waste from the foetus", isCorrect: false },
+      { answerText: "It produces amniotic fluid", isCorrect: false },
+      { answerText: "It connects the foetus to the ovary", isCorrect: false }
+    ],
+    explanation: "The umbilical vein carries nutrient-rich, oxygenated blood from the placenta to the foetus.",
+    image: null
+  },
+  {
+    id: 208,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "What triggers menstruation if fertilisation does not occur?",
+    answerOptions: [
+      { answerText: "A drop in progesterone and oestrogen levels", isCorrect: true },
+      { answerText: "A rise in FSH and LH", isCorrect: false },
+      { answerText: "An increase in hCG", isCorrect: false },
+      { answerText: "A surge in testosterone", isCorrect: false }
+    ],
+    explanation: "The drop in progesterone and oestrogen causes the uterine lining to break down.",
+    image: null
+  },
+  {
+    id: 209,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "Which structure forms immediately after fertilisation?",
+    answerOptions: [
+      { answerText: "Zygote", isCorrect: true },
+      { answerText: "Blastocyst", isCorrect: false },
+      { answerText: "Embryo", isCorrect: false },
+      { answerText: "Foetus", isCorrect: false }
+    ],
+    explanation: "The fusion of sperm and egg nuclei produces a single-celled zygote.",
+    image: null
+  },
+  {
+    id: 210,
+    topic: "Human Reproduction",
+    difficulty: "Medium",
+    questionText: "What is the role of FSH in the female reproductive cycle?",
+    answerOptions: [
+      { answerText: "Stimulates follicle development in the ovary", isCorrect: true },
+      { answerText: "Triggers ovulation", isCorrect: false },
+      { answerText: "Maintains uterine lining", isCorrect: false },
+      { answerText: "Promotes milk production", isCorrect: false }
+    ],
+    explanation: "FSH promotes the growth and maturation of ovarian follicles.",
+    image: null
+  },
+  // HARD
+  {
+    id: 211,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "Which specific cell type in the testes is directly responsible for nourishing developing sperm cells?",
+    answerOptions: [
+      { answerText: "Sertoli cells", isCorrect: true },
+      { answerText: "Leydig cells", isCorrect: false },
+      { answerText: "Spermatogonia", isCorrect: false },
+      { answerText: "Epididymal cells", isCorrect: false }
+    ],
+    explanation: "Sertoli cells provide nutrients and structural support to developing sperm within the seminiferous tubules.",
+    image: null
+  },
+  {
+    id: 212,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "What is the correct sequence of early embryonic development immediately after fertilisation?",
+    answerOptions: [
+      { answerText: "Zygote → Morula → Blastocyst → Implantation", isCorrect: true },
+      { answerText: "Zygote → Blastocyst → Morula → Implantation", isCorrect: false },
+      { answerText: "Morula → Zygote → Blastocyst → Implantation", isCorrect: false },
+      { answerText: "Blastocyst → Zygote → Morula → Implantation", isCorrect: false }
+    ],
+    explanation: "The zygote divides into a morula, which then develops into a blastocyst before implanting in the uterine wall.",
+    image: null
+  },
+  {
+    id: 213,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "Which hormone prevents the degeneration of the corpus luteum in early pregnancy?",
+    answerOptions: [
+      { answerText: "Human chorionic gonadotropin (hCG)", isCorrect: true },
+      { answerText: "Progesterone", isCorrect: false },
+      { answerText: "Oestrogen", isCorrect: false },
+      { answerText: "Luteinising hormone", isCorrect: false }
+    ],
+    explanation: "hCG, produced by the embryo, signals the corpus luteum to continue progesterone production.",
+    image: null
+  },
+  {
+    id: 214,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "In the female reproductive system, which structure is homologous to the male penis?",
+    answerOptions: [
+      { answerText: "Clitoris", isCorrect: true },
+      { answerText: "Labia majora", isCorrect: false },
+      { answerText: "Labia minora", isCorrect: false },
+      { answerText: "Cervix", isCorrect: false }
+    ],
+    explanation: "The clitoris and penis both develop from the same embryonic tissues and have similar erectile structures.",
+    image: null
+  },
+  {
+    id: 215,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "What is the main purpose of the acrosomal reaction during fertilisation?",
+    answerOptions: [
+      { answerText: "To digest the zona pellucida", isCorrect: true },
+      { answerText: "To activate the sperm tail", isCorrect: false },
+      { answerText: "To release the egg from the follicle", isCorrect: false },
+      { answerText: "To prevent polyspermy", isCorrect: false }
+    ],
+    explanation: "The acrosomal reaction releases enzymes that digest the zona pellucida, allowing sperm entry.",
+    image: null
+  },
+  {
+    id: 216,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "Which structure acts as the barrier that prevents multiple sperm from fertilising an egg?",
+    answerOptions: [
+      { answerText: "Cortical granules in the egg", isCorrect: true },
+      { answerText: "Zona pellucida", isCorrect: false },
+      { answerText: "Corona radiata", isCorrect: false },
+      { answerText: "Vitelline membrane", isCorrect: false }
+    ],
+    explanation: "Upon sperm entry, cortical granules release enzymes that harden the zona pellucida to block polyspermy.",
+    image: null
+  },
+  {
+    id: 217,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "Which structure produces oestrogen during the early follicular phase of the menstrual cycle?",
+    answerOptions: [
+      { answerText: "Developing ovarian follicles", isCorrect: true },
+      { answerText: "Corpus luteum", isCorrect: false },
+      { answerText: "Hypothalamus", isCorrect: false },
+      { answerText: "Pituitary gland", isCorrect: false }
+    ],
+    explanation: "Granulosa cells in developing follicles secrete oestrogen before ovulation.",
+    image: null
+  },
+  {
+    id: 218,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "What is the primary function of the amnion during pregnancy?",
+    answerOptions: [
+      { answerText: "Provides a fluid-filled sac that cushions and protects the foetus", isCorrect: true },
+      { answerText: "Transfers nutrients to the foetus", isCorrect: false },
+      { answerText: "Produces hormones for pregnancy maintenance", isCorrect: false },
+      { answerText: "Facilitates gas exchange", isCorrect: false }
+    ],
+    explanation: "The amnion surrounds the foetus and contains amniotic fluid, which cushions and protects it.",
+    image: null
+  },
+  {
+    id: 219,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "Which assisted reproductive technology involves fertilisation outside the body followed by implantation?",
+    answerOptions: [
+      { answerText: "In vitro fertilisation (IVF)", isCorrect: true },
+      { answerText: "Artificial insemination", isCorrect: false },
+      { answerText: "Surrogacy", isCorrect: false },
+      { answerText: "Intracytoplasmic sperm injection", isCorrect: false }
+    ],
+    explanation: "IVF is the process of fertilising an egg outside the body and implanting the embryo into the uterus.",
+    image: null
+  },
+  {
+    id: 220,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "What is the main structural difference between identical and fraternal twins?",
+    answerOptions: [
+      { answerText: "Identical twins share the same genetic material, fraternal twins do not", isCorrect: true },
+      { answerText: "Identical twins are always of the same sex, fraternal twins are not", isCorrect: false },
+      { answerText: "Identical twins share the same placenta, fraternal twins have separate placentas", isCorrect: false },
+      { answerText: "Fraternal twins develop from one zygote, identical from two", isCorrect: false }
+    ],
+    explanation: "Identical twins result from a single fertilised egg splitting, producing genetically identical individuals.",
+    image: null
+  },
+  {
+    id: 221,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "In which stage of meiosis does crossing over occur during gametogenesis?",
+    answerOptions: [
+      { answerText: "Prophase I", isCorrect: true },
+      { answerText: "Metaphase I", isCorrect: false },
+      { answerText: "Anaphase I", isCorrect: false },
+      { answerText: "Prophase II", isCorrect: false }
+    ],
+    explanation: "Crossing over, which increases genetic variation, happens during prophase I of meiosis.",
+    image: null
+  },
+  {
+    id: 222,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "Which placental structure ensures maternal and foetal blood do not mix?",
+    answerOptions: [
+      { answerText: "Placental barrier", isCorrect: true },
+      { answerText: "Amniotic sac", isCorrect: false },
+      { answerText: "Umbilical cord", isCorrect: false },
+      { answerText: "Chorionic villi", isCorrect: false }
+    ],
+    explanation: "The placental barrier is made up of membranes that allow nutrient and gas exchange but prevent direct blood mixing.",
+    image: null
+  },
+  {
+    id: 223,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "Which event marks the onset of puberty in females?",
+    answerOptions: [
+      { answerText: "Menarche", isCorrect: true },
+      { answerText: "Ovulation", isCorrect: false },
+      { answerText: "Breast development", isCorrect: false },
+      { answerText: "Growth spurt", isCorrect: false }
+    ],
+    explanation: "Menarche, the first menstrual period, signals reproductive maturity in females.",
+    image: null
+  },
+  {
+    id: 224,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "Which process ensures that the ovum has the correct haploid number of chromosomes?",
+    answerOptions: [
+      { answerText: "Meiosis", isCorrect: true },
+      { answerText: "Mitosis", isCorrect: false },
+      { answerText: "Fertilisation", isCorrect: false },
+      { answerText: "Cleavage", isCorrect: false }
+    ],
+    explanation: "Meiosis reduces the chromosome number by half to produce haploid gametes.",
+    image: null
+  },
+  {
+    id: 225,
+    topic: "Human Reproduction",
+    difficulty: "Hard",
+    questionText: "Which layer of the uterus is shed during menstruation?",
+    answerOptions: [
+      { answerText: "Endometrium", isCorrect: true },
+      { answerText: "Myometrium", isCorrect: false },
+      { answerText: "Perimetrium", isCorrect: false },
+      { answerText: "Cervical lining", isCorrect: false }
+    ],
+    explanation: "The endometrium thickens during the menstrual cycle and is shed if no pregnancy occurs.",
+    image: null
+  },
+  // Reporoduction in vetebrates: EASY
+  {
+    id: 226,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Easy",
+    questionText: "Which type of fertilisation occurs in most fish species?",
+    answerOptions: [
+      { answerText: "External fertilisation", isCorrect: true },
+      { answerText: "Internal fertilisation", isCorrect: false },
+      { answerText: "Self-fertilisation", isCorrect: false },
+      { answerText: "Cross-pollination", isCorrect: false }
+    ],
+    explanation: "Most fish release eggs and sperm into the water where fertilisation happens externally.",
+    image: null
+  },
+  {
+    id: 227,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Easy",
+    questionText: "Which vertebrate group generally lays amniotic eggs with leathery or hard shells?",
+    answerOptions: [
+      { answerText: "Reptiles", isCorrect: true },
+      { answerText: "Amphibians", isCorrect: false },
+      { answerText: "Bony fish", isCorrect: false },
+      { answerText: "Cartilaginous fish", isCorrect: false }
+    ],
+    explanation: "Reptiles produce amniotic eggs with leathery or hard shells for protection on land.",
+    image: null
+  },
+  {
+    id: 228,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Easy",
+    questionText: "What is the main reproductive feature of mammals?",
+    answerOptions: [
+      { answerText: "Live birth", isCorrect: true },
+      { answerText: "External fertilisation", isCorrect: false },
+      { answerText: "Laying eggs", isCorrect: false },
+      { answerText: "Metamorphosis", isCorrect: false }
+    ],
+    explanation: "Most mammals are viviparous, giving birth to live young after internal fertilisation.",
+    image: null
+  },
+  {
+    id: 229,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Easy",
+    questionText: "Which vertebrate group undergoes metamorphosis as part of reproduction and development?",
+    answerOptions: [
+      { answerText: "Amphibians", isCorrect: true },
+      { answerText: "Birds", isCorrect: false },
+      { answerText: "Reptiles", isCorrect: false },
+      { answerText: "Mammals", isCorrect: false }
+    ],
+    explanation: "Amphibians develop from aquatic larvae into terrestrial adults through metamorphosis.",
+    image: null
+  },
+  {
+    id: 230,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Easy",
+    questionText: "Which structure provides nourishment to the developing embryo in placental mammals?",
+    answerOptions: [
+      { answerText: "Placenta", isCorrect: true },
+      { answerText: "Amnion", isCorrect: false },
+      { answerText: "Yolk sac", isCorrect: false },
+      { answerText: "Chorion", isCorrect: false }
+    ],
+    explanation: "The placenta allows nutrient and gas exchange between the mother and the developing foetus.",
+    image: null
+  },
+  {
+    id: 231,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Easy",
+    questionText: "Which vertebrate group has feathers and lays hard-shelled eggs?",
+    answerOptions: [
+      { answerText: "Birds", isCorrect: true },
+      { answerText: "Amphibians", isCorrect: false },
+      { answerText: "Reptiles", isCorrect: false },
+      { answerText: "Mammals", isCorrect: false }
+    ],
+    explanation: "Birds are characterised by feathers and hard-shelled eggs.",
+    image: null
+  },
+  {
+    id: 232,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Easy",
+    questionText: "Which vertebrate group gives birth to live young but also lays eggs in some species?",
+    answerOptions: [
+      { answerText: "Mammals", isCorrect: true },
+      { answerText: "Reptiles", isCorrect: false },
+      { answerText: "Amphibians", isCorrect: false },
+      { answerText: "Birds", isCorrect: false }
+    ],
+    explanation: "Most mammals give birth to live young, but monotremes like the platypus lay eggs.",
+    image: null
+  },
+  {
+    id: 233,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Easy",
+    questionText: "What is the purpose of jelly around amphibian eggs?",
+    answerOptions: [
+      { answerText: "To protect eggs from predators and drying out", isCorrect: true },
+      { answerText: "To help eggs sink to the bottom", isCorrect: false },
+      { answerText: "To allow internal fertilisation", isCorrect: false },
+      { answerText: "To provide heat to the embryo", isCorrect: false }
+    ],
+    explanation: "The jelly coating protects amphibian eggs from damage, predators, and drying out.",
+    image: null
+  },
+  {
+    id: 234,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Easy",
+    questionText: "Which vertebrate group has cartilaginous skeletons and internal fertilisation?",
+    answerOptions: [
+      { answerText: "Cartilaginous fish", isCorrect: true },
+      { answerText: "Bony fish", isCorrect: false },
+      { answerText: "Amphibians", isCorrect: false },
+      { answerText: "Birds", isCorrect: false }
+    ],
+    explanation: "Sharks and rays are cartilaginous fish with internal fertilisation.",
+    image: null
+  },
+  {
+    id: 235,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Easy",
+    questionText: "In which environment do amphibians usually lay their eggs?",
+    answerOptions: [
+      { answerText: "In water", isCorrect: true },
+      { answerText: "On dry land", isCorrect: false },
+      { answerText: "In nests", isCorrect: false },
+      { answerText: "In burrows", isCorrect: false }
+    ],
+    explanation: "Amphibians lay their eggs in water to prevent them from drying out.",
+    image: null
+  },
+  //MEDIUM
+  {
+    id: 236,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "Which term describes animals that give birth to live young after development inside the mother's body?",
+    answerOptions: [
+      { answerText: "Viviparous", isCorrect: true },
+      { answerText: "Oviparous", isCorrect: false },
+      { answerText: "Ovoviviparous", isCorrect: false },
+      { answerText: "Metamorphic", isCorrect: false }
+    ],
+    explanation: "Viviparous animals, such as most mammals, develop embryos internally before live birth.",
+    image: null
+  },
+  {
+    id: 237,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "In birds, what is the main function of the albumen (egg white)?",
+    answerOptions: [
+      { answerText: "Provides water and protein to the developing embryo", isCorrect: true },
+      { answerText: "Acts as a hard protective shell", isCorrect: false },
+      { answerText: "Stores fat for energy", isCorrect: false },
+      { answerText: "Performs gas exchange", isCorrect: false }
+    ],
+    explanation: "The albumen cushions the embryo and supplies water and protein for its development.",
+    image: null
+  },
+  {
+    id: 238,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "Which vertebrate reproductive strategy produces many eggs but provides little parental care?",
+    answerOptions: [
+      { answerText: "Oviparity with external fertilisation", isCorrect: true },
+      { answerText: "Viviparity", isCorrect: false },
+      { answerText: "Ovoviviparity", isCorrect: false },
+      { answerText: "Internal fertilisation with parental care", isCorrect: false }
+    ],
+    explanation: "External fertilisation, common in fish and amphibians, produces many eggs with minimal care.",
+    image: null
+  },
+  {
+    id: 239,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "Which membrane in the amniotic egg stores waste from the developing embryo?",
+    answerOptions: [
+      { answerText: "Allantois", isCorrect: true },
+      { answerText: "Chorion", isCorrect: false },
+      { answerText: "Amnion", isCorrect: false },
+      { answerText: "Yolk sac", isCorrect: false }
+    ],
+    explanation: "The allantois stores nitrogenous waste and also helps with gas exchange.",
+    image: null
+  },
+  {
+    id: 240,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "Which group of vertebrates mostly uses internal fertilisation but does not have amniotic eggs?",
+    answerOptions: [
+      { answerText: "Cartilaginous fish", isCorrect: true },
+      { answerText: "Birds", isCorrect: false },
+      { answerText: "Reptiles", isCorrect: false },
+      { answerText: "Mammals", isCorrect: false }
+    ],
+    explanation: "Sharks and rays fertilise internally but produce eggs without an amniotic shell.",
+    image: null
+  },
+  {
+    id: 241,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "What is a main advantage of internal fertilisation over external fertilisation?",
+    answerOptions: [
+      { answerText: "Higher chance of fertilisation success", isCorrect: true },
+      { answerText: "Larger number of eggs produced", isCorrect: false },
+      { answerText: "Requires less energy from the parents", isCorrect: false },
+      { answerText: "No need for mating behaviour", isCorrect: false }
+    ],
+    explanation: "Internal fertilisation protects gametes and increases the likelihood of successful fertilisation.",
+    image: null
+  },
+  {
+    id: 242,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "In reptiles, the leathery shell of the egg primarily functions to:",
+    answerOptions: [
+      { answerText: "Prevent water loss while allowing gas exchange", isCorrect: true },
+      { answerText: "Act as a source of calcium for the embryo", isCorrect: false },
+      { answerText: "Completely seal off air exchange", isCorrect: false },
+      { answerText: "Provide extra nutrients", isCorrect: false }
+    ],
+    explanation: "Reptile eggshells limit water loss but still allow oxygen and carbon dioxide to pass through.",
+    image: null
+  },
+  {
+    id: 243,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "Which vertebrate group includes species that are ovoviviparous?",
+    answerOptions: [
+      { answerText: "Some sharks", isCorrect: true },
+      { answerText: "Most birds", isCorrect: false },
+      { answerText: "All amphibians", isCorrect: false },
+      { answerText: "Most reptiles", isCorrect: false }
+    ],
+    explanation: "In ovoviviparous species, embryos develop inside eggs within the parent's body until hatching.",
+    image: null
+  },
+  {
+    id: 244,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "Which structure in amniotic eggs surrounds the embryo and contains fluid for protection?",
+    answerOptions: [
+      { answerText: "Amnion", isCorrect: true },
+      { answerText: "Chorion", isCorrect: false },
+      { answerText: "Yolk sac", isCorrect: false },
+      { answerText: "Allantois", isCorrect: false }
+    ],
+    explanation: "The amnion encloses the embryo in a fluid-filled sac for cushioning and protection.",
+    image: null
+  },
+  {
+    id: 245,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "In mammals, the umbilical cord connects the developing foetus to which structure?",
+    answerOptions: [
+      { answerText: "Placenta", isCorrect: true },
+      { answerText: "Amnion", isCorrect: false },
+      { answerText: "Allantois", isCorrect: false },
+      { answerText: "Yolk sac", isCorrect: false }
+    ],
+    explanation: "The umbilical cord links the foetus to the placenta for nutrient and gas exchange.",
+    image: null
+  },
+  {
+    id: 246,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "What is a characteristic of oviparous reproduction?",
+    answerOptions: [
+      { answerText: "Eggs are laid outside the mother's body", isCorrect: true },
+      { answerText: "Embryos develop without any yolk", isCorrect: false },
+      { answerText: "Embryos are nourished via a placenta", isCorrect: false },
+      { answerText: "Eggs are fertilised internally only", isCorrect: false }
+    ],
+    explanation: "In oviparous reproduction, eggs develop outside the mother, as seen in birds and reptiles.",
+    image: null
+  },
+  {
+    id: 247,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "Which vertebrate group relies on external fertilisation in water for reproduction?",
+    answerOptions: [
+      { answerText: "Amphibians", isCorrect: true },
+      { answerText: "Birds", isCorrect: false },
+      { answerText: "Mammals", isCorrect: false },
+      { answerText: "Reptiles", isCorrect: false }
+    ],
+    explanation: "Most amphibians lay eggs in water, where fertilisation occurs outside the body.",
+    image: null
+  },
+  {
+    id: 248,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "Which reproductive strategy is common in animals with fewer offspring but high parental care?",
+    answerOptions: [
+      { answerText: "K-strategy", isCorrect: true },
+      { answerText: "r-strategy", isCorrect: false },
+      { answerText: "Oviparity", isCorrect: false },
+      { answerText: "External fertilisation", isCorrect: false }
+    ],
+    explanation: "K-strategists produce fewer young but invest more care, increasing survival chances.",
+    image: null
+  },
+  {
+    id: 249,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "In reptiles, what role does the yolk sac play?",
+    answerOptions: [
+      { answerText: "Stores nutrients for the developing embryo", isCorrect: true },
+      { answerText: "Performs waste storage", isCorrect: false },
+      { answerText: "Produces shell material", isCorrect: false },
+      { answerText: "Acts as a respiratory organ", isCorrect: false }
+    ],
+    explanation: "The yolk sac contains nutrients that the embryo uses for growth.",
+    image: null
+  },
+  {
+    id: 250,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Medium",
+    questionText: "Which vertebrate group includes monotremes that lay eggs?",
+    answerOptions: [
+      { answerText: "Mammals", isCorrect: true },
+      { answerText: "Reptiles", isCorrect: false },
+      { answerText: "Birds", isCorrect: false },
+      { answerText: "Amphibians", isCorrect: false }
+    ],
+    explanation: "Monotremes, like the platypus, are egg-laying mammals.",
+    image: null
+  },
+  //HARD
+   {
+    id: 251,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Why is the amniotic egg considered a key evolutionary adaptation for terrestrial life?",
+    answerOptions: [
+      { answerText: "It allows reproduction away from water", isCorrect: true },
+      { answerText: "It prevents the need for fertilisation", isCorrect: false },
+      { answerText: "It eliminates the need for parental care", isCorrect: false },
+      { answerText: "It increases the number of offspring", isCorrect: false }
+    ],
+    explanation: "The amniotic egg provides its own aquatic environment, enabling vertebrates to reproduce on land.",
+    image: null
+  },
+  {
+    id: 252,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Which combination correctly matches a vertebrate group with its typical fertilisation method and egg type?",
+    answerOptions: [
+      { answerText: "Reptiles – internal fertilisation – amniotic egg", isCorrect: true },
+      { answerText: "Fish – internal fertilisation – amniotic egg", isCorrect: false },
+      { answerText: "Birds – external fertilisation – amniotic egg", isCorrect: false },
+      { answerText: "Amphibians – internal fertilisation – leathery egg", isCorrect: false }
+    ],
+    explanation: "Reptiles fertilise internally and produce amniotic eggs with leathery shells for terrestrial life.",
+    image: null
+  },
+  {
+    id: 253,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Why do many fish species produce thousands of eggs during spawning?",
+    answerOptions: [
+      { answerText: "To compensate for high egg and larva mortality rates", isCorrect: true },
+      { answerText: "Because each egg needs less energy to produce", isCorrect: false },
+      { answerText: "To increase parental care", isCorrect: false },
+      { answerText: "To avoid genetic variation", isCorrect: false }
+    ],
+    explanation: "In species with external fertilisation, many eggs are produced to ensure that some survive to adulthood.",
+    image: null
+  },
+  {
+    id: 254,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "In ovoviviparous reproduction, how is the embryo nourished?",
+    answerOptions: [
+      { answerText: "By yolk within the egg inside the mother's body", isCorrect: true },
+      { answerText: "Directly by the mother via a placenta", isCorrect: false },
+      { answerText: "By absorbing nutrients from the amniotic fluid", isCorrect: false },
+      { answerText: "By photosynthesis within the egg membrane", isCorrect: false }
+    ],
+    explanation: "Ovoviviparous embryos rely on yolk stores inside the egg while being retained in the parent's body.",
+    image: null
+  },
+  {
+    id: 255,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Which statement best explains the survival advantage of parental care in K-strategist species?",
+    answerOptions: [
+      { answerText: "It increases the likelihood of offspring survival to reproductive age", isCorrect: true },
+      { answerText: "It reduces the need for fertilisation", isCorrect: false },
+      { answerText: "It allows for external fertilisation in harsh environments", isCorrect: false },
+      { answerText: "It increases the total number of offspring produced", isCorrect: false }
+    ],
+    explanation: "Parental care in K-strategists ensures higher survival rates despite producing fewer offspring.",
+    image: null
+  },
+  {
+    id: 256,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Which structural adaptation in birds ensures efficient gas exchange for the developing embryo?",
+    answerOptions: [
+      { answerText: "Chorion close to the shell", isCorrect: true },
+      { answerText: "Thick, impermeable eggshell", isCorrect: false },
+      { answerText: "Yolk sac with air pockets", isCorrect: false },
+      { answerText: "Amnion fused with the shell", isCorrect: false }
+    ],
+    explanation: "The chorion lies just beneath the eggshell and facilitates oxygen and carbon dioxide exchange.",
+    image: null
+  },
+  {
+    id: 257,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Why do amphibians generally require water for reproduction?",
+    answerOptions: [
+      { answerText: "Their eggs lack a protective shell and would dry out on land", isCorrect: true },
+      { answerText: "They use internal fertilisation only", isCorrect: false },
+      { answerText: "Their embryos require saltwater to survive", isCorrect: false },
+      { answerText: "They cannot produce amniotic eggs", isCorrect: false }
+    ],
+    explanation: "Amphibian eggs are soft and jelly-like, making them vulnerable to desiccation outside water.",
+    image: null
+  },
+  {
+    id: 258,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Which adaptation is unique to monotreme reproduction among mammals?",
+    answerOptions: [
+      { answerText: "Laying eggs instead of giving live birth", isCorrect: true },
+      { answerText: "Producing milk for offspring", isCorrect: false },
+      { answerText: "Providing parental care", isCorrect: false },
+      { answerText: "Internal fertilisation", isCorrect: false }
+    ],
+    explanation: "Monotremes, like the platypus, are the only mammals that lay eggs.",
+    image: null
+  },
+  {
+    id: 259,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "How does oviparity differ from viviparity in terms of embryonic nutrition?",
+    answerOptions: [
+      { answerText: "Oviparous embryos rely solely on yolk, viviparous embryos are nourished via the placenta", isCorrect: true },
+      { answerText: "Oviparous embryos are nourished via the placenta, viviparous embryos rely solely on yolk", isCorrect: false },
+      { answerText: "Both rely solely on the amniotic fluid", isCorrect: false },
+      { answerText: "Both rely solely on maternal blood supply", isCorrect: false }
+    ],
+    explanation: "In oviparity, yolk provides nutrients; in viviparity, nutrients are supplied directly from the mother via the placenta.",
+    image: null
+  },
+  {
+    id: 260,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Why do some reptiles bury their eggs in warm sand?",
+    answerOptions: [
+      { answerText: "To use environmental heat for incubation", isCorrect: true },
+      { answerText: "To prevent eggs from absorbing oxygen", isCorrect: false },
+      { answerText: "To harden the shell faster", isCorrect: false },
+      { answerText: "To stop embryo growth until hatching season", isCorrect: false }
+    ],
+    explanation: "Burying eggs in warm sand provides consistent heat for embryonic development.",
+    image: null
+  },
+  {
+    id: 261,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Which factor most limits the success of external fertilisation in fish?",
+    answerOptions: [
+      { answerText: "Predation and dispersal of gametes in water", isCorrect: true },
+      { answerText: "Lack of egg yolk", isCorrect: false },
+      { answerText: "Slow embryonic development", isCorrect: false },
+      { answerText: "Inability to lay eggs", isCorrect: false }
+    ],
+    explanation: "Gametes released into water are easily lost or eaten, reducing fertilisation success.",
+    image: null
+  },
+  {
+    id: 262,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Why is the placenta considered an efficient adaptation in mammals?",
+    answerOptions: [
+      { answerText: "It allows direct exchange of nutrients and wastes between mother and foetus", isCorrect: true },
+      { answerText: "It replaces the need for amniotic fluid", isCorrect: false },
+      { answerText: "It eliminates the need for fertilisation", isCorrect: false },
+      { answerText: "It prevents gestation from occurring", isCorrect: false }
+    ],
+    explanation: "The placenta enables a constant supply of nutrients and removal of wastes during gestation.",
+    image: null
+  },
+  {
+    id: 263,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "In temperature-dependent sex determination in reptiles, how does incubation temperature influence sex?",
+    answerOptions: [
+      { answerText: "Specific temperature ranges trigger male or female development", isCorrect: true },
+      { answerText: "High temperatures always produce females", isCorrect: false },
+      { answerText: "Low temperatures always produce males", isCorrect: false },
+      { answerText: "Temperature has no effect on sex determination", isCorrect: false }
+    ],
+    explanation: "In some reptiles, incubation temperature activates genes that control sexual development.",
+    image: null
+  },
+  {
+    id: 264,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Which of the following is an example of an r-strategist vertebrate?",
+    answerOptions: [
+      { answerText: "A frog", isCorrect: true },
+      { answerText: "An elephant", isCorrect: false },
+      { answerText: "A whale", isCorrect: false },
+      { answerText: "A gorilla", isCorrect: false }
+    ],
+    explanation: "Frogs produce many offspring with little parental care, typical of r-strategists.",
+    image: null
+  },
+  {
+    id: 265,
+    topic: "Vertebrate Reproduction",
+    difficulty: "Hard",
+    questionText: "Which structural feature in the amniotic egg facilitates both respiration and waste storage?",
+    answerOptions: [
+      { answerText: "Allantois", isCorrect: true },
+      { answerText: "Chorion", isCorrect: false },
+      { answerText: "Yolk sac", isCorrect: false },
+      { answerText: "Amnion", isCorrect: false }
+    ],
+    explanation: "The allantois is involved in both gas exchange and storing nitrogenous waste from the embryo.",
+    image: null
+  },
+  // Response to Enviromant(Humans): EASY
+   {
+    id: 266,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Easy",
+    questionText: "Which part of the brain controls balance and coordination?",
+    answerOptions: [
+      { answerText: "Cerebellum", isCorrect: true },
+      { answerText: "Medulla oblongata", isCorrect: false },
+      { answerText: "Cerebrum", isCorrect: false },
+      { answerText: "Hypothalamus", isCorrect: false }
+    ],
+    explanation: "The cerebellum controls balance, posture, and fine muscle coordination.",
+    image: null
+  },
+  {
+    id: 267,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Easy",
+    questionText: "What is the main function of the iris in the eye?",
+    answerOptions: [
+      { answerText: "To control the amount of light entering the eye", isCorrect: true },
+      { answerText: "To focus light onto the retina", isCorrect: false },
+      { answerText: "To protect the eye from dust", isCorrect: false },
+      { answerText: "To detect colour", isCorrect: false }
+    ],
+    explanation: "The iris adjusts the size of the pupil to regulate light entering the eye.",
+    image: null
+  },
+  {
+    id: 268,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Easy",
+    questionText: "Which part of the nervous system includes the brain and spinal cord?",
+    answerOptions: [
+      { answerText: "Central nervous system", isCorrect: true },
+      { answerText: "Peripheral nervous system", isCorrect: false },
+      { answerText: "Autonomic nervous system", isCorrect: false },
+      { answerText: "Sympathetic nervous system", isCorrect: false }
+    ],
+    explanation: "The central nervous system (CNS) consists of the brain and spinal cord.",
+    image: null
+  },
+  {
+    id: 269,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Easy",
+    questionText: "What is the basic unit of the nervous system?",
+    answerOptions: [
+      { answerText: "Neuron", isCorrect: true },
+      { answerText: "Synapse", isCorrect: false },
+      { answerText: "Axon", isCorrect: false },
+      { answerText: "Dendrite", isCorrect: false }
+    ],
+    explanation: "The neuron is the basic functional and structural unit of the nervous system.",
+    image: null
+  },
+  {
+    id: 270,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Easy",
+    questionText: "Which structure in the ear detects sound vibrations?",
+    answerOptions: [
+      { answerText: "Cochlea", isCorrect: true },
+      { answerText: "Semicircular canals", isCorrect: false },
+      { answerText: "Eustachian tube", isCorrect: false },
+      { answerText: "Auditory nerve", isCorrect: false }
+    ],
+    explanation: "The cochlea converts sound vibrations into nerve impulses.",
+    image: null
+  },
+  {
+    id: 271,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Easy",
+    questionText: "Which photoreceptor cells detect colour in the retina?",
+    answerOptions: [
+      { answerText: "Cones", isCorrect: true },
+      { answerText: "Rods", isCorrect: false },
+      { answerText: "Ganglion cells", isCorrect: false },
+      { answerText: "Bipolar cells", isCorrect: false }
+    ],
+    explanation: "Cones detect colour and work best in bright light.",
+    image: null
+  },
+  {
+    id: 272,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Easy",
+    questionText: "Which part of the brain regulates body temperature and hunger?",
+    answerOptions: [
+      { answerText: "Hypothalamus", isCorrect: true },
+      { answerText: "Medulla oblongata", isCorrect: false },
+      { answerText: "Thalamus", isCorrect: false },
+      { answerText: "Cerebellum", isCorrect: false }
+    ],
+    explanation: "The hypothalamus controls homeostasis, including temperature and appetite.",
+    image: null
+  },
+  {
+    id: 273,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Easy",
+    questionText: "Which part of a neuron carries impulses away from the cell body?",
+    answerOptions: [
+      { answerText: "Axon", isCorrect: true },
+      { answerText: "Dendrite", isCorrect: false },
+      { answerText: "Myelin sheath", isCorrect: false },
+      { answerText: "Synapse", isCorrect: false }
+    ],
+    explanation: "The axon transmits impulses away from the neuron's cell body.",
+    image: null
+  },
+  {
+    id: 274,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Easy",
+    questionText: "What is the function of the semicircular canals in the ear?",
+    answerOptions: [
+      { answerText: "To detect balance and head movement", isCorrect: true },
+      { answerText: "To transmit sound to the cochlea", isCorrect: false },
+      { answerText: "To equalise air pressure", isCorrect: false },
+      { answerText: "To protect the inner ear", isCorrect: false }
+    ],
+    explanation: "The semicircular canals detect changes in head position and movement for balance.",
+    image: null
+  },
+  {
+    id: 275,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Easy",
+    questionText: "Which part of the eye focuses light onto the retina?",
+    answerOptions: [
+      { answerText: "Lens", isCorrect: true },
+      { answerText: "Pupil", isCorrect: false },
+      { answerText: "Cornea", isCorrect: false },
+      { answerText: "Sclera", isCorrect: false }
+    ],
+    explanation: "The lens changes shape to focus light precisely onto the retina.",
+    image: null
+  },
+  //MEDIUM
+  {
+    id: 276,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Medium",
+    questionText: "Which part of the brain controls involuntary activities such as heartbeat and breathing?",
+    answerOptions: [
+      { answerText: "Medulla oblongata", isCorrect: true },
+      { answerText: "Cerebellum", isCorrect: false },
+      { answerText: "Cerebrum", isCorrect: false },
+      { answerText: "Pons", isCorrect: false }
+    ],
+    explanation: "The medulla oblongata regulates involuntary processes like breathing and heartbeat.",
+    image: null
+  },
+  {
+    id: 277,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Medium",
+    questionText: "What is the role of the myelin sheath in neurons?",
+    answerOptions: [
+      { answerText: "To speed up the transmission of nerve impulses", isCorrect: true },
+      { answerText: "To store neurotransmitters", isCorrect: false },
+      { answerText: "To produce energy for the neuron", isCorrect: false },
+      { answerText: "To detect stimuli", isCorrect: false }
+    ],
+    explanation: "The myelin sheath insulates axons, increasing the speed of impulse transmission.",
+    image: null
+  },
+  {
+    id: 278,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Medium",
+    questionText: "Which eye structure contains photoreceptor cells?",
+    answerOptions: [
+      { answerText: "Retina", isCorrect: true },
+      { answerText: "Lens", isCorrect: false },
+      { answerText: "Cornea", isCorrect: false },
+      { answerText: "Pupil", isCorrect: false }
+    ],
+    explanation: "The retina contains rods and cones that detect light and colour.",
+    image: null
+  },
+  {
+    id: 279,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Medium",
+    questionText: "Which nerve transmits impulses from the ear to the brain?",
+    answerOptions: [
+      { answerText: "Auditory nerve", isCorrect: true },
+      { answerText: "Optic nerve", isCorrect: false },
+      { answerText: "Olfactory nerve", isCorrect: false },
+      { answerText: "Facial nerve", isCorrect: false }
+    ],
+    explanation: "The auditory nerve carries sound information from the cochlea to the brain.",
+    image: null
+  },
+  {
+    id: 280,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Medium",
+    questionText: "What is the function of the corpus callosum?",
+    answerOptions: [
+      { answerText: "To connect the left and right hemispheres of the brain", isCorrect: true },
+      { answerText: "To regulate hormone release", isCorrect: false },
+      { answerText: "To control reflex actions", isCorrect: false },
+      { answerText: "To maintain posture", isCorrect: false }
+    ],
+    explanation: "The corpus callosum allows communication between the two cerebral hemispheres.",
+    image: null
+  },
+  {
+    id: 281,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Medium",
+    questionText: "Which part of the ear helps equalise pressure on either side of the eardrum?",
+    answerOptions: [
+      { answerText: "Eustachian tube", isCorrect: true },
+      { answerText: "Cochlea", isCorrect: false },
+      { answerText: "Ossicles", isCorrect: false },
+      { answerText: "Pinna", isCorrect: false }
+    ],
+    explanation: "The Eustachian tube maintains air pressure balance between the outer and middle ear.",
+    image: null
+  },
+  {
+    id: 282,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Medium",
+    questionText: "Which receptor in the skin detects pressure?",
+    answerOptions: [
+      { answerText: "Pacinian corpuscle", isCorrect: true },
+      { answerText: "Meissner’s corpuscle", isCorrect: false },
+      { answerText: "Free nerve endings", isCorrect: false },
+      { answerText: "Merkel cells", isCorrect: false }
+    ],
+    explanation: "Pacinian corpuscles detect deep pressure and vibration.",
+    image: null
+  },
+  {
+    id: 283,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Medium",
+    questionText: "Which brain structure acts as a relay centre for sensory information?",
+    answerOptions: [
+      { answerText: "Thalamus", isCorrect: true },
+      { answerText: "Hypothalamus", isCorrect: false },
+      { answerText: "Midbrain", isCorrect: false },
+      { answerText: "Cerebellum", isCorrect: false }
+    ],
+    explanation: "The thalamus directs sensory signals to the appropriate areas of the brain.",
+    image: null
+  },
+  {
+    id: 284,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Medium",
+    questionText: "Which part of the brain is responsible for reasoning, problem-solving, and voluntary movement?",
+    answerOptions: [
+      { answerText: "Cerebrum", isCorrect: true },
+      { answerText: "Brainstem", isCorrect: false },
+      { answerText: "Cerebellum", isCorrect: false },
+      { answerText: "Medulla oblongata", isCorrect: false }
+    ],
+    explanation: "The cerebrum controls higher mental processes and voluntary movements.",
+    image: null
+  },
+  {
+    id: 285,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Medium",
+    questionText: "What is the function of the fovea centralis in the eye?",
+    answerOptions: [
+      { answerText: "Provides the sharpest vision", isCorrect: true },
+      { answerText: "Controls the amount of light entering the eye", isCorrect: false },
+      { answerText: "Detects peripheral vision", isCorrect: false },
+      { answerText: "Focuses light onto the retina", isCorrect: false }
+    ],
+    explanation: "The fovea centralis contains a high concentration of cones for sharp central vision.",
+    image: null
+  },
+  //HARD
+   {
+    id: 286,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Hard",
+    questionText: "Which part of the brain controls body temperature, hunger, and water balance?",
+    answerOptions: [
+      { answerText: "Hypothalamus", isCorrect: true },
+      { answerText: "Medulla oblongata", isCorrect: false },
+      { answerText: "Thalamus", isCorrect: false },
+      { answerText: "Cerebellum", isCorrect: false }
+    ],
+    explanation: "The hypothalamus maintains homeostasis by regulating temperature, hunger, and water balance.",
+    image: null
+  },
+  {
+    id: 287,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Hard",
+    questionText: "Which structure in the inner ear is responsible for detecting rotational movement?",
+    answerOptions: [
+      { answerText: "Semicircular canals", isCorrect: true },
+      { answerText: "Cochlea", isCorrect: false },
+      { answerText: "Ossicles", isCorrect: false },
+      { answerText: "Vestibule", isCorrect: false }
+    ],
+    explanation: "The semicircular canals contain fluid and sensory cells that detect rotational movements of the head.",
+    image: null
+  },
+  {
+    id: 288,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Hard",
+    questionText: "What is the main neurotransmitter involved in stimulating muscle contraction?",
+    answerOptions: [
+      { answerText: "Acetylcholine", isCorrect: true },
+      { answerText: "Dopamine", isCorrect: false },
+      { answerText: "Serotonin", isCorrect: false },
+      { answerText: "Adrenaline", isCorrect: false }
+    ],
+    explanation: "Acetylcholine is released at neuromuscular junctions to trigger muscle contraction.",
+    image: null
+  },
+  {
+    id: 289,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Hard",
+    questionText: "Damage to which part of the brain would most likely affect coordination and balance?",
+    answerOptions: [
+      { answerText: "Cerebellum", isCorrect: true },
+      { answerText: "Cerebrum", isCorrect: false },
+      { answerText: "Medulla oblongata", isCorrect: false },
+      { answerText: "Corpus callosum", isCorrect: false }
+    ],
+    explanation: "The cerebellum fine-tunes voluntary movements and maintains balance.",
+    image: null
+  },
+  {
+    id: 290,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Hard",
+    questionText: "Which photoreceptor cells are responsible for colour vision?",
+    answerOptions: [
+      { answerText: "Cones", isCorrect: true },
+      { answerText: "Rods", isCorrect: false },
+      { answerText: "Ganglion cells", isCorrect: false },
+      { answerText: "Bipolar cells", isCorrect: false }
+    ],
+    explanation: "Cones detect colour and function best in bright light.",
+    image: null
+  },
+  {
+    id: 291,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Hard",
+    questionText: "Which type of neuron carries impulses from receptors to the central nervous system?",
+    answerOptions: [
+      { answerText: "Sensory neuron", isCorrect: true },
+      { answerText: "Motor neuron", isCorrect: false },
+      { answerText: "Relay neuron", isCorrect: false },
+      { answerText: "Interneuron", isCorrect: false }
+    ],
+    explanation: "Sensory neurons transmit impulses from sensory receptors to the brain or spinal cord.",
+    image: null
+  },
+  {
+    id: 292,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Hard",
+    questionText: "Which part of the eye controls the amount of light entering?",
+    answerOptions: [
+      { answerText: "Iris", isCorrect: true },
+      { answerText: "Cornea", isCorrect: false },
+      { answerText: "Lens", isCorrect: false },
+      { answerText: "Retina", isCorrect: false }
+    ],
+    explanation: "The iris adjusts the pupil size to regulate light entering the eye.",
+    image: null
+  },
+  {
+    id: 293,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Hard",
+    questionText: "Which lobe of the cerebrum is responsible for processing visual information?",
+    answerOptions: [
+      { answerText: "Occipital lobe", isCorrect: true },
+      { answerText: "Parietal lobe", isCorrect: false },
+      { answerText: "Frontal lobe", isCorrect: false },
+      { answerText: "Temporal lobe", isCorrect: false }
+    ],
+    explanation: "The occipital lobe processes visual input from the eyes.",
+    image: null
+  },
+  {
+    id: 294,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Hard",
+    questionText: "What is the function of the semicircular canals and vestibule together?",
+    answerOptions: [
+      { answerText: "Maintaining balance and equilibrium", isCorrect: true },
+      { answerText: "Transmitting sound to the cochlea", isCorrect: false },
+      { answerText: "Amplifying sound waves", isCorrect: false },
+      { answerText: "Regulating air pressure", isCorrect: false }
+    ],
+    explanation: "The semicircular canals detect movement, while the vestibule detects head position for balance.",
+    image: null
+  },
+  {
+    id: 295,
+    topic: "Responding to the Environment: Humans",
+    difficulty: "Hard",
+    questionText: "Which brain structure links the nervous system to the endocrine system?",
+    answerOptions: [
+      { answerText: "Hypothalamus", isCorrect: true },
+      { answerText: "Pituitary gland", isCorrect: false },
+      { answerText: "Thalamus", isCorrect: false },
+      { answerText: "Pons", isCorrect: false }
+    ],
+    explanation: "The hypothalamus regulates the pituitary gland, linking the nervous and endocrine systems.",
+    image: null
+  },
+  //RESPONSE TO THE ENVIROMANT(PLANTS): EASY
+   {
+    id: 296,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "What is the bending of a plant towards light called?",
+    answerOptions: [
+      { answerText: "Phototropism", isCorrect: true },
+      { answerText: "Geotropism", isCorrect: false },
+      { answerText: "Hydrotropism", isCorrect: false },
+      { answerText: "Thigmotropism", isCorrect: false }
+    ],
+    explanation: "Phototropism is the directional growth of a plant towards a light source.",
+    image: null
+  },
+  {
+    id: 297,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "Which plant hormone is responsible for cell elongation during phototropism?",
+    answerOptions: [
+      { answerText: "Auxin", isCorrect: true },
+      { answerText: "Gibberellin", isCorrect: false },
+      { answerText: "Cytokinin", isCorrect: false },
+      { answerText: "Ethylene", isCorrect: false }
+    ],
+    explanation: "Auxin accumulates on the shaded side of the plant, causing cell elongation and bending toward the light.",
+    image: null
+  },
+  {
+    id: 298,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "What type of tropism is the growth of roots downward due to gravity?",
+    answerOptions: [
+      { answerText: "Positive geotropism", isCorrect: true },
+      { answerText: "Negative geotropism", isCorrect: false },
+      { answerText: "Phototropism", isCorrect: false },
+      { answerText: "Thigmotropism", isCorrect: false }
+    ],
+    explanation: "Roots exhibit positive geotropism because they grow in the direction of gravitational pull.",
+    image: null
+  },
+  {
+    id: 299,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "What is the growth response of a plant to touch called?",
+    answerOptions: [
+      { answerText: "Thigmotropism", isCorrect: true },
+      { answerText: "Hydrotropism", isCorrect: false },
+      { answerText: "Phototropism", isCorrect: false },
+      { answerText: "Thermotropism", isCorrect: false }
+    ],
+    explanation: "Thigmotropism occurs when plants grow in response to contact, as seen in climbing plants.",
+    image: null
+  },
+  {
+    id: 300,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "Which plant hormone promotes ripening of fruit?",
+    answerOptions: [
+      { answerText: "Ethylene", isCorrect: true },
+      { answerText: "Auxin", isCorrect: false },
+      { answerText: "Gibberellin", isCorrect: false },
+      { answerText: "Cytokinin", isCorrect: false }
+    ],
+    explanation: "Ethylene gas stimulates the ripening process in fruits.",
+    image: null
+  },
+  {
+    id: 301,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "What is the growth response of a plant towards water called?",
+    answerOptions: [
+      { answerText: "Hydrotropism", isCorrect: true },
+      { answerText: "Thigmotropism", isCorrect: false },
+      { answerText: "Phototropism", isCorrect: false },
+      { answerText: "Geotropism", isCorrect: false }
+    ],
+    explanation: "Hydrotropism is the growth of plant roots toward a source of water.",
+    image: null
+  },
+  {
+    id: 302,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "Which hormone is responsible for seed germination and stem elongation?",
+    answerOptions: [
+      { answerText: "Gibberellin", isCorrect: true },
+      { answerText: "Auxin", isCorrect: false },
+      { answerText: "Cytokinin", isCorrect: false },
+      { answerText: "Abscisic acid", isCorrect: false }
+    ],
+    explanation: "Gibberellin stimulates cell division and elongation during germination.",
+    image: null
+  },
+  {
+    id: 303,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "What is the name for the growth of a plant stem away from gravity?",
+    answerOptions: [
+      { answerText: "Negative geotropism", isCorrect: true },
+      { answerText: "Positive geotropism", isCorrect: false },
+      { answerText: "Phototropism", isCorrect: false },
+      { answerText: "Hydrotropism", isCorrect: false }
+    ],
+    explanation: "Stems exhibit negative geotropism as they grow upward against gravitational pull.",
+    image: null
+  },
+  {
+    id: 304,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "Which hormone causes the abscission (shedding) of leaves?",
+    answerOptions: [
+      { answerText: "Abscisic acid", isCorrect: true },
+      { answerText: "Auxin", isCorrect: false },
+      { answerText: "Ethylene", isCorrect: false },
+      { answerText: "Gibberellin", isCorrect: false }
+    ],
+    explanation: "Abscisic acid promotes leaf fall during certain seasons.",
+    image: null
+  },
+  {
+    id: 305,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "What is the term for a plant’s response to seasonal changes in day length?",
+    answerOptions: [
+      { answerText: "Photoperiodism", isCorrect: true },
+      { answerText: "Phototropism", isCorrect: false },
+      { answerText: "Hydrotropism", isCorrect: false },
+      { answerText: "Thermotropism", isCorrect: false }
+    ],
+    explanation: "Photoperiodism influences flowering and other seasonal activities in plants.",
+    image: null
+  },
+  {
+    id: 306,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "Which plant hormone promotes lateral bud growth?",
+    answerOptions: [
+      { answerText: "Cytokinin", isCorrect: true },
+      { answerText: "Auxin", isCorrect: false },
+      { answerText: "Ethylene", isCorrect: false },
+      { answerText: "Abscisic acid", isCorrect: false }
+    ],
+    explanation: "Cytokinins stimulate cell division and promote growth of lateral buds.",
+    image: null
+  },
+  {
+    id: 307,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "Which part of the plant detects light direction?",
+    answerOptions: [
+      { answerText: "Shoot tip", isCorrect: true },
+      { answerText: "Root cap", isCorrect: false },
+      { answerText: "Leaves", isCorrect: false },
+      { answerText: "Stem", isCorrect: false }
+    ],
+    explanation: "The shoot tip contains cells that sense light direction and trigger phototropic growth.",
+    image: null
+  },
+  {
+    id: 308,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "Which hormone helps plants close their stomata during water stress?",
+    answerOptions: [
+      { answerText: "Abscisic acid", isCorrect: true },
+      { answerText: "Auxin", isCorrect: false },
+      { answerText: "Cytokinin", isCorrect: false },
+      { answerText: "Gibberellin", isCorrect: false }
+    ],
+    explanation: "Abscisic acid triggers stomatal closure to reduce water loss during drought.",
+    image: null
+  },
+  {
+    id: 309,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "What is the term for growth in response to temperature changes?",
+    answerOptions: [
+      { answerText: "Thermotropism", isCorrect: true },
+      { answerText: "Phototropism", isCorrect: false },
+      { answerText: "Hydrotropism", isCorrect: false },
+      { answerText: "Geotropism", isCorrect: false }
+    ],
+    explanation: "Thermotropism is the growth movement of plants in response to temperature.",
+    image: null
+  },
+  {
+    id: 310,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Easy",
+    questionText: "Which hormone delays leaf senescence (aging)?",
+    answerOptions: [
+      { answerText: "Cytokinin", isCorrect: true },
+      { answerText: "Auxin", isCorrect: false },
+      { answerText: "Abscisic acid", isCorrect: false },
+      { answerText: "Ethylene", isCorrect: false }
+    ],
+    explanation: "Cytokinins slow down leaf aging by promoting nutrient mobilization.",
+    image: null
+  },
+  //MEDIUM
+  {
+    id: 311,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "Why does a plant stem bend towards light during phototropism?",
+    answerOptions: [
+      { answerText: "Unequal distribution of auxin causes more elongation on the shaded side", isCorrect: true },
+      { answerText: "Light directly stimulates cell division", isCorrect: false },
+      { answerText: "Photosynthesis occurs more on the shaded side", isCorrect: false },
+      { answerText: "Gravity pulls the stem toward the light", isCorrect: false }
+    ],
+    explanation: "Auxin accumulates on the shaded side of the stem, stimulating greater cell elongation there, bending the plant toward the light.",
+    image: null
+  },
+  {
+    id: 312,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "In roots, how does auxin affect cell elongation?",
+    answerOptions: [
+      { answerText: "It inhibits elongation on the lower side, causing roots to bend downward", isCorrect: true },
+      { answerText: "It stimulates elongation on the upper side, bending roots upward", isCorrect: false },
+      { answerText: "It has no effect on root elongation", isCorrect: false },
+      { answerText: "It causes equal elongation on both sides", isCorrect: false }
+    ],
+    explanation: "In roots, high auxin concentrations inhibit cell elongation on the lower side, resulting in positive geotropism.",
+    image: null
+  },
+  {
+    id: 313,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "What is the role of the root cap in geotropism?",
+    answerOptions: [
+      { answerText: "It contains statoliths that detect gravity", isCorrect: true },
+      { answerText: "It produces auxin for root growth", isCorrect: false },
+      { answerText: "It absorbs water and minerals", isCorrect: false },
+      { answerText: "It anchors the plant in the soil", isCorrect: false }
+    ],
+    explanation: "The root cap contains statoliths (starch grains) that settle due to gravity, helping roots detect orientation.",
+    image: null
+  },
+  {
+    id: 314,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "Which hormone works with auxin to promote cell division in plant tissues?",
+    answerOptions: [
+      { answerText: "Cytokinin", isCorrect: true },
+      { answerText: "Gibberellin", isCorrect: false },
+      { answerText: "Ethylene", isCorrect: false },
+      { answerText: "Abscisic acid", isCorrect: false }
+    ],
+    explanation: "Cytokinins promote cell division, often working synergistically with auxin.",
+    image: null
+  },
+  {
+    id: 315,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "What is the function of phytochrome in plants?",
+    answerOptions: [
+      { answerText: "It detects changes in light quality and length of day", isCorrect: true },
+      { answerText: "It stimulates photosynthesis directly", isCorrect: false },
+      { answerText: "It transports auxin to shaded cells", isCorrect: false },
+      { answerText: "It stores starch for energy", isCorrect: false }
+    ],
+    explanation: "Phytochromes are light-sensitive pigments that detect red and far-red light, regulating photoperiodism.",
+    image: null
+  },
+  {
+    id: 316,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "Why do climbing plants wrap around supports?",
+    answerOptions: [
+      { answerText: "They respond to touch through thigmotropism", isCorrect: true },
+      { answerText: "They grow faster on one side due to phototropism", isCorrect: false },
+      { answerText: "They grow towards water", isCorrect: false },
+      { answerText: "They are guided by gravity", isCorrect: false }
+    ],
+    explanation: "Thigmotropism causes one side of the stem to grow faster upon touching a support, leading to coiling.",
+    image: null
+  },
+  {
+    id: 317,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "How does abscisic acid help plants survive drought conditions?",
+    answerOptions: [
+      { answerText: "It closes stomata to reduce water loss", isCorrect: true },
+      { answerText: "It increases leaf surface area", isCorrect: false },
+      { answerText: "It promotes root growth", isCorrect: false },
+      { answerText: "It stimulates seed germination", isCorrect: false }
+    ],
+    explanation: "Abscisic acid triggers stomatal closure, minimizing transpiration during water stress.",
+    image: null
+  },
+  {
+    id: 318,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "What is the effect of gibberellins on plant growth?",
+    answerOptions: [
+      { answerText: "They promote stem elongation and seed germination", isCorrect: true },
+      { answerText: "They inhibit bud growth", isCorrect: false },
+      { answerText: "They cause leaf drop", isCorrect: false },
+      { answerText: "They detect light direction", isCorrect: false }
+    ],
+    explanation: "Gibberellins stimulate stem elongation and break seed dormancy to promote germination.",
+    image: null
+  },
+  {
+    id: 319,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "In photoperiodism, what triggers flowering in short-day plants?",
+    answerOptions: [
+      { answerText: "A night longer than the critical length", isCorrect: true },
+      { answerText: "A day longer than the critical length", isCorrect: false },
+      { answerText: "Exposure to constant light", isCorrect: false },
+      { answerText: "Exposure to far-red light only", isCorrect: false }
+    ],
+    explanation: "Short-day plants flower when the night period exceeds their critical photoperiod.",
+    image: null
+  },
+  {
+    id: 320,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "How does auxin distribution differ in stems versus roots?",
+    answerOptions: [
+      { answerText: "In stems it promotes elongation, in roots it inhibits elongation", isCorrect: true },
+      { answerText: "In stems it inhibits elongation, in roots it promotes elongation", isCorrect: false },
+      { answerText: "It has no effect in roots", isCorrect: false },
+      { answerText: "It acts the same way in both", isCorrect: false }
+    ],
+    explanation: "Auxin stimulates cell elongation in stems but inhibits elongation in roots.",
+    image: null
+  },
+  {
+    id: 321,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "Which environmental cue is most important for seed germination in many desert plants?",
+    answerOptions: [
+      { answerText: "Water availability", isCorrect: true },
+      { answerText: "Touch", isCorrect: false },
+      { answerText: "Length of day", isCorrect: false },
+      { answerText: "Gravity", isCorrect: false }
+    ],
+    explanation: "Desert plants often remain dormant until rainfall provides sufficient water for germination.",
+    image: null
+  },
+  {
+    id: 322,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "What type of plant movement occurs without directional growth?",
+    answerOptions: [
+      { answerText: "Nastic movement", isCorrect: true },
+      { answerText: "Tropism", isCorrect: false },
+      { answerText: "Geotropism", isCorrect: false },
+      { answerText: "Hydrotropism", isCorrect: false }
+    ],
+    explanation: "Nastic movements, such as leaf folding in Mimosa, are non-directional responses to stimuli.",
+    image: null
+  },
+  {
+    id: 323,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "How do statoliths function in gravity perception?",
+    answerOptions: [
+      { answerText: "They settle under gravity, signaling the direction of growth", isCorrect: true },
+      { answerText: "They produce auxin directly", isCorrect: false },
+      { answerText: "They absorb water for growth", isCorrect: false },
+      { answerText: "They photosynthesize", isCorrect: false }
+    ],
+    explanation: "Statoliths are dense starch grains that settle in the direction of gravity, triggering growth responses.",
+    image: null
+  },
+  {
+    id: 324,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "In positive phototropism, which side of the plant has more auxin?",
+    answerOptions: [
+      { answerText: "The shaded side", isCorrect: true },
+      { answerText: "The lit side", isCorrect: false },
+      { answerText: "Both sides equally", isCorrect: false },
+      { answerText: "Neither side", isCorrect: false }
+    ],
+    explanation: "Auxin redistributes to the shaded side, causing more elongation there and bending toward light.",
+    image: null
+  },
+  {
+    id: 325,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Medium",
+    questionText: "Which pigment system regulates photoperiodism in plants?",
+    answerOptions: [
+      { answerText: "Phytochrome system", isCorrect: true },
+      { answerText: "Chlorophyll system", isCorrect: false },
+      { answerText: "Carotenoid system", isCorrect: false },
+      { answerText: "Anthocyanin system", isCorrect: false }
+    ],
+    explanation: "The phytochrome system senses red and far-red light, regulating flowering and seasonal responses.",
+    image: null
+  },
+  //HARD
+  {
+    id: 326,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "In phototropism, how does auxin move from the lit side to the shaded side of the stem?",
+    answerOptions: [
+      { answerText: "Via lateral transport through the epidermis", isCorrect: false },
+      { answerText: "Through active transport in parenchyma cells", isCorrect: true },
+      { answerText: "By diffusion through xylem vessels", isCorrect: false },
+      { answerText: "By bulk flow in the phloem", isCorrect: false }
+    ],
+    explanation: "Auxin is actively transported laterally from the illuminated side to the shaded side via parenchyma cells, creating the concentration gradient needed for bending.",
+    image: null
+  },
+  {
+    id: 327,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "Why does the root exhibit a slower geotropic response compared to the shoot's phototropic response?",
+    answerOptions: [
+      { answerText: "Root cells elongate more slowly and respond differently to auxin", isCorrect: true },
+      { answerText: "Roots lack phytochrome pigments", isCorrect: false },
+      { answerText: "Roots have no statoliths", isCorrect: false },
+      { answerText: "Roots use cytokinin instead of auxin", isCorrect: false }
+    ],
+    explanation: "Roots grow slower because their cells elongate less rapidly, and high auxin concentrations inhibit rather than promote elongation.",
+    image: null
+  },
+  {
+    id: 328,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "Which part of the plant detects light direction in phototropism?",
+    answerOptions: [
+      { answerText: "Apical meristem of the shoot", isCorrect: true },
+      { answerText: "Base of the stem", isCorrect: false },
+      { answerText: "Root cap", isCorrect: false },
+      { answerText: "Lateral buds", isCorrect: false }
+    ],
+    explanation: "The shoot tip detects light direction and initiates auxin redistribution to the shaded side.",
+    image: null
+  },
+  {
+    id: 329,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "What is the role of far-red light in photoperiodism?",
+    answerOptions: [
+      { answerText: "It converts Pfr to Pr, affecting flowering responses", isCorrect: true },
+      { answerText: "It promotes auxin synthesis", isCorrect: false },
+      { answerText: "It stimulates chlorophyll production", isCorrect: false },
+      { answerText: "It breaks seed dormancy", isCorrect: false }
+    ],
+    explanation: "Far-red light converts active Pfr to inactive Pr, which influences photoperiodic flowering responses.",
+    image: null
+  },
+  {
+    id: 330,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "In positive geotropism of roots, where is auxin concentration highest?",
+    answerOptions: [
+      { answerText: "On the lower side of the root", isCorrect: true },
+      { answerText: "On the upper side of the root", isCorrect: false },
+      { answerText: "Evenly distributed", isCorrect: false },
+      { answerText: "In the root cap only", isCorrect: false }
+    ],
+    explanation: "Auxin accumulates more on the lower side due to statolith movement, inhibiting elongation there and bending the root downward.",
+    image: null
+  },
+  {
+    id: 331,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "What adaptive advantage does thigmotropism give climbing plants?",
+    answerOptions: [
+      { answerText: "It allows them to reach sunlight without investing in thick supportive stems", isCorrect: true },
+      { answerText: "It helps them store water in dry conditions", isCorrect: false },
+      { answerText: "It enables faster seed germination", isCorrect: false },
+      { answerText: "It aids nutrient absorption", isCorrect: false }
+    ],
+    explanation: "By climbing other structures, plants can access more light without needing to produce strong, thick stems.",
+    image: null
+  },
+  {
+    id: 332,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "Why do short-day plants not flower if their dark period is interrupted by light?",
+    answerOptions: [
+      { answerText: "Light converts Pr to Pfr, disrupting the necessary night length signal", isCorrect: true },
+      { answerText: "The light increases auxin levels too much", isCorrect: false },
+      { answerText: "It causes leaf abscission", isCorrect: false },
+      { answerText: "It triggers seed germination instead", isCorrect: false }
+    ],
+    explanation: "Interruption of darkness by light changes the phytochrome state, preventing the plant from perceiving the correct photoperiod.",
+    image: null
+  },
+  {
+    id: 333,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "What is the main role of statolith sedimentation in root cap cells?",
+    answerOptions: [
+      { answerText: "To trigger redistribution of auxin in response to gravity", isCorrect: true },
+      { answerText: "To promote cell wall thickening", isCorrect: false },
+      { answerText: "To store starch for root growth", isCorrect: false },
+      { answerText: "To produce hormones for flowering", isCorrect: false }
+    ],
+    explanation: "Statolith sedimentation signals gravity direction, altering auxin transport and causing directional growth.",
+    image: null
+  },
+  {
+    id: 334,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "Why do gibberellins promote seed germination in some plants?",
+    answerOptions: [
+      { answerText: "They stimulate enzymes that break down stored food", isCorrect: true },
+      { answerText: "They increase chlorophyll synthesis", isCorrect: false },
+      { answerText: "They strengthen the seed coat", isCorrect: false },
+      { answerText: "They transport water into the seed", isCorrect: false }
+    ],
+    explanation: "Gibberellins activate production of enzymes like amylase, which break down starches for seedling growth.",
+    image: null
+  },
+  {
+    id: 335,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "In which part of the plant does auxin synthesis primarily occur?",
+    answerOptions: [
+      { answerText: "Shoot apical meristems and young leaves", isCorrect: true },
+      { answerText: "Root tips", isCorrect: false },
+      { answerText: "Mature leaves", isCorrect: false },
+      { answerText: "Xylem vessels", isCorrect: false }
+    ],
+    explanation: "Auxin is mainly synthesized in shoot tips and young leaves, from where it is transported to other parts.",
+    image: null
+  },
+  {
+    id: 336,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "Which mechanism explains the bending of shoots during phototropism?",
+    answerOptions: [
+      { answerText: "Differential cell elongation due to asymmetric auxin distribution", isCorrect: true },
+      { answerText: "Cell division on the shaded side", isCorrect: false },
+      { answerText: "Water accumulation on the shaded side", isCorrect: false },
+      { answerText: "Gravity pulling cells toward the light", isCorrect: false }
+    ],
+    explanation: "Phototropism occurs because cells on the shaded side elongate more, causing bending toward the light.",
+    image: null
+  },
+  {
+    id: 337,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "Why do desert plants often have CAM photosynthesis alongside photoperiodic adaptations?",
+    answerOptions: [
+      { answerText: "It allows stomata to open at night, reducing water loss", isCorrect: true },
+      { answerText: "It speeds up growth in high heat", isCorrect: false },
+      { answerText: "It increases auxin production", isCorrect: false },
+      { answerText: "It prevents seed dormancy", isCorrect: false }
+    ],
+    explanation: "CAM photosynthesis minimizes water loss by opening stomata at night and storing CO₂ for use in the day.",
+    image: null
+  },
+  {
+    id: 338,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "How do plants integrate multiple stimuli like light and gravity for growth direction?",
+    answerOptions: [
+      { answerText: "Hormone signaling pathways interact to prioritize the response", isCorrect: true },
+      { answerText: "Each stimulus acts independently without interaction", isCorrect: false },
+      { answerText: "The stronger physical force always dominates", isCorrect: false },
+      { answerText: "The plant alternates responses over time", isCorrect: false }
+    ],
+    explanation: "Plants process multiple stimuli through hormone cross-talk, integrating signals to produce the most adaptive growth direction.",
+    image: null
+  },
+  {
+    id: 339,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "Why do some alpine plants have photoperiodic responses different from lowland plants?",
+    answerOptions: [
+      { answerText: "They are adapted to shorter growing seasons and different daylength patterns", isCorrect: true },
+      { answerText: "They cannot produce phytochrome", isCorrect: false },
+      { answerText: "They use gravity instead of light cues", isCorrect: false },
+      { answerText: "They lack auxin", isCorrect: false }
+    ],
+    explanation: "High-altitude plants adapt their flowering to short seasons and unique daylength variations to maximize reproductive success.",
+    image: null
+  },
+  {
+    id: 340,
+    topic: "Responding to the Environment: Plants",
+    difficulty: "Hard",
+    questionText: "What is the main role of vernalization in plants?",
+    answerOptions: [
+      { answerText: "It induces flowering after exposure to prolonged cold", isCorrect: true },
+      { answerText: "It delays germination until spring", isCorrect: false },
+      { answerText: "It stimulates seed dispersal", isCorrect: false },
+      { answerText: "It increases water uptake", isCorrect: false }
+    ],
+    explanation: "Vernalization ensures flowering occurs after winter, preventing premature blooming in autumn.",
+    image: null
+  },
+  //EDNOCRINE SYSTEM: EASY
+   {
+    id: 341,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which gland is often called the 'master gland'?",
+    answerOptions: [
+      { answerText: "Pituitary gland", isCorrect: true },
+      { answerText: "Thyroid gland", isCorrect: false },
+      { answerText: "Adrenal gland", isCorrect: false },
+      { answerText: "Pancreas", isCorrect: false }
+    ],
+    explanation: "The pituitary gland is called the 'master gland' because it secretes hormones that regulate other endocrine glands.",
+    image: null
+  },
+  {
+    id: 342,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which hormone regulates blood sugar by lowering glucose levels?",
+    answerOptions: [
+      { answerText: "Insulin", isCorrect: true },
+      { answerText: "Glucagon", isCorrect: false },
+      { answerText: "Adrenaline", isCorrect: false },
+      { answerText: "Thyroxine", isCorrect: false }
+    ],
+    explanation: "Insulin, secreted by the pancreas, helps cells take in glucose, lowering blood sugar levels.",
+    image: null
+  },
+  {
+    id: 343,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which gland produces thyroxine?",
+    answerOptions: [
+      { answerText: "Thyroid gland", isCorrect: true },
+      { answerText: "Adrenal gland", isCorrect: false },
+      { answerText: "Pituitary gland", isCorrect: false },
+      { answerText: "Pineal gland", isCorrect: false }
+    ],
+    explanation: "The thyroid gland, located in the neck, produces thyroxine, which regulates metabolism.",
+    image: null
+  },
+  {
+    id: 344,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "What is the role of adrenaline in the body?",
+    answerOptions: [
+      { answerText: "Prepares the body for 'fight or flight'", isCorrect: true },
+      { answerText: "Lowers blood glucose", isCorrect: false },
+      { answerText: "Promotes bone growth", isCorrect: false },
+      { answerText: "Regulates sleep cycles", isCorrect: false }
+    ],
+    explanation: "Adrenaline increases heart rate, blood flow to muscles, and energy release during emergencies.",
+    image: null
+  },
+  {
+    id: 345,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which endocrine gland is located on top of each kidney?",
+    answerOptions: [
+      { answerText: "Adrenal gland", isCorrect: true },
+      { answerText: "Thyroid gland", isCorrect: false },
+      { answerText: "Pituitary gland", isCorrect: false },
+      { answerText: "Parathyroid gland", isCorrect: false }
+    ],
+    explanation: "The adrenal glands sit above the kidneys and produce hormones like adrenaline and cortisol.",
+    image: null
+  },
+  {
+    id: 346,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which gland controls the body's circadian rhythms by releasing melatonin?",
+    answerOptions: [
+      { answerText: "Pineal gland", isCorrect: true },
+      { answerText: "Thyroid gland", isCorrect: false },
+      { answerText: "Pituitary gland", isCorrect: false },
+      { answerText: "Adrenal gland", isCorrect: false }
+    ],
+    explanation: "The pineal gland secretes melatonin, which helps regulate sleep-wake cycles.",
+    image: null
+  },
+  {
+    id: 347,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which hormone increases blood calcium levels?",
+    answerOptions: [
+      { answerText: "Parathyroid hormone", isCorrect: true },
+      { answerText: "Calcitonin", isCorrect: false },
+      { answerText: "Insulin", isCorrect: false },
+      { answerText: "Glucagon", isCorrect: false }
+    ],
+    explanation: "Parathyroid hormone increases calcium release from bones and absorption in the gut.",
+    image: null
+  },
+  {
+    id: 348,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which gland is responsible for regulating metabolism?",
+    answerOptions: [
+      { answerText: "Thyroid gland", isCorrect: true },
+      { answerText: "Pituitary gland", isCorrect: false },
+      { answerText: "Adrenal gland", isCorrect: false },
+      { answerText: "Pancreas", isCorrect: false }
+    ],
+    explanation: "The thyroid gland produces hormones like thyroxine that control the body's metabolic rate.",
+    image: null
+  },
+  {
+    id: 349,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which hormone stimulates milk production after childbirth?",
+    answerOptions: [
+      { answerText: "Prolactin", isCorrect: true },
+      { answerText: "Oxytocin", isCorrect: false },
+      { answerText: "Estrogen", isCorrect: false },
+      { answerText: "Progesterone", isCorrect: false }
+    ],
+    explanation: "Prolactin, produced by the anterior pituitary, stimulates milk production in the mammary glands.",
+    image: null
+  },
+  {
+    id: 350,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which hormone stimulates the uterus to contract during childbirth?",
+    answerOptions: [
+      { answerText: "Oxytocin", isCorrect: true },
+      { answerText: "Prolactin", isCorrect: false },
+      { answerText: "Estrogen", isCorrect: false },
+      { answerText: "Testosterone", isCorrect: false }
+    ],
+    explanation: "Oxytocin triggers uterine contractions during labour and helps with milk ejection.",
+    image: null
+  },
+  {
+    id: 351,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which part of the brain controls the pituitary gland?",
+    answerOptions: [
+      { answerText: "Hypothalamus", isCorrect: true },
+      { answerText: "Cerebellum", isCorrect: false },
+      { answerText: "Medulla oblongata", isCorrect: false },
+      { answerText: "Cerebral cortex", isCorrect: false }
+    ],
+    explanation: "The hypothalamus regulates the pituitary gland by releasing hormones that control its activity.",
+    image: null
+  },
+  {
+    id: 352,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which hormone is released when blood sugar levels fall?",
+    answerOptions: [
+      { answerText: "Glucagon", isCorrect: true },
+      { answerText: "Insulin", isCorrect: false },
+      { answerText: "Adrenaline", isCorrect: false },
+      { answerText: "Thyroxine", isCorrect: false }
+    ],
+    explanation: "Glucagon, produced by the pancreas, raises blood glucose by stimulating glycogen breakdown.",
+    image: null
+  },
+  {
+    id: 353,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Where are the parathyroid glands located?",
+    answerOptions: [
+      { answerText: "On the back of the thyroid gland", isCorrect: true },
+      { answerText: "Inside the adrenal glands", isCorrect: false },
+      { answerText: "In the pancreas", isCorrect: false },
+      { answerText: "Behind the pituitary gland", isCorrect: false }
+    ],
+    explanation: "The parathyroid glands are four small glands located on the posterior surface of the thyroid gland.",
+    image: null
+  },
+  {
+    id: 354,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which hormone is responsible for secondary sexual characteristics in males?",
+    answerOptions: [
+      { answerText: "Testosterone", isCorrect: true },
+      { answerText: "Estrogen", isCorrect: false },
+      { answerText: "Progesterone", isCorrect: false },
+      { answerText: "LH", isCorrect: false }
+    ],
+    explanation: "Testosterone, produced by the testes, is responsible for male secondary sexual traits.",
+    image: null
+  },
+  {
+    id: 355,
+    topic: "Human Endocrine System",
+    difficulty: "Easy",
+    questionText: "Which hormone helps the body retain water by acting on the kidneys?",
+    answerOptions: [
+      { answerText: "ADH (antidiuretic hormone)", isCorrect: true },
+      { answerText: "Aldosterone", isCorrect: false },
+      { answerText: "Cortisol", isCorrect: false },
+      { answerText: "Insulin", isCorrect: false }
+    ],
+    explanation: "ADH increases water reabsorption in the kidneys, reducing water loss in urine.",
+    image: null
+  },
+  // MEDIUM
+  {
+    id: 356,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "What is the function of cortisol in the body?",
+    answerOptions: [
+      { answerText: "Helps the body respond to stress and regulates metabolism", isCorrect: true },
+      { answerText: "Lowers blood sugar levels", isCorrect: false },
+      { answerText: "Stimulates milk production", isCorrect: false },
+      { answerText: "Regulates sleep-wake cycles", isCorrect: false }
+    ],
+    explanation: "Cortisol, produced by the adrenal cortex, helps manage stress, controls blood sugar, and affects metabolism.",
+    image: null
+  },
+  {
+    id: 357,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "Which gland produces both endocrine and exocrine secretions?",
+    answerOptions: [
+      { answerText: "Pancreas", isCorrect: true },
+      { answerText: "Adrenal gland", isCorrect: false },
+      { answerText: "Pituitary gland", isCorrect: false },
+      { answerText: "Thyroid gland", isCorrect: false }
+    ],
+    explanation: "The pancreas produces hormones (endocrine) and digestive enzymes (exocrine).",
+    image: null
+  },
+  {
+    id: 358,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "What effect does thyroxine have on the body?",
+    answerOptions: [
+      { answerText: "Increases the basal metabolic rate", isCorrect: true },
+      { answerText: "Decreases heart rate", isCorrect: false },
+      { answerText: "Raises blood glucose levels", isCorrect: false },
+      { answerText: "Promotes milk secretion", isCorrect: false }
+    ],
+    explanation: "Thyroxine increases the rate of energy production in cells, affecting overall metabolism.",
+    image: null
+  },
+  {
+    id: 359,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "How does negative feedback regulate hormone levels?",
+    answerOptions: [
+      { answerText: "By reducing hormone secretion when levels are high", isCorrect: true },
+      { answerText: "By increasing hormone secretion when levels are high", isCorrect: false },
+      { answerText: "By preventing any hormone release", isCorrect: false },
+      { answerText: "By speeding up nerve impulses", isCorrect: false }
+    ],
+    explanation: "Negative feedback stops further hormone production when enough has been released, maintaining balance.",
+    image: null
+  },
+  {
+    id: 360,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "Which hormone is released by the posterior pituitary and increases water reabsorption in kidneys?",
+    answerOptions: [
+      { answerText: "ADH (antidiuretic hormone)", isCorrect: true },
+      { answerText: "Aldosterone", isCorrect: false },
+      { answerText: "Cortisol", isCorrect: false },
+      { answerText: "Prolactin", isCorrect: false }
+    ],
+    explanation: "ADH is secreted by the posterior pituitary and acts on kidney tubules to conserve water.",
+    image: null
+  },
+  {
+    id: 361,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "Which hormone stimulates the adrenal cortex to release cortisol?",
+    answerOptions: [
+      { answerText: "ACTH (adrenocorticotropic hormone)", isCorrect: true },
+      { answerText: "TSH", isCorrect: false },
+      { answerText: "LH", isCorrect: false },
+      { answerText: "FSH", isCorrect: false }
+    ],
+    explanation: "ACTH from the anterior pituitary stimulates cortisol release from the adrenal cortex.",
+    image: null
+  },
+  {
+    id: 362,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "Which disorder results from an overproduction of growth hormone in adults?",
+    answerOptions: [
+      { answerText: "Acromegaly", isCorrect: true },
+      { answerText: "Gigantism", isCorrect: false },
+      { answerText: "Dwarfism", isCorrect: false },
+      { answerText: "Goitre", isCorrect: false }
+    ],
+    explanation: "Acromegaly causes abnormal growth of hands, feet, and facial bones due to excess GH in adulthood.",
+    image: null
+  },
+  {
+    id: 363,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "What is the role of the hypothalamus in endocrine control?",
+    answerOptions: [
+      { answerText: "It secretes releasing hormones that control the pituitary gland", isCorrect: true },
+      { answerText: "It stores thyroid hormones", isCorrect: false },
+      { answerText: "It produces digestive enzymes", isCorrect: false },
+      { answerText: "It directly controls adrenal hormone secretion", isCorrect: false }
+    ],
+    explanation: "The hypothalamus releases regulatory hormones that signal the pituitary to secrete specific hormones.",
+    image: null
+  },
+  {
+    id: 364,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "Which hormone regulates the body’s circadian rhythms?",
+    answerOptions: [
+      { answerText: "Melatonin", isCorrect: true },
+      { answerText: "Thyroxine", isCorrect: false },
+      { answerText: "Cortisol", isCorrect: false },
+      { answerText: "Adrenaline", isCorrect: false }
+    ],
+    explanation: "Melatonin from the pineal gland helps regulate sleep-wake cycles.",
+    image: null
+  },
+  {
+    id: 365,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "Which hormone lowers blood calcium levels?",
+    answerOptions: [
+      { answerText: "Calcitonin", isCorrect: true },
+      { answerText: "Parathyroid hormone", isCorrect: false },
+      { answerText: "Aldosterone", isCorrect: false },
+      { answerText: "Cortisol", isCorrect: false }
+    ],
+    explanation: "Calcitonin from the thyroid gland lowers blood calcium by promoting calcium deposition in bones.",
+    image: null
+  },
+  {
+    id: 366,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "Which hormone is produced in the testes and regulated by LH?",
+    answerOptions: [
+      { answerText: "Testosterone", isCorrect: true },
+      { answerText: "Progesterone", isCorrect: false },
+      { answerText: "Estrogen", isCorrect: false },
+      { answerText: "FSH", isCorrect: false }
+    ],
+    explanation: "LH stimulates Leydig cells in the testes to produce testosterone.",
+    image: null
+  },
+  {
+    id: 367,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "What is the main function of aldosterone?",
+    answerOptions: [
+      { answerText: "Regulates sodium and potassium balance", isCorrect: true },
+      { answerText: "Increases heart rate", isCorrect: false },
+      { answerText: "Promotes milk secretion", isCorrect: false },
+      { answerText: "Regulates metabolism", isCorrect: false }
+    ],
+    explanation: "Aldosterone from the adrenal cortex controls sodium reabsorption and potassium excretion in the kidneys.",
+    image: null
+  },
+  {
+    id: 368,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "Which hormone stimulates ovulation in females?",
+    answerOptions: [
+      { answerText: "LH (luteinising hormone)", isCorrect: true },
+      { answerText: "FSH", isCorrect: false },
+      { answerText: "Progesterone", isCorrect: false },
+      { answerText: "Estrogen", isCorrect: false }
+    ],
+    explanation: "LH triggers ovulation and the formation of the corpus luteum in the ovary.",
+    image: null
+  },
+  {
+    id: 369,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "Which hormone prepares the uterus lining for possible implantation?",
+    answerOptions: [
+      { answerText: "Progesterone", isCorrect: true },
+      { answerText: "Estrogen", isCorrect: false },
+      { answerText: "LH", isCorrect: false },
+      { answerText: "FSH", isCorrect: false }
+    ],
+    explanation: "Progesterone maintains and thickens the uterine lining for possible pregnancy.",
+    image: null
+  },
+  {
+    id: 370,
+    topic: "Human Endocrine System",
+    difficulty: "Medium",
+    questionText: "Which gland releases growth hormone (GH)?",
+    answerOptions: [
+      { answerText: "Anterior pituitary", isCorrect: true },
+      { answerText: "Posterior pituitary", isCorrect: false },
+      { answerText: "Thyroid", isCorrect: false },
+      { answerText: "Adrenal cortex", isCorrect: false }
+    ],
+    explanation: "The anterior pituitary gland releases GH, which stimulates growth and cell reproduction.",
+    image: null
+  },
+  // HARD
+  {
+    id: 371,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "A patient has persistently high blood glucose despite normal insulin secretion. Which condition is most likely?",
+    answerOptions: [
+      { answerText: "Type 2 diabetes mellitus", isCorrect: true },
+      { answerText: "Type 1 diabetes mellitus", isCorrect: false },
+      { answerText: "Hypoglycaemia", isCorrect: false },
+      { answerText: "Cushing’s syndrome", isCorrect: false }
+    ],
+    explanation: "In Type 2 diabetes, body cells become resistant to insulin, leading to high blood glucose despite normal or high insulin levels.",
+    image: null
+  },
+  {
+    id: 372,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "Which hormonal imbalance is responsible for the development of a goitre in iodine-deficient individuals?",
+    answerOptions: [
+      { answerText: "Excess TSH due to low thyroxine", isCorrect: true },
+      { answerText: "Low TSH due to high thyroxine", isCorrect: false },
+      { answerText: "Excess ACTH", isCorrect: false },
+      { answerText: "Low ADH", isCorrect: false }
+    ],
+    explanation: "Iodine deficiency reduces thyroxine production, prompting the pituitary to release more TSH, which stimulates thyroid enlargement.",
+    image: null
+  },
+  {
+    id: 373,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "A tumour in the adrenal medulla would cause excessive production of which hormones?",
+    answerOptions: [
+      { answerText: "Adrenaline and noradrenaline", isCorrect: true },
+      { answerText: "Cortisol and aldosterone", isCorrect: false },
+      { answerText: "Thyroxine and calcitonin", isCorrect: false },
+      { answerText: "FSH and LH", isCorrect: false }
+    ],
+    explanation: "The adrenal medulla secretes adrenaline and noradrenaline, which increase heart rate, blood pressure, and metabolism.",
+    image: null
+  },
+  {
+    id: 374,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "In Addison’s disease, the adrenal cortex produces insufficient cortisol and aldosterone. Which symptom would be expected?",
+    answerOptions: [
+      { answerText: "Low blood pressure and chronic fatigue", isCorrect: true },
+      { answerText: "High blood pressure and hyperglycaemia", isCorrect: false },
+      { answerText: "Weight gain and water retention", isCorrect: false },
+      { answerText: "Excessive sweating and tremors", isCorrect: false }
+    ],
+    explanation: "Low aldosterone causes sodium loss and low blood pressure, while low cortisol contributes to fatigue.",
+    image: null
+  },
+  {
+    id: 375,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "A child with delayed growth and development is diagnosed with hypothyroidism. Which treatment is most effective?",
+    answerOptions: [
+      { answerText: "Thyroxine supplementation", isCorrect: true },
+      { answerText: "Growth hormone injections", isCorrect: false },
+      { answerText: "Insulin therapy", isCorrect: false },
+      { answerText: "Cortisol tablets", isCorrect: false }
+    ],
+    explanation: "Supplementing thyroxine restores normal metabolism and growth in hypothyroid children.",
+    image: null
+  },
+  {
+    id: 376,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "Why does long-term use of anabolic steroids disrupt normal testosterone production?",
+    answerOptions: [
+      { answerText: "Negative feedback reduces LH secretion", isCorrect: true },
+      { answerText: "Steroids damage Leydig cells", isCorrect: false },
+      { answerText: "Steroids block FSH receptors", isCorrect: false },
+      { answerText: "Steroids stimulate excess ACTH", isCorrect: false }
+    ],
+    explanation: "Anabolic steroids mimic testosterone, triggering negative feedback that suppresses LH and endogenous testosterone production.",
+    image: null
+  },
+  {
+    id: 377,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "Which gland is most likely to be affected in a person experiencing both hormonal and temperature regulation issues?",
+    answerOptions: [
+      { answerText: "Hypothalamus", isCorrect: true },
+      { answerText: "Thyroid", isCorrect: false },
+      { answerText: "Adrenal gland", isCorrect: false },
+      { answerText: "Pineal gland", isCorrect: false }
+    ],
+    explanation: "The hypothalamus controls both endocrine signals to the pituitary and temperature regulation.",
+    image: null
+  },
+  {
+    id: 378,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "Which hormonal disorder is caused by autoimmune destruction of pancreatic beta cells?",
+    answerOptions: [
+      { answerText: "Type 1 diabetes mellitus", isCorrect: true },
+      { answerText: "Type 2 diabetes mellitus", isCorrect: false },
+      { answerText: "Addison’s disease", isCorrect: false },
+      { answerText: "Cushing’s syndrome", isCorrect: false }
+    ],
+    explanation: "In Type 1 diabetes, the immune system destroys insulin-producing beta cells in the pancreas.",
+    image: null
+  },
+  {
+    id: 379,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "Excess growth hormone in children before puberty leads to which condition?",
+    answerOptions: [
+      { answerText: "Gigantism", isCorrect: true },
+      { answerText: "Acromegaly", isCorrect: false },
+      { answerText: "Dwarfism", isCorrect: false },
+      { answerText: "Cretinism", isCorrect: false }
+    ],
+    explanation: "Gigantism occurs when excess growth hormone causes abnormal bone lengthening before epiphyseal plates close.",
+    image: null
+  },
+  {
+    id: 380,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "Why can a pituitary tumour cause vision problems?",
+    answerOptions: [
+      { answerText: "It can press on the optic chiasm", isCorrect: true },
+      { answerText: "It releases hormones that damage the retina", isCorrect: false },
+      { answerText: "It blocks blood flow to the eyes", isCorrect: false },
+      { answerText: "It causes optic nerve inflammation", isCorrect: false }
+    ],
+    explanation: "The pituitary gland lies near the optic chiasm, and a tumour can compress it, affecting vision.",
+    image: null
+  },
+  {
+    id: 381,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "A patient presents with high cortisol levels but low ACTH. Which is the most likely cause?",
+    answerOptions: [
+      { answerText: "Adrenal tumour", isCorrect: true },
+      { answerText: "Pituitary tumour", isCorrect: false },
+      { answerText: "Hypothalamic dysfunction", isCorrect: false },
+      { answerText: "Addison’s disease", isCorrect: false }
+    ],
+    explanation: "An adrenal tumour can produce cortisol independently, suppressing ACTH via negative feedback.",
+    image: null
+  },
+  {
+    id: 382,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "Which hormone imbalance would lead to increased urine output and constant thirst?",
+    answerOptions: [
+      { answerText: "Low ADH (diabetes insipidus)", isCorrect: true },
+      { answerText: "High ADH", isCorrect: false },
+      { answerText: "High aldosterone", isCorrect: false },
+      { answerText: "Low cortisol", isCorrect: false }
+    ],
+    explanation: "A lack of ADH prevents water reabsorption in the kidneys, causing large volumes of dilute urine.",
+    image: null
+  },
+  {
+    id: 383,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "Which disorder is associated with hypersecretion of cortisol due to a pituitary tumour?",
+    answerOptions: [
+      { answerText: "Cushing’s disease", isCorrect: true },
+      { answerText: "Addison’s disease", isCorrect: false },
+      { answerText: "Graves’ disease", isCorrect: false },
+      { answerText: "Hashimoto’s thyroiditis", isCorrect: false }
+    ],
+    explanation: "Cushing’s disease is caused by excess ACTH from a pituitary tumour, leading to high cortisol levels.",
+    image: null
+  },
+  {
+    id: 384,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "In Graves’ disease, which type of feedback loop is disrupted?",
+    answerOptions: [
+      { answerText: "Negative feedback on TSH secretion", isCorrect: true },
+      { answerText: "Positive feedback on TSH secretion", isCorrect: false },
+      { answerText: "Negative feedback on ACTH secretion", isCorrect: false },
+      { answerText: "Positive feedback on ACTH secretion", isCorrect: false }
+    ],
+    explanation: "Graves’ disease involves autoantibodies that mimic TSH, bypassing normal negative feedback and overstimulating the thyroid.",
+    image: null
+  },
+  {
+    id: 385,
+    topic: "Human Endocrine System",
+    difficulty: "Hard",
+    questionText: "A sudden drop in blood calcium would immediately stimulate the release of which hormone?",
+    answerOptions: [
+      { answerText: "Parathyroid hormone (PTH)", isCorrect: true },
+      { answerText: "Calcitonin", isCorrect: false },
+      { answerText: "Aldosterone", isCorrect: false },
+      { answerText: "Thyroxine", isCorrect: false }
+    ],
+    explanation: "PTH raises blood calcium levels by increasing calcium release from bone and reabsorption in the kidneys.",
+    image: null
+  },
+  // HOMEOSTASIS
+  {
+    id: 346,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which organ is primarily responsible for filtering blood and removing urea?",
+    answerOptions: [
+      { answerText: "Kidney", isCorrect: true },
+      { answerText: "Liver", isCorrect: false },
+      { answerText: "Lungs", isCorrect: false },
+      { answerText: "Heart", isCorrect: false }
+    ],
+    explanation: "The kidneys filter blood, remove urea, and regulate water and salt balance.",
+    image: null
+  },
+  {
+    id: 347,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which hormone regulates blood sugar by lowering glucose levels?",
+    answerOptions: [
+      { answerText: "Insulin", isCorrect: true },
+      { answerText: "Glucagon", isCorrect: false },
+      { answerText: "Adrenaline", isCorrect: false },
+      { answerText: "Cortisol", isCorrect: false }
+    ],
+    explanation: "Insulin lowers blood glucose by promoting uptake into cells and storage as glycogen.",
+    image: null
+  },
+  {
+    id: 348,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which part of the brain is responsible for regulating body temperature?",
+    answerOptions: [
+      { answerText: "Hypothalamus", isCorrect: true },
+      { answerText: "Cerebrum", isCorrect: false },
+      { answerText: "Cerebellum", isCorrect: false },
+      { answerText: "Medulla oblongata", isCorrect: false }
+    ],
+    explanation: "The hypothalamus detects temperature changes and initiates responses to maintain balance.",
+    image: null
+  },
+  {
+    id: 349,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which hormone increases blood sugar levels during fasting?",
+    answerOptions: [
+      { answerText: "Glucagon", isCorrect: true },
+      { answerText: "Insulin", isCorrect: false },
+      { answerText: "Thyroxine", isCorrect: false },
+      { answerText: "Aldosterone", isCorrect: false }
+    ],
+    explanation: "Glucagon stimulates the breakdown of glycogen to glucose in the liver.",
+    image: null
+  },
+  {
+    id: 350,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which structure in the kidney contains the glomerulus?",
+    answerOptions: [
+      { answerText: "Bowman's capsule", isCorrect: true },
+      { answerText: "Loop of Henle", isCorrect: false },
+      { answerText: "Collecting duct", isCorrect: false },
+      { answerText: "Ureter", isCorrect: false }
+    ],
+    explanation: "The Bowman's capsule surrounds the glomerulus and is the site of filtration.",
+    image: null
+  },
+  {
+    id: 351,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which hormone helps the kidneys reabsorb water?",
+    answerOptions: [
+      { answerText: "ADH", isCorrect: true },
+      { answerText: "Aldosterone", isCorrect: false },
+      { answerText: "Insulin", isCorrect: false },
+      { answerText: "Thyroxine", isCorrect: false }
+    ],
+    explanation: "Antidiuretic hormone (ADH) increases water reabsorption in the kidneys.",
+    image: null
+  },
+  {
+    id: 352,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "What is the normal human body temperature in degrees Celsius?",
+    answerOptions: [
+      { answerText: "37°C", isCorrect: true },
+      { answerText: "39°C", isCorrect: false },
+      { answerText: "36°C", isCorrect: false },
+      { answerText: "35°C", isCorrect: false }
+    ],
+    explanation: "The average normal human body temperature is about 37°C.",
+    image: null
+  },
+  {
+    id: 353,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which gland produces insulin and glucagon?",
+    answerOptions: [
+      { answerText: "Pancreas", isCorrect: true },
+      { answerText: "Adrenal gland", isCorrect: false },
+      { answerText: "Pituitary gland", isCorrect: false },
+      { answerText: "Thyroid gland", isCorrect: false }
+    ],
+    explanation: "The pancreas produces insulin and glucagon to regulate blood glucose levels.",
+    image: null
+  },
+  {
+    id: 354,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "What is the process by which the body maintains a stable internal environment?",
+    answerOptions: [
+      { answerText: "Homeostasis", isCorrect: true },
+      { answerText: "Metabolism", isCorrect: false },
+      { answerText: "Photosynthesis", isCorrect: false },
+      { answerText: "Respiration", isCorrect: false }
+    ],
+    explanation: "Homeostasis is the regulation of the body’s internal environment to maintain stability.",
+    image: null
+  },
+  {
+    id: 355,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which blood vessels carry blood into the kidneys for filtration?",
+    answerOptions: [
+      { answerText: "Renal arteries", isCorrect: true },
+      { answerText: "Renal veins", isCorrect: false },
+      { answerText: "Ureters", isCorrect: false },
+      { answerText: "Aorta", isCorrect: false }
+    ],
+    explanation: "The renal arteries carry oxygenated blood into the kidneys for filtration.",
+    image: null
+  },
+  {
+    id: 356,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which organ regulates water balance by producing urine?",
+    answerOptions: [
+      { answerText: "Kidney", isCorrect: true },
+      { answerText: "Liver", isCorrect: false },
+      { answerText: "Pancreas", isCorrect: false },
+      { answerText: "Heart", isCorrect: false }
+    ],
+    explanation: "The kidneys regulate water and salt balance by adjusting urine production.",
+    image: null
+  },
+  {
+    id: 357,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which gland produces ADH?",
+    answerOptions: [
+      { answerText: "Pituitary gland", isCorrect: true },
+      { answerText: "Thyroid gland", isCorrect: false },
+      { answerText: "Adrenal gland", isCorrect: false },
+      { answerText: "Pancreas", isCorrect: false }
+    ],
+    explanation: "The pituitary gland secretes ADH to control water reabsorption in the kidneys.",
+    image: null
+  },
+  {
+    id: 358,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "What is the name of the functional unit of the kidney?",
+    answerOptions: [
+      { answerText: "Nephron", isCorrect: true },
+      { answerText: "Alveolus", isCorrect: false },
+      { answerText: "Neuron", isCorrect: false },
+      { answerText: "Glomerulus", isCorrect: false }
+    ],
+    explanation: "The nephron is the structural and functional unit of the kidney responsible for filtration.",
+    image: null
+  },
+  {
+    id: 359,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which blood vessels carry filtered blood away from the kidneys?",
+    answerOptions: [
+      { answerText: "Renal veins", isCorrect: true },
+      { answerText: "Renal arteries", isCorrect: false },
+      { answerText: "Vena cava", isCorrect: false },
+      { answerText: "Ureters", isCorrect: false }
+    ],
+    explanation: "Renal veins carry deoxygenated, filtered blood from the kidneys to the vena cava.",
+    image: null
+  },
+  {
+    id: 360,
+    topic: "Homeostasis in Humans",
+    difficulty: "Easy",
+    questionText: "Which hormone regulates sodium and potassium levels in the blood?",
+    answerOptions: [
+      { answerText: "Aldosterone", isCorrect: true },
+      { answerText: "ADH", isCorrect: false },
+      { answerText: "Insulin", isCorrect: false },
+      { answerText: "Cortisol", isCorrect: false }
+    ],
+    explanation: "Aldosterone regulates sodium and potassium levels by controlling their reabsorption in the kidneys.",
+    image: null
+  },
+  // MEDIUM
+  {
+    id: 361,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "During dehydration, which hormone increases to conserve water in the body?",
+    answerOptions: [
+      { answerText: "ADH", isCorrect: true },
+      { answerText: "Insulin", isCorrect: false },
+      { answerText: "Thyroxine", isCorrect: false },
+      { answerText: "Glucagon", isCorrect: false }
+    ],
+    explanation: "ADH increases during dehydration to promote water reabsorption in the kidneys.",
+    image: null
+  },
+  {
+    id: 362,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "Which part of the nephron is responsible for most reabsorption of water and nutrients?",
+    answerOptions: [
+      { answerText: "Proximal convoluted tubule", isCorrect: true },
+      { answerText: "Distal convoluted tubule", isCorrect: false },
+      { answerText: "Loop of Henle", isCorrect: false },
+      { answerText: "Collecting duct", isCorrect: false }
+    ],
+    explanation: "The proximal convoluted tubule reabsorbs most filtered water, glucose, and salts.",
+    image: null
+  },
+  {
+    id: 363,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "Which feedback mechanism controls blood glucose regulation?",
+    answerOptions: [
+      { answerText: "Negative feedback", isCorrect: true },
+      { answerText: "Positive feedback", isCorrect: false },
+      { answerText: "Feedforward regulation", isCorrect: false },
+      { answerText: "Reflex action", isCorrect: false }
+    ],
+    explanation: "Blood glucose is regulated by negative feedback involving insulin and glucagon.",
+    image: null
+  },
+  {
+    id: 364,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "What is the main role of the loop of Henle?",
+    answerOptions: [
+      { answerText: "Concentrating urine", isCorrect: true },
+      { answerText: "Producing urea", isCorrect: false },
+      { answerText: "Filtering blood", isCorrect: false },
+      { answerText: "Producing hormones", isCorrect: false }
+    ],
+    explanation: "The loop of Henle creates a concentration gradient to allow water reabsorption.",
+    image: null
+  },
+  {
+    id: 365,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "Which blood vessel carries blood away from the glomerulus?",
+    answerOptions: [
+      { answerText: "Efferent arteriole", isCorrect: true },
+      { answerText: "Afferent arteriole", isCorrect: false },
+      { answerText: "Renal vein", isCorrect: false },
+      { answerText: "Renal artery", isCorrect: false }
+    ],
+    explanation: "The efferent arteriole carries blood away from the glomerulus after filtration.",
+    image: null
+  },
+  {
+    id: 366,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "What effect would a lack of ADH have on urine output?",
+    answerOptions: [
+      { answerText: "Increased volume of dilute urine", isCorrect: true },
+      { answerText: "Decreased volume of concentrated urine", isCorrect: false },
+      { answerText: "No urine production", isCorrect: false },
+      { answerText: "Blood in urine", isCorrect: false }
+    ],
+    explanation: "Without ADH, the kidneys cannot reabsorb much water, leading to dilute urine.",
+    image: null
+  },
+  {
+    id: 367,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "Which condition results from the pancreas producing little or no insulin?",
+    answerOptions: [
+      { answerText: "Diabetes mellitus", isCorrect: true },
+      { answerText: "Diabetes insipidus", isCorrect: false },
+      { answerText: "Hyperthyroidism", isCorrect: false },
+      { answerText: "Hypoglycaemia", isCorrect: false }
+    ],
+    explanation: "In diabetes mellitus, insulin production is impaired, causing high blood glucose.",
+    image: null
+  },
+  {
+    id: 368,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "Which hormone is secreted when blood sodium levels are low?",
+    answerOptions: [
+      { answerText: "Aldosterone", isCorrect: true },
+      { answerText: "ADH", isCorrect: false },
+      { answerText: "Insulin", isCorrect: false },
+      { answerText: "Cortisol", isCorrect: false }
+    ],
+    explanation: "Aldosterone increases sodium reabsorption in the kidneys.",
+    image: null
+  },
+  {
+    id: 369,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "What is the function of osmoreceptors in the hypothalamus?",
+    answerOptions: [
+      { answerText: "Detect changes in blood water concentration", isCorrect: true },
+      { answerText: "Filter blood plasma", isCorrect: false },
+      { answerText: "Produce hormones", isCorrect: false },
+      { answerText: "Transport oxygen", isCorrect: false }
+    ],
+    explanation: "Osmoreceptors detect water concentration and trigger ADH release when needed.",
+    image: null
+  },
+  {
+    id: 370,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "Why does sweating help cool the body?",
+    answerOptions: [
+      { answerText: "Evaporation of sweat removes heat from the skin", isCorrect: true },
+      { answerText: "Sweat blocks sunlight", isCorrect: false },
+      { answerText: "Sweat absorbs body heat directly", isCorrect: false },
+      { answerText: "Sweat increases blood flow", isCorrect: false }
+    ],
+    explanation: "Sweating cools the body through evaporation, which removes heat from the skin surface.",
+    image: null
+  },
+  {
+    id: 371,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "Which part of the nephron connects to the collecting duct?",
+    answerOptions: [
+      { answerText: "Distal convoluted tubule", isCorrect: true },
+      { answerText: "Proximal convoluted tubule", isCorrect: false },
+      { answerText: "Loop of Henle", isCorrect: false },
+      { answerText: "Bowman's capsule", isCorrect: false }
+    ],
+    explanation: "The distal convoluted tubule connects to the collecting duct, where final adjustments to urine composition occur.",
+    image: null
+  },
+  {
+    id: 372,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "In a healthy person, which substance is not found in urine?",
+    answerOptions: [
+      { answerText: "Glucose", isCorrect: true },
+      { answerText: "Urea", isCorrect: false },
+      { answerText: "Salts", isCorrect: false },
+      { answerText: "Water", isCorrect: false }
+    ],
+    explanation: "Glucose is normally reabsorbed in the nephron and should not be present in urine.",
+    image: null
+  },
+  {
+    id: 373,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "Which blood vessel brings blood into the glomerulus?",
+    answerOptions: [
+      { answerText: "Afferent arteriole", isCorrect: true },
+      { answerText: "Efferent arteriole", isCorrect: false },
+      { answerText: "Renal vein", isCorrect: false },
+      { answerText: "Renal artery", isCorrect: false }
+    ],
+    explanation: "The afferent arteriole carries blood into the glomerulus for filtration.",
+    image: null
+  },
+  {
+    id: 374,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "What happens to ADH secretion when blood water concentration is high?",
+    answerOptions: [
+      { answerText: "It decreases", isCorrect: true },
+      { answerText: "It increases", isCorrect: false },
+      { answerText: "It stops completely", isCorrect: false },
+      { answerText: "It remains constant", isCorrect: false }
+    ],
+    explanation: "When water concentration is high, less ADH is secreted, producing more dilute urine.",
+    image: null
+  },
+  {
+    id: 375,
+    topic: "Homeostasis in Humans",
+    difficulty: "Medium",
+    questionText: "Which gland releases aldosterone?",
+    answerOptions: [
+      { answerText: "Adrenal gland", isCorrect: true },
+      { answerText: "Pituitary gland", isCorrect: false },
+      { answerText: "Thyroid gland", isCorrect: false },
+      { answerText: "Pancreas", isCorrect: false }
+    ],
+    explanation: "The adrenal gland releases aldosterone to regulate sodium and potassium balance.",
+    image: null
+  },
+  // HARD
+  {
+    id: 376,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Explain how negative feedback involving ADH helps maintain water balance during dehydration.",
+    answerOptions: [
+      { answerText: "ADH increases water reabsorption in the kidneys, reducing water loss", isCorrect: true },
+      { answerText: "ADH decreases water reabsorption in the kidneys, increasing water loss", isCorrect: false },
+      { answerText: "ADH increases urine production", isCorrect: false },
+      { answerText: "ADH removes salts from the blood", isCorrect: false }
+    ],
+    explanation: "When dehydration occurs, osmoreceptors detect low water concentration and trigger ADH release, which increases water reabsorption in the kidneys until balance is restored.",
+    image: null
+  },
+  {
+    id: 377,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Describe how aldosterone and ADH work together to conserve water.",
+    answerOptions: [
+      { answerText: "Aldosterone increases sodium reabsorption, ADH increases water reabsorption", isCorrect: true },
+      { answerText: "Both increase sodium reabsorption", isCorrect: false },
+      { answerText: "Both decrease sodium levels", isCorrect: false },
+      { answerText: "Aldosterone removes urea, ADH adds water to blood", isCorrect: false }
+    ],
+    explanation: "Aldosterone retains sodium, which draws water back into the blood, while ADH directly promotes water reabsorption in the kidneys.",
+    image: null
+  },
+  {
+    id: 378,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Explain why glucose in the urine is an indicator of possible diabetes mellitus.",
+    answerOptions: [
+      { answerText: "Excess glucose exceeds kidney reabsorption capacity", isCorrect: true },
+      { answerText: "Kidneys start producing glucose", isCorrect: false },
+      { answerText: "Glucose breaks down in urine", isCorrect: false },
+      { answerText: "Insulin converts glucose to urine", isCorrect: false }
+    ],
+    explanation: "In uncontrolled diabetes mellitus, blood glucose levels are so high that not all glucose can be reabsorbed by the nephron, leading to its presence in urine.",
+    image: null
+  },
+  {
+    id: 379,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "How does the loop of Henle create a concentration gradient in the medulla?",
+    answerOptions: [
+      { answerText: "Through countercurrent multiplication", isCorrect: true },
+      { answerText: "By storing sodium in the cortex", isCorrect: false },
+      { answerText: "By filtering glucose from blood", isCorrect: false },
+      { answerText: "By producing hormones", isCorrect: false }
+    ],
+    explanation: "The loop of Henle pumps ions into the medulla, making it hypertonic, which draws water out of the collecting ducts.",
+    image: null
+  },
+  {
+    id: 380,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Describe the role of the hypothalamus in thermoregulation.",
+    answerOptions: [
+      { answerText: "It detects blood temperature changes and triggers effectors to restore balance", isCorrect: true },
+      { answerText: "It stores heat during cold conditions", isCorrect: false },
+      { answerText: "It circulates warm blood around the body", isCorrect: false },
+      { answerText: "It produces sweat directly", isCorrect: false }
+    ],
+    explanation: "The hypothalamus contains thermoreceptors that detect temperature changes and activate mechanisms like sweating or shivering.",
+    image: null
+  },
+  {
+    id: 381,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Explain why excessive sweating without fluid replacement can lead to dehydration.",
+    answerOptions: [
+      { answerText: "Water is lost faster than it is replaced, reducing blood volume", isCorrect: true },
+      { answerText: "Sweat absorbs water from the blood", isCorrect: false },
+      { answerText: "Sweat converts water to salt", isCorrect: false },
+      { answerText: "Sweat removes glucose from the blood", isCorrect: false }
+    ],
+    explanation: "Sweating leads to water loss from the body. Without replacement, blood plasma volume decreases, impairing normal function.",
+    image: null
+  },
+  {
+    id: 382,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Describe how the kidneys respond to low blood pressure.",
+    answerOptions: [
+      { answerText: "Release renin, activating the renin-angiotensin-aldosterone system", isCorrect: true },
+      { answerText: "Produce more ADH", isCorrect: false },
+      { answerText: "Filter more blood", isCorrect: false },
+      { answerText: "Release adrenaline", isCorrect: false }
+    ],
+    explanation: "Low blood pressure triggers renin release, which leads to sodium and water retention via aldosterone, increasing blood volume and pressure.",
+    image: null
+  },
+  {
+    id: 383,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Why does prolonged high salt intake increase the risk of hypertension?",
+    answerOptions: [
+      { answerText: "It increases water retention, raising blood volume", isCorrect: true },
+      { answerText: "It directly thickens arteries", isCorrect: false },
+      { answerText: "It stops aldosterone secretion", isCorrect: false },
+      { answerText: "It increases heart rate permanently", isCorrect: false }
+    ],
+    explanation: "High salt levels cause the body to retain more water, increasing blood volume and thus blood pressure.",
+    image: null
+  },
+  {
+    id: 384,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Explain why untreated diabetes insipidus causes frequent urination.",
+    answerOptions: [
+      { answerText: "Lack of ADH prevents water reabsorption", isCorrect: true },
+      { answerText: "Too much insulin increases urination", isCorrect: false },
+      { answerText: "Excess aldosterone removes water", isCorrect: false },
+      { answerText: "Glucose is filtered into urine", isCorrect: false }
+    ],
+    explanation: "Without ADH, the collecting ducts cannot reabsorb water effectively, leading to large volumes of dilute urine.",
+    image: null
+  },
+  {
+    id: 385,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "How do baroreceptors contribute to blood pressure regulation?",
+    answerOptions: [
+      { answerText: "They detect blood pressure changes and signal the medulla to adjust heart rate and vessel diameter", isCorrect: true },
+      { answerText: "They pump blood directly", isCorrect: false },
+      { answerText: "They release aldosterone", isCorrect: false },
+      { answerText: "They produce insulin", isCorrect: false }
+    ],
+    explanation: "Baroreceptors in arteries detect pressure changes and send signals to the brainstem to maintain stable blood pressure.",
+    image: null
+  },
+  {
+    id: 386,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Why is thermoregulation more challenging in elderly individuals?",
+    answerOptions: [
+      { answerText: "Reduced sweat gland activity and slower circulation", isCorrect: true },
+      { answerText: "Increased muscle mass", isCorrect: false },
+      { answerText: "Excessive hormone production", isCorrect: false },
+      { answerText: "Higher metabolic rate", isCorrect: false }
+    ],
+    explanation: "Aging reduces sweat production and slows blood flow, making temperature control less efficient.",
+    image: null
+  },
+  {
+    id: 387,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Explain how shivering helps restore body temperature.",
+    answerOptions: [
+      { answerText: "Rapid muscle contractions generate heat", isCorrect: true },
+      { answerText: "Shivering increases blood sugar", isCorrect: false },
+      { answerText: "Shivering reduces blood flow", isCorrect: false },
+      { answerText: "Shivering removes heat from muscles", isCorrect: false }
+    ],
+    explanation: "Shivering produces heat through muscle contractions, raising body temperature during cold conditions.",
+    image: null
+  },
+  {
+    id: 388,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Why is the medulla of the kidney hypertonic compared to the cortex?",
+    answerOptions: [
+      { answerText: "Active transport of salts into the medulla by the loop of Henle", isCorrect: true },
+      { answerText: "Water removal by Bowman's capsule", isCorrect: false },
+      { answerText: "Passive diffusion of salts from blood", isCorrect: false },
+      { answerText: "Hormone production in the medulla", isCorrect: false }
+    ],
+    explanation: "The loop of Henle pumps salts into the medulla, creating a hypertonic environment that aids water reabsorption.",
+    image: null
+  },
+  {
+    id: 389,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Why is protein normally absent from urine?",
+    answerOptions: [
+      { answerText: "Proteins are too large to pass through the glomerular filter", isCorrect: true },
+      { answerText: "Proteins are broken down in the nephron", isCorrect: false },
+      { answerText: "Proteins are stored in the kidneys", isCorrect: false },
+      { answerText: "Proteins dissolve in blood plasma only", isCorrect: false }
+    ],
+    explanation: "The glomerular basement membrane prevents large molecules like proteins from entering the filtrate.",
+    image: null
+  },
+  {
+    id: 390,
+    topic: "Homeostasis in Humans",
+    difficulty: "Hard",
+    questionText: "Explain why marathon runners are advised to replace electrolytes as well as water.",
+    answerOptions: [
+      { answerText: "Electrolytes are lost in sweat and are essential for nerve and muscle function", isCorrect: true },
+      { answerText: "Electrolytes produce energy for muscles", isCorrect: false },
+      { answerText: "Electrolytes prevent water loss", isCorrect: false },
+      { answerText: "Electrolytes lower body temperature", isCorrect: false }
+    ],
+    explanation: "Sweating causes loss of salts like sodium and potassium, which are vital for proper nerve signaling and muscle contraction.",
+    image: null
+  },
+  // HUMAN IMPACT ON THE ENVIROMENT: EASY
+  {
+    id: 346,
+    topic: "Human Impact on the Environment",
+    difficulty: "Easy",
+    questionText: "Which gas is the main contributor to global warming?",
+    answerOptions: [
+      { answerText: "Carbon dioxide", isCorrect: true },
+      { answerText: "Nitrogen", isCorrect: false },
+      { answerText: "Oxygen", isCorrect: false },
+      { answerText: "Hydrogen", isCorrect: false }
+    ],
+    explanation: "Carbon dioxide traps heat in the atmosphere, contributing to global warming.",
+    image: null
+  },
+  {
+    id: 347,
+    topic: "Human Impact on the Environment",
+    difficulty: "Easy",
+    questionText: "Which human activity is the main cause of deforestation?",
+    answerOptions: [
+      { answerText: "Agricultural expansion", isCorrect: true },
+      { answerText: "Fishing", isCorrect: false },
+      { answerText: "Tourism", isCorrect: false },
+      { answerText: "Mining for gems", isCorrect: false }
+    ],
+    explanation: "Agricultural expansion often involves clearing forests to create farmland.",
+    image: null
+  },
+  {
+    id: 348,
+    topic: "Human Impact on the Environment",
+    difficulty: "Easy",
+    questionText: "Which of the following is a renewable energy source?",
+    answerOptions: [
+      { answerText: "Solar power", isCorrect: true },
+      { answerText: "Coal", isCorrect: false },
+      { answerText: "Natural gas", isCorrect: false },
+      { answerText: "Petroleum", isCorrect: false }
+    ],
+    explanation: "Solar power is renewable because it is naturally replenished by the Sun.",
+    image: null
+  },
+  {
+    id: 349,
+    topic: "Human Impact on the Environment",
+    difficulty: "Easy",
+    questionText: "What type of pollution is caused by excessive fertilizers in rivers?",
+    answerOptions: [
+      { answerText: "Water pollution", isCorrect: true },
+      { answerText: "Noise pollution", isCorrect: false },
+      { answerText: "Light pollution", isCorrect: false },
+      { answerText: "Thermal pollution", isCorrect: false }
+    ],
+    explanation: "Fertilizer runoff contaminates water sources, leading to eutrophication.",
+    image: null
+  },
+  {
+    id: 350,
+    topic: "Human Impact on the Environment",
+    difficulty: "Easy",
+    questionText: "What is the term for the gradual increase in Earth's average temperature?",
+    answerOptions: [
+      { answerText: "Global warming", isCorrect: true },
+      { answerText: "Ozone depletion", isCorrect: false },
+      { answerText: "Deforestation", isCorrect: false },
+      { answerText: "Desertification", isCorrect: false }
+    ],
+    explanation: "Global warming refers to the long-term rise in Earth's average temperature.",
+    image: null
+  },
+  {
+    id: 351,
+    topic: "Human Impact on the Environment",
+    difficulty: "Easy",
+    questionText: "Which type of waste takes the longest to decompose?",
+    answerOptions: [
+      { answerText: "Plastic", isCorrect: true },
+      { answerText: "Paper", isCorrect: false },
+      { answerText: "Food scraps", isCorrect: false },
+      { answerText: "Cotton cloth", isCorrect: false }
+    ],
+    explanation: "Plastics can take hundreds of years to decompose in the environment.",
+    image: null
+  },
+  {
+    id: 352,
+    topic: "Human Impact on the Environment",
+    difficulty: "Easy",
+    questionText: "What is the main cause of acid rain?",
+    answerOptions: [
+      { answerText: "Sulphur dioxide emissions", isCorrect: true },
+      { answerText: "Oxygen emissions", isCorrect: false },
+      { answerText: "Water vapour", isCorrect: false },
+      { answerText: "Carbon monoxide", isCorrect: false }
+    ],
+    explanation: "Sulphur dioxide reacts with water in the atmosphere to form acidic precipitation.",
+    image: null
+  },
+  {
+    id: 353,
+    topic: "Human Impact on the Environment",
+    difficulty: "Easy",
+    questionText: "Which layer of the atmosphere contains the ozone layer?",
+    answerOptions: [
+      { answerText: "Stratosphere", isCorrect: true },
+      { answerText: "Troposphere", isCorrect: false },
+      { answerText: "Mesosphere", isCorrect: false },
+      { answerText: "Exosphere", isCorrect: false }
+    ],
+    explanation: "The ozone layer, located in the stratosphere, protects us from UV radiation.",
+    image: null
+  },
+  {
+    id: 354,
+    topic: "Human Impact on the Environment",
+    difficulty: "Easy",
+    questionText: "Which of the following is an example of a greenhouse gas?",
+    answerOptions: [
+      { answerText: "Methane", isCorrect: true },
+      { answerText: "Nitrogen", isCorrect: false },
+      { answerText: "Oxygen", isCorrect: false },
+      { answerText: "Argon", isCorrect: false }
+    ],
+    explanation: "Methane is a potent greenhouse gas produced by livestock and landfills.",
+    image: null
+  },
+  {
+    id: 355,
+    topic: "Human Impact on the Environment",
+    difficulty: "Easy",
+    questionText: "Which practice helps conserve water?",
+    answerOptions: [
+      { answerText: "Drip irrigation", isCorrect: true },
+      { answerText: "Flood irrigation", isCorrect: false },
+      { answerText: "Overwatering", isCorrect: false },
+      { answerText: "Washing cars with hoses", isCorrect: false }
+    ],
+    explanation: "Drip irrigation delivers water directly to plant roots, reducing wastage.",
+    image: null
+  },
 
+  // MEDIUM (356–365)
+  {
+    id: 356,
+    topic: "Human Impact on the Environment",
+    difficulty: "Medium",
+    questionText: "Which process describes the over-enrichment of water with nutrients?",
+    answerOptions: [
+      { answerText: "Eutrophication", isCorrect: true },
+      { answerText: "Sedimentation", isCorrect: false },
+      { answerText: "Deforestation", isCorrect: false },
+      { answerText: "Desalination", isCorrect: false }
+    ],
+    explanation: "Eutrophication occurs when nutrient overload promotes excessive algae growth.",
+    image: null
+  },
+  {
+    id: 357,
+    topic: "Human Impact on the Environment",
+    difficulty: "Medium",
+    questionText: "Which farming method helps prevent soil erosion?",
+    answerOptions: [
+      { answerText: "Contour ploughing", isCorrect: true },
+      { answerText: "Monocropping", isCorrect: false },
+      { answerText: "Overgrazing", isCorrect: false },
+      { answerText: "Deforestation", isCorrect: false }
+    ],
+    explanation: "Contour ploughing follows the land's natural shape, reducing water runoff.",
+    image: null
+  },
+  {
+    id: 358,
+    topic: "Human Impact on the Environment",
+    difficulty: "Medium",
+    questionText: "What is the term for the decline of soil fertility due to overuse?",
+    answerOptions: [
+      { answerText: "Soil degradation", isCorrect: true },
+      { answerText: "Soil erosion", isCorrect: false },
+      { answerText: "Soil compaction", isCorrect: false },
+      { answerText: "Soil salinisation", isCorrect: false }
+    ],
+    explanation: "Soil degradation includes nutrient loss from overfarming and poor land management.",
+    image: null
+  },
+  {
+    id: 359,
+    topic: "Human Impact on the Environment",
+    difficulty: "Medium",
+    questionText: "Which environmental issue is caused by chlorofluorocarbons (CFCs)?",
+    answerOptions: [
+      { answerText: "Ozone layer depletion", isCorrect: true },
+      { answerText: "Acid rain", isCorrect: false },
+      { answerText: "Global warming", isCorrect: false },
+      { answerText: "Soil erosion", isCorrect: false }
+    ],
+    explanation: "CFCs destroy ozone molecules, reducing UV protection.",
+    image: null
+  },
+  {
+    id: 360,
+    topic: "Human Impact on the Environment",
+    difficulty: "Medium",
+    questionText: "Which type of mining causes the most environmental damage?",
+    answerOptions: [
+      { answerText: "Open-pit mining", isCorrect: true },
+      { answerText: "Underground mining", isCorrect: false },
+      { answerText: "Artisanal mining", isCorrect: false },
+      { answerText: "Drift mining", isCorrect: false }
+    ],
+    explanation: "Open-pit mining removes vast amounts of earth, destroying habitats.",
+    image: null
+  },
+  {
+    id: 361,
+    topic: "Human Impact on the Environment",
+    difficulty: "Medium",
+    questionText: "Which practice reduces the impact of landfills?",
+    answerOptions: [
+      { answerText: "Recycling", isCorrect: true },
+      { answerText: "Burning waste", isCorrect: false },
+      { answerText: "Burying waste", isCorrect: false },
+      { answerText: "Dumping waste into rivers", isCorrect: false }
+    ],
+    explanation: "Recycling reduces the volume of waste sent to landfills.",
+    image: null
+  },
+  {
+    id: 362,
+    topic: "Human Impact on the Environment",
+    difficulty: "Medium",
+    questionText: "Which agricultural practice increases biodiversity on farms?",
+    answerOptions: [
+      { answerText: "Crop rotation", isCorrect: true },
+      { answerText: "Monoculture", isCorrect: false },
+      { answerText: "Overfertilisation", isCorrect: false },
+      { answerText: "Overgrazing", isCorrect: false }
+    ],
+    explanation: "Crop rotation prevents soil depletion and promotes varied species.",
+    image: null
+  },
+  {
+    id: 363,
+    topic: "Human Impact on the Environment",
+    difficulty: "Medium",
+    questionText: "Which human activity is the biggest cause of species extinction?",
+    answerOptions: [
+      { answerText: "Habitat destruction", isCorrect: true },
+      { answerText: "Overfishing", isCorrect: false },
+      { answerText: "Poaching", isCorrect: false },
+      { answerText: "Pollution", isCorrect: false }
+    ],
+    explanation: "Habitat destruction eliminates the living spaces necessary for survival.",
+    image: null
+  },
+  {
+    id: 364,
+    topic: "Human Impact on the Environment",
+    difficulty: "Medium",
+    questionText: "What is the main cause of desertification?",
+    answerOptions: [
+      { answerText: "Overgrazing and deforestation", isCorrect: true },
+      { answerText: "Volcanic eruptions", isCorrect: false },
+      { answerText: "Earthquakes", isCorrect: false },
+      { answerText: "Glacier melting", isCorrect: false }
+    ],
+    explanation: "Overgrazing and deforestation remove vegetation, exposing soil to erosion.",
+    image: null
+  },
+  {
+    id: 365,
+    topic: "Human Impact on the Environment",
+    difficulty: "Medium",
+    questionText: "Which greenhouse gas is mainly released from rice paddies and livestock?",
+    answerOptions: [
+      { answerText: "Methane", isCorrect: true },
+      { answerText: "Carbon dioxide", isCorrect: false },
+      { answerText: "Nitrous oxide", isCorrect: false },
+      { answerText: "Sulphur dioxide", isCorrect: false }
+    ],
+    explanation: "Methane is produced by anaerobic decomposition in wetlands and animal digestion.",
+    image: null
+  },
+
+  // HARD (366–375)
+  {
+    id: 366,
+    topic: "Human Impact on the Environment",
+    difficulty: "Hard",
+    questionText: "Which international agreement aimed to phase out CFCs?",
+    answerOptions: [
+      { answerText: "Montreal Protocol", isCorrect: true },
+      { answerText: "Kyoto Protocol", isCorrect: false },
+      { answerText: "Paris Agreement", isCorrect: false },
+      { answerText: "Doha Amendment", isCorrect: false }
+    ],
+    explanation: "The Montreal Protocol of 1987 targeted substances that deplete the ozone layer.",
+    image: null
+  },
+  {
+    id: 367,
+    topic: "Human Impact on the Environment",
+    difficulty: "Hard",
+    questionText: "What is the main cause of ocean acidification?",
+    answerOptions: [
+      { answerText: "Increased CO2 absorption", isCorrect: true },
+      { answerText: "Oil spills", isCorrect: false },
+      { answerText: "Plastic waste", isCorrect: false },
+      { answerText: "Overfishing", isCorrect: false }
+    ],
+    explanation: "Oceans absorb CO2 from the atmosphere, lowering pH and harming marine life.",
+    image: null
+  },
+  {
+    id: 368,
+    topic: "Human Impact on the Environment",
+    difficulty: "Hard",
+    questionText: "Which pollutant is most associated with bioaccumulation in aquatic food chains?",
+    answerOptions: [
+      { answerText: "Mercury", isCorrect: true },
+      { answerText: "Lead", isCorrect: false },
+      { answerText: "Sulphur dioxide", isCorrect: false },
+      { answerText: "Carbon monoxide", isCorrect: false }
+    ],
+    explanation: "Mercury accumulates in aquatic organisms and increases in concentration up the food chain.",
+    image: null
+  },
+  {
+    id: 369,
+    topic: "Human Impact on the Environment",
+    difficulty: "Hard",
+    questionText: "Which term describes the long-term storage of carbon in forests, soils, or oceans?",
+    answerOptions: [
+      { answerText: "Carbon sequestration", isCorrect: true },
+      { answerText: "Carbon footprint", isCorrect: false },
+      { answerText: "Carbon cycling", isCorrect: false },
+      { answerText: "Carbon emission", isCorrect: false }
+    ],
+    explanation: "Carbon sequestration is the capture and storage of carbon to mitigate climate change.",
+    image: null
+  },
+  {
+    id: 370,
+    topic: "Human Impact on the Environment",
+    difficulty: "Hard",
+    questionText: "Which country emits the most CO2 annually?",
+    answerOptions: [
+      { answerText: "China", isCorrect: true },
+      { answerText: "United States", isCorrect: false },
+      { answerText: "India", isCorrect: false },
+      { answerText: "Russia", isCorrect: false }
+    ],
+    explanation: "China leads global CO2 emissions due to heavy industrialisation and coal use.",
+    image: null
+  },
+  {
+    id: 371,
+    topic: "Human Impact on the Environment",
+    difficulty: "Hard",
+    questionText: "Which type of fishing involves dragging heavy nets along the ocean floor?",
+    answerOptions: [
+      { answerText: "Bottom trawling", isCorrect: true },
+      { answerText: "Purse seining", isCorrect: false },
+      { answerText: "Longlining", isCorrect: false },
+      { answerText: "Gillnetting", isCorrect: false }
+    ],
+    explanation: "Bottom trawling damages seafloor habitats and causes bycatch.",
+    image: null
+  },
+  {
+    id: 372,
+    topic: "Human Impact on the Environment",
+    difficulty: "Hard",
+    questionText: "Which energy source has the highest carbon footprint per unit of electricity?",
+    answerOptions: [
+      { answerText: "Coal", isCorrect: true },
+      { answerText: "Natural gas", isCorrect: false },
+      { answerText: "Oil", isCorrect: false },
+      { answerText: "Nuclear", isCorrect: false }
+    ],
+    explanation: "Coal releases more CO2 per unit of electricity than any other major source.",
+    image: null
+  },
+  {
+    id: 373,
+    topic: "Human Impact on the Environment",
+    difficulty: "Hard",
+    questionText: "Which concept promotes meeting present needs without harming future generations?",
+    answerOptions: [
+      { answerText: "Sustainable development", isCorrect: true },
+      { answerText: "Industrial development", isCorrect: false },
+      { answerText: "Economic growth", isCorrect: false },
+      { answerText: "Urbanisation", isCorrect: false }
+    ],
+    explanation: "Sustainable development balances environmental, economic, and social needs.",
+    image: null
+  },
+  {
+    id: 374,
+    topic: "Human Impact on the Environment",
+    difficulty: "Hard",
+    questionText: "Which human activity is the largest source of nitrous oxide emissions?",
+    answerOptions: [
+      { answerText: "Agriculture", isCorrect: true },
+      { answerText: "Transportation", isCorrect: false },
+      { answerText: "Industry", isCorrect: false },
+      { answerText: "Deforestation", isCorrect: false }
+    ],
+    explanation: "Fertiliser use and livestock waste release significant amounts of nitrous oxide.",
+    image: null
+  },
+  {
+    id: 375,
+    topic: "Human Impact on the Environment",
+    difficulty: "Hard",
+    questionText: "Which international treaty addresses climate change by reducing greenhouse gas emissions?",
+    answerOptions: [
+      { answerText: "Paris Agreement", isCorrect: true },
+      { answerText: "Montreal Protocol", isCorrect: false },
+      { answerText: "Basel Convention", isCorrect: false },
+      { answerText: "CITES", isCorrect: false }
+    ],
+    explanation: "The Paris Agreement aims to limit global temperature rise by cutting emissions.",
+    image: null
+  },
+   {
+    id: 351,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "What does DNA stand for?",
+    answerOptions: [
+      { answerText: "Deoxyribonucleic acid", isCorrect: true },
+      { answerText: "Deoxyribose nitrogen acid", isCorrect: false },
+      { answerText: "Deoxyribose nucleic acid", isCorrect: false },
+      { answerText: "Deoxyribonuclear acid", isCorrect: false }
+    ],
+    explanation: "DNA stands for deoxyribonucleic acid, the molecule that carries genetic information.",
+    image: null
+  },
+  {
+    id: 352,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "In DNA, adenine always pairs with which base?",
+    answerOptions: [
+      { answerText: "Thymine", isCorrect: true },
+      { answerText: "Cytosine", isCorrect: false },
+      { answerText: "Guanine", isCorrect: false },
+      { answerText: "Uracil", isCorrect: false }
+    ],
+    explanation: "In DNA, adenine (A) pairs with thymine (T) through hydrogen bonds.",
+    image: null
+  },
+  {
+    id: 353,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "What is the shape of a DNA molecule?",
+    answerOptions: [
+      { answerText: "Double helix", isCorrect: true },
+      { answerText: "Single helix", isCorrect: false },
+      { answerText: "Triple helix", isCorrect: false },
+      { answerText: "Straight chain", isCorrect: false }
+    ],
+    explanation: "DNA has a double helix structure, discovered by Watson and Crick.",
+    image: null
+  },
+  {
+    id: 354,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "Which sugar is found in DNA nucleotides?",
+    answerOptions: [
+      { answerText: "Deoxyribose", isCorrect: true },
+      { answerText: "Ribose", isCorrect: false },
+      { answerText: "Glucose", isCorrect: false },
+      { answerText: "Fructose", isCorrect: false }
+    ],
+    explanation: "DNA nucleotides contain the sugar deoxyribose, unlike RNA which contains ribose.",
+    image: null
+  },
+  {
+    id: 355,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "What is the function of DNA?",
+    answerOptions: [
+      { answerText: "To store genetic information", isCorrect: true },
+      { answerText: "To break down food", isCorrect: false },
+      { answerText: "To provide energy", isCorrect: false },
+      { answerText: "To transport oxygen", isCorrect: false }
+    ],
+    explanation: "DNA stores instructions for the development, functioning, and reproduction of organisms.",
+    image: null
+  },
+  {
+    id: 356,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "Which nitrogenous base is found in DNA but not RNA?",
+    answerOptions: [
+      { answerText: "Thymine", isCorrect: true },
+      { answerText: "Uracil", isCorrect: false },
+      { answerText: "Cytosine", isCorrect: false },
+      { answerText: "Adenine", isCorrect: false }
+    ],
+    explanation: "Thymine is found only in DNA, while uracil is found only in RNA.",
+    image: null
+  },
+  {
+    id: 357,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "What are the building blocks of DNA called?",
+    answerOptions: [
+      { answerText: "Nucleotides", isCorrect: true },
+      { answerText: "Amino acids", isCorrect: false },
+      { answerText: "Fatty acids", isCorrect: false },
+      { answerText: "Monosaccharides", isCorrect: false }
+    ],
+    explanation: "DNA is made of repeating units called nucleotides, each with a sugar, phosphate, and base.",
+    image: null
+  },
+  {
+    id: 358,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "During replication, which enzyme unzips the DNA strands?",
+    answerOptions: [
+      { answerText: "DNA helicase", isCorrect: true },
+      { answerText: "DNA polymerase", isCorrect: false },
+      { answerText: "Ligase", isCorrect: false },
+      { answerText: "RNA polymerase", isCorrect: false }
+    ],
+    explanation: "DNA helicase unwinds and separates the two strands of the DNA double helix.",
+    image: null
+  },
+  {
+    id: 359,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "What type of bonds hold the two DNA strands together?",
+    answerOptions: [
+      { answerText: "Hydrogen bonds", isCorrect: true },
+      { answerText: "Ionic bonds", isCorrect: false },
+      { answerText: "Covalent bonds", isCorrect: false },
+      { answerText: "Peptide bonds", isCorrect: false }
+    ],
+    explanation: "The nitrogenous bases on opposite strands are held together by hydrogen bonds.",
+    image: null
+  },
+  {
+    id: 360,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "Where in a cell is DNA found?",
+    answerOptions: [
+      { answerText: "Nucleus", isCorrect: true },
+      { answerText: "Cytoplasm", isCorrect: false },
+      { answerText: "Mitochondrial membrane", isCorrect: false },
+      { answerText: "Ribosome", isCorrect: false }
+    ],
+    explanation: "In eukaryotic cells, DNA is located mainly in the nucleus.",
+    image: null
+  },
+  {
+    id: 361,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "What is complementary base pairing?",
+    answerOptions: [
+      { answerText: "Specific pairing of nitrogenous bases", isCorrect: true },
+      { answerText: "Random matching of nucleotides", isCorrect: false },
+      { answerText: "Pairing of sugars and phosphates", isCorrect: false },
+      { answerText: "Binding of enzymes to DNA", isCorrect: false }
+    ],
+    explanation: "Complementary base pairing means adenine pairs with thymine, and cytosine with guanine.",
+    image: null
+  },
+  {
+    id: 362,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "Which scientist's X-ray photographs helped reveal DNA's structure?",
+    answerOptions: [
+      { answerText: "Rosalind Franklin", isCorrect: true },
+      { answerText: "Charles Darwin", isCorrect: false },
+      { answerText: "Gregor Mendel", isCorrect: false },
+      { answerText: "Louis Pasteur", isCorrect: false }
+    ],
+    explanation: "Rosalind Franklin's X-ray diffraction images were crucial in discovering DNA's double helix.",
+    image: null
+  },
+  {
+    id: 363,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "What is a gene?",
+    answerOptions: [
+      { answerText: "A segment of DNA that codes for a protein", isCorrect: true },
+      { answerText: "A sugar molecule", isCorrect: false },
+      { answerText: "A type of cell", isCorrect: false },
+      { answerText: "A lipid molecule", isCorrect: false }
+    ],
+    explanation: "A gene is a sequence of DNA nucleotides that provides instructions for making a protein.",
+    image: null
+  },
+  {
+    id: 364,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "Which process produces an identical copy of DNA?",
+    answerOptions: [
+      { answerText: "DNA replication", isCorrect: true },
+      { answerText: "Transcription", isCorrect: false },
+      { answerText: "Translation", isCorrect: false },
+      { answerText: "Mutation", isCorrect: false }
+    ],
+    explanation: "DNA replication ensures each new cell receives an identical copy of genetic material.",
+    image: null
+  },
+  {
+    id: 365,
+    topic: "DNA",
+    difficulty: "Easy",
+    questionText: "In protein synthesis, what is the role of DNA?",
+    answerOptions: [
+      { answerText: "It provides the instructions to make proteins", isCorrect: true },
+      { answerText: "It directly assembles amino acids", isCorrect: false },
+      { answerText: "It carries amino acids to the ribosome", isCorrect: false },
+      { answerText: "It acts as an enzyme", isCorrect: false }
+    ],
+    explanation: "DNA stores the genetic code used to build proteins during protein synthesis.",
+    image: null
+  },
+
+  // ---------------- MEDIUM (366–380) ----------------
+  {
+    id: 366,
+    topic: "DNA",
+    difficulty: "Medium",
+    questionText: "What is the complementary DNA sequence to 5'-ATCGGA-3'?",
+    answerOptions: [
+      { answerText: "5'-TACGCT-3'", isCorrect: false },
+      { answerText: "5'-TAGCCT-3'", isCorrect: true },
+      { answerText: "5'-CGATTC-3'", isCorrect: false },
+      { answerText: "5'-ATCGGA-3'", isCorrect: false }
+    ],
+    explanation: "A pairs with T, T with A, C with G, G with C, G with C, and A with T, giving TAGCCT.",
+    image: null
+  },
+  {
+    id: 367,
+    topic: "DNA",
+    difficulty: "Medium",
+    questionText: "Which enzyme adds nucleotides to the growing DNA strand during replication?",
+    answerOptions: [
+      { answerText: "DNA polymerase", isCorrect: true },
+      { answerText: "RNA polymerase", isCorrect: false },
+      { answerText: "Ligase", isCorrect: false },
+      { answerText: "Helicase", isCorrect: false }
+    ],
+    explanation: "DNA polymerase adds complementary nucleotides to the new strand during replication.",
+    image: null
+  },
+  {
+    id: 368,
+    topic: "DNA",
+    difficulty: "Medium",
+    questionText: "Which bond connects the sugar and phosphate groups in DNA?",
+    answerOptions: [
+      { answerText: "Phosphodiester bond", isCorrect: true },
+      { answerText: "Hydrogen bond", isCorrect: false },
+      { answerText: "Ionic bond", isCorrect: false },
+      { answerText: "Peptide bond", isCorrect: false }
+    ],
+    explanation: "The sugar and phosphate in the DNA backbone are connected by phosphodiester bonds.",
+    image: null
+  },
+  {
+    id: 369,
+    topic: "DNA",
+    difficulty: "Medium",
+    questionText: "In replication, the lagging strand is built in short fragments called:",
+    answerOptions: [
+      { answerText: "Okazaki fragments", isCorrect: true },
+      { answerText: "Exons", isCorrect: false },
+      { answerText: "Introns", isCorrect: false },
+      { answerText: "Peptide fragments", isCorrect: false }
+    ],
+    explanation: "Okazaki fragments are short DNA sequences formed on the lagging strand during replication.",
+    image: null
+  },
+  {
+    id: 370,
+    topic: "DNA",
+    difficulty: "Medium",
+    questionText: "Which process copies DNA into messenger RNA?",
+    answerOptions: [
+      { answerText: "Transcription", isCorrect: true },
+      { answerText: "Translation", isCorrect: false },
+      { answerText: "Replication", isCorrect: false },
+      { answerText: "Mutation", isCorrect: false }
+    ],
+    explanation: "Transcription produces mRNA from a DNA template, which then guides protein synthesis.",
+    image: null
+  },
+   {
+    id: 381,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "During DNA replication, what is meant by the term 'semi-conservative'?",
+    answerOptions: [
+      { answerText: "Each new DNA molecule has one old strand and one new strand", isCorrect: true },
+      { answerText: "Both strands in the new molecule are new", isCorrect: false },
+      { answerText: "Both strands in the new molecule are from the parent", isCorrect: false },
+      { answerText: "Each DNA molecule has identical old strands", isCorrect: false }
+    ],
+    explanation: "Semi-conservative replication means that each daughter DNA molecule consists of one original (parental) strand and one newly synthesised strand.",
+    image: null
+  },
+  {
+    id: 382,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "What role does mRNA play in protein synthesis?",
+    answerOptions: [
+      { answerText: "It carries the genetic code from the DNA to the ribosome", isCorrect: true },
+      { answerText: "It brings amino acids to the ribosome", isCorrect: false },
+      { answerText: "It catalyses peptide bond formation", isCorrect: false },
+      { answerText: "It forms part of the ribosome structure", isCorrect: false }
+    ],
+    explanation: "mRNA is transcribed from DNA in the nucleus and carries the instructions for protein synthesis to the ribosome.",
+    image: null
+  },
+  {
+    id: 383,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "If a DNA strand has the base sequence A-T-G-C-A-T, what is the complementary DNA sequence?",
+    answerOptions: [
+      { answerText: "T-A-C-G-T-A", isCorrect: true },
+      { answerText: "U-A-C-G-U-A", isCorrect: false },
+      { answerText: "A-T-G-C-A-T", isCorrect: false },
+      { answerText: "T-U-G-A-T-U", isCorrect: false }
+    ],
+    explanation: "In DNA, A pairs with T and G pairs with C, so the complementary strand of A-T-G-C-A-T is T-A-C-G-T-A.",
+    image: null
+  },
+  {
+    id: 384,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "Which process produces an exact copy of a DNA molecule?",
+    answerOptions: [
+      { answerText: "DNA replication", isCorrect: true },
+      { answerText: "Transcription", isCorrect: false },
+      { answerText: "Translation", isCorrect: false },
+      { answerText: "Mutation", isCorrect: false }
+    ],
+    explanation: "DNA replication produces two identical DNA molecules before cell division.",
+    image: null
+  },
+  {
+    id: 385,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "During transcription, which enzyme unwinds the DNA and joins RNA nucleotides?",
+    answerOptions: [
+      { answerText: "RNA polymerase", isCorrect: true },
+      { answerText: "DNA ligase", isCorrect: false },
+      { answerText: "DNA polymerase", isCorrect: false },
+      { answerText: "Helicase", isCorrect: false }
+    ],
+    explanation: "RNA polymerase unwinds a section of the DNA molecule and assembles the RNA strand from free nucleotides.",
+    image: null
+  },
+  {
+    id: 386,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "Which part of the nucleotide determines the genetic code?",
+    answerOptions: [
+      { answerText: "Nitrogenous base", isCorrect: true },
+      { answerText: "Deoxyribose sugar", isCorrect: false },
+      { answerText: "Phosphate group", isCorrect: false },
+      { answerText: "Hydrogen bond", isCorrect: false }
+    ],
+    explanation: "The sequence of nitrogenous bases encodes genetic information.",
+    image: null
+  },
+  {
+    id: 387,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "What is the anticodon for the mRNA codon AUG?",
+    answerOptions: [
+      { answerText: "UAC", isCorrect: true },
+      { answerText: "TAC", isCorrect: false },
+      { answerText: "AUG", isCorrect: false },
+      { answerText: "CAU", isCorrect: false }
+    ],
+    explanation: "In RNA, A pairs with U and G pairs with C, so the anticodon for AUG is UAC.",
+    image: null
+  },
+  {
+    id: 388,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "Which organelle is the site of protein synthesis?",
+    answerOptions: [
+      { answerText: "Ribosome", isCorrect: true },
+      { answerText: "Nucleus", isCorrect: false },
+      { answerText: "Mitochondrion", isCorrect: false },
+      { answerText: "Golgi body", isCorrect: false }
+    ],
+    explanation: "Ribosomes, either free in the cytoplasm or attached to the ER, are where proteins are assembled.",
+    image: null
+  },
+  {
+    id: 389,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "Which type of RNA has anticodons?",
+    answerOptions: [
+      { answerText: "tRNA", isCorrect: true },
+      { answerText: "mRNA", isCorrect: false },
+      { answerText: "rRNA", isCorrect: false },
+      { answerText: "snRNA", isCorrect: false }
+    ],
+    explanation: "Transfer RNA (tRNA) carries amino acids and has anticodons that pair with mRNA codons.",
+    image: null
+  },
+  {
+    id: 390,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "What is the start codon in mRNA and what amino acid does it code for?",
+    answerOptions: [
+      { answerText: "AUG – Methionine", isCorrect: true },
+      { answerText: "UAA – Stop", isCorrect: false },
+      { answerText: "UAG – Stop", isCorrect: false },
+      { answerText: "UGA – Stop", isCorrect: false }
+    ],
+    explanation: "The start codon AUG codes for the amino acid methionine and signals the start of translation.",
+    image: null
+  },
+  {
+    id: 391,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "Which bonds hold the two strands of the DNA double helix together?",
+    answerOptions: [
+      { answerText: "Hydrogen bonds between complementary bases", isCorrect: true },
+      { answerText: "Peptide bonds between bases", isCorrect: false },
+      { answerText: "Covalent bonds between bases", isCorrect: false },
+      { answerText: "Ionic bonds between sugars", isCorrect: false }
+    ],
+    explanation: "Hydrogen bonds between complementary bases (A-T, G-C) hold the two DNA strands together.",
+    image: null
+  },
+  {
+    id: 392,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "Which process converts the message in mRNA into a sequence of amino acids?",
+    answerOptions: [
+      { answerText: "Translation", isCorrect: true },
+      { answerText: "Transcription", isCorrect: false },
+      { answerText: "Replication", isCorrect: false },
+      { answerText: "Mutation", isCorrect: false }
+    ],
+    explanation: "Translation at the ribosome reads mRNA codons to assemble amino acids into proteins.",
+    image: null
+  },
+  {
+    id: 393,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "If a section of DNA is damaged by a mutation, what may occur?",
+    answerOptions: [
+      { answerText: "A different protein may be produced", isCorrect: true },
+      { answerText: "The organism will always die immediately", isCorrect: false },
+      { answerText: "The DNA will be unchanged", isCorrect: false },
+      { answerText: "A protein will never be made again", isCorrect: false }
+    ],
+    explanation: "Mutations can change the amino acid sequence in a protein, altering its function or structure.",
+    image: null
+  },
+  {
+    id: 394,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "Why is DNA replication important before cell division?",
+    answerOptions: [
+      { answerText: "It ensures each daughter cell receives an identical copy of genetic material", isCorrect: true },
+      { answerText: "It increases the number of chromosomes", isCorrect: false },
+      { answerText: "It changes the genetic code for variation", isCorrect: false },
+      { answerText: "It shortens the DNA molecule", isCorrect: false }
+    ],
+    explanation: "DNA replication ensures genetic continuity by giving each new cell a complete set of instructions.",
+    image: null
+  },
+  {
+    id: 395,
+    topic: "DNA",
+    difficulty: "Hard",
+    questionText: "In protein synthesis, which molecule directly determines the order of amino acids?",
+    answerOptions: [
+      { answerText: "The sequence of codons in mRNA", isCorrect: true },
+      { answerText: "The anticodons in tRNA", isCorrect: false },
+      { answerText: "The DNA backbone", isCorrect: false },
+      { answerText: "The ribosomal RNA structure", isCorrect: false }
+    ],
+    explanation: "The sequence of codons in mRNA dictates the specific order in which amino acids are assembled into a protein.",
+    image: null
+  },
+  // MEIOSIS  // EASY (396–410)
+  {
+    id: 396,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "What is the main purpose of meiosis in sexually reproducing organisms?",
+    answerOptions: [
+      { answerText: "To produce gametes", isCorrect: true },
+      { answerText: "To repair damaged cells", isCorrect: false },
+      { answerText: "To grow new tissues", isCorrect: false },
+      { answerText: "To produce identical cells", isCorrect: false }
+    ],
+    explanation: "Meiosis produces gametes (sperm and eggs) with half the normal chromosome number for sexual reproduction.",
+    image: null
+  },
+  {
+    id: 397,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "How many daughter cells are produced after one complete meiotic division?",
+    answerOptions: [
+      { answerText: "Four", isCorrect: true },
+      { answerText: "Two", isCorrect: false },
+      { answerText: "One", isCorrect: false },
+      { answerText: "Eight", isCorrect: false }
+    ],
+    explanation: "Meiosis results in four non-identical haploid daughter cells.",
+    image: null
+  },
+  {
+    id: 398,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "What is the chromosome number in gametes compared to somatic cells?",
+    answerOptions: [
+      { answerText: "Half the number", isCorrect: true },
+      { answerText: "The same number", isCorrect: false },
+      { answerText: "Double the number", isCorrect: false },
+      { answerText: "A quarter of the number", isCorrect: false }
+    ],
+    explanation: "Gametes are haploid, containing half the chromosome number of somatic (diploid) cells.",
+    image: null
+  },
+  {
+    id: 399,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "In which stage of meiosis does crossing over occur?",
+    answerOptions: [
+      { answerText: "Prophase I", isCorrect: true },
+      { answerText: "Metaphase II", isCorrect: false },
+      { answerText: "Anaphase I", isCorrect: false },
+      { answerText: "Telophase II", isCorrect: false }
+    ],
+    explanation: "Crossing over happens in Prophase I, allowing genetic exchange between homologous chromosomes.",
+    image: null
+  },
+  {
+    id: 400,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "What type of cells undergo meiosis?",
+    answerOptions: [
+      { answerText: "Reproductive cells", isCorrect: true },
+      { answerText: "Skin cells", isCorrect: false },
+      { answerText: "Muscle cells", isCorrect: false },
+      { answerText: "Nerve cells", isCorrect: false }
+    ],
+    explanation: "Only reproductive cells in the gonads undergo meiosis to produce gametes.",
+    image: null
+  },
+  {
+    id: 401,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "Which phase involves homologous chromosomes lining up at the equator?",
+    answerOptions: [
+      { answerText: "Metaphase I", isCorrect: true },
+      { answerText: "Anaphase II", isCorrect: false },
+      { answerText: "Prophase II", isCorrect: false },
+      { answerText: "Telophase I", isCorrect: false }
+    ],
+    explanation: "In Metaphase I, homologous chromosome pairs align at the equator of the cell.",
+    image: null
+  },
+  {
+    id: 402,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "What is the result of crossing over?",
+    answerOptions: [
+      { answerText: "Genetic variation", isCorrect: true },
+      { answerText: "Identical DNA copies", isCorrect: false },
+      { answerText: "Chromosome loss", isCorrect: false },
+      { answerText: "Cell death", isCorrect: false }
+    ],
+    explanation: "Crossing over exchanges genetic material, leading to variation in offspring.",
+    image: null
+  },
+  {
+    id: 403,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "What does the term 'haploid' mean?",
+    answerOptions: [
+      { answerText: "One set of chromosomes", isCorrect: true },
+      { answerText: "Two sets of chromosomes", isCorrect: false },
+      { answerText: "Three sets of chromosomes", isCorrect: false },
+      { answerText: "Four sets of chromosomes", isCorrect: false }
+    ],
+    explanation: "Haploid cells have one complete set of chromosomes, as in gametes.",
+    image: null
+  },
+  {
+    id: 404,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "Which type of reproduction involves meiosis?",
+    answerOptions: [
+      { answerText: "Sexual reproduction", isCorrect: true },
+      { answerText: "Asexual reproduction", isCorrect: false },
+      { answerText: "Budding", isCorrect: false },
+      { answerText: "Vegetative propagation", isCorrect: false }
+    ],
+    explanation: "Meiosis is essential for sexual reproduction as it produces gametes.",
+    image: null
+  },
+  {
+    id: 405,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "Which of the following is NOT a stage of meiosis?",
+    answerOptions: [
+      { answerText: "Prometaphase", isCorrect: true },
+      { answerText: "Prophase I", isCorrect: false },
+      { answerText: "Metaphase II", isCorrect: false },
+      { answerText: "Anaphase I", isCorrect: false }
+    ],
+    explanation: "Prometaphase is a mitosis stage; it is not typically named in meiosis.",
+    image: null
+  },
+  {
+    id: 406,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "How many times does the cell divide during meiosis?",
+    answerOptions: [
+      { answerText: "Twice", isCorrect: true },
+      { answerText: "Once", isCorrect: false },
+      { answerText: "Three times", isCorrect: false },
+      { answerText: "Four times", isCorrect: false }
+    ],
+    explanation: "Meiosis consists of two successive cell divisions: meiosis I and meiosis II.",
+    image: null
+  },
+  {
+    id: 407,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "What separates during Anaphase I of meiosis?",
+    answerOptions: [
+      { answerText: "Homologous chromosomes", isCorrect: true },
+      { answerText: "Sister chromatids", isCorrect: false },
+      { answerText: "Centromeres", isCorrect: false },
+      { answerText: "DNA molecules", isCorrect: false }
+    ],
+    explanation: "In Anaphase I, homologous chromosomes are pulled apart to opposite poles.",
+    image: null
+  },
+  {
+    id: 408,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "During which stage are sister chromatids separated?",
+    answerOptions: [
+      { answerText: "Anaphase II", isCorrect: true },
+      { answerText: "Anaphase I", isCorrect: false },
+      { answerText: "Metaphase I", isCorrect: false },
+      { answerText: "Prophase II", isCorrect: false }
+    ],
+    explanation: "In Anaphase II, sister chromatids are separated into individual chromosomes.",
+    image: null
+  },
+  {
+    id: 409,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "Meiosis produces cells that are genetically...",
+    answerOptions: [
+      { answerText: "Different from each other", isCorrect: true },
+      { answerText: "Identical to the parent cell", isCorrect: false },
+      { answerText: "Identical to each other", isCorrect: false },
+      { answerText: "Larger than the parent cell", isCorrect: false }
+    ],
+    explanation: "Genetic variation arises from crossing over and independent assortment during meiosis.",
+    image: null
+  },
+  {
+    id: 410,
+    topic: "Meiosis",
+    difficulty: "Easy",
+    questionText: "What process restores the diploid chromosome number after meiosis?",
+    answerOptions: [
+      { answerText: "Fertilisation", isCorrect: true },
+      { answerText: "Replication", isCorrect: false },
+      { answerText: "Transcription", isCorrect: false },
+      { answerText: "Translation", isCorrect: false }
+    ],
+    explanation: "Fertilisation combines two haploid gametes to form a diploid zygote.",
+    image: null
+  },
+   // MEDIUM (411–425)
+  {
+    id: 411,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "Which event in meiosis is responsible for the independent assortment of genes?",
+    answerOptions: [
+      { answerText: "Random alignment of homologous pairs in Metaphase I", isCorrect: true },
+      { answerText: "Crossing over in Prophase I", isCorrect: false },
+      { answerText: "Separation of sister chromatids in Anaphase II", isCorrect: false },
+      { answerText: "Replication during Interphase", isCorrect: false }
+    ],
+    explanation: "Independent assortment occurs when homologous pairs line up randomly in Metaphase I.",
+    image: null
+  },
+  {
+    id: 412,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "Why is crossing over important for evolution?",
+    answerOptions: [
+      { answerText: "It increases genetic variation", isCorrect: true },
+      { answerText: "It ensures cells are identical", isCorrect: false },
+      { answerText: "It speeds up cell division", isCorrect: false },
+      { answerText: "It prevents mutations", isCorrect: false }
+    ],
+    explanation: "Crossing over allows exchange of genetic material, producing new combinations for natural selection to act on.",
+    image: null
+  },
+  {
+    id: 413,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "How does meiosis differ from mitosis in terms of chromosome number?",
+    answerOptions: [
+      { answerText: "Meiosis halves the chromosome number", isCorrect: true },
+      { answerText: "Meiosis doubles the chromosome number", isCorrect: false },
+      { answerText: "Meiosis keeps chromosome number the same", isCorrect: false },
+      { answerText: "Meiosis triples the chromosome number", isCorrect: false }
+    ],
+    explanation: "Meiosis produces haploid cells, while mitosis produces diploid cells.",
+    image: null
+  },
+  {
+    id: 414,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "What is a tetrad in meiosis?",
+    answerOptions: [
+      { answerText: "A pair of homologous chromosomes, each with two chromatids", isCorrect: true },
+      { answerText: "Four sister chromatids from one chromosome", isCorrect: false },
+      { answerText: "Four identical gametes", isCorrect: false },
+      { answerText: "A group of four cells", isCorrect: false }
+    ],
+    explanation: "A tetrad forms in Prophase I when homologous chromosomes pair up.",
+    image: null
+  },
+  {
+    id: 415,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "What would happen if homologous chromosomes failed to separate in Anaphase I?",
+    answerOptions: [
+      { answerText: "Gametes would have abnormal chromosome numbers", isCorrect: true },
+      { answerText: "Cells would become polyploid", isCorrect: false },
+      { answerText: "Crossing over would be prevented", isCorrect: false },
+      { answerText: "Meiosis would stop immediately", isCorrect: false }
+    ],
+    explanation: "This is nondisjunction, leading to gametes with extra or missing chromosomes.",
+    image: null
+  },
+  {
+    id: 416,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "Why is meiosis called a 'reduction division'?",
+    answerOptions: [
+      { answerText: "Because the chromosome number is halved", isCorrect: true },
+      { answerText: "Because the DNA amount stays constant", isCorrect: false },
+      { answerText: "Because the cell size decreases", isCorrect: false },
+      { answerText: "Because the number of cells decreases", isCorrect: false }
+    ],
+    explanation: "Meiosis reduces the chromosome number from diploid to haploid.",
+    image: null
+  },
+  {
+    id: 417,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "During which phase of meiosis do chromosomes line up in single file at the equator?",
+    answerOptions: [
+      { answerText: "Metaphase II", isCorrect: true },
+      { answerText: "Metaphase I", isCorrect: false },
+      { answerText: "Anaphase II", isCorrect: false },
+      { answerText: "Prophase I", isCorrect: false }
+    ],
+    explanation: "Metaphase II sees haploid chromosomes (with sister chromatids) aligned at the equator.",
+    image: null
+  },
+  {
+    id: 418,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "Which of the following contributes most to genetic variation in meiosis?",
+    answerOptions: [
+      { answerText: "Crossing over and independent assortment", isCorrect: true },
+      { answerText: "Replication and cytokinesis", isCorrect: false },
+      { answerText: "Mutation and transcription", isCorrect: false },
+      { answerText: "Cell elongation and condensation", isCorrect: false }
+    ],
+    explanation: "Both crossing over and random assortment of chromosomes generate variation.",
+    image: null
+  },
+  {
+    id: 419,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "If a cell starts meiosis with 20 chromosomes, how many will each gamete have?",
+    answerOptions: [
+      { answerText: "10", isCorrect: true },
+      { answerText: "20", isCorrect: false },
+      { answerText: "5", isCorrect: false },
+      { answerText: "40", isCorrect: false }
+    ],
+    explanation: "Gametes are haploid, so they have half the number of chromosomes as the original cell.",
+    image: null
+  },
+  {
+    id: 420,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "In humans, which cells are formed by meiosis?",
+    answerOptions: [
+      { answerText: "Sperm and egg cells", isCorrect: true },
+      { answerText: "Blood cells", isCorrect: false },
+      { answerText: "Skin cells", isCorrect: false },
+      { answerText: "Liver cells", isCorrect: false }
+    ],
+    explanation: "Meiosis in the gonads produces gametes—sperm in males and eggs in females.",
+    image: null
+  },
+  {
+    id: 421,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "What is the outcome of meiosis II?",
+    answerOptions: [
+      { answerText: "Four haploid cells", isCorrect: true },
+      { answerText: "Two diploid cells", isCorrect: false },
+      { answerText: "Two haploid cells", isCorrect: false },
+      { answerText: "Four diploid cells", isCorrect: false }
+    ],
+    explanation: "Meiosis II separates sister chromatids, resulting in four haploid cells.",
+    image: null
+  },
+  {
+    id: 422,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "Why do siblings from the same parents look different?",
+    answerOptions: [
+      { answerText: "Because of genetic variation from meiosis", isCorrect: true },
+      { answerText: "Because DNA changes after birth", isCorrect: false },
+      { answerText: "Because mitosis changes genes", isCorrect: false },
+      { answerText: "Because fertilisation destroys DNA", isCorrect: false }
+    ],
+    explanation: "Variation from crossing over and independent assortment makes each gamete unique.",
+    image: null
+  },
+  {
+    id: 423,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "When does DNA replication occur in relation to meiosis?",
+    answerOptions: [
+      { answerText: "Before meiosis I, during interphase", isCorrect: true },
+      { answerText: "Before meiosis II", isCorrect: false },
+      { answerText: "During anaphase", isCorrect: false },
+      { answerText: "After telophase II", isCorrect: false }
+    ],
+    explanation: "DNA is replicated before meiosis begins, during the S phase of interphase.",
+    image: null
+  },
+  {
+    id: 424,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "What separates during Anaphase II?",
+    answerOptions: [
+      { answerText: "Sister chromatids", isCorrect: true },
+      { answerText: "Homologous chromosomes", isCorrect: false },
+      { answerText: "Centrioles", isCorrect: false },
+      { answerText: "Nuclear membranes", isCorrect: false }
+    ],
+    explanation: "Sister chromatids split apart in Anaphase II, moving to opposite poles.",
+    image: null
+  },
+  {
+    id: 425,
+    topic: "Meiosis",
+    difficulty: "Medium",
+    questionText: "Which of the following is a key difference between meiosis I and meiosis II?",
+    answerOptions: [
+      { answerText: "Homologous chromosomes separate in meiosis I, sister chromatids in meiosis II", isCorrect: true },
+      { answerText: "Chromosomes replicate in both divisions", isCorrect: false },
+      { answerText: "Both reduce chromosome number", isCorrect: false },
+      { answerText: "Both involve crossing over", isCorrect: false }
+    ],
+    explanation: "Meiosis I separates homologues; meiosis II separates chromatids.",
+    image: null
+  },
+
+  // HARD (426–440)
+  {
+    id: 426,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "Nondisjunction in meiosis II would result in...",
+    answerOptions: [
+      { answerText: "Two normal gametes, one with an extra chromosome, and one missing a chromosome", isCorrect: true },
+      { answerText: "All gametes abnormal", isCorrect: false },
+      { answerText: "Only normal gametes", isCorrect: false },
+      { answerText: "Gametes with double the chromosome number", isCorrect: false }
+    ],
+    explanation: "If sister chromatids fail to separate in meiosis II, only two gametes are affected.",
+    image: null
+  },
+  {
+    id: 427,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "A diploid organism has 14 chromosomes. After meiosis, how many possible chromosome combinations can a gamete have from independent assortment alone?",
+    answerOptions: [
+      { answerText: "128", isCorrect: true },
+      { answerText: "64", isCorrect: false },
+      { answerText: "256", isCorrect: false },
+      { answerText: "14", isCorrect: false }
+    ],
+    explanation: "Independent assortment gives 2ⁿ combinations, where n = haploid number (7). 2⁷ = 128.",
+    image: null
+  },
+  {
+    id: 428,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "How does crossing over increase the number of possible gamete combinations?",
+    answerOptions: [
+      { answerText: "By creating recombinant chromosomes with new allele combinations", isCorrect: true },
+      { answerText: "By doubling chromosome number", isCorrect: false },
+      { answerText: "By preventing mutation", isCorrect: false },
+      { answerText: "By reducing genetic diversity", isCorrect: false }
+    ],
+    explanation: "Crossing over exchanges segments between homologues, making new allele arrangements possible.",
+    image: null
+  },
+  {
+    id: 429,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "Why is meiosis essential for maintaining chromosome number across generations?",
+    answerOptions: [
+      { answerText: "It halves chromosome number so fertilisation restores diploidy", isCorrect: true },
+      { answerText: "It doubles chromosome number in gametes", isCorrect: false },
+      { answerText: "It prevents gamete formation", isCorrect: false },
+      { answerText: "It eliminates mutations", isCorrect: false }
+    ],
+    explanation: "Without meiosis, chromosome number would double each generation.",
+    image: null
+  },
+  {
+    id: 430,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "If crossing over occurs between linked genes, what is the outcome?",
+    answerOptions: [
+      { answerText: "Recombinant gametes with new allele combinations", isCorrect: true },
+      { answerText: "Only parental type gametes", isCorrect: false },
+      { answerText: "Loss of genetic variation", isCorrect: false },
+      { answerText: "No effect on alleles", isCorrect: false }
+    ],
+    explanation: "Crossing over can break linkage between genes, producing recombinants.",
+    image: null
+  },
+  {
+    id: 431,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "During meiosis I, homologous chromosomes fail to separate. This is an example of...",
+    answerOptions: [
+      { answerText: "Nondisjunction", isCorrect: true },
+      { answerText: "Crossing over", isCorrect: false },
+      { answerText: "Independent assortment", isCorrect: false },
+      { answerText: "Synapsis", isCorrect: false }
+    ],
+    explanation: "Nondisjunction leads to gametes with abnormal chromosome numbers.",
+    image: null
+  },
+  {
+    id: 432,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "Which of the following correctly matches a stage of meiosis with its key event?",
+    answerOptions: [
+      { answerText: "Prophase I – homologous chromosomes pair and exchange segments", isCorrect: true },
+      { answerText: "Anaphase I – sister chromatids separate", isCorrect: false },
+      { answerText: "Metaphase II – homologous chromosomes line up in pairs", isCorrect: false },
+      { answerText: "Telophase II – chromosomes condense", isCorrect: false }
+    ],
+    explanation: "Prophase I involves synapsis and crossing over between homologous chromosomes.",
+    image: null
+  },
+  {
+    id: 433,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "If a species has a diploid number of 6, how many chromosomes are in each gamete?",
+    answerOptions: [
+      { answerText: "3", isCorrect: true },
+      { answerText: "6", isCorrect: false },
+      { answerText: "12", isCorrect: false },
+      { answerText: "2", isCorrect: false }
+    ],
+    explanation: "Gametes are haploid and contain half the chromosome number of diploid cells.",
+    image: null
+  },
+  {
+    id: 434,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "Why is genetic variation important for a population?",
+    answerOptions: [
+      { answerText: "It increases chances of survival in changing environments", isCorrect: true },
+      { answerText: "It ensures all individuals are identical", isCorrect: false },
+      { answerText: "It reduces adaptation ability", isCorrect: false },
+      { answerText: "It eliminates competition", isCorrect: false }
+    ],
+    explanation: "Variation provides a pool of traits that may be advantageous under new conditions.",
+    image: null
+  },
+  {
+    id: 435,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "If nondisjunction occurs in meiosis I, how many gametes will be abnormal?",
+    answerOptions: [
+      { answerText: "All of them", isCorrect: true },
+      { answerText: "Half of them", isCorrect: false },
+      { answerText: "One", isCorrect: false },
+      { answerText: "None", isCorrect: false }
+    ],
+    explanation: "If homologues fail to separate in meiosis I, all gametes receive abnormal chromosome numbers.",
+    image: null
+  },
+  {
+    id: 436,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "Which feature distinguishes meiosis from mitosis?",
+    answerOptions: [
+      { answerText: "Pairing of homologous chromosomes", isCorrect: true },
+      { answerText: "Separation of sister chromatids", isCorrect: false },
+      { answerText: "DNA replication", isCorrect: false },
+      { answerText: "Cytokinesis", isCorrect: false }
+    ],
+    explanation: "Only meiosis involves synapsis of homologous chromosomes in Prophase I.",
+    image: null
+  },
+  {
+    id: 437,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "In which stage of meiosis do spindle fibers first attach to kinetochores?",
+    answerOptions: [
+      { answerText: "Metaphase I", isCorrect: true },
+      { answerText: "Prophase I", isCorrect: false },
+      { answerText: "Telophase II", isCorrect: false },
+      { answerText: "Anaphase I", isCorrect: false }
+    ],
+    explanation: "Spindle fibers attach to kinetochores when chromosomes align at the equator in Metaphase I.",
+    image: null
+  },
+  {
+    id: 438,
+    topic: "Meiosis",
+    difficulty: "Hard",
+    questionText: "How does meiosis contribute to Mendel’s law of segregation?",
+    answerOptions: [
+      { answerText: "It separates allele pairs into different gametes", isCorrect: true },
+      { answerText: "It duplicates alleles in gametes", isCorrect: false },
+      { answerText: "It fuses gametes into zygotes", isCorrect: false },
+      { answerText: "It prevents recombination", isCorrect: false }
+    ],
+    explanation: "During meiosis I, homologous chromosomes carrying different alleles separate into different gametes.",
+    image: null
+  },
+  //INHERITENCE AND GENETICS
+  {
+    "id": 441,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Easy",
+    "questionText": "What term describes the physical appearance of an organism based on its genes?",
+    "answerOptions": [
+      { "answerText": "Phenotype", "isCorrect": true },
+      { "answerText": "Genotype", "isCorrect": false },
+      { "answerText": "Allele", "isCorrect": false },
+      { "answerText": "Chromosome", "isCorrect": false }
+    ],
+    "explanation": "Phenotype refers to observable characteristics, while genotype refers to the genetic makeup.",
+    "image": null
+  },
+  {
+    "id": 442,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Easy",
+    "questionText": "In Mendel's pea plant experiments, tall (T) was dominant over short (t). What is the genotype of a homozygous tall plant?",
+    "answerOptions": [
+      { "answerText": "TT", "isCorrect": true },
+      { "answerText": "Tt", "isCorrect": false },
+      { "answerText": "tt", "isCorrect": false },
+      { "answerText": "Ttt", "isCorrect": false }
+    ],
+    "explanation": "Homozygous dominant means both alleles are the dominant form, TT.",
+    "image": null
+  },
+  {
+    "id": 443,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Easy",
+    "questionText": "Which type of allele is only expressed when paired with another identical allele?",
+    "answerOptions": [
+      { "answerText": "Recessive allele", "isCorrect": true },
+      { "answerText": "Dominant allele", "isCorrect": false },
+      { "answerText": "Codominant allele", "isCorrect": false },
+      { "answerText": "Multiple allele", "isCorrect": false }
+    ],
+    "explanation": "A recessive allele is masked by a dominant allele and only expressed when homozygous.",
+    "image": null
+  },
+  {
+    "id": 444,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Easy",
+    "questionText": "Which genetic cross involves only one trait?",
+    "answerOptions": [
+      { "answerText": "Monohybrid cross", "isCorrect": true },
+      { "answerText": "Dihybrid cross", "isCorrect": false },
+      { "answerText": "Test cross", "isCorrect": false },
+      { "answerText": "Back cross", "isCorrect": false }
+    ],
+    "explanation": "A monohybrid cross tracks the inheritance of a single characteristic.",
+    "image": null
+  },
+  {
+    "id": 445,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Easy",
+    "questionText": "Which scientist is considered the father of genetics?",
+    "answerOptions": [
+      { "answerText": "Gregor Mendel", "isCorrect": true },
+      { "answerText": "Charles Darwin", "isCorrect": false },
+      { "answerText": "James Watson", "isCorrect": false },
+      { "answerText": "Francis Crick", "isCorrect": false }
+    ],
+    "explanation": "Gregor Mendel's experiments with pea plants laid the foundation of genetics.",
+    "image": null
+  },
+  {
+    "id": 446,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Easy",
+    "questionText": "What is the term for different versions of the same gene?",
+    "answerOptions": [
+      { "answerText": "Alleles", "isCorrect": true },
+      { "answerText": "Chromatids", "isCorrect": false },
+      { "answerText": "Loci", "isCorrect": false },
+      { "answerText": "Gametes", "isCorrect": false }
+    ],
+    "explanation": "Alleles are alternative forms of the same gene that occupy the same locus on homologous chromosomes.",
+    "image": null
+  },
+  {
+    "id": 447,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Easy",
+    "questionText": "If a trait is sex-linked and found on the X chromosome, who is more likely to express it?",
+    "answerOptions": [
+      { "answerText": "Males", "isCorrect": true },
+      { "answerText": "Females", "isCorrect": false },
+      { "answerText": "Both equally", "isCorrect": false },
+      { "answerText": "Neither", "isCorrect": false }
+    ],
+    "explanation": "Males have only one X chromosome, so a single recessive allele will be expressed.",
+    "image": null
+  },
+  {
+    "id": 448,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Easy",
+    "questionText": "Which process during meiosis increases genetic variation?",
+    "answerOptions": [
+      { "answerText": "Crossing over", "isCorrect": true },
+      { "answerText": "DNA replication", "isCorrect": false },
+      { "answerText": "Mitosis", "isCorrect": false },
+      { "answerText": "Cytokinesis", "isCorrect": false }
+    ],
+    "explanation": "Crossing over during prophase I of meiosis results in recombination of alleles.",
+    "image": null
+  },
+  {
+    "id": 449,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Easy",
+    "questionText": "If both alleles contribute equally to the phenotype, this is known as:",
+    "answerOptions": [
+      { "answerText": "Codominance", "isCorrect": true },
+      { "answerText": "Incomplete dominance", "isCorrect": false },
+      { "answerText": "Dominance", "isCorrect": false },
+      { "answerText": "Polygenic inheritance", "isCorrect": false }
+    ],
+    "explanation": "In codominance, both alleles are fully expressed, such as in AB blood type.",
+    "image": null
+  },
+  {
+    "id": 1000,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Medium",
+    "questionText": "In a dihybrid cross of RrYy × RrYy, what is the expected phenotypic ratio according to Mendel's second law?",
+    "answerOptions": [
+      { "answerText": "9:3:3:1", "isCorrect": true },
+      { "answerText": "3:1", "isCorrect": false },
+      { "answerText": "1:2:1", "isCorrect": false },
+      { "answerText": "4:0", "isCorrect": false }
+    ],
+    "explanation": "The 9:3:3:1 ratio is the classic result of independent assortment for two traits in heterozygous parents.",
+    "image": null
+  },
+  //MEDIUM
+  {
+    "id": 450,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Medium",
+    "questionText": "In humans, brown eyes (B) are dominant over blue eyes (b). If two heterozygous parents have children, what is the probability of them having a blue-eyed child?",
+    "answerOptions": [
+      { "answerText": "25%", "isCorrect": true },
+      { "answerText": "50%", "isCorrect": false },
+      { "answerText": "75%", "isCorrect": false },
+      { "answerText": "0%", "isCorrect": false }
+    ],
+    "explanation": "A cross between Bb × Bb produces a 1:2:1 genotype ratio, with 1 out of 4 being bb (blue-eyed).",
+    "image": null
+  },
+  {
+    "id": 451,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Medium",
+    "questionText": "In a dihybrid cross of RrYy × RrYy, what is the expected phenotypic ratio according to Mendel's second law?",
+    "answerOptions": [
+      { "answerText": "9:3:3:1", "isCorrect": true },
+      { "answerText": "3:1", "isCorrect": false },
+      { "answerText": "1:2:1", "isCorrect": false },
+      { "answerText": "4:0", "isCorrect": false }
+    ],
+    "explanation": "The 9:3:3:1 ratio is the classic result of independent assortment for two traits in heterozygous parents.",
+    "image": null
+  },
+  {
+    "id": 452,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Medium",
+    "questionText": "Haemophilia is a sex-linked recessive disorder. If a carrier mother has children with a normal father, what percentage of sons are expected to have haemophilia?",
+    "answerOptions": [
+      { "answerText": "50%", "isCorrect": true },
+      { "answerText": "25%", "isCorrect": false },
+      { "answerText": "0%", "isCorrect": false },
+      { "answerText": "75%", "isCorrect": false }
+    ],
+    "explanation": "Carrier mothers (XHXh) pass the defective X chromosome to half of their sons, who lack a second X chromosome to mask it.",
+    "image": null
+  },
+  {
+    "id": 453,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Medium",
+    "questionText": "A cross between a red-flowered plant (RR) and a white-flowered plant (WW) produces pink flowers (RW). What type of inheritance is this?",
+    "answerOptions": [
+      { "answerText": "Incomplete dominance", "isCorrect": true },
+      { "answerText": "Codominance", "isCorrect": false },
+      { "answerText": "Polygenic inheritance", "isCorrect": false },
+      { "answerText": "Multiple alleles", "isCorrect": false }
+    ],
+    "explanation": "Incomplete dominance results in a blending of phenotypes in heterozygotes.",
+    "image": null
+  },
+  {
+    "id": 454,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Medium",
+    "questionText": "Which blood group is known as the universal donor in the ABO blood group system?",
+    "answerOptions": [
+      { "answerText": "O negative", "isCorrect": true },
+      { "answerText": "O positive", "isCorrect": false },
+      { "answerText": "AB positive", "isCorrect": false },
+      { "answerText": "A negative", "isCorrect": false }
+    ],
+    "explanation": "O negative blood lacks A, B, and Rh antigens, so it can be given to most recipients.",
+    "image": null
+  },
+  {
+    "id": 455,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Medium",
+    "questionText": "If a man with genotype IAi and a woman with genotype IBi have children, which blood group will not appear in their offspring?",
+    "answerOptions": [
+      { "answerText": "None – all groups possible", "isCorrect": true },
+      { "answerText": "AB only", "isCorrect": false },
+      { "answerText": "O only", "isCorrect": false },
+      { "answerText": "A only", "isCorrect": false }
+    ],
+    "explanation": "Cross IAi × IBi can produce all four ABO blood types: A, B, AB, and O.",
+    "image": null
+  },
+  {
+    "id": 456,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Medium",
+    "questionText": "Which law states that alleles for different traits are distributed to gametes independently?",
+    "answerOptions": [
+      { "answerText": "Law of Independent Assortment", "isCorrect": true },
+      { "answerText": "Law of Segregation", "isCorrect": false },
+      { "answerText": "Law of Dominance", "isCorrect": false },
+      { "answerText": "Law of Linkage", "isCorrect": false }
+    ],
+    "explanation": "Mendel’s second law describes independent assortment of alleles during gamete formation.",
+    "image": null
+  },
+  {
+    "id": 457,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Medium",
+    "questionText": "Which genetic disorder is caused by an extra copy of chromosome 21?",
+    "answerOptions": [
+      { "answerText": "Down syndrome", "isCorrect": true },
+      { "answerText": "Turner syndrome", "isCorrect": false },
+      { "answerText": "Klinefelter syndrome", "isCorrect": false },
+      { "answerText": "Cystic fibrosis", "isCorrect": false }
+    ],
+    "explanation": "Trisomy 21 results in Down syndrome.",
+    "image": null
+  },
+  {
+    "id": 458,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Medium",
+    "questionText": "Which of the following is NOT a polygenic trait?",
+    "answerOptions": [
+      { "answerText": "Blood type", "isCorrect": true },
+      { "answerText": "Skin colour", "isCorrect": false },
+      { "answerText": "Height", "isCorrect": false },
+      { "answerText": "Eye colour", "isCorrect": false }
+    ],
+    "explanation": "Blood type is determined by multiple alleles but not polygenic; polygenic traits are influenced by many genes.",
+    "image": null
+  },
+  // HARD
+   {
+    "id": 459,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Hard",
+    "questionText": "In a cross between two organisms, the phenotypic ratio 1:1:1:1 is observed. Which parental genotypes are most likely responsible?",
+    "answerOptions": [
+      { "answerText": "AaBb × aabb", "isCorrect": true },
+      { "answerText": "AaBb × AaBb", "isCorrect": false },
+      { "answerText": "AABB × aabb", "isCorrect": false },
+      { "answerText": "AaBB × aaBB", "isCorrect": false }
+    ],
+    "explanation": "A heterozygous dihybrid crossed with a double recessive gives four equally likely phenotypes in a 1:1:1:1 ratio.",
+    "image": null
+  },
+  {
+    "id": 460,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Hard",
+    "questionText": "A man with haemophilia has children with a woman who is not a carrier. What is the probability that their daughters will be carriers?",
+    "answerOptions": [
+      { "answerText": "100%", "isCorrect": true },
+      { "answerText": "50%", "isCorrect": false },
+      { "answerText": "0%", "isCorrect": false },
+      { "answerText": "25%", "isCorrect": false }
+    ],
+    "explanation": "All daughters inherit the father's X chromosome with the haemophilia allele and the mother’s normal X, making them carriers.",
+    "image": null
+  },
+  {
+    "id": 461,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Hard",
+    "questionText": "In snapdragon flowers, red (RR) and white (WW) show incomplete dominance to produce pink (RW). If two pink flowers are crossed, what percentage of the offspring will be pink?",
+    "answerOptions": [
+      { "answerText": "50%", "isCorrect": true },
+      { "answerText": "25%", "isCorrect": false },
+      { "answerText": "75%", "isCorrect": false },
+      { "answerText": "100%", "isCorrect": false }
+    ],
+    "explanation": "RW × RW produces 25% RR, 50% RW, and 25% WW; RW are the pink flowers.",
+    "image": null
+  },
+  {
+    "id": 462,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Hard",
+    "questionText": "In humans, free earlobes (F) are dominant over attached earlobes (f). A free-eared man whose mother had attached earlobes marries a woman with attached earlobes. What is the probability of them having a child with attached earlobes?",
+    "answerOptions": [
+      { "answerText": "50%", "isCorrect": true },
+      { "answerText": "25%", "isCorrect": false },
+      { "answerText": "0%", "isCorrect": false },
+      { "answerText": "75%", "isCorrect": false }
+    ],
+    "explanation": "The man must be heterozygous (Ff), so Ff × ff gives a 1:1 ratio of Ff to ff.",
+    "image": null
+  },
+  {
+    "id": 463,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Hard",
+    "questionText": "A certain genetic disorder is caused by a dominant allele. If two heterozygous parents have children, what is the probability that a child will be unaffected?",
+    "answerOptions": [
+      { "answerText": "25%", "isCorrect": true },
+      { "answerText": "50%", "isCorrect": false },
+      { "answerText": "0%", "isCorrect": false },
+      { "answerText": "75%", "isCorrect": false }
+    ],
+    "explanation": "For Dd × Dd, the genotypes are 1 DD : 2 Dd : 1 dd, so only dd (25%) are unaffected.",
+    "image": null
+  },
+  {
+    "id": 464,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Hard",
+    "questionText": "Which of the following would be evidence that two genes are linked?",
+    "answerOptions": [
+      { "answerText": "Observed ratios deviate from expected Mendelian ratios", "isCorrect": true },
+      { "answerText": "Observed ratios match exactly 9:3:3:1", "isCorrect": false },
+      { "answerText": "Each trait segregates independently", "isCorrect": false },
+      { "answerText": "All offspring show dominant traits", "isCorrect": false }
+    ],
+    "explanation": "Linked genes are inherited together more often than expected by independent assortment, altering ratios.",
+    "image": null
+  },
+  {
+    "id": 465,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Hard",
+    "questionText": "If crossing-over occurs between two linked genes, what is the expected effect on offspring phenotypes?",
+    "answerOptions": [
+      { "answerText": "Increase in recombinant phenotypes", "isCorrect": true },
+      { "answerText": "Decrease in recombinant phenotypes", "isCorrect": false },
+      { "answerText": "No change", "isCorrect": false },
+      { "answerText": "Only parental phenotypes produced", "isCorrect": false }
+    ],
+    "explanation": "Crossing-over exchanges genetic material, producing recombinants among linked genes.",
+    "image": null
+  },
+  {
+    "id": 466,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Hard",
+    "questionText": "Which type of mutation involves the insertion or deletion of a nucleotide that shifts the reading frame?",
+    "answerOptions": [
+      { "answerText": "Frameshift mutation", "isCorrect": true },
+      { "answerText": "Point mutation", "isCorrect": false },
+      { "answerText": "Silent mutation", "isCorrect": false },
+      { "answerText": "Nonsense mutation", "isCorrect": false }
+    ],
+    "explanation": "Frameshift mutations alter the triplet reading frame, often severely affecting protein function.",
+    "image": null
+  },
+  {
+    "id": 467,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Hard",
+    "questionText": "A woman with type AB blood and a man with type O blood have children. Which blood type(s) can their children have?",
+    "answerOptions": [
+      { "answerText": "A or B", "isCorrect": true },
+      { "answerText": "A, B, or AB", "isCorrect": false },
+      { "answerText": "O only", "isCorrect": false },
+      { "answerText": "A, B, AB, or O", "isCorrect": false }
+    ],
+    "explanation": "AB × O produces either A or B phenotypes, never AB or O.",
+    "image": null
+  },
+  {
+    "id": 468,
+    "topic": "Inheritance and Genetics",
+    "difficulty": "Hard",
+    "questionText": "In fruit flies, eye colour is a sex-linked trait. If a red-eyed female is crossed with a white-eyed male, and all offspring have red eyes, what is the female's genotype?",
+    "answerOptions": [
+      { "answerText": "Homozygous dominant", "isCorrect": true },
+      { "answerText": "Heterozygous", "isCorrect": false },
+      { "answerText": "Homozygous recessive", "isCorrect": false },
+      { "answerText": "Carrier", "isCorrect": false }
+    ],
+    "explanation": "A homozygous dominant female (XRXR) ensures all offspring inherit at least one red-eye allele.",
+    "image": null
+  }
 
 ];
 
