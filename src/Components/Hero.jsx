@@ -42,7 +42,7 @@ const Hero = () => {
                         No fluff, No stress, Just Success. <br />
                         Made in Mzansi.
                     </p>
-                    <Link to='/Geo'><button className={styles.btn1}>GEOGRAPHY</button></Link>
+                    <Link to='/QuizEngine'><button className={styles.btn1}>GEOGRAPHY</button></Link>
                     <Link to='/LS'><button className={styles.btn2}>LIFE SCIENCE</button></Link>
                 <div className={styles.trusted}>
                     <p>Trusted by 200+ Learners</p>

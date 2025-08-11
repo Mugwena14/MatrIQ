@@ -12,6 +12,7 @@ import LSQPage from './Pages/LSQPage'
 import LSQPage2 from './Pages/LSQPage2'
 import QuizPage from './Pages/QuizPage'
 import GenChoosePage from './Pages/GenChoosePage'
+import QuizEnginePage from './Pages/QuizEnginePage'
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
         <Route path='/LSQ2' element={<LSQPage2/>}/>
         <Route path='/GenChoose1' element={<GenChoosePage/>}/>
         <Route path='/Quiz/:id' element={<QuizPage/>}/>
+        <Route path='/QuizEngine' element={<QuizEnginePage/>}/>
         <Route path='/Privacy' element={<PrivacyPage/>}/>
         <Route path='/Terms' element={<TermsPage/>}/>
       </Route>

@@ -49,9 +49,6 @@ const Quiz = () => {
     }
   }
 
-  // if (!questions.length || !questions[currentQuestion]) {
-  //   return <div>Loading...</div>;
-  // }
 
   const current = questions[currentQuestion];
 
