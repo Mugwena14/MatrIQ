@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import styles from '../App.module.css'; // adjust path as needed
-import BeatLoad from './Spinner'; // loading spinner component
+import styles from '../App.module.css'; 
+import BeatLoad from './Spinner'; 
 
 const QuizEngine = () => {
   // Local quiz data
