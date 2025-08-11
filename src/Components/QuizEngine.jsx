@@ -1901,7 +1901,641 @@ const rawQuizData = [
     ],
     explanation: "Improved transport networks and decentralisation have led to the growth of commercial hubs outside traditional CBDs.",
     image: null
-  }
+  },
+  // ECONOMIC GEOGRAPGY
+  {
+    id: 136,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which sector of the economy includes activities like farming, fishing, and mining?",
+    answerOptions: [
+      { answerText: "Primary sector", isCorrect: true },
+      { answerText: "Secondary sector", isCorrect: false },
+      { answerText: "Tertiary sector", isCorrect: false },
+      { answerText: "Quaternary sector", isCorrect: false }
+    ],
+    explanation: "The primary sector involves extracting natural resources directly from the Earth.",
+    image: null
+  },
+  {
+    id: 137,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which sector of the economy focuses on manufacturing and processing raw materials?",
+    answerOptions: [
+      { answerText: "Secondary sector", isCorrect: true },
+      { answerText: "Primary sector", isCorrect: false },
+      { answerText: "Tertiary sector", isCorrect: false },
+      { answerText: "Quinary sector", isCorrect: false }
+    ],
+    explanation: "The secondary sector processes raw materials into finished goods.",
+    image: null
+  },
+  {
+    id: 138,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which term describes the exchange of goods and services across countries?",
+    answerOptions: [
+      { answerText: "International trade", isCorrect: true },
+      { answerText: "Local trade", isCorrect: false },
+      { answerText: "Bartering", isCorrect: false },
+      { answerText: "Import substitution", isCorrect: false }
+    ],
+    explanation: "International trade is the exchange of goods and services between nations.",
+    image: null
+  },
+  {
+    id: 139,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which type of farming is aimed mainly at producing food for the farmer's family?",
+    answerOptions: [
+      { answerText: "Subsistence farming", isCorrect: true },
+      { answerText: "Commercial farming", isCorrect: false },
+      { answerText: "Mixed farming", isCorrect: false },
+      { answerText: "Intensive farming", isCorrect: false }
+    ],
+    explanation: "Subsistence farming produces enough food for local consumption rather than sale.",
+    image: null
+  },
+  {
+    id: 140,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which economic activity involves services such as teaching, banking, and healthcare?",
+    answerOptions: [
+      { answerText: "Tertiary sector", isCorrect: true },
+      { answerText: "Primary sector", isCorrect: false },
+      { answerText: "Secondary sector", isCorrect: false },
+      { answerText: "Quinary sector", isCorrect: false }
+    ],
+    explanation: "The tertiary sector provides services rather than producing goods.",
+    image: null
+  },
+  {
+    id: 141,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which country is South Africa's largest trading partner for both imports and exports?",
+    answerOptions: [
+      { answerText: "China", isCorrect: true },
+      { answerText: "United States", isCorrect: false },
+      { answerText: "United Kingdom", isCorrect: false },
+      { answerText: "Germany", isCorrect: false }
+    ],
+    explanation: "China is South Africa's biggest trading partner, especially for minerals and manufactured goods.",
+    image: null
+  },
+  {
+    id: 142,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "What is the main purpose of the Industrial Development Zones (IDZs) in South Africa?",
+    answerOptions: [
+      { answerText: "To attract foreign investment and boost exports", isCorrect: true },
+      { answerText: "To promote rural subsistence farming", isCorrect: false },
+      { answerText: "To encourage urban sprawl", isCorrect: false },
+      { answerText: "To replace all mining operations", isCorrect: false }
+    ],
+    explanation: "IDZs aim to encourage manufacturing for export and attract investment.",
+    image: null
+  },
+  {
+    id: 143,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which energy source is most widely used for electricity generation in South Africa?",
+    answerOptions: [
+      { answerText: "Coal", isCorrect: true },
+      { answerText: "Solar", isCorrect: false },
+      { answerText: "Wind", isCorrect: false },
+      { answerText: "Nuclear", isCorrect: false }
+    ],
+    explanation: "Coal-fired power stations supply most of South Africa’s electricity.",
+    image: null
+  },
+  {
+    id: 144,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which term describes goods that are brought into a country from abroad?",
+    answerOptions: [
+      { answerText: "Imports", isCorrect: true },
+      { answerText: "Exports", isCorrect: false },
+      { answerText: "Local products", isCorrect: false },
+      { answerText: "Trade balance", isCorrect: false }
+    ],
+    explanation: "Imports are goods and services bought from another country.",
+    image: null
+  },
+  {
+    id: 145,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which province is South Africa’s main producer of gold?",
+    answerOptions: [
+      { answerText: "Gauteng", isCorrect: true },
+      { answerText: "KwaZulu-Natal", isCorrect: false },
+      { answerText: "Western Cape", isCorrect: false },
+      { answerText: "Eastern Cape", isCorrect: false }
+    ],
+    explanation: "Gauteng’s Witwatersrand Basin has some of the world's richest gold deposits.",
+    image: null
+  },
+  {
+    id: 146,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which measure compares the value of exports to imports in a country?",
+    answerOptions: [
+      { answerText: "Balance of trade", isCorrect: true },
+      { answerText: "Exchange rate", isCorrect: false },
+      { answerText: "Inflation rate", isCorrect: false },
+      { answerText: "Economic growth rate", isCorrect: false }
+    ],
+    explanation: "The balance of trade is the difference between a country's exports and imports.",
+    image: null
+  },
+  {
+    id: 147,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which farming type focuses on growing crops and raising animals for sale?",
+    answerOptions: [
+      { answerText: "Commercial farming", isCorrect: true },
+      { answerText: "Subsistence farming", isCorrect: false },
+      { answerText: "Pastoral farming", isCorrect: false },
+      { answerText: "Shifting cultivation", isCorrect: false }
+    ],
+    explanation: "Commercial farming is aimed at selling produce for profit.",
+    image: null
+  },
+  {
+    id: 148,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which economic sector includes research, technology, and information services?",
+    answerOptions: [
+      { answerText: "Quaternary sector", isCorrect: true },
+      { answerText: "Tertiary sector", isCorrect: false },
+      { answerText: "Secondary sector", isCorrect: false },
+      { answerText: "Primary sector", isCorrect: false }
+    ],
+    explanation: "The quaternary sector focuses on knowledge-based services and innovation.",
+    image: null
+  },
+  {
+    id: 149,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which term refers to the value of all goods and services produced in a country in a year?",
+    answerOptions: [
+      { answerText: "Gross Domestic Product (GDP)", isCorrect: true },
+      { answerText: "Balance of trade", isCorrect: false },
+      { answerText: "Inflation rate", isCorrect: false },
+      { answerText: "National debt", isCorrect: false }
+    ],
+    explanation: "GDP measures the total economic output of a country in a year.",
+    image: null
+  },
+  {
+    id: 150,
+    topic: "Economic Geography",
+    difficulty: "Easy",
+    questionText: "Which South African port is the largest container terminal in the Southern Hemisphere?",
+    answerOptions: [
+      { answerText: "Durban", isCorrect: true },
+      { answerText: "Cape Town", isCorrect: false },
+      { answerText: "Port Elizabeth", isCorrect: false },
+      { answerText: "Richards Bay", isCorrect: false }
+    ],
+    explanation: "Durban Harbour handles the highest volume of container traffic in the Southern Hemisphere.",
+    image: null
+  },
+  // MEDIUM
+   {
+    id: 151,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which factor is most likely to encourage the location of a factory near a port?",
+    answerOptions: [
+      { answerText: "Easy access to import and export markets", isCorrect: true },
+      { answerText: "Availability of cheap electricity", isCorrect: false },
+      { answerText: "Low rainfall", isCorrect: false },
+      { answerText: "Proximity to a farming area", isCorrect: false }
+    ],
+    explanation: "Factories near ports benefit from lower transport costs for imported raw materials and exported goods.",
+    image: null
+  },
+  {
+    id: 152,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "What is the main purpose of the Spatial Development Initiatives (SDIs) in South Africa?",
+    answerOptions: [
+      { answerText: "To stimulate economic growth in specific areas", isCorrect: true },
+      { answerText: "To replace all mining with farming", isCorrect: false },
+      { answerText: "To expand informal settlements", isCorrect: false },
+      { answerText: "To reduce the need for exports", isCorrect: false }
+    ],
+    explanation: "SDIs are designed to promote development in targeted regions by improving infrastructure and attracting investment.",
+    image: null
+  },
+  {
+    id: 153,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which factor is a human influence on the location of industries?",
+    answerOptions: [
+      { answerText: "Government incentives", isCorrect: true },
+      { answerText: "Climate", isCorrect: false },
+      { answerText: "Soil fertility", isCorrect: false },
+      { answerText: "Relief", isCorrect: false }
+    ],
+    explanation: "Human factors like tax breaks or subsidies can influence where industries locate.",
+    image: null
+  },
+  {
+    id: 154,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which type of farming involves the production of high-value crops such as fruit and flowers for export?",
+    answerOptions: [
+      { answerText: "Horticulture", isCorrect: true },
+      { answerText: "Pastoral farming", isCorrect: false },
+      { answerText: "Mixed farming", isCorrect: false },
+      { answerText: "Shifting cultivation", isCorrect: false }
+    ],
+    explanation: "Horticulture focuses on crops like fruit, vegetables, and flowers, often for export markets.",
+    image: null
+  },
+  {
+    id: 155,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which term describes the manufacturing of goods in people’s homes or small workshops?",
+    answerOptions: [
+      { answerText: "Cottage industry", isCorrect: true },
+      { answerText: "Heavy industry", isCorrect: false },
+      { answerText: "Light industry", isCorrect: false },
+      { answerText: "Service industry", isCorrect: false }
+    ],
+    explanation: "Cottage industries are small-scale production activities, often home-based.",
+    image: null
+  },
+  {
+    id: 156,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which South African province is most associated with large-scale sugarcane production?",
+    answerOptions: [
+      { answerText: "KwaZulu-Natal", isCorrect: true },
+      { answerText: "Limpopo", isCorrect: false },
+      { answerText: "North West", isCorrect: false },
+      { answerText: "Free State", isCorrect: false }
+    ],
+    explanation: "KwaZulu-Natal's warm, moist climate is ideal for sugarcane cultivation.",
+    image: null
+  },
+  {
+    id: 157,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which economic term describes a country's ability to produce goods at a lower cost than its trading partners?",
+    answerOptions: [
+      { answerText: "Comparative advantage", isCorrect: true },
+      { answerText: "Absolute advantage", isCorrect: false },
+      { answerText: "Trade deficit", isCorrect: false },
+      { answerText: "Economic diversification", isCorrect: false }
+    ],
+    explanation: "Comparative advantage refers to producing goods more efficiently relative to other nations.",
+    image: null
+  },
+  {
+    id: 158,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which industrial area in South Africa is known for its iron and steel production?",
+    answerOptions: [
+      { answerText: "Vereeniging", isCorrect: true },
+      { answerText: "Durban", isCorrect: false },
+      { answerText: "Kimberley", isCorrect: false },
+      { answerText: "Polokwane", isCorrect: false }
+    ],
+    explanation: "Vereeniging is a major hub for South Africa's iron and steel industry.",
+    image: null
+  },
+  {
+    id: 159,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which factor has contributed most to the decline of the South African textile industry?",
+    answerOptions: [
+      { answerText: "Cheap imports from other countries", isCorrect: true },
+      { answerText: "High rainfall", isCorrect: false },
+      { answerText: "Soil erosion", isCorrect: false },
+      { answerText: "Lack of raw cotton", isCorrect: false }
+    ],
+    explanation: "Increased competition from low-cost imports has reduced local textile production.",
+    image: null
+  },
+  {
+    id: 160,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which type of mining is used to extract minerals found close to the Earth's surface?",
+    answerOptions: [
+      { answerText: "Open-cast mining", isCorrect: true },
+      { answerText: "Deep-shaft mining", isCorrect: false },
+      { answerText: "Underground mining", isCorrect: false },
+      { answerText: "Hydraulic mining", isCorrect: false }
+    ],
+    explanation: "Open-cast mining is used for minerals that are located near the surface.",
+    image: null
+  },
+  {
+    id: 161,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "What is a common environmental impact of large-scale mining in South Africa?",
+    answerOptions: [
+      { answerText: "Land degradation", isCorrect: true },
+      { answerText: "Increased soil fertility", isCorrect: false },
+      { answerText: "Improved biodiversity", isCorrect: false },
+      { answerText: "Decreased energy consumption", isCorrect: false }
+    ],
+    explanation: "Mining often leads to land degradation, which can harm ecosystems.",
+    image: null
+  },
+  {
+    id: 162,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which factor is NOT typically considered when deciding where to locate a factory?",
+    answerOptions: [
+      { answerText: "Distance from raw materials", isCorrect: false },
+      { answerText: "Cost of labour", isCorrect: false },
+      { answerText: "Type of government", isCorrect: false },
+      { answerText: "Astrological signs", isCorrect: true }
+    ],
+    explanation: "Business location decisions are based on practical economic factors, not astrology.",
+    image: null
+  },
+  {
+    id: 163,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which South African port is mainly used for exporting coal?",
+    answerOptions: [
+      { answerText: "Richards Bay", isCorrect: true },
+      { answerText: "Cape Town", isCorrect: false },
+      { answerText: "Durban", isCorrect: false },
+      { answerText: "Port Elizabeth", isCorrect: false }
+    ],
+    explanation: "Richards Bay Coal Terminal is the largest coal export facility in South Africa.",
+    image: null
+  },
+  {
+    id: 164,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which factor has encouraged the growth of high-technology industries in urban areas?",
+    answerOptions: [
+      { answerText: "Access to skilled labour and research facilities", isCorrect: true },
+      { answerText: "Availability of flat farmland", isCorrect: false },
+      { answerText: "Abundance of raw minerals", isCorrect: false },
+      { answerText: "High annual rainfall", isCorrect: false }
+    ],
+    explanation: "High-tech industries rely on skilled workers and proximity to universities or research centres.",
+    image: null
+  },
+  {
+    id: 165,
+    topic: "Economic Geography",
+    difficulty: "Medium",
+    questionText: "Which policy encourages local industries to produce goods that would otherwise be imported?",
+    answerOptions: [
+      { answerText: "Import substitution", isCorrect: true },
+      { answerText: "Export promotion", isCorrect: false },
+      { answerText: "Free trade", isCorrect: false },
+      { answerText: "Economic liberalisation", isCorrect: false }
+    ],
+    explanation: "Import substitution aims to replace imported goods with domestically produced ones.",
+    image: null
+  },
+  // HARD
+   {
+    id: 166,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which factor best explains why the automobile industry is often located close to major transport routes and urban markets?",
+    answerOptions: [
+      { answerText: "Efficient distribution of finished products", isCorrect: true },
+      { answerText: "Access to irrigation water", isCorrect: false },
+      { answerText: "Proximity to tourist attractions", isCorrect: false },
+      { answerText: "Favourable climatic conditions", isCorrect: false }
+    ],
+    explanation: "Car manufacturing requires quick delivery to urban markets and access to major transport routes.",
+    image: null
+  },
+  {
+    id: 167,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which concept refers to the decline in industrial activity in a region due to factory closures or relocations?",
+    answerOptions: [
+      { answerText: "Deindustrialisation", isCorrect: true },
+      { answerText: "Industrialisation", isCorrect: false },
+      { answerText: "Economic diversification", isCorrect: false },
+      { answerText: "Urbanisation", isCorrect: false }
+    ],
+    explanation: "Deindustrialisation is when industries close or move, leading to economic decline in that area.",
+    image: null
+  },
+  {
+    id: 168,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "In South Africa, the Maputo Development Corridor is an example of:",
+    answerOptions: [
+      { answerText: "A Spatial Development Initiative", isCorrect: true },
+      { answerText: "An informal settlement project", isCorrect: false },
+      { answerText: "A mining rehabilitation scheme", isCorrect: false },
+      { answerText: "A climate adaptation programme", isCorrect: false }
+    ],
+    explanation: "The Maputo Development Corridor is an SDI linking Gauteng with Mozambique’s port city of Maputo.",
+    image: null
+  },
+  {
+    id: 169,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which economic activity is most vulnerable to fluctuations in global commodity prices?",
+    answerOptions: [
+      { answerText: "Mining", isCorrect: true },
+      { answerText: "Retail trade", isCorrect: false },
+      { answerText: "Tourism", isCorrect: false },
+      { answerText: "Banking", isCorrect: false }
+    ],
+    explanation: "Mining products are traded internationally, and their prices can rise or fall with global demand.",
+    image: null
+  },
+  {
+    id: 170,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which industrial development strategy focuses on producing goods for export rather than for local consumption?",
+    answerOptions: [
+      { answerText: "Export-oriented industrialisation", isCorrect: true },
+      { answerText: "Import substitution", isCorrect: false },
+      { answerText: "Deindustrialisation", isCorrect: false },
+      { answerText: "Self-sufficiency strategy", isCorrect: false }
+    ],
+    explanation: "Export-oriented industrialisation promotes industries that target foreign markets.",
+    image: null
+  },
+  {
+    id: 171,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Why is beneficiation important for South Africa’s mineral-based economy?",
+    answerOptions: [
+      { answerText: "It increases the value of raw minerals before export", isCorrect: true },
+      { answerText: "It reduces the number of mining jobs", isCorrect: false },
+      { answerText: "It replaces mining with agriculture", isCorrect: false },
+      { answerText: "It stops the export of all minerals", isCorrect: false }
+    ],
+    explanation: "Beneficiation adds value to minerals by processing them locally before exporting.",
+    image: null
+  },
+  {
+    id: 172,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which port is the primary gateway for South Africa’s motor vehicle exports?",
+    answerOptions: [
+      { answerText: "Port Elizabeth/Gqeberha", isCorrect: true },
+      { answerText: "Richards Bay", isCorrect: false },
+      { answerText: "Cape Town", isCorrect: false },
+      { answerText: "East London", isCorrect: false }
+    ],
+    explanation: "Port Elizabeth has specialised facilities for exporting motor vehicles.",
+    image: null
+  },
+  {
+    id: 173,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which is NOT a likely challenge faced by secondary economic activities in South Africa?",
+    answerOptions: [
+      { answerText: "High transport costs", isCorrect: false },
+      { answerText: "Frequent electricity load shedding", isCorrect: false },
+      { answerText: "Shortage of skilled labour", isCorrect: false },
+      { answerText: "Overabundance of raw materials", isCorrect: true }
+    ],
+    explanation: "South Africa’s industries often face resource shortages, not an overabundance.",
+    image: null
+  },
+  {
+    id: 174,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which statement best describes the term 'agglomeration' in industrial geography?",
+    answerOptions: [
+      { answerText: "The clustering of industries to benefit from shared services and infrastructure", isCorrect: true },
+      { answerText: "The movement of industries to rural areas", isCorrect: false },
+      { answerText: "The reduction in production due to strikes", isCorrect: false },
+      { answerText: "The relocation of industries overseas", isCorrect: false }
+    ],
+    explanation: "Agglomeration allows industries to reduce costs by sharing infrastructure and suppliers.",
+    image: null
+  },
+  {
+    id: 175,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which sector contributes the largest share to South Africa’s GDP?",
+    answerOptions: [
+      { answerText: "Tertiary sector", isCorrect: true },
+      { answerText: "Primary sector", isCorrect: false },
+      { answerText: "Secondary sector", isCorrect: false },
+      { answerText: "Quaternary sector", isCorrect: false }
+    ],
+    explanation: "Services like finance, retail, and transport dominate South Africa’s GDP contribution.",
+    image: null
+  },
+  {
+    id: 176,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which factor explains why some mining towns in South Africa have become ghost towns?",
+    answerOptions: [
+      { answerText: "Depletion of mineral resources", isCorrect: true },
+      { answerText: "Increase in mineral reserves", isCorrect: false },
+      { answerText: "Rapid urbanisation", isCorrect: false },
+      { answerText: "Improved mining technology", isCorrect: false }
+    ],
+    explanation: "When minerals run out, mines close and workers leave, leading to ghost towns.",
+    image: null
+  },
+  {
+    id: 177,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which policy encourages foreign companies to establish production facilities in South Africa?",
+    answerOptions: [
+      { answerText: "Foreign direct investment", isCorrect: true },
+      { answerText: "Import substitution", isCorrect: false },
+      { answerText: "Local content requirement", isCorrect: false },
+      { answerText: "Export processing", isCorrect: false }
+    ],
+    explanation: "Foreign direct investment brings overseas companies into the local economy.",
+    image: null
+  },
+  {
+    id: 178,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which city is at the centre of South Africa’s gold mining industry?",
+    answerOptions: [
+      { answerText: "Johannesburg", isCorrect: true },
+      { answerText: "Kimberley", isCorrect: false },
+      { answerText: "Durban", isCorrect: false },
+      { answerText: "Port Nolloth", isCorrect: false }
+    ],
+    explanation: "Johannesburg developed due to the gold discovered on the Witwatersrand.",
+    image: null
+  },
+  {
+    id: 179,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Why are Special Economic Zones (SEZs) established in South Africa?",
+    answerOptions: [
+      { answerText: "To attract investment and promote exports", isCorrect: true },
+      { answerText: "To create informal settlements", isCorrect: false },
+      { answerText: "To replace all local industries", isCorrect: false },
+      { answerText: "To reduce agricultural production", isCorrect: false }
+    ],
+    explanation: "SEZs are designated areas with incentives for businesses to promote trade and jobs.",
+    image: null
+  },
+  {
+    id: 180,
+    topic: "Economic Geography",
+    difficulty: "Hard",
+    questionText: "Which term describes the increasing integration of economies through trade, investment, and communication?",
+    answerOptions: [
+      { answerText: "Globalisation", isCorrect: true },
+      { answerText: "Localisation", isCorrect: false },
+      { answerText: "Isolationism", isCorrect: false },
+      { answerText: "Nationalisation", isCorrect: false }
+    ],
+    explanation: "Globalisation connects economies worldwide through trade, investment, and technology.",
+    image: null
+  },
+  
 
 
 ];
