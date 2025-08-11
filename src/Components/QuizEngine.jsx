@@ -3,50 +3,7 @@ import styles from '../App.module.css';
 import BeatLoad from './Spinner'; 
 
 const rawQuizData = [
-  {
-    id: 1,
-    topic: "Climate",
-    difficulty: "Hard",
-    questionText: "What is the capital of France?",
-    answerOptions: [
-      { answerText: "Paris", isCorrect: true },
-      { answerText: "Berlin", isCorrect: false },
-      { answerText: "Madrid", isCorrect: false },
-      { answerText: "Rome", isCorrect: false }
-    ],
-    explanation: "Paris is the capital city of France.",
-    image: null
-  },
-  {
-    id: 2,
-    topic: "Geomorphology",
-    difficulty: "Easy",
-    questions: {
-      questionText: "Which continent is South Africa in?",
-      answerOptions: [
-        { answerText: "Asia", isCorrect: false },
-        { answerText: "Africa", isCorrect: true },
-        { answerText: "Europe", isCorrect: false },
-        { answerText: "Australia", isCorrect: false }
-      ],
-      explanation: "South Africa is located in the southern part of Africa.",
-      image: null
-    }
-  },
-  {
-    id: 3,
-    topic: "Climate",
-    difficulty: "Hard",
-    questionText: "Which layer of the atmosphere contains the ozone layer?",
-    answerOptions: [
-      { answerText: "Stratosphere", isCorrect: true },
-      { answerText: "Troposphere", isCorrect: false },
-      { answerText: "Mesosphere", isCorrect: false },
-      { answerText: "Exosphere", isCorrect: false }
-    ],
-    explanation: "The ozone layer is located in the stratosphere.",
-    image: null
-  }
+  
 ];
 
 // Normalize mixed schemas into flat structure
