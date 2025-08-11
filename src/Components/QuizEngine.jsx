@@ -1,28 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styles from '../App.module.css'; 
 import BeatLoad from './Spinner'; 
 
-const QuizEngine = () => {
-  // Local quiz data
-  const quizData = [
-    {
-      id: 1,
-      topic: "Geography",
-      difficulty: "Easy",
-      questionText: "What is the capital of France?",
-      answerOptions: [
-        { answerText: "Paris", isCorrect: true },
-        { answerText: "Berlin", isCorrect: false },
-        { answerText: "Madrid", isCorrect: false },
-        { answerText: "Rome", isCorrect: false }
-      ],
-      explanation: "Paris is the capital city of France.",
-      image: null
-    },
-    {
-      id: 2,
-      topic: "Geography",
-      difficulty: "Easy",
+const rawQuizData = [
+  {
+    id: 1,
+    topic: "Climate",
+    difficulty: "Hard",
+    questionText: "What is the capital of France?",
+    answerOptions: [
+      { answerText: "Paris", isCorrect: true },
+      { answerText: "Berlin", isCorrect: false },
+      { answerText: "Madrid", isCorrect: false },
+      { answerText: "Rome", isCorrect: false }
+    ],
+    explanation: "Paris is the capital city of France.",
+    image: null
+  },
+  {
+    id: 2,
+    topic: "Geomorphology",
+    difficulty: "Easy",
+    questions: {
       questionText: "Which continent is South Africa in?",
       answerOptions: [
         { answerText: "Asia", isCorrect: false },
@@ -32,24 +31,43 @@ const QuizEngine = () => {
       ],
       explanation: "South Africa is located in the southern part of Africa.",
       image: null
-    },
-    {
-      id: 3,
-      topic: "Geography",
-      difficulty: "Easy",
-      questionText: "Name a desert in Africa.",
-      answerOptions: [
-        { answerText: "Sahara", isCorrect: true },
-        { answerText: "Gobi", isCorrect: false },
-        { answerText: "Kalahari", isCorrect: true },
-        { answerText: "Atacama", isCorrect: false }
-      ],
-      explanation: "Both the Sahara and Kalahari are African deserts.",
-      image: null
     }
-  ];
+  },
+  {
+    id: 3,
+    topic: "Climate",
+    difficulty: "Hard",
+    questionText: "Which layer of the atmosphere contains the ozone layer?",
+    answerOptions: [
+      { answerText: "Stratosphere", isCorrect: true },
+      { answerText: "Troposphere", isCorrect: false },
+      { answerText: "Mesosphere", isCorrect: false },
+      { answerText: "Exosphere", isCorrect: false }
+    ],
+    explanation: "The ozone layer is located in the stratosphere.",
+    image: null
+  }
+];
 
-  //  Simulated API fetch working like an API
+// Normalize mixed schemas into flat structure
+function normalizeQuizData(data) {
+  return data.map(item => {
+    const base = item.questions || item;
+    return {
+      id: item.id,
+      topic: item.topic,
+      difficulty: item.difficulty,
+      questionText: base.questionText,
+      answerOptions: base.answerOptions,
+      explanation: base.explanation,
+      image: base.image
+    };
+  });
+}
+
+const quizData = normalizeQuizData(rawQuizData);
+
+const QuizEngine = () => {
   function fetchQuiz({ topic, difficulty, limit }) {
     return new Promise((resolve) => {
       setTimeout(() => {
@@ -61,25 +79,35 @@ const QuizEngine = () => {
     });
   }
 
-  // All hooks inside the component
   const [questions, setQuestions] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answered, setAnswered] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [isCorrect, setIsCorrect] = useState(null);
   const [score, setScore] = useState(0);
   const [requested, setRequested] = useState(false);
-  const [topic, setTopic] = useState()
-  const [difficulty, setDifficulty] = useState()
-  const [length, setLength] = useState()
+  const [topic, setTopic] = useState('');
+  const [difficulty, setDifficulty] = useState('');
+  const [length, setLength] = useState();
 
-  useEffect(() => {
-    fetchQuiz({ topic: "Geography", difficulty: "Easy", limit: 5 }).then(data => {
+  function handleGenerate(e) {
+    e.preventDefault();
+    if (!topic || !difficulty || !length) return;
+
+    setLoading(true);
+    setRequested(true);
+    setCurrentQuestion(0);
+    setScore(0);
+    setAnswered(false);
+    setSelectedAnswer(null);
+    setIsCorrect(null);
+
+    fetchQuiz({ topic, difficulty, limit: parseInt(length) }).then(data => {
       setQuestions(data);
       setLoading(false);
     });
-  }, []);
+  }
 
   function handleNextQ() {
     setCurrentQuestion(prev => prev + 1);
@@ -101,7 +129,7 @@ const QuizEngine = () => {
 
   return (
     <div>
-      {answered ? (
+      {requested ? (
         <div className={styles.quiz}>
           {loading ? (
             <BeatLoad />
@@ -161,45 +189,50 @@ const QuizEngine = () => {
         </div>
       ) : (
         <div className={styles.gen}>
-            <div className={styles.genBox}>
-                <form action="" className={styles.form}>
-                        <h1>Generate Quiz</h1>
-                    <div className={styles.field}>
-                        <select 
-                        value={topic}
-                        onChange={(e) => {
-                            setTopic(e.target.value)
-                        }}
-                        name="topic" id="topic" required>
-                            <option value="">Choose Topic</option>
-                            <option value="Climate and Weather">Climate & Weather</option>
-                            <option value="Geomorphology">Geomorphology</option>
-                        </select>
-                    </div>
-                    <div className={styles.field}>
-                        <select 
-                        value={difficulty}
-                        onChange={(e) => {
-                            setDifficulty(e.target.value)
-                        }}
-                        name="difficulty" id="difficulty" required>
-                            <option value="">Choose Difficulty</option>
-                            <option value="Easy">Easy</option>
-                            <option value="Medium">Medium</option>
-                            <option value="Hard">Hard</option>
-                        </select>
-                    </div>
-                    <div className={styles.field}>
-                        <input
-                        value={length}
-                        onChange={(e) => {
-                            setLength(e.target.value)
-                        }}
-                        type="number" placeholder="No of Qs. Max = 10" min={1} max={10} required/>
-                    </div>
-                    <button>Generate</button>
-                </form>
-            </div>
+          <div className={styles.genBox}>
+            <form className={styles.form} onSubmit={handleGenerate}>
+              <h1>Generate Quiz</h1>
+
+              <div className={styles.field}>
+                <select 
+                  value={topic}
+                  onChange={(e) => setTopic(e.target.value)}
+                  required
+                >
+                  <option value="">Choose Topic</option>
+                  <option value="Climate">Climate & Weather</option>
+                  <option value="Geomorphology">Geomorphology</option>
+                </select>
+              </div>
+
+              <div className={styles.field}>
+                <select 
+                  value={difficulty}
+                  onChange={(e) => setDifficulty(e.target.value)}
+                  required
+                >
+                  <option value="">Choose Difficulty</option>
+                  <option value="Easy">Easy</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Hard">Hard</option>
+                </select>
+              </div>
+
+              <div className={styles.field}>
+                <input
+                  type="number"
+                  value={length}
+                  onChange={(e) => setLength(e.target.value)}
+                  placeholder="No of Qs. Max = 10"
+                  min={1}
+                  max={10}
+                  required
+                />
+              </div>
+
+              <button type="submit">Generate</button>
+            </form>
+          </div>
         </div>
       )}
     </div>
