@@ -16,6 +16,7 @@ import QuizEnginePage from './Pages/QuizEnginePage'
 import QuizEngine2Page from './Pages/QuizEngine2Page'
 import QuizEngine3Page from './Pages/QuizEngine3Page'
 import QuizEngine4Page from './Pages/QuizEngine4Page'
+import ReviewsPage from './Pages/ReviewsPage'
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path='/' element={<MainLayout/>}>
         <Route index element={<HomePage/>}/>
+        <Route path='/Reviews' element={<ReviewsPage/>}/>
         <Route path='/Home' element={<HomePage/>}/>
         <Route path='/LS' element={<LSPage/>}/>
         <Route path='/Geo' element={<GeoPage/>}/>
