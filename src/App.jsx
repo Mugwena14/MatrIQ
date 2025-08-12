@@ -26,7 +26,6 @@ const App = () => {
     createRoutesFromElements(
       <Route path='/' element={<MainLayout/>}>
         <Route index element={<HomePage/>}/>
-        <Route path='/Reviews' element={<ReviewsPage/>}/>
         <Route path='/Home' element={<HomePage/>}/>
         <Route path='/LS' element={<LSPage/>}/>
         <Route path='/Geo' element={<GeoPage/>}/>
@@ -40,6 +39,7 @@ const App = () => {
         <Route path='/QuizEngine2' element={<QuizEngine2Page/>}/>
         <Route path='/QuizEngine3' element={<QuizEngine3Page/>}/>
         <Route path='/QuizEngine4' element={<QuizEngine4Page/>}/>
+        <Route path='/Reviews' element={<ReviewsPage/>}/>
         <Route path='/Privacy' element={<PrivacyPage/>}/>
         <Route path='/Terms' element={<TermsPage/>}/>
       </Route>
