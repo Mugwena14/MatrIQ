@@ -1,3 +1,9 @@
+.contForm{
+    margin-top: -60px;
+    margin-bottom: -20px;
+    background-color: hsl(240, 93%, 5%);
+}
+
 .form p{
     color: black;
 }
@@ -17,4 +23,103 @@
 
 .contForm h1, .contForm p{
     color: black;
+}
+
+.contComment{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 50px;
+    align-self: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contInner{
+    width: 300px;
+    border: 1px solid hsl(0, 0%, 30%);
+    box-shadow: 3px 3px 3px hsl(0, 0%, 15%);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: hsl(240, 93%, 8%);
+    position: relative;
+    height: 190px;
+}
+
+.schoolName p, .schoolName h3, .comment p{
+    color: hsl(0, 0%, 66%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.comment p{
+    margin-top: -10px;
+}
+
+.comment{
+    border-bottom: 1px solid rgb(87, 85, 85);
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.star{
+    color: hsl(60, 100%, 45%);
+}
+
+.schoolInfo{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+}
+
+.schoolIcon{
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 70%);
+    padding: 4px;
+    margin-right: 4px;
+}
+
+.schoolName{
+    position: relative;
+    top: -12px;
+    margin-left: 5px;
+    margin-bottom: -15px;
+}
+
+.schoolName h3{
+    font-weight: 450;
+}
+
+.schoolName p{
+    font-size: 10.5px;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.review h1{
+    color: white;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.review button{
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color: gray;
+    outline: none;
+    border: none;
 }
