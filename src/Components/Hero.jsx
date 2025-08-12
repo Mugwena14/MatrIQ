@@ -9,20 +9,18 @@ import quizData from '../Gen'
 
 const Hero = () => {
 
-    const { Climate } = quizData;
-    const easyQuestions = Climate.easy.questions;
-    console.log(quizData);
-
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
                 <p className={styles.rated}>
                     <button className={styles.ratedBtn1}>Achievements</button>
                     <button className={styles.ratedBtn2}>Rated No.1 by students 
-                        <span className={styles.arrowShort}><FaArrowRight/></span>
+                            <span className={styles.arrowShort}><FaArrowRight/></span>
                         </button>
                     <button className={styles.arrowBtn}>
-                        <span className={styles.arrowLong}><FaArrowRightLong/></span>
+                        <Link>
+                            <span className={styles.arrowLong}><FaArrowRightLong/></span>
+                        </Link>
                     </button>
                 </p>
                 <div className={styles.head}>
