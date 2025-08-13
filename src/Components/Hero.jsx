@@ -28,20 +28,22 @@ const Hero = () => {
                         Aim true when you shoot your shot or be ready to
                         reload.
                         <span className={styles.quote2}><FaQuoteRight/></span>
-                        <p>Makhubele Langavi Clyde</p>
+                        <p>-Makhubele Langavi Clyde</p>
                         </h1>
                     </div>
                 </div>
                 <div className={styles.info}>
                     <p>Join hundreds of SA learners mastering Matric with 
                         fast, focused quizzes in Geography & Life Sciences. <br />
-                        The goal is simple, to enable full mastery of MCQs & one words
-                        in Geo & LS.
+                        <span className={styles.hide}>The goal is simple, to enable full mastery of MCQs & one words
+                        in Geo & LS.</span>
                         <span className={styles.holder}>
                             No fluff, No stress, Just Success.
                         </span>
                         <br />
-                        Made in Mzansi.
+                        <span className={styles.hide}>
+                            Made in Mzansi.
+                        </span>
                     </p>
                     <Link to='/Geo'><button className={styles.btn1}>GEOGRAPHY</button></Link>
                     <Link to='/LS'><button className={styles.btn2}>LIFE SCIENCE</button></Link>

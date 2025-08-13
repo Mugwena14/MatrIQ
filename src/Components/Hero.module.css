@@ -24,6 +24,21 @@
     background-color: hsl(222, 74%, 15%);
 }
 
+@media(max-width: 760px){
+    .rated{
+        margin: 0 ;
+        display: none;
+    }.hide{
+        display: none;
+    }.quote1, .quote2{
+        display: none;
+    }.quote h1{
+        font-size: 20px;
+    }.info p{
+        font-size: 11px;
+    }
+}
+
 .rated button{
     margin: 0 auto;
 }
@@ -144,4 +159,10 @@
     text-decoration: underline;
     font-style: oblique;
     margin-left: 5px;
+}
+
+@media(max-width: 760px){
+    .container{
+        padding: 20px;
+    }
 }

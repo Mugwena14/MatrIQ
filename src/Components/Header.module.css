@@ -78,3 +78,9 @@ header{
 header{
     color: white;
 }
+
+@media(max: 760px){
+    header{
+        display: none;
+    }
+}
