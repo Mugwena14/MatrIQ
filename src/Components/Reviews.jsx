@@ -1,5 +1,5 @@
 import styles from './Reviews.module.css'
-import { FaStar, FaSchool, FaArrowDown } from 'react-icons/fa'
+import { FaStar, FaSchool, FaArrowRight } from 'react-icons/fa'
 import { IoClose } from "react-icons/io5"
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -62,7 +62,9 @@ const Reviews = () => {
             ))} */}
             <div className={styles.review}>
                 <h1>Reviews</h1>
-                <button onClick={() => displayForm()}>Add Review here <FaArrowDown /></button>
+                {showFull ? '' : (
+                    <button onClick={() => displayForm()}>Add Review here <FaArrowRight /></button>
+                )}
             </div>
             {showFull ? (
                 <div className={styles.addReview}>
@@ -77,7 +79,7 @@ const Reviews = () => {
                         <input required placeholder='Eg: Waterfall High School' type="text" value={newSchool} onChange={
                             (e) => setNewSchool(e.target.value)
                         }/>
-                        <textarea required placeholder='Type your review here...' type="text" value={newComment} onChange={
+                        <textarea maxLength='235' required placeholder='Type your review here...' type="text" value={newComment} onChange={
                             (e) => setNewComment(e.target.value)
                         }/>
                         <button>Submit</button>

@@ -18,12 +18,20 @@
 .addReview{
     background-color: hsl(240, 93%, 15%);
     margin: 0 400px;
-    border-radius: 10px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px hsl(0, 0%, 10%);
 }
 
 .formR input, textarea{
     width: 500px;
     background-color: hsl(200, 80%, 70%);
+}
+
+textarea::placeholder{
+    color: rgb(121, 119, 119);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 3px;
+
 }
 
 textarea{
@@ -106,6 +114,11 @@ textarea{
     margin-bottom: -15px;
 }
 
+.formR input{
+    text-align: left;
+    padding-left: 8px;
+}
+
 .schoolName h3{
     font-weight: 450;
 }
@@ -132,9 +145,11 @@ textarea{
     width: 400px;
     height: 40px;
     color: white;
+    text-decoration: underline;
     outline: none;
     border: none;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .formR p{
@@ -171,9 +186,81 @@ textarea{
 
 form button{
     margin-bottom: 10px;
+    cursor: pointer;
     padding: 5px 50px;
     color: white;
     background-color: hsl(200, 80%, 40%);
     border: none;
-    border-radius: 10px;
 }
+
+form button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+@media(max-width: 800px){
+    .addReview{
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 1500px){
+    .addReview{
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }.up .IoClose{
+        position: relative;
+        right: -20px;
+    }.up p{
+        position: relative;
+        left: -20px;
+    }
+}
+
+@media(max-width: 600px){
+    .addReview{
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }.up p{
+        position: relative;
+        left: -20px;
+    }.up .IoClose{
+        position: relative;
+        right: -20px;
+    }.formR input, textarea{
+        width: 450px;
+        background-color: hsl(200, 80%, 70%);
+    }
+}
+
+@media(max-width: 500px){
+    .addReview{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+    }.formR input, textarea{
+        width: 250px;
+        background-color: hsl(200, 80%, 70%);
+    }.up p{
+        position: relative;
+        left: -20px;
+    }.up .IoClose{
+        position: relative;
+        right: -20px;
+    }
+}
+
