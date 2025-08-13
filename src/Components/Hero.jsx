@@ -5,7 +5,6 @@ import { FaQuoteRight } from 'react-icons/fa'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { FaArrowRight } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
-import quizData from '../Gen'
 
 const Hero = () => {
 
@@ -18,7 +17,7 @@ const Hero = () => {
                             <span className={styles.arrowShort}><FaArrowRight/></span>
                         </button>
                     <button className={styles.arrowBtn}>
-                        <Link>
+                        <Link to='/Reviews'>
                             <span className={styles.arrowLong}><FaArrowRightLong/></span>
                         </Link>
                     </button>
@@ -29,18 +28,22 @@ const Hero = () => {
                         Aim true when you shoot your shot or be ready to
                         reload.
                         <span className={styles.quote2}><FaQuoteRight/></span>
+                        <p>Makhubele Langavi Clyde</p>
                         </h1>
                     </div>
                 </div>
                 <div className={styles.info}>
                     <p>Join hundreds of SA learners mastering Matric with 
                         fast, focused quizzes in Geography & Life Sciences. <br />
-                        The goal is simple, to enable full mastery of MCQs
+                        The goal is simple, to enable full mastery of MCQs & one words
                         in Geo & LS.
-                        No fluff, No stress, Just Success. <br />
+                        <span className={styles.holder}>
+                            No fluff, No stress, Just Success.
+                        </span>
+                        <br />
                         Made in Mzansi.
                     </p>
-                    <Link to='/Reviews'><button className={styles.btn1}>GEOGRAPHY</button></Link>
+                    <Link to='/Geo'><button className={styles.btn1}>GEOGRAPHY</button></Link>
                     <Link to='/LS'><button className={styles.btn2}>LIFE SCIENCE</button></Link>
                 <div className={styles.trusted}>
                     <p>Trusted by 200+ Learners</p>
