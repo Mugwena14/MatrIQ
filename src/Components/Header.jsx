@@ -7,14 +7,18 @@ const Header = () => {
         <div className={styles.head}>
             <header>
                 <div className={styles.logo}>
-                    <p>LOGO</p>
+                    <p><span className={styles.M}>
+                            M
+                        </span>
+                        IQ 
+                    </p>
                 </div>
                 <div className={styles.links}>
                     <nav>
-                        <Link className={styles.link} to='/Home'>HOME</Link>
-                        <Link className={styles.link} to='/Quiz'>GEOGRAPHY</Link>
-                        <Link className={styles.link}>LIFE SCIENCES</Link>
-                        <Link className={styles.link}>REVIEWS</Link>
+                        <Link className={styles.link} to='/Home'>Home</Link>
+                        <Link className={styles.link} to='/Geo'>Geography</Link>
+                        <Link className={styles.link} to='LS'>Life Sciences</Link>
+                        <Link className={styles.link} to='/Reviews'>Reviews</Link>
                     </nav>
                 </div>
                 <div className={styles.mode}>

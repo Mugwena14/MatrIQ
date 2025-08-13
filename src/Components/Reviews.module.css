@@ -184,7 +184,7 @@ textarea{
     padding-top: 5px;
 }
 
-form button{
+.revSubmit{
     margin-bottom: 10px;
     cursor: pointer;
     padding: 5px 50px;
@@ -193,7 +193,7 @@ form button{
     border: none;
 }
 
-form button:hover{
+.revSubmit{
     cursor: pointer;
     transform: scale(1.1);
 }

@@ -11,6 +11,15 @@ header{
     height: 35px;
 }
 
+.M{
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+    padding: 2px 5px;
+    margin-right: 3px;
+    font-size: 13px;
+}
+
 .head{
     display: flex;
     align-items: center;
@@ -44,21 +53,26 @@ header{
 
 
 .mode p{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .mode{
     display: flex;
     align-items: center;
+    margin: auto 0;
+    margin-left: 25px;
 }
 
 .logo{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: auto 0;
+    margin-right: 25px;
 }
 
 .logo p{
-    font-size: 15px;
+    font-size: 12px;
 }
 
 header{

@@ -82,7 +82,7 @@ const Reviews = () => {
                         <textarea maxLength='235' required placeholder='Type your review here...' type="text" value={newComment} onChange={
                             (e) => setNewComment(e.target.value)
                         }/>
-                        <button>Submit</button>
+                        <button className={styles.revSubmit}>Submit</button>
                         </div>
                     </form>
                 </div>
