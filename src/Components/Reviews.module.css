@@ -8,17 +8,29 @@
     color: black;
 }
 
-.form button, .form input {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 50px 2px;
-    cursor: pointer;
+.formR{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addReview{
+    background-color: hsl(240, 93%, 15%);
+    margin: 0 400px;
+    border-radius: 10px;
+}
+
+.formR input, textarea{
+    width: 500px;
+    background-color: hsl(200, 80%, 70%);
+}
+
+textarea{
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    outline: none;
 }
 
 .contForm h1, .contForm p{
@@ -116,10 +128,52 @@
 }
 
 .review button{
+    background-color: hsl(240, 93%, 5%);
     width: 400px;
     height: 40px;
     color: white;
-    background-color: gray;
     outline: none;
     border: none;
+    margin-bottom: 30px;
+}
+
+.formR p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 3px;
+    text-align: start;
+    padding-left: 25px;
+}
+
+.formR input{
+    border-radius: 5px;
+}
+
+.formR input::placeholder{
+    text-align: start;
+}
+
+.up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self:normal;
+}
+
+.IoClose{
+    font-size: 20px;
+    color: white;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+form button{
+    margin-bottom: 10px;
+    padding: 5px 50px;
+    color: white;
+    background-color: hsl(200, 80%, 40%);
+    border: none;
+    border-radius: 10px;
 }

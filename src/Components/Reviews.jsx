@@ -1,6 +1,8 @@
 import styles from './Reviews.module.css'
-import { FaStar, FaSchool, FaArrowRight } from 'react-icons/fa'
+import { FaStar, FaSchool, FaArrowDown } from 'react-icons/fa'
+import { IoClose } from "react-icons/io5"
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { db } from '../config/firebase'
 import { addDoc, collection, getDocs} from 'firebase/firestore'
 
@@ -8,6 +10,7 @@ const Reviews = () => {
     const [reviewList, setReviewList] = useState([])
     const [newComment, setNewComment] = useState('')
     const [newSchool, setNewSchool] = useState('')
+    const [showFull, setShowFull] = useState(false)
 
     const reviewsCollectionRef = collection(db, "reviews")
 
@@ -37,20 +40,19 @@ const Reviews = () => {
         }catch(error){
             console.error("Error adding review: ", error)
         }
+    }
 
+    function displayForm(){
+        setShowFull(prev => !prev)
+    }
+
+    function closeForm(){
+        setShowFull(false)
     }
 
     return (
         <div className={styles.contForm}>
-            {/* <form onSubmit={submitReview} className={styles.form}>
-                <input type="text" value={newComment} onChange={
-                    (e) => setNewComment(e.target.value)
-                }/>
-                <input type="text" value={newSchool} onChange={
-                    (e) => setNewSchool(e.target.value)
-                }/>
-                <button>Submit</button>
-            </form> */}
+            
             {/* <h1>Reviews</h1>
             {reviewList.map((review, index) => (
                 <div id={index} key={index}> 
@@ -60,8 +62,29 @@ const Reviews = () => {
             ))} */}
             <div className={styles.review}>
                 <h1>Reviews</h1>
-                <button>Add Review here <FaArrowRight /></button>
+                <button onClick={() => displayForm()}>Add Review here <FaArrowDown /></button>
             </div>
+            {showFull ? (
+                <div className={styles.addReview}>
+                    <form onSubmit={submitReview}>
+                        <div className={styles.formR}>
+                            <div className={styles.up}>
+                                <p>Enter School Name:</p>
+                                <Link onClick={() => closeForm()}>
+                                    <IoClose className={styles.IoClose}/>
+                                </Link>
+                            </div>
+                        <input required placeholder='Eg: Waterfall High School' type="text" value={newSchool} onChange={
+                            (e) => setNewSchool(e.target.value)
+                        }/>
+                        <textarea required placeholder='Type your review here...' type="text" value={newComment} onChange={
+                            (e) => setNewComment(e.target.value)
+                        }/>
+                        <button>Submit</button>
+                        </div>
+                    </form>
+                </div>
+            ) : ''}
             <div className={styles.contComment}>
                 <div className={styles.contInner}>
                     <div className={styles.stars}>
