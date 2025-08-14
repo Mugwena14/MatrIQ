@@ -306,6 +306,20 @@ textarea{
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+    }.field1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 40px;
+        gap: 10px;
+    }.field2{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }label{
+        display: none;
     }
 }
 

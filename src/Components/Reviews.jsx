@@ -81,21 +81,21 @@ const Reviews = () => {
                         <div className={styles.formR}>
                             <div className={styles.field1}>
                                 <div className={styles.set1}>
-                                    <label htmlFor="">First Name</label>
-                                    <input className={styles.in1} type="text" placeholder='Your First Name'/>
+                                    <label htmlFor="name">First Name</label>
+                                    <input required className={styles.in1} type="text" placeholder='Your First Name'/>
                                 </div>
                                 <div className={styles.set}>
-                                    <label htmlFor="">Last Name</label>
-                                    <input className={styles.in2} type="text" placeholder='Your Last Name' />
+                                    <label htmlFor="surname">Last Name</label>
+                                    <input required className={styles.in2} type="text" placeholder='Your Last Name' />
                                 </div>
                             </div>
                             <div className={styles.field2}>
                                 <div className={styles.set1}>
-                                    <label htmlFor="">Email Address</label>
-                                    <input className={styles.in3} type="email" placeholder='Your Email Address'/>
+                                    <label htmlFor="email">Email Address</label>
+                                    <input required className={styles.in3} type="email" placeholder='Your Email Address'/>
                                 </div>
                                 <div className={styles.set}>
-                                    <label htmlFor="">School Name</label>
+                                    <label htmlFor="school">School Name</label>
                                     <input className={styles.in4} required placeholder='School Name. Eg:xyz High School' type="text" value={newSchool} onChange={
                                         (e) => setNewSchool(e.target.value)
                                     }/>
