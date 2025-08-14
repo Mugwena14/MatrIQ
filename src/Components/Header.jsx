@@ -34,42 +34,52 @@ const Header = () => {
             <div className={styles.bar}>
                 <div className={styles.app}>
                     <div className={styles.appIcons}>
-                        <div className={styles.appIcon}>
-                            <MdOutlineViewCarousel className={styles.reviewIcon}/>
-                        <p>Reviews</p>
-                        </div>
+                            <div className={styles.appIcon}>
+                                <Link to='/Reviews' className={styles.iconLink}>
+                                        <MdOutlineViewCarousel className={styles.reviewIcon}/>
+                                </Link>
+                                <p>Reviews</p>
+                            </div>
                     </div>
                 </div>
                 <div className={styles.app}>
                     <div className={styles.appIcons}>
-                        <div className={styles.appIcon}>
-                            <TiWeatherPartlySunny className={styles.geoIcon}/>
-                        <p>Geo</p>
-                        </div>
+                            <div className={styles.appIcon}>
+                                <Link to='/Geo' className={styles.iconLink}>
+                                        <TiWeatherPartlySunny className={styles.geoIcon}/>
+                                </Link>
+                                <p>Geo</p>
+                            </div>
                     </div>
                 </div>
                 <div className={styles.app}>
                     <div className={styles.appIcons}>
-                        <div className={styles.appIcon}>
-                            <IoHomeOutline className={styles.homeIcon}/>
-                        <p>Home</p>
-                        </div>
+                            <div className={styles.appIcon}>
+                                <Link to='/Home' className={styles.iconLink}>
+                                        <IoHomeOutline className={styles.homeIcon}/>
+                                </Link>
+                                <p>Home</p>
+                            </div>
                     </div>
                 </div>
                 <div className={styles.app}>
                     <div className={styles.appIcons}>
-                        <div className={styles.appIcon}>
-                            <GiDna2 className={styles.lsIcon}/>
-                        <p>LS</p>
-                        </div>
+                            <div className={styles.appIcon}>
+                                <Link to='/LS' className={styles.iconLink}>
+                                    <GiDna2 className={styles.lsIcon}/>
+                                </Link>
+                                <p>LS</p>
+                            </div>
                     </div>
                 </div>
                 <div className={styles.app}>
                     <div className={styles.appIcons}>
-                        <div className={styles.appIcon}>
-                            <CiLight className={styles.modeIcon}/>
-                        <p>Light</p>
-                        </div>
+                            <div className={styles.appIcon}>
+                                <Link className={styles.iconLink}>
+                                    <CiLight className={styles.modeIcon}/>
+                                </Link>
+                                    <p>Light</p>
+                            </div>
                     </div>
                 </div>
             </div>
