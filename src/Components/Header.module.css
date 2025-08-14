@@ -44,12 +44,6 @@ header{
     align-items: center;
 }
 
-.link:active{
-    text-decoration: 1px underline white;
-    background-color: hsl(222, 73%, 26%);
-}
-
-
 
 .mode p{
     font-size: 12px;
@@ -81,7 +75,7 @@ header{
 .bar{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -144,3 +138,19 @@ header{
         display: none;
     }
 }
+
+
+
+.app {
+  flex: 1;
+}
+
+
+.iconLink svg {
+  transition: color 0.1s ease-in-out;
+}
+
+.active {
+  color: rgb(16, 207, 221);
+}
+
