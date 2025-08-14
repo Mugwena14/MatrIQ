@@ -69,19 +69,41 @@ const Reviews = () => {
             {showFull ? (
                 <div className={styles.addReview}>
                     <form onSubmit={submitReview}>
-                        <div className={styles.formR}>
-                            <div className={styles.up}>
-                                <p>Enter School Name:</p>
-                                <Link onClick={() => closeForm()}>
-                                    <IoClose className={styles.IoClose}/>
-                                </Link>
+                        <div className={styles.up}>
+                            <h2>Submit a review</h2>
+                            <div className={styles.up2}>
+                                <p></p>
+                                <button className={styles.closeBtn} onClick={() => closeForm()}>
+                                    <IoClose/>
+                                </button>
                             </div>
-                        <input required placeholder='Eg: Waterfall High School' type="text" value={newSchool} onChange={
-                            (e) => setNewSchool(e.target.value)
-                        }/>
-                        <textarea maxLength='235' required placeholder='Type your review here...' type="text" value={newComment} onChange={
-                            (e) => setNewComment(e.target.value)
-                        }/>
+                        </div>
+                        <div className={styles.formR}>
+                            <div className={styles.field1}>
+                                <div className={styles.set1}>
+                                    <label htmlFor="">First Name</label>
+                                    <input type="text" placeholder='Your First Name'/>
+                                </div>
+                                <div className={styles.set}>
+                                    <label htmlFor="">Last Name</label>
+                                    <input type="text" placeholder='Your Last Name' />
+                                </div>
+                            </div>
+                            <div className={styles.field2}>
+                                <div className={styles.set1}>
+                                    <label htmlFor="">Email Address</label>
+                                    <input type="email" placeholder='Your Email Address'/>
+                                </div>
+                                <div className={styles.set}>
+                                    <label htmlFor="">School Name</label>
+                                    <input required placeholder='Eg: Waterfall High School' type="text" value={newSchool} onChange={
+                                        (e) => setNewSchool(e.target.value)
+                                    }/>
+                                </div>
+                            </div>
+                            <textarea maxLength='235' required placeholder='Type message here...' type="text" value={newComment} onChange={
+                                (e) => setNewComment(e.target.value)
+                            }/>
                         <button className={styles.revSubmit}>Submit</button>
                         </div>
                     </form>
