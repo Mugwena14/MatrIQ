@@ -8760,7 +8760,6 @@ const QuizEngine2 = () => {
 
                 <div className={styles.qNo}>
                   <p>Question {currentQuestion + 1} of {questions.length}</p>
-                  <p>Score: {score}</p>
                 </div>
               </div>
             </div>

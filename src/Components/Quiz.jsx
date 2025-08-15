@@ -2953,7 +2953,7 @@ const Quiz = () => {
     {loading ? (
       <BeatLoad />
     ) : questions.length > 0 ? (
-      <div>
+      <div className={styles.qz}>
         <h2>Geo Paper 1 2024</h2>
 
         {current.image && (
@@ -3000,7 +3000,6 @@ const Quiz = () => {
 
           <div className={styles.qNo}>
             <p>Question {currentQuestion + 1} of {questions.length}</p>
-            <p>Score: {score}</p>
           </div>
         </div>
       </div>
