@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import styles from '../App.module.css';
 import BeatLoad from "./Spinner";
 
+
 const Quiz = () => {
   const { id } = useParams();
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -2919,7 +2920,7 @@ const Quiz = () => {
     console.error("Error loading local data", error);
   } finally {
     const timer = setTimeout(() => {
-      toast.success('Generating Quiz')
+      setLoading(false);
     }, 500);
 
     return () => clearTimeout(timer);

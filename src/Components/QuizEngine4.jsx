@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import styles from '../App.module.css'; 
 import BeatLoad from './Spinner'; 
+import { toast } from 'react-toastify'
+
 
 const rawQuizData = [
   // ===== Easy Difficulty =====
@@ -8665,6 +8667,7 @@ const QuizEngine4 = () => {
 
   function handleGenerate(e) {
     e.preventDefault();
+      toast.success('Generating quiz')
     if (!topic || !difficulty || !length) return;
 
     setLoading(true);
@@ -8677,7 +8680,11 @@ const QuizEngine4 = () => {
 
     fetchQuiz({ topic, difficulty, limit: parseInt(length) }).then(data => {
       setQuestions(data);
+      const timer = setTimeout(() => {
       setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
     });
   }
 
