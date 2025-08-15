@@ -11,6 +11,11 @@
 
 }
 
+
+main{
+    flex: 1;
+}
+
 .quiz img{
     width: 200px;
     display: block;
@@ -22,7 +27,8 @@
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
-    
+    min-height: 100vh;
+    margin-bottom: -60px;
 }
 
 .inQuiz{
@@ -190,5 +196,7 @@ input::placeholder{
     }input, select{
         width: 220px;
         height: 23px;
+    }.quiz{
+        margin-bottom: -370px;
     }
 }

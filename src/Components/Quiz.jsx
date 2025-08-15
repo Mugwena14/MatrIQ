@@ -2947,7 +2947,8 @@ const Quiz = () => {
   const current = questions[currentQuestion];
 
   return (
-  <div className={styles.quiz}>
+    <div className={styles.quiz}>
+    <main>
     {loading ? (
       <BeatLoad />
     ) : questions.length > 0 ? (
@@ -3003,6 +3004,7 @@ const Quiz = () => {
         </div>
       </div>
     ): ''}
+  </main>
   </div>
 );
 
