@@ -1,5 +1,8 @@
 import styles from './Benefits.module.css'
 import image from '../assets/placeholder.jpg'
+import feedback from '../assets/feedback.png'
+import dark from '../assets/dark.png'
+import generate from '../assets/generate.png'
 
 const Benefits = () => {
     return (
@@ -10,16 +13,7 @@ const Benefits = () => {
             <div className={styles.benefits}>
                 <div className={styles.cont}>
                     <div className={styles.image}>
-                        <img src={image} alt="" />
-                    </div>
-                    <h4>IMMEDIATE FEEDBACK</h4>
-                    <p>Get instant results after each answer
-                        helping you learn faster and retain more.
-                    </p>
-                </div>
-                    <div className={styles.cont}>
-                    <div className={styles.image}>
-                        <img src={image} alt="" />
+                        <img src={generate} alt="" />
                     </div>
                     <h4>GENERATE QUIZ</h4>
                     <p>
@@ -29,7 +23,16 @@ const Benefits = () => {
                 </div>
                 <div className={styles.cont}>
                     <div className={styles.image}>
-                        <img src={image} alt="" />
+                        <img src={feedback} alt=""  className={styles.fstImage}/>
+                    </div>
+                    <h4>IMMEDIATE FEEDBACK</h4>
+                    <p>Get instant results after each answer
+                        helping you learn faster and retain more.
+                    </p>
+                </div>
+                <div className={styles.cont}>
+                    <div className={styles.image}>
+                        <img src={dark} alt="" />
                     </div>
                     <h4>DARK MODE</h4>
                     <p>
