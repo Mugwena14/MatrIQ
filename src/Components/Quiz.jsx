@@ -2919,7 +2919,7 @@ const Quiz = () => {
     console.error("Error loading local data", error);
   } finally {
     const timer = setTimeout(() => {
-      setLoading(false);
+      toast.success('Generating Quiz')
     }, 500);
 
     return () => clearTimeout(timer);

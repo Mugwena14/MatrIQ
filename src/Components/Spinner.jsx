@@ -6,7 +6,7 @@ const BeatLoad = () => {
 let override = {
     display: "block",
     color: "hsl(0, 0%, 10%)",
-    zIndex: 9999,
+    zIndex: 99999,
     position: "relative",
     top: "50%",
     margin: "50px auto",

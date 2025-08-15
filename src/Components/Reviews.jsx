@@ -2,6 +2,8 @@ import styles from './Reviews.module.css'
 import { FaStar, FaSchool, FaArrowRight } from 'react-icons/fa'
 import { IoClose } from "react-icons/io5"
 import React, { useEffect, useState } from 'react'
+import { toast } from 'react-toastify'
+import BeatLoad from './Spinner'
 import { Link } from 'react-router-dom'
 import { db } from '../config/firebase'
 import { addDoc, collection, getDocs} from 'firebase/firestore'
@@ -10,7 +12,11 @@ const Reviews = () => {
     const [reviewList, setReviewList] = useState([])
     const [newComment, setNewComment] = useState('')
     const [newSchool, setNewSchool] = useState('')
+    const [newName, setNewName] = useState('')
+    const [newSurname, setNewSurname] = useState('')
+    const [newEmail, setNewEmail] = useState('')
     const [showFull, setShowFull] = useState(false)
+    const [loading, setLoading] = useState(true)
 
     const reviewsCollectionRef = collection(db, "reviews")
 
@@ -23,6 +29,8 @@ const Reviews = () => {
                 setReviewList(filteredData)
             }catch(error){
                 console.error("Error fetching reviews: ", error)
+            }finally{
+                setLoading(false)
             }
         }
         getReviewList()
@@ -31,15 +39,31 @@ const Reviews = () => {
     async function submitReview(e){
         e.preventDefault();
         try{
+                toast.success('Review added successfully!')
             const newReview = {
                 Comment: newComment,
-                School: newSchool
+                School: newSchool,
+                FirstName: newName,
+                LastName: newSurname,
+                Email: newEmail
             }
             await addDoc(reviewsCollectionRef, newReview)
-            getReviewList()
+            setShowFull(false)
         }catch(error){
             console.error("Error adding review: ", error)
         }
+        //Fetching data after submitting review
+        const getReviewList = async () => {
+            try{
+                const data = await getDocs(reviewsCollectionRef)
+                const filteredData = data.docs.map((doc) => ({
+                    ...doc.data(), id: doc.id}))
+                setReviewList(filteredData)
+            }catch(error){
+                console.error("Error fetching reviews: ", error)
+            }
+        }
+        getReviewList()
     }
 
     function displayForm(){
@@ -82,17 +106,23 @@ const Reviews = () => {
                             <div className={styles.field1}>
                                 <div className={styles.set1}>
                                     <label htmlFor="name">First Name</label>
-                                    <input required className={styles.in1} type="text" placeholder='Your First Name'/>
+                                    <input required className={styles.in1} type="text" placeholder='Your First Name' value={newName} onChange={
+                                (e) => setNewName(e.target.value)
+                            }/>
                                 </div>
                                 <div className={styles.set}>
                                     <label htmlFor="surname">Last Name</label>
-                                    <input required className={styles.in2} type="text" placeholder='Your Last Name' />
+                                    <input required className={styles.in2} type="text" placeholder='Your Last Name' value={newSurname} onChange={
+                                (e) => setNewSurname(e.target.value)
+                            }/>
                                 </div>
                             </div>
                             <div className={styles.field2}>
                                 <div className={styles.set1}>
                                     <label htmlFor="email">Email Address</label>
-                                    <input required className={styles.in3} type="email" placeholder='Your Email Address'/>
+                                    <input required className={styles.in3} type="email" placeholder='Your Email Address' value={newEmail} onChange={
+                                (e) => setNewEmail(e.target.value)
+                            }/>
                                 </div>
                                 <div className={styles.set}>
                                     <label htmlFor="school">School Name</label>
@@ -109,83 +139,35 @@ const Reviews = () => {
                     </form>
                 </div>
             ) : ''}
-            <div className={styles.contComment}>
-                <div className={styles.contInner}>
-                    <div className={styles.stars}>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                    </div>
-                    <div className={styles.comment}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dolores! Quidem unde cum, vitae aspernatur quas aperiam saepe cupiditate laborum maiores quos iure distinctio eaque exercitationem repellendus hic veniam voluptatibus?</p>
-                    </div>
-                    <div>
-                        <div className={styles.school}>
-                            <div className={styles.schoolInfo}>
+                <section className={styles.contComment}>
+                    {reviewList.map((review) => (
+                        <div className={styles.contInner}>
+                            <div className={styles.stars}>
+                                <p ><FaStar className={styles.star}/></p>
+                                <p ><FaStar className={styles.star}/></p>
+                                <p ><FaStar className={styles.star}/></p>
+                                <p ><FaStar className={styles.star}/></p>
+                                <p ><FaStar className={styles.star}/></p>
+                            </div>
+                            <div className={styles.comment}>
+                                <p>{review.Comment}</p>
+                            </div>
+                            <div>
                                 <div className={styles.school}>
-                                    <FaSchool className={styles.schoolIcon}/>
-                                </div>
-                                <div className={styles.schoolName}>
-                                    <h3>From</h3>
-                                    <p>New Era College</p>
+                                    <div className={styles.schoolInfo}>
+                                        <div className={styles.school}>
+                                            <FaSchool className={styles.schoolIcon}/>
+                                        </div>
+                                        <div className={styles.schoolName}>
+                                            <h3>From</h3>
+                                            <p>{review.School}</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className={styles.contInner}>
-                    <div className={styles.stars}>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                    </div>
-                    <div className={styles.comment}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dolores! Quidem unde cum, vitae aspernatur quas aperiam saepe cupiditate laborum maiores quos iure distinctio eaque exercitationem repellendus hic veniam voluptatibus?</p>
-                    </div>
-                    <div>
-                        <div className={styles.school}>
-                            <div className={styles.schoolInfo}>
-                                <div className={styles.school}>
-                                    <FaSchool className={styles.schoolIcon}/>
-                                </div>
-                                <div className={styles.schoolName}>
-                                    <h3>From</h3>
-                                    <p>New Era College</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.contInner}>
-                    <div className={styles.stars}>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                        <p ><FaStar className={styles.star}/></p>
-                    </div>
-                    <div className={styles.comment}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dolores! Quidem unde cum, vitae aspernatur quas aperiam saepe cupiditate laborum maiores quos iure distinctio eaque exercitationem repellendus hic veniam voluptatibus?</p>
-                    </div>
-                    <div>
-                        <div className={styles.school}>
-                            <div className={styles.schoolInfo}>
-                                <div className={styles.school}>
-                                    <FaSchool className={styles.schoolIcon}/>
-                                </div>
-                                <div className={styles.schoolName}>
-                                    <h3>From</h3>
-                                    <p>New Era College</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    ))}
+                </section>
         </div>
     )
 }

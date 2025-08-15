@@ -4,6 +4,8 @@ import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import 'react-toastify/dist/ReactToastify.css'
+import { ToastContainer } from 'react-toastify'
 
 const MainLayout = () => {
         const location = useLocation();
@@ -16,6 +18,7 @@ const MainLayout = () => {
         <div>
             <Header/>
             <Outlet/>
+            <ToastContainer />
             <Footer/>
         </div>
     )
