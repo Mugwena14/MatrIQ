@@ -18,6 +18,7 @@ import QuizEngine3Page from './Pages/QuizEngine3Page'
 import QuizEngine4Page from './Pages/QuizEngine4Page'
 import ReviewsPage from './Pages/ReviewsPage'
 
+import { ThemeProvider } from "./Contexts/ThemeContext";
 
 const App = () => {
   
@@ -48,7 +49,9 @@ const App = () => {
 
     return (
         <div>
-          <RouterProvider router={router}/>
+          <ThemeProvider>
+            <RouterProvider router={router}/>
+          </ThemeProvider>
         </div>
     )
 }
