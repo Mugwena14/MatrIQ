@@ -6,8 +6,12 @@ import { TiWeatherPartlySunny } from 'react-icons/ti'
 import { MdOutlineViewCarousel } from 'react-icons/md'
 import { FaBook } from 'react-icons/fa'
 import { PiDnaLight } from 'react-icons/pi'
+import { useTheme } from '../Contexts/ThemeContext'
 
 const Header = () => {
+
+  const { theme, toggleTheme } = useTheme();
+
     return (
         <div className={styles.head}>
             <header className={styles.header}>
@@ -48,7 +52,7 @@ const Header = () => {
                 </nav>
             </div>
             <div className={styles.mode}>
-                <p>MODE</p>
+                <button onClick={toggleTheme}>MODE</button>
             </div>
             </header>
                 <div className={styles.bar}>
