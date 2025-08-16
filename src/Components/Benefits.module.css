@@ -32,6 +32,10 @@
     color: black;
 }
 
+.benefitLight .cont img{
+    border: 2px solid hsl(184, 86%, 40%);
+}
+
 .cont p{
     text-align: center;
     font-size: 12px;

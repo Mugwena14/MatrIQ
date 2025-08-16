@@ -8,6 +8,31 @@
     background-color: hsl(240, 93%, 5%);
 }
 
+.footerLight .footer{
+    background-color: white;
+}
+
+.footerLight .copyright{
+    background-color: hsl(184, 86%, 40%);
+}
+
+.footerLight .footer .logoL{
+    color: white;
+    background-color: hsl(184, 86%, 40%);
+}
+
+.footerLight .footer .logo{
+    color: black;
+}
+
+.footerLight .footer .links{
+    color: black;
+}
+
+
+.footerLight .footer p, .footerLight .footer h3{
+    color: black;
+}
 
 .cont{
     display: flex;
@@ -148,4 +173,5 @@ p{
         align-items: center;
     }
 }
+
 
