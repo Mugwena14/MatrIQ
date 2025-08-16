@@ -51,89 +51,94 @@ const Header = () => {
                 <p>MODE</p>
             </div>
             </header>
-            <div className={styles.bar}>
-      
-      <div className={styles.app}>
-        <div className={styles.appIcons}>
-          <div className={styles.appIcon}>
-            <NavLink 
-              to="/Reviews" 
-              className={({ isActive }) => 
-                `${styles.iconLink} ${isActive ? styles.active : ''}`
-              }
-            >
-              <MdOutlineViewCarousel />
-            </NavLink>
-            <p>Reviews</p>
-          </div>
-        </div>
-      </div>
-
-      <div className={styles.app}>
-        <div className={styles.appIcons}>
-          <div className={styles.appIcon}>
-            <NavLink 
-              to="/Geo" 
-              className={({ isActive }) => 
-                `${styles.iconLink} ${isActive ? styles.active : ''}`
-              }
-            >
-              <TiWeatherPartlySunny />
-            </NavLink>
-            <p>Geo</p>
-          </div>
-        </div>
-      </div>
-
-      <div className={styles.app}>
-        <div className={styles.appIcons}>
-          <div className={styles.appIcon}>
-            <NavLink 
-              to="/Home" 
-              className={({ isActive }) => 
-                `${styles.iconLink} ${isActive ? styles.active : ''}`
-              }
-            >
-              <IoHomeOutline />
-            </NavLink>
-            <p>Home</p>
-          </div>
-        </div>
-      </div>
-
-      <div className={styles.app}>
-        <div className={styles.appIcons}>
-          <div className={styles.appIcon}>
-            <NavLink 
-              to="/LS" 
-              className={({ isActive }) => 
-                `${styles.iconLink} ${isActive ? styles.active : ''}`
-              }
-            >
-              <PiDnaLight />
-            </NavLink>
-            <p>LS</p>
-          </div>
-        </div>
-      </div>
-
-      <div className={styles.app}>
-        <div className={styles.appIcons}>
-          <div className={styles.appIcon}>
-            <NavLink 
-              to="#"
-              className={({ isActive }) => 
-                `${styles.iconLink} ${isActive ? styles.active : ''}`
-              }
-            >
-              <CiLight />
-            </NavLink>
-            <p>Light</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
+                <div className={styles.bar}>
+          
+                <div className={styles.app}>
+                  <div className={styles.appIcons}>
+                    <div className={styles.appIcon}>
+                      <NavLink 
+                        to="/Reviews" 
+                        className={({ isActive }) => 
+                          `${styles.iconLink} ${isActive ? styles.active : ''}`
+                        }
+                      >
+                        <MdOutlineViewCarousel />
+                      </NavLink>
+                      <p>Reviews</p>
+                    </div>
+                  </div>
+                </div>
+                  <div className={styles.app}>
+                    <div className={styles.appIcons}>
+                      <div className={styles.appIcon}>
+                        <NavLink 
+                          to="/Geo" 
+                          className={({ isActive }) => 
+                            `${styles.iconLink} ${isActive ? styles.active : ''}`
+                          }
+                        >
+                          <TiWeatherPartlySunny />
+                        </NavLink>
+                        <p>Geo</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.app}>
+                    <div className={styles.appIcons}>
+                      <div className={styles.appIcon}>
+                        <NavLink 
+                          to="/Home" 
+                          className={({ isActive }) => 
+                            `${styles.iconLink} ${isActive ? styles.active : ''}`
+                          }
+                        >
+                          <IoHomeOutline />
+                        </NavLink>
+                        <p>Home</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.app}>
+                    <div className={styles.appIcons}>
+                      <div className={styles.appIcon}>
+                        <NavLink 
+                          to="/LS" 
+                          className={({ isActive }) => 
+                            `${styles.iconLink} ${isActive ? styles.active : ''}`
+                          }
+                        >
+                          <PiDnaLight />
+                        </NavLink>
+                        <p>LS</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.app}>
+                    <div className={styles.appIcons}>
+                      <div className={styles.appIcon}>
+                        <NavLink 
+                          to="#"
+                          className={({ isActive }) => 
+                            `${styles.iconLink} ${isActive ? styles.active : ''}`
+                          }
+                        >
+                          <CiLight />
+                        </NavLink>
+                        <p>Light</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.upBar}>
+                    <div className={styles.matricLogo}>
+                        <Link to='/Home' className={styles.matricLink}>
+                          Matric IQ
+                        </Link>
+                    </div>
+                    <div className={styles.tglButton}>
+                      <p>Mode</p>
+                    </div>
+                </div>
         </div>
     )
 }

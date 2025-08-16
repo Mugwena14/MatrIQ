@@ -91,9 +91,6 @@ header{
     color: white;
 }
 
-.iconLink:active{
-    color: yellow;
-}
 
 .app{
     display: flex;
@@ -125,7 +122,28 @@ header{
     color: white;
 }
 
+.upBar{
+    background-color: hsl(222, 94%, 8%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 250px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
 
+.matricLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.matricLink{
+    text-decoration: none;
+    color: white;
+}
 
 @media(max-width: 700px){
     header{
@@ -135,6 +153,8 @@ header{
 
 @media(min-width: 700px){
     .bar{
+        display: none;
+    }.upBar{
         display: none;
     }
 }
