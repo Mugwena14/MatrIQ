@@ -10,6 +10,15 @@ header{
     height: 35px;
 }
 
+.headerLight header{
+    background-color: hsl(184, 86%, 50%);
+}
+
+.headerLight header .active{
+    color: black;
+    text-decoration: 3px underline black;
+}
+
 .M{
     border-radius: 50%;
     color: black;
@@ -172,6 +181,9 @@ header{
 }
 
 .active {
-  color: rgb(16, 207, 221);
+  color: hsl(184, 86%, 46%);
+  text-decoration: 3px underline hsl(184, 86%, 46%);
 }
+
+
 

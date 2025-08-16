@@ -10,11 +10,14 @@ import { useTheme } from '../Contexts/ThemeContext'
 
 const Header = () => {
 
-  const { theme, toggleTheme } = useTheme();
+    // Picked the right style based on theme
+    const { theme, toggleTheme } = useTheme();
+    const headerTheme1 = theme === "light" ? styles.headerLight : styles.headerDark;
 
     return (
         <div className={styles.head}>
-            <header className={styles.header}>
+            <div className={headerTheme1}>
+                <header className={styles.header}>
             <div className={styles.logo}>
                 <p>
                 <span className={styles.M}>M</span> IQ
@@ -144,7 +147,8 @@ const Header = () => {
                     <div className={styles.tglButton}>
                       <p>Mode</p>
                     </div>
-                </div>
+              </div>
+            </div>
         </div>
     )
 }
