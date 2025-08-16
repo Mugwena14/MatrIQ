@@ -4,7 +4,10 @@
     align-items: center;
     background-color: hsl(240, 93%, 5%);
     margin-top: -40px;
+}
 
+.benefitLight .container{
+    background-color: white;
 }
 
 .benefits{
@@ -23,6 +26,10 @@
     font-size: 14px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.benefitLight .cont h4, .benefitLight .cont p{
+    color: black;
 }
 
 .cont p{
