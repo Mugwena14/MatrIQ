@@ -29,7 +29,6 @@
 }
 
 
-
 .heroLight .wrapper::after{
     background-image: url(../assets/LightScreen.png);
     height: 35%;
@@ -38,7 +37,7 @@
     bottom: 0;
     width: 100%;
     left: 0;
-    background: linear-gradient(to top, rgb(255, 255, 255), transparent);
+    background: linear-gradient(to top, hsl(0, 0%, 100%), transparent);
 }
 
 .rated{
@@ -51,6 +50,33 @@
     align-items: center;
     background-color: hsl(222, 74%, 15%);
 }
+
+.heroLight .rated{
+    background-color: hsl(184, 74%, 42%);
+}
+
+.heroLight .ratedBtn1, .heroLight .arrowBtn{
+    background-color: hsl(184, 60%, 55%);
+}
+
+.heroLight .ratedBtn1{
+    padding: 6px 7px;
+}
+
+.heroLight .quote h1{
+    color: hsl(0, 0%, 23%);
+}
+
+.heroLight .langavi{
+    color: hsl(0, 0%, 35%);
+}
+
+.heroLight .info p{
+    color: hsl(0, 0%, 25%);
+}
+
+
+
 
 @media(max-width: 760px){
     .rated{

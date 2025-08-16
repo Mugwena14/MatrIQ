@@ -19,24 +19,24 @@ const Hero = () => {
         <section className={heroTheme}>
             <div className={styles.wrapper}>
                     <div className={styles.container}>
-                        <p className={styles.rated}>
-                            <button className={styles.ratedBtn1}>Achievements</button>
-                            <button className={styles.ratedBtn2}>Rated No.1 by students 
-                                    <span className={styles.arrowShort}><FaArrowRight/></span>
+                            <div className={styles.rated}>
+                                <button className={styles.ratedBtn1}>Achievements</button>
+                                <button className={styles.ratedBtn2}>Rated No.1 by students 
+                                        <span className={styles.arrowShort}><FaArrowRight/></span>
+                                    </button>
+                                <button className={styles.arrowBtn}>
+                                    <Link to='/Reviews'>
+                                        <span className={styles.arrowLong}><FaArrowRightLong/></span>
+                                    </Link>
                                 </button>
-                            <button className={styles.arrowBtn}>
-                                <Link to='/Reviews'>
-                                    <span className={styles.arrowLong}><FaArrowRightLong/></span>
-                                </Link>
-                            </button>
-                        </p>
+                            </div>
                         <div className={styles.head}>
                             <div className={styles.quote}>
                                 <h1 ><span className={styles.quote1}><FaQuoteLeft/></span>
                                 Aim true when you shoot your shot or be ready to
                                 reload.
                                 <span className={styles.quote2}><FaQuoteRight/></span>
-                                <p>-Makhubele Langavi Clyde</p>
+                                <p className={styles.langavi}>-Makhubele Langavi Clyde</p>
                                 </h1>
                             </div>
                         </div>
