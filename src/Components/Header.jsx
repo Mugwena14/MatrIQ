@@ -4,7 +4,7 @@ import styles from './Header.module.css'
 import { IoHomeOutline } from 'react-icons/io5'
 import { TiWeatherPartlySunny } from 'react-icons/ti'
 import { MdOutlineViewCarousel } from 'react-icons/md'
-import { CiLight } from 'react-icons/ci'
+import { FaBook } from 'react-icons/fa'
 import { PiDnaLight } from 'react-icons/pi'
 
 const Header = () => {
@@ -117,18 +117,20 @@ const Header = () => {
                     <div className={styles.appIcons}>
                       <div className={styles.appIcon}>
                         <NavLink 
-                          to="#"
+                          to="/LS" 
                           className={({ isActive }) => 
                             `${styles.iconLink} ${isActive ? styles.active : ''}`
                           }
                         >
-                          <CiLight />
+                          <FaBook />
                         </NavLink>
-                        <p>Light</p>
+                        <p>Notes</p>
                       </div>
                     </div>
                   </div>
                 </div>
+
+                {/* Top Nav Bar */}
                 <div className={styles.upBar}>
                     <div className={styles.matricLogo}>
                         <Link to='/Home' className={styles.matricLink}>
