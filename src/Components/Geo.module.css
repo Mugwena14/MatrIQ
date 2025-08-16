@@ -8,6 +8,22 @@
     justify-content: center;
 }
 
+.geoLight .geo{
+    background-color: white;
+}
+
+.geoLight .box h1{
+    color: hsl(0, 0%, 30%);
+}
+
+.geoLight .box button{
+    background-color: hsl(184, 60%, 55%);
+}
+
+.geoLight .box button:hover{
+    background-color: hsl(0, 0%, 97%);
+}
+
 .box{
     margin-top: 50px;
     margin-bottom: 80px;

@@ -14,6 +14,22 @@
     padding: 100px 20px;
 }
 
+.lsLight .LS{
+    background-color: white;
+}
+
+.lsLight .box h1{
+    color: hsl(0, 0%, 30%);
+}
+
+.lsLight .box button{
+    background-color: hsl(184, 60%, 55%);
+}
+
+.lsLight .box button:hover{
+    background-color: hsl(0, 0%, 97%);
+}
+
 .box button{
     padding: 10px 150px;
     border: 1px solid hsl(0, 0%, 70%);
