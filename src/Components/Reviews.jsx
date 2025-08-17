@@ -7,6 +7,11 @@ import BeatLoad from './Spinner'
 import { Link } from 'react-router-dom'
 import { db } from '../config/firebase'
 import { addDoc, collection, getDocs} from 'firebase/firestore'
+import { useTheme } from '../Contexts/ThemeContext'
+
+
+
+    
 
 const Reviews = () => {
     const [reviewList, setReviewList] = useState([])
@@ -74,100 +79,100 @@ const Reviews = () => {
         setShowFull(false)
     }
 
+    const { theme } = useTheme();
+    // Picked the right style based on theme
+    const reviewTheme = theme === "light" ? styles.reviewLight : styles.reviewDark;
+
     return (
-        <div className={styles.contForm}>
-            
-            {/* <h1>Reviews</h1>
-            {reviewList.map((review, index) => (
-                <div id={index} key={index}> 
-                    <p>{review.Comment}</p>
-                    <p>From{review.School}</p>
+        <div className={reviewTheme}>
+            <div className={styles.contForm}>
+                
+                
+                <div className={styles.review}>
+                    <h1>Reviews</h1>
+                    {showFull ? '' : (
+                        <button onClick={() => displayForm()}>Add Review here <FaArrowRight /></button>
+                    )}
                 </div>
-            ))} */}
-            <div className={styles.review}>
-                <h1>Reviews</h1>
-                {showFull ? '' : (
-                    <button onClick={() => displayForm()}>Add Review here <FaArrowRight /></button>
-                )}
-            </div>
-            {showFull ? (
-                <div className={styles.addReview}>
-                    <form onSubmit={submitReview}>
-                        <div className={styles.up}>
-                            <h2>Submit a review</h2>
-                            <div className={styles.up2}>
-                                <p></p>
-                                <button className={styles.closeBtn} onClick={() => closeForm()}>
-                                    <IoClose/>
-                                </button>
-                            </div>
-                        </div>
-                        <div className={styles.formR}>
-                            <div className={styles.field1}>
-                                <div className={styles.set1}>
-                                    <label htmlFor="name">First Name</label>
-                                    <input required className={styles.in1} type="text" placeholder='Your First Name' value={newName} onChange={
-                                (e) => setNewName(e.target.value)
-                            }/>
-                                </div>
-                                <div className={styles.set}>
-                                    <label htmlFor="surname">Last Name</label>
-                                    <input required className={styles.in2} type="text" placeholder='Your Last Name' value={newSurname} onChange={
-                                (e) => setNewSurname(e.target.value)
-                            }/>
+                {showFull ? (
+                    <div className={styles.addReview}>
+                        <form onSubmit={submitReview}>
+                            <div className={styles.up}>
+                                <h2>Submit a review</h2>
+                                <div className={styles.up2}>
+                                    <p></p>
+                                    <button className={styles.closeBtn} onClick={() => closeForm()}>
+                                        <IoClose/>
+                                    </button>
                                 </div>
                             </div>
-                            <div className={styles.field2}>
-                                <div className={styles.set1}>
-                                    <label htmlFor="email">Email Address</label>
-                                    <input required className={styles.in3} type="email" placeholder='Your Email Address' value={newEmail} onChange={
-                                (e) => setNewEmail(e.target.value)
-                            }/>
+                            <div className={styles.formR}>
+                                <div className={styles.field1}>
+                                    <div className={styles.set1}>
+                                        <label htmlFor="name">First Name</label>
+                                        <input required className={styles.in1} type="text" placeholder='Your First Name' value={newName} onChange={
+                                    (e) => setNewName(e.target.value)
+                                }/>
+                                    </div>
+                                    <div className={styles.set}>
+                                        <label htmlFor="surname">Last Name</label>
+                                        <input required className={styles.in2} type="text" placeholder='Your Last Name' value={newSurname} onChange={
+                                    (e) => setNewSurname(e.target.value)
+                                }/>
+                                    </div>
                                 </div>
-                                <div className={styles.set}>
-                                    <label htmlFor="school">School Name</label>
-                                    <input className={styles.in4} required placeholder='School Name. Eg:xyz High School' type="text" value={newSchool} onChange={
-                                        (e) => setNewSchool(e.target.value)
-                                    }/>
+                                <div className={styles.field2}>
+                                    <div className={styles.set1}>
+                                        <label htmlFor="email">Email Address</label>
+                                        <input required className={styles.in3} type="email" placeholder='Your Email Address' value={newEmail} onChange={
+                                    (e) => setNewEmail(e.target.value)
+                                }/>
+                                    </div>
+                                    <div className={styles.set}>
+                                        <label htmlFor="school">School Name</label>
+                                        <input className={styles.in4} required placeholder='School Name. Eg:xyz High School' type="text" value={newSchool} onChange={
+                                            (e) => setNewSchool(e.target.value)
+                                        }/>
+                                    </div>
                                 </div>
+                                <textarea maxLength='235' required placeholder='Type message here...' type="text" value={newComment} onChange={
+                                    (e) => setNewComment(e.target.value)
+                                }/>
+                            <button className={styles.revSubmit}>Submit</button>
                             </div>
-                            <textarea maxLength='235' required placeholder='Type message here...' type="text" value={newComment} onChange={
-                                (e) => setNewComment(e.target.value)
-                            }/>
-                        <button className={styles.revSubmit}>Submit</button>
-                        </div>
-                    </form>
-                </div>
-            ) : ''}
-                <section className={styles.contComment}>
-                    {reviewList.map((review) => (
-                        <div className={styles.contInner}>
-                            <div className={styles.stars}>
-                                <p ><FaStar className={styles.star}/></p>
-                                <p ><FaStar className={styles.star}/></p>
-                                <p ><FaStar className={styles.star}/></p>
-                                <p ><FaStar className={styles.star}/></p>
-                                <p ><FaStar className={styles.star}/></p>
-                            </div>
-                            <div className={styles.comment}>
-                                <p>{review.Comment}</p>
-                            </div>
-                            <div>
-                                <div className={styles.school}>
-                                    <div className={styles.schoolInfo}>
-                                        <div className={styles.school}>
-                                            <FaSchool className={styles.schoolIcon}/>
-                                        </div>
-                                        <div className={styles.schoolName}>
-                                            <h3>From</h3>
-                                            <p>{review.School}</p>
+                        </form>
+                    </div>
+                ) : ''}
+                    <section className={styles.contComment}>
+                        {reviewList.map((review) => (
+                            <div className={styles.contInner}>
+                                <div className={styles.stars}>
+                                    <p ><FaStar className={styles.star}/></p>
+                                    <p ><FaStar className={styles.star}/></p>
+                                    <p ><FaStar className={styles.star}/></p>
+                                    <p ><FaStar className={styles.star}/></p>
+                                    <p ><FaStar className={styles.star}/></p>
+                                </div>
+                                <div className={styles.comment}>
+                                    <p>{review.Comment}</p>
+                                </div>
+                                <div>
+                                    <div className={styles.school}>
+                                        <div className={styles.schoolInfo}>
+                                            <div className={styles.school}>
+                                                <FaSchool className={styles.schoolIcon}/>
+                                            </div>
+                                            <div className={styles.schoolName}>
+                                                <h3>From</h3>
+                                                <p>{review.School}</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
-                </section>
+                        ))}
+                    </section>
+            </div>
         </div>
     )
 }

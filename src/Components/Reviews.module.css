@@ -8,6 +8,25 @@
     color: black;
 }
 
+.reviewLight .review{
+    background-color: hsl(0, 0%, 99%);
+}
+
+.reviewLight .review h1{
+    color: hsl(0, 0%, 20%);
+}
+
+
+
+.reviewLight .review button{
+    color: hsl(0, 0%, 20%);
+    background-color: transparent;
+}
+
+.reviewLight .contForm{
+    background-color: hsl(0, 0%, 99%);
+}
+
 .formR{
     display: flex;
     flex-direction: column;
@@ -147,7 +166,7 @@ textarea{
 
 .review button{
     background-color: hsl(240, 93%, 5%);
-    width: 400px;
+    width: 150px;
     height: 40px;
     color: white;
     text-decoration: underline;
