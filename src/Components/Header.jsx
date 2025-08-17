@@ -130,7 +130,7 @@ const Header = () => {
                     <div className={styles.appIcons}>
                       <div className={styles.appIcon}>
                         <NavLink 
-                          to="/LS" 
+                          to="/Notes" 
                           className={({ isActive }) => 
                             `${styles.iconLink} ${isActive ? styles.active : ''}`
                           }

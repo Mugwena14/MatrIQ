@@ -17,6 +17,7 @@ import QuizEngine2Page from './Pages/QuizEngine2Page'
 import QuizEngine3Page from './Pages/QuizEngine3Page'
 import QuizEngine4Page from './Pages/QuizEngine4Page'
 import ReviewsPage from './Pages/ReviewsPage'
+import NotesPage from './Pages/NotesPage'
 
 import { ThemeProvider } from "./Contexts/ThemeContext";
 
@@ -34,6 +35,7 @@ const App = () => {
         <Route path='/GeoQ2' element={<GeoQPage2/>}/>
         <Route path='/LSQ' element={<LSQPage/>}/>
         <Route path='/LSQ2' element={<LSQPage2/>}/>
+        <Route path='/Notes' element={<NotesPage/>}/>
         <Route path='/GenChoose1' element={<GenChoosePage/>}/>
         <Route path='/Quiz/:id' element={<QuizPage/>}/>
         <Route path='/QuizEngine' element={<QuizEnginePage/>}/>
