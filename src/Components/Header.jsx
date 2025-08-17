@@ -7,6 +7,8 @@ import { MdOutlineViewCarousel } from 'react-icons/md'
 import { FaBook } from 'react-icons/fa'
 import { PiDnaLight } from 'react-icons/pi'
 import { useTheme } from '../Contexts/ThemeContext'
+import moon from "../assets/moon.png"
+import sun from "../assets/sun.png"
 
 const Header = () => {
 
@@ -55,7 +57,11 @@ const Header = () => {
                 </nav>
             </div>
             <div className={styles.mode}>
-                <button onClick={toggleTheme}>MODE</button>
+                <button onClick={toggleTheme}>
+                  {theme === "light" ? 
+                  <img src={moon} /> : <img src={sun} />
+                  }
+                </button>
             </div>
             </header>
                 <div className={styles.bar}>
@@ -145,7 +151,11 @@ const Header = () => {
                         </Link>
                     </div>
                     <div className={styles.tglButton}>
-                      <p>Mode</p>
+                      <button onClick={toggleTheme}>
+                        {theme === "light" ? 
+                        <img src={moon} /> : <img src={sun} />
+                        }
+                    </button>
                     </div>
               </div>
             </div>

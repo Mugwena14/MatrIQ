@@ -11,10 +11,21 @@ header{
 }
 
 .headerLight header{
-    background-color: hsl(184, 86%, 50%);
+    background-color: hsl(184, 86%, 40%);
 }
 
+.headerLight .upBar{
+    background-color: hsl(184, 86%, 45%);
+}
 
+.headerLight .bar{
+    background-color: hsl(184, 86%, 35%);
+}
+
+.headerLight .bar .active{
+    color: black;
+    text-decoration: 3px underline black;
+}
 
 .headerLight header .active{
     color: black;
@@ -65,6 +76,38 @@ header{
     align-items: center;
     margin: auto 0;
     margin-left: 25px;
+}
+
+.mode button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.mode img{
+    width: 18px;
+    height: 18px;
+    margin-left: 15px;
+}
+
+.tglButton img{
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+}
+
+.tglButton button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.tglButton{
+    padding: 10px 0;
 }
 
 .logo{
