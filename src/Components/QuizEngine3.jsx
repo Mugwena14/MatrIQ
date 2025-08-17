@@ -8770,7 +8770,7 @@ const QuizEngine3 = () => {
                     </div>
           
                     <div className={styles.qNo}>
-                      <p>Question {currentQuestion + 1} of {questions.length} Score: {score} / {questions.length} </p>
+                      <p>Question {currentQuestion + 1} of {questions.length}. Score: {score} / {questions.length} </p>
                     </div>
 
               </div>

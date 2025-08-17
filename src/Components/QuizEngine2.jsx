@@ -5,7 +5,6 @@ import { toast } from 'react-toastify'
 import { useTheme } from '../Contexts/ThemeContext'
 import { Link } from 'react-router-dom'
 
-
 const rawQuizData = [
   // ===== Easy Difficulty =====
   {
@@ -1487,7 +1486,7 @@ const rawQuizData = [
   // MEDIUM
   {
     id: 106,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor often leads to the growth of informal settlements on the outskirts of cities?",
     answerOptions: [
@@ -1501,7 +1500,7 @@ const rawQuizData = [
   },
   {
     id: 107,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What does the concept of 'urban sprawl' describe?",
     answerOptions: [
@@ -1515,7 +1514,7 @@ const rawQuizData = [
   },
   {
     id: 108,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which urban land-use zone is most likely to contain old factories and warehouses?",
     answerOptions: [
@@ -1529,7 +1528,7 @@ const rawQuizData = [
   },
   {
     id: 109,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What is the main aim of urban renewal projects?",
     answerOptions: [
@@ -1543,7 +1542,7 @@ const rawQuizData = [
   },
   {
     id: 110,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor is the most important in the location of industrial areas in cities?",
     answerOptions: [
@@ -1557,7 +1556,7 @@ const rawQuizData = [
   },
   {
     id: 111,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What is the term for the merging of towns and cities into one continuous built-up area?",
     answerOptions: [
@@ -1571,7 +1570,7 @@ const rawQuizData = [
   },
   {
     id: 112,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor can lead to urban decay in the CBD?",
     answerOptions: [
@@ -1585,7 +1584,7 @@ const rawQuizData = [
   },
   {
     id: 113,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which type of settlement develops mainly around a single economic activity, such as mining?",
     answerOptions: [
@@ -1599,7 +1598,7 @@ const rawQuizData = [
   },
   {
     id: 114,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What is the main function of a rural service centre?",
     answerOptions: [
@@ -1613,7 +1612,7 @@ const rawQuizData = [
   },
   {
     id: 115,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which planning approach tries to integrate housing, jobs, and transport to create sustainable cities?",
     answerOptions: [
@@ -1627,7 +1626,7 @@ const rawQuizData = [
   },
   {
     id: 116,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which term describes the outward movement of middle-class families from inner cities to suburbs?",
     answerOptions: [
@@ -1641,7 +1640,7 @@ const rawQuizData = [
   },
   {
     id: 117,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which transport improvement often leads to the development of edge cities?",
     answerOptions: [
@@ -1655,7 +1654,7 @@ const rawQuizData = [
   },
   {
     id: 118,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor often leads to the decline of inner-city residential areas?",
     answerOptions: [
@@ -1669,7 +1668,7 @@ const rawQuizData = [
   },
   {
     id: 119,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which urban land-use zone is located at the edge of a city where it meets the countryside?",
     answerOptions: [
@@ -1683,7 +1682,7 @@ const rawQuizData = [
   },
   {
     id: 120,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which challenge is often linked with rapid urbanisation in developing countries?",
     answerOptions: [
@@ -1698,7 +1697,7 @@ const rawQuizData = [
   // HARD
    {
     id: 121,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which urban model suggests that cities develop in a series of rings with the CBD at the centre?",
     answerOptions: [
@@ -1712,7 +1711,7 @@ const rawQuizData = [
   },
   {
     id: 122,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which process involves wealthier people moving into a run-down urban area, improving housing, and displacing lower-income residents?",
     answerOptions: [
@@ -1726,7 +1725,7 @@ const rawQuizData = [
   },
   {
     id: 123,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "In terms of settlement hierarchy, which type of settlement typically offers the widest range of specialised services?",
     answerOptions: [
@@ -1740,7 +1739,7 @@ const rawQuizData = [
   },
   {
     id: 124,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which factor is the primary reason for the decentralisation of retail from CBDs to suburban malls?",
     answerOptions: [
@@ -1754,7 +1753,7 @@ const rawQuizData = [
   },
   {
     id: 125,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which South African policy aims to integrate previously segregated urban areas and improve access to services?",
     answerOptions: [
@@ -1768,7 +1767,7 @@ const rawQuizData = [
   },
   {
     id: 126,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which concept explains the maximum distance people are willing to travel for a service?",
     answerOptions: [
@@ -1782,7 +1781,7 @@ const rawQuizData = [
   },
   {
     id: 127,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "According to central place theory, which factor determines the spacing and size of settlements?",
     answerOptions: [
@@ -1796,7 +1795,7 @@ const rawQuizData = [
   },
   {
     id: 128,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which urban model is most useful for describing cities with multiple centres of activity?",
     answerOptions: [
@@ -1810,7 +1809,7 @@ const rawQuizData = [
   },
   {
     id: 129,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which phenomenon describes the movement of people from cities to rural areas in search of a better quality of life?",
     answerOptions: [
@@ -1824,7 +1823,7 @@ const rawQuizData = [
   },
   {
     id: 130,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which term describes a city that dominates the economic, political, and cultural life of a country?",
     answerOptions: [
@@ -1838,7 +1837,7 @@ const rawQuizData = [
   },
   {
     id: 131,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "What is the main disadvantage of radial road patterns in cities?",
     answerOptions: [
@@ -1852,7 +1851,7 @@ const rawQuizData = [
   },
   {
     id: 132,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which factor has most influenced the location of South Africa's major cities along the coast?",
     answerOptions: [
@@ -1866,7 +1865,7 @@ const rawQuizData = [
   },
   {
     id: 133,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which urban policy encourages higher-density housing near public transport routes to reduce car dependency?",
     answerOptions: [
@@ -1880,7 +1879,7 @@ const rawQuizData = [
   },
   {
     id: 134,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which South African city is an example of a conurbation?",
     answerOptions: [
@@ -1894,7 +1893,7 @@ const rawQuizData = [
   },
   {
     id: 135,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which factor has contributed most to the emergence of 'edge cities' in South Africa?",
     answerOptions: [
@@ -1909,7 +1908,7 @@ const rawQuizData = [
   // ECONOMIC GEOGRAPGY
   {
     id: 136,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which sector of the economy includes activities like farming, fishing, and mining?",
     answerOptions: [
@@ -1923,7 +1922,7 @@ const rawQuizData = [
   },
   {
     id: 137,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which sector of the economy focuses on manufacturing and processing raw materials?",
     answerOptions: [
@@ -1937,7 +1936,7 @@ const rawQuizData = [
   },
   {
     id: 138,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which term describes the exchange of goods and services across countries?",
     answerOptions: [
@@ -1951,7 +1950,7 @@ const rawQuizData = [
   },
   {
     id: 139,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which type of farming is aimed mainly at producing food for the farmer's family?",
     answerOptions: [
@@ -1965,7 +1964,7 @@ const rawQuizData = [
   },
   {
     id: 140,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which economic activity involves services such as teaching, banking, and healthcare?",
     answerOptions: [
@@ -1979,7 +1978,7 @@ const rawQuizData = [
   },
   {
     id: 141,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which country is South Africa's largest trading partner for both imports and exports?",
     answerOptions: [
@@ -1993,7 +1992,7 @@ const rawQuizData = [
   },
   {
     id: 142,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "What is the main purpose of the Industrial Development Zones (IDZs) in South Africa?",
     answerOptions: [
@@ -2007,7 +2006,7 @@ const rawQuizData = [
   },
   {
     id: 143,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which energy source is most widely used for electricity generation in South Africa?",
     answerOptions: [
@@ -2021,7 +2020,7 @@ const rawQuizData = [
   },
   {
     id: 144,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which term describes goods that are brought into a country from abroad?",
     answerOptions: [
@@ -2035,7 +2034,7 @@ const rawQuizData = [
   },
   {
     id: 145,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which province is South Africa’s main producer of gold?",
     answerOptions: [
@@ -2049,7 +2048,7 @@ const rawQuizData = [
   },
   {
     id: 146,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which measure compares the value of exports to imports in a country?",
     answerOptions: [
@@ -2063,7 +2062,7 @@ const rawQuizData = [
   },
   {
     id: 147,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which farming type focuses on growing crops and raising animals for sale?",
     answerOptions: [
@@ -2077,7 +2076,7 @@ const rawQuizData = [
   },
   {
     id: 148,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which economic sector includes research, technology, and information services?",
     answerOptions: [
@@ -2091,7 +2090,7 @@ const rawQuizData = [
   },
   {
     id: 149,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which term refers to the value of all goods and services produced in a country in a year?",
     answerOptions: [
@@ -2105,7 +2104,7 @@ const rawQuizData = [
   },
   {
     id: 150,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Easy",
     questionText: "Which South African port is the largest container terminal in the Southern Hemisphere?",
     answerOptions: [
@@ -2120,7 +2119,7 @@ const rawQuizData = [
   // MEDIUM
    {
     id: 151,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which factor is most likely to encourage the location of a factory near a port?",
     answerOptions: [
@@ -2134,7 +2133,7 @@ const rawQuizData = [
   },
   {
     id: 152,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "What is the main purpose of the Spatial Development Initiatives (SDIs) in South Africa?",
     answerOptions: [
@@ -2148,7 +2147,7 @@ const rawQuizData = [
   },
   {
     id: 153,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which factor is a human influence on the location of industries?",
     answerOptions: [
@@ -2162,7 +2161,7 @@ const rawQuizData = [
   },
   {
     id: 154,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which type of farming involves the production of high-value crops such as fruit and flowers for export?",
     answerOptions: [
@@ -2176,7 +2175,7 @@ const rawQuizData = [
   },
   {
     id: 155,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which term describes the manufacturing of goods in people’s homes or small workshops?",
     answerOptions: [
@@ -2190,7 +2189,7 @@ const rawQuizData = [
   },
   {
     id: 156,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which South African province is most associated with large-scale sugarcane production?",
     answerOptions: [
@@ -2204,7 +2203,7 @@ const rawQuizData = [
   },
   {
     id: 157,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which economic term describes a country's ability to produce goods at a lower cost than its trading partners?",
     answerOptions: [
@@ -2218,7 +2217,7 @@ const rawQuizData = [
   },
   {
     id: 158,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which industrial area in South Africa is known for its iron and steel production?",
     answerOptions: [
@@ -2232,7 +2231,7 @@ const rawQuizData = [
   },
   {
     id: 159,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which factor has contributed most to the decline of the South African textile industry?",
     answerOptions: [
@@ -2246,7 +2245,7 @@ const rawQuizData = [
   },
   {
     id: 160,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which type of mining is used to extract minerals found close to the Earth's surface?",
     answerOptions: [
@@ -2260,7 +2259,7 @@ const rawQuizData = [
   },
   {
     id: 161,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "What is a common environmental impact of large-scale mining in South Africa?",
     answerOptions: [
@@ -2274,7 +2273,7 @@ const rawQuizData = [
   },
   {
     id: 162,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which factor is NOT typically considered when deciding where to locate a factory?",
     answerOptions: [
@@ -2288,7 +2287,7 @@ const rawQuizData = [
   },
   {
     id: 163,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which South African port is mainly used for exporting coal?",
     answerOptions: [
@@ -2302,7 +2301,7 @@ const rawQuizData = [
   },
   {
     id: 164,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which factor has encouraged the growth of high-technology industries in urban areas?",
     answerOptions: [
@@ -2316,7 +2315,7 @@ const rawQuizData = [
   },
   {
     id: 165,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Medium",
     questionText: "Which policy encourages local industries to produce goods that would otherwise be imported?",
     answerOptions: [
@@ -2331,7 +2330,7 @@ const rawQuizData = [
   // HARD
    {
     id: 166,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which factor best explains why the automobile industry is often located close to major transport routes and urban markets?",
     answerOptions: [
@@ -2345,7 +2344,7 @@ const rawQuizData = [
   },
   {
     id: 167,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which concept refers to the decline in industrial activity in a region due to factory closures or relocations?",
     answerOptions: [
@@ -2359,7 +2358,7 @@ const rawQuizData = [
   },
   {
     id: 168,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "In South Africa, the Maputo Development Corridor is an example of:",
     answerOptions: [
@@ -2373,7 +2372,7 @@ const rawQuizData = [
   },
   {
     id: 169,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which economic activity is most vulnerable to fluctuations in global commodity prices?",
     answerOptions: [
@@ -2387,7 +2386,7 @@ const rawQuizData = [
   },
   {
     id: 170,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which industrial development strategy focuses on producing goods for export rather than for local consumption?",
     answerOptions: [
@@ -2401,7 +2400,7 @@ const rawQuizData = [
   },
   {
     id: 171,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Why is beneficiation important for South Africa’s mineral-based economy?",
     answerOptions: [
@@ -2415,7 +2414,7 @@ const rawQuizData = [
   },
   {
     id: 172,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which port is the primary gateway for South Africa’s motor vehicle exports?",
     answerOptions: [
@@ -2429,7 +2428,7 @@ const rawQuizData = [
   },
   {
     id: 173,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which is NOT a likely challenge faced by secondary economic activities in South Africa?",
     answerOptions: [
@@ -2443,7 +2442,7 @@ const rawQuizData = [
   },
   {
     id: 174,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which statement best describes the term 'agglomeration' in industrial geography?",
     answerOptions: [
@@ -2457,7 +2456,7 @@ const rawQuizData = [
   },
   {
     id: 175,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which sector contributes the largest share to South Africa’s GDP?",
     answerOptions: [
@@ -2471,7 +2470,7 @@ const rawQuizData = [
   },
   {
     id: 176,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which factor explains why some mining towns in South Africa have become ghost towns?",
     answerOptions: [
@@ -2485,7 +2484,7 @@ const rawQuizData = [
   },
   {
     id: 177,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which policy encourages foreign companies to establish production facilities in South Africa?",
     answerOptions: [
@@ -2499,7 +2498,7 @@ const rawQuizData = [
   },
   {
     id: 178,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which city is at the centre of South Africa’s gold mining industry?",
     answerOptions: [
@@ -2513,7 +2512,7 @@ const rawQuizData = [
   },
   {
     id: 179,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Why are Special Economic Zones (SEZs) established in South Africa?",
     answerOptions: [
@@ -2527,7 +2526,7 @@ const rawQuizData = [
   },
   {
     id: 180,
-    topic: "Economic Geography",
+    topic: "Economic",
     difficulty: "Hard",
     questionText: "Which term describes the increasing integration of economies through trade, investment, and communication?",
     answerOptions: [
@@ -8687,7 +8686,7 @@ const QuizEngine2 = () => {
     }, 3000);
 
     return () => clearTimeout(timer);
-    });
+  });
   }
 
   function handleNextQ() {
@@ -8748,7 +8747,7 @@ const QuizEngine2 = () => {
                   </button>
                 ))}
 
-               <div>
+                <div>
                   {currentQuestion < questions.length - 1 ? 
                   <button
                     className={styles.nxtQ}
@@ -8769,7 +8768,7 @@ const QuizEngine2 = () => {
                 </div>
       
                 <div className={styles.qNo}>
-                  <p>Question {currentQuestion + 1} of {questions.length} Score: {score} / {questions.length} </p>
+                  <p>Question {currentQuestion + 1} of {questions.length}. Score: {score} / {questions.length} </p>
                 </div>
               </div>
             </div>
@@ -8788,8 +8787,8 @@ const QuizEngine2 = () => {
                   required
                 >
                   <option value="">Choose Topic</option>
-                  <option value="Settlement">Settlement</option>
-                  <option value="Economic">Economic</option>
+                  <option value="Settlement">Settlement Geo</option>
+                  <option value="Economic">Economic Geo</option>
                 </select>
               </div>
 
@@ -8823,7 +8822,7 @@ const QuizEngine2 = () => {
           </div>
         </div>
       )}
-    </div>
+      </div>
   );
 };
 
