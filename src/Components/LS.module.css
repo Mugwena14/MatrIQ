@@ -69,6 +69,8 @@
         padding: 8px 110px;
     }.paper{
         margin-top: 60px;
+    }.LS .box{
+        margin: 120px auto;
     }
 }
 

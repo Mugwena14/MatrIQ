@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import styles from '../App.module.css';
 import BeatLoad from "./Spinner";
-
+import { Link } from 'react-router-dom'
 
 const Quiz = () => {
   const { id } = useParams();
@@ -2983,13 +2983,17 @@ const Quiz = () => {
           ))}
 
           <div>
+            {currentQuestion < questions.length - 1 ? 
             <button
               className={styles.nxtQ}
               onClick={handleNextQ}
               disabled={!answered || currentQuestion >= questions.length - 1}
-            >
-              {currentQuestion < questions.length - 1 ? 'Next Question' : 'Finish'}
+            > Next Question
             </button>
+            : 
+            <Link to='/Home'><button className={styles.nxtQ}>Finish</button></Link>
+            }
+            
           </div>
 
           <div className={styles.explanation}>
@@ -2999,7 +3003,7 @@ const Quiz = () => {
           </div>
 
           <div className={styles.qNo}>
-            <p>Question {currentQuestion + 1} of {questions.length}</p>
+            <p>Question {currentQuestion + 1} of {questions.length} Score: {score} / {questions.length} </p>
           </div>
         </div>
       </div>

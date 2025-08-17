@@ -15,7 +15,7 @@ const Notes = () => {
             <div className={styles.notes}>
                 <BiError className={styles.errorIcon}/>
                 <h1>Notes Currently Not Available.</h1>
-                <h2>Come back after a week or soo.</h2>
+                <h2>Under Construction.</h2>
             </div>
         </div>
     )

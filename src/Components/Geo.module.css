@@ -64,6 +64,8 @@
         padding: 8px 110px;
     }.paper{
         margin-top: 60px;
+    }.geo .box{
+        margin: 120px auto;
     }
 }
 
