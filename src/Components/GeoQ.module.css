@@ -8,6 +8,32 @@
     justify-content: center;
 }
 
+.geoQLight .geoQ{
+    background-color: white;
+}
+
+.geoQLight .boxQ h1{
+    color: hsl(0, 0%, 30%);
+}
+
+.geoQLight .boxQ button{
+    background-color: hsl(184, 60%, 55%);
+}
+
+.geoQLight .boxQ .generateQ{
+    background-color: white;
+}
+
+.geoQLight .boxQ button:hover{
+    background-color: hsl(0, 0%, 97%);
+}
+
+.geoQLight .boxQ .generateQ:hover{
+    background-color: hsl(222, 74%, 35%);
+    color: white;
+    border: 1px solid hsl(0, 0%, 70%);
+}
+
 .boxQ{
     margin-top: 50px;
     margin-bottom: 80px;

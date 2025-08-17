@@ -14,20 +14,30 @@
     padding: 100px 20px;
 }
 
-.lsqLight .LS{
+.lsqLight .LSQ{
     background-color: white;
 }
 
-.lsqLight .box h1{
+.lsqLight .boxLSQ h1{
     color: hsl(0, 0%, 30%);
 }
 
-.lsqLight .box button{
+.lsqLight .boxLSQ button{
     background-color: hsl(184, 60%, 55%);
 }
 
-.lsqLight .box button:hover{
+.lsqLight .boxLSQ .generateLSQ{
+    background-color: white;
+}
+
+.lsqLight .boxLSQ button:hover{
     background-color: hsl(0, 0%, 97%);
+}
+
+.lsqLight .boxLSQ .generateLSQ:hover{
+    background-color: hsl(222, 74%, 35%);
+    color: white;
+    border: 1px solid hsl(0, 0%, 70%);
 }
 
 .boxLSQ button{
