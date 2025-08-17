@@ -3,7 +3,7 @@ import styles from '../App.module.css';
 import BeatLoad from './Spinner';
 import { toast } from 'react-toastify'
 import { useTheme } from '../Contexts/ThemeContext'
-
+import { Link } from 'react-router-dom'
 
 const rawQuizData = [
   // ===== Easy Difficulty =====
@@ -1486,7 +1486,7 @@ const rawQuizData = [
   // MEDIUM
   {
     id: 106,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor often leads to the growth of informal settlements on the outskirts of cities?",
     answerOptions: [
@@ -1500,7 +1500,7 @@ const rawQuizData = [
   },
   {
     id: 107,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What does the concept of 'urban sprawl' describe?",
     answerOptions: [
@@ -1514,7 +1514,7 @@ const rawQuizData = [
   },
   {
     id: 108,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which urban land-use zone is most likely to contain old factories and warehouses?",
     answerOptions: [
@@ -1528,7 +1528,7 @@ const rawQuizData = [
   },
   {
     id: 109,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What is the main aim of urban renewal projects?",
     answerOptions: [
@@ -1542,7 +1542,7 @@ const rawQuizData = [
   },
   {
     id: 110,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor is the most important in the location of industrial areas in cities?",
     answerOptions: [
@@ -1556,7 +1556,7 @@ const rawQuizData = [
   },
   {
     id: 111,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What is the term for the merging of towns and cities into one continuous built-up area?",
     answerOptions: [
@@ -1570,7 +1570,7 @@ const rawQuizData = [
   },
   {
     id: 112,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor can lead to urban decay in the CBD?",
     answerOptions: [
@@ -1584,7 +1584,7 @@ const rawQuizData = [
   },
   {
     id: 113,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which type of settlement develops mainly around a single economic activity, such as mining?",
     answerOptions: [
@@ -1598,7 +1598,7 @@ const rawQuizData = [
   },
   {
     id: 114,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "What is the main function of a rural service centre?",
     answerOptions: [
@@ -1612,7 +1612,7 @@ const rawQuizData = [
   },
   {
     id: 115,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which planning approach tries to integrate housing, jobs, and transport to create sustainable cities?",
     answerOptions: [
@@ -1626,7 +1626,7 @@ const rawQuizData = [
   },
   {
     id: 116,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which term describes the outward movement of middle-class families from inner cities to suburbs?",
     answerOptions: [
@@ -1640,7 +1640,7 @@ const rawQuizData = [
   },
   {
     id: 117,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which transport improvement often leads to the development of edge cities?",
     answerOptions: [
@@ -1654,7 +1654,7 @@ const rawQuizData = [
   },
   {
     id: 118,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which factor often leads to the decline of inner-city residential areas?",
     answerOptions: [
@@ -1668,7 +1668,7 @@ const rawQuizData = [
   },
   {
     id: 119,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which urban land-use zone is located at the edge of a city where it meets the countryside?",
     answerOptions: [
@@ -1682,7 +1682,7 @@ const rawQuizData = [
   },
   {
     id: 120,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Medium",
     questionText: "Which challenge is often linked with rapid urbanisation in developing countries?",
     answerOptions: [
@@ -1697,7 +1697,7 @@ const rawQuizData = [
   // HARD
    {
     id: 121,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which urban model suggests that cities develop in a series of rings with the CBD at the centre?",
     answerOptions: [
@@ -1711,7 +1711,7 @@ const rawQuizData = [
   },
   {
     id: 122,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which process involves wealthier people moving into a run-down urban area, improving housing, and displacing lower-income residents?",
     answerOptions: [
@@ -1725,7 +1725,7 @@ const rawQuizData = [
   },
   {
     id: 123,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "In terms of settlement hierarchy, which type of settlement typically offers the widest range of specialised services?",
     answerOptions: [
@@ -1739,7 +1739,7 @@ const rawQuizData = [
   },
   {
     id: 124,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which factor is the primary reason for the decentralisation of retail from CBDs to suburban malls?",
     answerOptions: [
@@ -1753,7 +1753,7 @@ const rawQuizData = [
   },
   {
     id: 125,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which South African policy aims to integrate previously segregated urban areas and improve access to services?",
     answerOptions: [
@@ -1767,7 +1767,7 @@ const rawQuizData = [
   },
   {
     id: 126,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which concept explains the maximum distance people are willing to travel for a service?",
     answerOptions: [
@@ -1781,7 +1781,7 @@ const rawQuizData = [
   },
   {
     id: 127,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "According to central place theory, which factor determines the spacing and size of settlements?",
     answerOptions: [
@@ -1795,7 +1795,7 @@ const rawQuizData = [
   },
   {
     id: 128,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which urban model is most useful for describing cities with multiple centres of activity?",
     answerOptions: [
@@ -1809,7 +1809,7 @@ const rawQuizData = [
   },
   {
     id: 129,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which phenomenon describes the movement of people from cities to rural areas in search of a better quality of life?",
     answerOptions: [
@@ -1823,7 +1823,7 @@ const rawQuizData = [
   },
   {
     id: 130,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which term describes a city that dominates the economic, political, and cultural life of a country?",
     answerOptions: [
@@ -1837,7 +1837,7 @@ const rawQuizData = [
   },
   {
     id: 131,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "What is the main disadvantage of radial road patterns in cities?",
     answerOptions: [
@@ -1851,7 +1851,7 @@ const rawQuizData = [
   },
   {
     id: 132,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which factor has most influenced the location of South Africa's major cities along the coast?",
     answerOptions: [
@@ -1865,7 +1865,7 @@ const rawQuizData = [
   },
   {
     id: 133,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which urban policy encourages higher-density housing near public transport routes to reduce car dependency?",
     answerOptions: [
@@ -1879,7 +1879,7 @@ const rawQuizData = [
   },
   {
     id: 134,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which South African city is an example of a conurbation?",
     answerOptions: [
@@ -1893,7 +1893,7 @@ const rawQuizData = [
   },
   {
     id: 135,
-    topic: "Settlement Geography",
+    topic: "Settlement",
     difficulty: "Hard",
     questionText: "Which factor has contributed most to the emergence of 'edge cities' in South Africa?",
     answerOptions: [
@@ -8719,7 +8719,7 @@ const QuizEngine = () => {
             <BeatLoad />
           ) : (
             <div>
-              <h2>Geo Paper 1 2024</h2>
+              <h2 className={styles.topic}>{current.topic}</h2>
 
               {current.image && (
                 <img src={current.image} alt="Question" className={styles.questionImage} />
@@ -8748,23 +8748,27 @@ const QuizEngine = () => {
                 ))}
 
                 <div>
+                  {currentQuestion < questions.length - 1 ? 
                   <button
                     className={styles.nxtQ}
                     onClick={handleNextQ}
                     disabled={!answered || currentQuestion >= questions.length - 1}
-                  >
-                    {currentQuestion < questions.length - 1 ? 'Next Question' : 'Finish'}
+                  > Next Question
                   </button>
+                  : 
+                  <Link className={styles.finish} to='/Home'><button className={styles.nxtQ}>Finish</button></Link>
+                  }
+                  
                 </div>
-
+      
                 <div className={styles.explanation}>
-                  {answered && isCorrect === false && current.explanation && (
+                  {answered === true && isCorrect === false && current.explanation && (
                     <p>{current.explanation}</p>
                   )}
                 </div>
-
+      
                 <div className={styles.qNo}>
-                  <p>Question {currentQuestion + 1} of {questions.length}</p>
+                  <p>Question {currentQuestion + 1} of {questions.length} Score: {score} / {questions.length} </p>
                 </div>
               </div>
             </div>
@@ -8818,7 +8822,7 @@ const QuizEngine = () => {
           </div>
         </div>
       )}
-    </div>
+      </div>
   );
 };
 

@@ -3,6 +3,8 @@ import styles from '../App.module.css';
 import BeatLoad from './Spinner';
 import { toast } from 'react-toastify'
 import { useTheme } from '../Contexts/ThemeContext'
+import { Link } from 'react-router-dom'
+
 
 
 const rawQuizData = [
@@ -8719,7 +8721,7 @@ const QuizEngine3 = () => {
             <BeatLoad />
           ) : (
             <div>
-              <h2>Geo Paper 1 2024</h2>
+              <h2 className={styles.topic}>{current.topic}</h2>
 
               {current.image && (
                 <img src={current.image} alt="Question" className={styles.questionImage} />
@@ -8748,24 +8750,29 @@ const QuizEngine3 = () => {
                 ))}
 
                 <div>
-                  <button
-                    className={styles.nxtQ}
-                    onClick={handleNextQ}
-                    disabled={!answered || currentQuestion >= questions.length - 1}
-                  >
-                    {currentQuestion < questions.length - 1 ? 'Next Question' : 'Finish'}
-                  </button>
-                </div>
+                      {currentQuestion < questions.length - 1 ? 
+                      <button
+                        className={styles.nxtQ}
+                        onClick={handleNextQ}
+                        disabled={!answered || currentQuestion >= questions.length - 1}
+                      > Next Question
+                      </button>
+                      : 
+                      <Link className={styles.finish} to='/Home'><button className={styles.nxtQ}>Finish</button></Link>
+                      }
+                      
+                    </div>
+          
+                    <div className={styles.explanation}>
+                      {answered === true && isCorrect === false && current.explanation && (
+                        <p>{current.explanation}</p>
+                      )}
+                    </div>
+          
+                    <div className={styles.qNo}>
+                      <p>Question {currentQuestion + 1} of {questions.length} Score: {score} / {questions.length} </p>
+                    </div>
 
-                <div className={styles.explanation}>
-                  {answered && isCorrect === false && current.explanation && (
-                    <p>{current.explanation}</p>
-                  )}
-                </div>
-
-                <div className={styles.qNo}>
-                  <p>Question {currentQuestion + 1} of {questions.length}</p>
-                </div>
               </div>
             </div>
           )}

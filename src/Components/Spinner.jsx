@@ -9,7 +9,7 @@ let override = {
     zIndex: 99999,
     position: "relative",
     top: "50%",
-    margin: "50px auto",
+    margin: "400px auto",
 }
 
     return (

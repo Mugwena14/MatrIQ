@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import styles from '../App.module.css';
 import BeatLoad from "./Spinner";
 import { Link } from 'react-router-dom'
+import { useTheme } from '../Contexts/ThemeContext'
 
 const Quiz = () => {
   const { id } = useParams();
@@ -2954,7 +2955,6 @@ const Quiz = () => {
       <BeatLoad />
     ) : questions.length > 0 ? (
       <div className={styles.qz}>
-        <h2>Geo Paper 1 2024</h2>
 
         {current.image && (
           <img src={current.image} alt="Question" className={styles.questionImage} />
@@ -2991,7 +2991,7 @@ const Quiz = () => {
             > Next Question
             </button>
             : 
-            <Link to='/Home'><button className={styles.nxtQ}>Finish</button></Link>
+            <Link className={styles.finish} to='/Home'><button className={styles.nxtQ}>Finish</button></Link>
             }
             
           </div>

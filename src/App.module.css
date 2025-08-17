@@ -62,12 +62,19 @@ main{
     color: white;
 }
 
+.topic{
+    color: hsl(0, 0%, 20%);
+}
+
 .nxtQ:hover{
     background-color: hsl(139, 70%, 22%);
     transition: ease-in-out, 0.5s;
     color: black;
 }
 
+.finish{
+    text-decoration: none;
+}
 
 .quiz p, h3, h2{
     color: black;
