@@ -40,6 +40,8 @@
     background: linear-gradient(to top, hsl(0, 0%, 100%), transparent);
 }
 
+
+
 .rated{
     border: none;
     margin: 0 360px;
@@ -238,6 +240,8 @@
     background-repeat: no-repeat;
     background-repeat: center;
     background-position: center center;
-}
+    }.container{
+        margin-top: -50px;
+    }
 }
 

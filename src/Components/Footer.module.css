@@ -29,6 +29,12 @@
     color: black;
 }
 
+.footerLight .footer .links:hover{
+    color: #0077B5;
+    transition: ease-in-out;
+}
+
+
 
 .footerLight .footer p, .footerLight .footer h3{
     color: black;
