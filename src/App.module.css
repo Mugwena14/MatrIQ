@@ -129,6 +129,20 @@ main{
     margin-top: -35px;
 }
 
+.genLight .gen{
+    background-color: white;
+}
+
+.genLight .form button{
+    background-color: hsl(184, 60%, 55%);
+    color: white;
+    cursor: pointer;
+}
+
+.genLight .genBox{
+    background-color: hsl(184, 60%, 55%);
+}
+
 .genBox{
     margin: 100px 10px;
     text-align: center;
@@ -183,6 +197,7 @@ input::placeholder{
     width: 100px;
     height: 30px;
     border-radius: 15px;
+    cursor: pointer;
     outline: none;
     border: none;
     color: hsl(0, 0%, 80%);

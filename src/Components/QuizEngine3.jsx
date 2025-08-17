@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from '../App.module.css'; 
 import BeatLoad from './Spinner';
 import { toast } from 'react-toastify'
+import { useTheme } from '../Contexts/ThemeContext'
 
 
 const rawQuizData = [
@@ -8706,8 +8707,12 @@ const QuizEngine3 = () => {
 
   const current = questions[currentQuestion];
 
+  const { theme } = useTheme();
+  // Picked the right style based on theme
+    const genTheme = theme === "light" ? styles.genLight : styles.genDark;
+
   return (
-    <div>
+    <div className={genTheme}>
       {requested ? (
         <div className={styles.quiz}>
           {loading ? (
