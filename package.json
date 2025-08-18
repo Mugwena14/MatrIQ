@@ -13,6 +13,7 @@
     "server": "concurrently \"npm run server:questions\" \"npm run server:generate\""
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "concurrently": "^9.2.0",
     "firebase": "^12.1.0",
     "json-server": "^1.0.0-beta.3",

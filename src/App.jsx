@@ -18,7 +18,7 @@ import QuizEngine3Page from './Pages/QuizEngine3Page'
 import QuizEngine4Page from './Pages/QuizEngine4Page'
 import ReviewsPage from './Pages/ReviewsPage'
 import NotesPage from './Pages/NotesPage'
-
+import { Analytics } from "@vercel/analytics/react"
 import { ThemeProvider } from "./Contexts/ThemeContext";
 
 const App = () => {
@@ -54,6 +54,7 @@ const App = () => {
           <ThemeProvider>
             <RouterProvider router={router}/>
           </ThemeProvider>
+          <Analytics/>
         </div>
     )
 }
