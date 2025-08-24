@@ -3739,7 +3739,7 @@ const rawQuizData = [
   // Response to Enviromant(Humans): EASY
    {
     id: 266,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which part of the brain controls balance and coordination?",
     answerOptions: [
@@ -3753,7 +3753,7 @@ const rawQuizData = [
   },
   {
     id: 267,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "What is the main function of the iris in the eye?",
     answerOptions: [
@@ -3767,7 +3767,7 @@ const rawQuizData = [
   },
   {
     id: 268,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which part of the nervous system includes the brain and spinal cord?",
     answerOptions: [
@@ -3781,7 +3781,7 @@ const rawQuizData = [
   },
   {
     id: 269,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "What is the basic unit of the nervous system?",
     answerOptions: [
@@ -3795,7 +3795,7 @@ const rawQuizData = [
   },
   {
     id: 270,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which structure in the ear detects sound vibrations?",
     answerOptions: [
@@ -3809,7 +3809,7 @@ const rawQuizData = [
   },
   {
     id: 271,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which photoreceptor cells detect colour in the retina?",
     answerOptions: [
@@ -3823,7 +3823,7 @@ const rawQuizData = [
   },
   {
     id: 272,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which part of the brain regulates body temperature and hunger?",
     answerOptions: [
@@ -3837,7 +3837,7 @@ const rawQuizData = [
   },
   {
     id: 273,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which part of a neuron carries impulses away from the cell body?",
     answerOptions: [
@@ -3851,7 +3851,7 @@ const rawQuizData = [
   },
   {
     id: 274,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "What is the function of the semicircular canals in the ear?",
     answerOptions: [
@@ -3865,7 +3865,7 @@ const rawQuizData = [
   },
   {
     id: 275,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Easy",
     questionText: "Which part of the eye focuses light onto the retina?",
     answerOptions: [
@@ -3880,7 +3880,7 @@ const rawQuizData = [
   //MEDIUM
   {
     id: 276,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which part of the brain controls involuntary activities such as heartbeat and breathing?",
     answerOptions: [
@@ -3894,7 +3894,7 @@ const rawQuizData = [
   },
   {
     id: 277,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "What is the role of the myelin sheath in neurons?",
     answerOptions: [
@@ -3908,7 +3908,7 @@ const rawQuizData = [
   },
   {
     id: 278,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which eye structure contains photoreceptor cells?",
     answerOptions: [
@@ -3922,7 +3922,7 @@ const rawQuizData = [
   },
   {
     id: 279,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which nerve transmits impulses from the ear to the brain?",
     answerOptions: [
@@ -3936,7 +3936,7 @@ const rawQuizData = [
   },
   {
     id: 280,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "What is the function of the corpus callosum?",
     answerOptions: [
@@ -3950,7 +3950,7 @@ const rawQuizData = [
   },
   {
     id: 281,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which part of the ear helps equalise pressure on either side of the eardrum?",
     answerOptions: [
@@ -3964,7 +3964,7 @@ const rawQuizData = [
   },
   {
     id: 282,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which receptor in the skin detects pressure?",
     answerOptions: [
@@ -3978,7 +3978,7 @@ const rawQuizData = [
   },
   {
     id: 283,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which brain structure acts as a relay centre for sensory information?",
     answerOptions: [
@@ -3992,7 +3992,7 @@ const rawQuizData = [
   },
   {
     id: 284,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "Which part of the brain is responsible for reasoning, problem-solving, and voluntary movement?",
     answerOptions: [
@@ -4006,7 +4006,7 @@ const rawQuizData = [
   },
   {
     id: 285,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Medium",
     questionText: "What is the function of the fovea centralis in the eye?",
     answerOptions: [
@@ -4021,7 +4021,7 @@ const rawQuizData = [
   //HARD
    {
     id: 286,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which part of the brain controls body temperature, hunger, and water balance?",
     answerOptions: [
@@ -4035,7 +4035,7 @@ const rawQuizData = [
   },
   {
     id: 287,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which structure in the inner ear is responsible for detecting rotational movement?",
     answerOptions: [
@@ -4049,7 +4049,7 @@ const rawQuizData = [
   },
   {
     id: 288,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "What is the main neurotransmitter involved in stimulating muscle contraction?",
     answerOptions: [
@@ -4063,7 +4063,7 @@ const rawQuizData = [
   },
   {
     id: 289,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Damage to which part of the brain would most likely affect coordination and balance?",
     answerOptions: [
@@ -4077,7 +4077,7 @@ const rawQuizData = [
   },
   {
     id: 290,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which photoreceptor cells are responsible for colour vision?",
     answerOptions: [
@@ -4091,7 +4091,7 @@ const rawQuizData = [
   },
   {
     id: 291,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which type of neuron carries impulses from receptors to the central nervous system?",
     answerOptions: [
@@ -4105,7 +4105,7 @@ const rawQuizData = [
   },
   {
     id: 292,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which part of the eye controls the amount of light entering?",
     answerOptions: [
@@ -4119,7 +4119,7 @@ const rawQuizData = [
   },
   {
     id: 293,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which lobe of the cerebrum is responsible for processing visual information?",
     answerOptions: [
@@ -4133,7 +4133,7 @@ const rawQuizData = [
   },
   {
     id: 294,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "What is the function of the semicircular canals and vestibule together?",
     answerOptions: [
@@ -4147,7 +4147,7 @@ const rawQuizData = [
   },
   {
     id: 295,
-    topic: "Responding to the Environment: Humans",
+    topic: "Response to the Environment(Humans)",
     difficulty: "Hard",
     questionText: "Which brain structure links the nervous system to the endocrine system?",
     answerOptions: [
@@ -4162,7 +4162,7 @@ const rawQuizData = [
   //RESPONSE TO THE ENVIROMANT(PLANTS): EASY
    {
     id: 296,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the bending of a plant towards light called?",
     answerOptions: [
@@ -4176,7 +4176,7 @@ const rawQuizData = [
   },
   {
     id: 297,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which plant hormone is responsible for cell elongation during phototropism?",
     answerOptions: [
@@ -4190,7 +4190,7 @@ const rawQuizData = [
   },
   {
     id: 298,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What type of tropism is the growth of roots downward due to gravity?",
     answerOptions: [
@@ -4204,7 +4204,7 @@ const rawQuizData = [
   },
   {
     id: 299,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the growth response of a plant to touch called?",
     answerOptions: [
@@ -4218,7 +4218,7 @@ const rawQuizData = [
   },
   {
     id: 300,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which plant hormone promotes ripening of fruit?",
     answerOptions: [
@@ -4232,7 +4232,7 @@ const rawQuizData = [
   },
   {
     id: 301,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the growth response of a plant towards water called?",
     answerOptions: [
@@ -4246,7 +4246,7 @@ const rawQuizData = [
   },
   {
     id: 302,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which hormone is responsible for seed germination and stem elongation?",
     answerOptions: [
@@ -4260,7 +4260,7 @@ const rawQuizData = [
   },
   {
     id: 303,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the name for the growth of a plant stem away from gravity?",
     answerOptions: [
@@ -4274,7 +4274,7 @@ const rawQuizData = [
   },
   {
     id: 304,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which hormone causes the abscission (shedding) of leaves?",
     answerOptions: [
@@ -4288,7 +4288,7 @@ const rawQuizData = [
   },
   {
     id: 305,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the term for a plant’s response to seasonal changes in day length?",
     answerOptions: [
@@ -4302,7 +4302,7 @@ const rawQuizData = [
   },
   {
     id: 306,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which plant hormone promotes lateral bud growth?",
     answerOptions: [
@@ -4316,7 +4316,7 @@ const rawQuizData = [
   },
   {
     id: 307,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which part of the plant detects light direction?",
     answerOptions: [
@@ -4330,7 +4330,7 @@ const rawQuizData = [
   },
   {
     id: 308,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which hormone helps plants close their stomata during water stress?",
     answerOptions: [
@@ -4344,7 +4344,7 @@ const rawQuizData = [
   },
   {
     id: 309,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "What is the term for growth in response to temperature changes?",
     answerOptions: [
@@ -4358,7 +4358,7 @@ const rawQuizData = [
   },
   {
     id: 310,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Easy",
     questionText: "Which hormone delays leaf senescence (aging)?",
     answerOptions: [
@@ -4373,7 +4373,7 @@ const rawQuizData = [
   //MEDIUM
   {
     id: 311,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "Why does a plant stem bend towards light during phototropism?",
     answerOptions: [
@@ -4387,7 +4387,7 @@ const rawQuizData = [
   },
   {
     id: 312,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "In roots, how does auxin affect cell elongation?",
     answerOptions: [
@@ -4401,7 +4401,7 @@ const rawQuizData = [
   },
   {
     id: 313,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "What is the role of the root cap in geotropism?",
     answerOptions: [
@@ -4415,7 +4415,7 @@ const rawQuizData = [
   },
   {
     id: 314,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "Which hormone works with auxin to promote cell division in plant tissues?",
     answerOptions: [
@@ -4429,7 +4429,7 @@ const rawQuizData = [
   },
   {
     id: 315,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "What is the function of phytochrome in plants?",
     answerOptions: [
@@ -4443,7 +4443,7 @@ const rawQuizData = [
   },
   {
     id: 316,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "Why do climbing plants wrap around supports?",
     answerOptions: [
@@ -4457,7 +4457,7 @@ const rawQuizData = [
   },
   {
     id: 317,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "How does abscisic acid help plants survive drought conditions?",
     answerOptions: [
@@ -4471,7 +4471,7 @@ const rawQuizData = [
   },
   {
     id: 318,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "What is the effect of gibberellins on plant growth?",
     answerOptions: [
@@ -4485,7 +4485,7 @@ const rawQuizData = [
   },
   {
     id: 319,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "In photoperiodism, what triggers flowering in short-day plants?",
     answerOptions: [
@@ -4499,7 +4499,7 @@ const rawQuizData = [
   },
   {
     id: 320,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "How does auxin distribution differ in stems versus roots?",
     answerOptions: [
@@ -4513,7 +4513,7 @@ const rawQuizData = [
   },
   {
     id: 321,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "Which environmental cue is most important for seed germination in many desert plants?",
     answerOptions: [
@@ -4527,7 +4527,7 @@ const rawQuizData = [
   },
   {
     id: 322,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "What type of plant movement occurs without directional growth?",
     answerOptions: [
@@ -4541,7 +4541,7 @@ const rawQuizData = [
   },
   {
     id: 323,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "How do statoliths function in gravity perception?",
     answerOptions: [
@@ -4555,7 +4555,7 @@ const rawQuizData = [
   },
   {
     id: 324,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "In positive phototropism, which side of the plant has more auxin?",
     answerOptions: [
@@ -4569,7 +4569,7 @@ const rawQuizData = [
   },
   {
     id: 325,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Medium",
     questionText: "Which pigment system regulates photoperiodism in plants?",
     answerOptions: [
@@ -4584,7 +4584,7 @@ const rawQuizData = [
   //HARD
   {
     id: 326,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "In phototropism, how does auxin move from the lit side to the shaded side of the stem?",
     answerOptions: [
@@ -4598,7 +4598,7 @@ const rawQuizData = [
   },
   {
     id: 327,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Why does the root exhibit a slower geotropic response compared to the shoot's phototropic response?",
     answerOptions: [
@@ -4612,7 +4612,7 @@ const rawQuizData = [
   },
   {
     id: 328,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Which part of the plant detects light direction in phototropism?",
     answerOptions: [
@@ -4626,7 +4626,7 @@ const rawQuizData = [
   },
   {
     id: 329,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "What is the role of far-red light in photoperiodism?",
     answerOptions: [
@@ -4640,7 +4640,7 @@ const rawQuizData = [
   },
   {
     id: 330,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "In positive geotropism of roots, where is auxin concentration highest?",
     answerOptions: [
@@ -4654,7 +4654,7 @@ const rawQuizData = [
   },
   {
     id: 331,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "What adaptive advantage does thigmotropism give climbing plants?",
     answerOptions: [
@@ -4668,7 +4668,7 @@ const rawQuizData = [
   },
   {
     id: 332,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Why do short-day plants not flower if their dark period is interrupted by light?",
     answerOptions: [
@@ -4682,7 +4682,7 @@ const rawQuizData = [
   },
   {
     id: 333,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "What is the main role of statolith sedimentation in root cap cells?",
     answerOptions: [
@@ -4696,7 +4696,7 @@ const rawQuizData = [
   },
   {
     id: 334,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Why do gibberellins promote seed germination in some plants?",
     answerOptions: [
@@ -4710,7 +4710,7 @@ const rawQuizData = [
   },
   {
     id: 335,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "In which part of the plant does auxin synthesis primarily occur?",
     answerOptions: [
@@ -4724,7 +4724,7 @@ const rawQuizData = [
   },
   {
     id: 336,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Which mechanism explains the bending of shoots during phototropism?",
     answerOptions: [
@@ -4738,7 +4738,7 @@ const rawQuizData = [
   },
   {
     id: 337,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Why do desert plants often have CAM photosynthesis alongside photoperiodic adaptations?",
     answerOptions: [
@@ -4752,7 +4752,7 @@ const rawQuizData = [
   },
   {
     id: 338,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "How do plants integrate multiple stimuli like light and gravity for growth direction?",
     answerOptions: [
@@ -4766,7 +4766,7 @@ const rawQuizData = [
   },
   {
     id: 339,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "Why do some alpine plants have photoperiodic responses different from lowland plants?",
     answerOptions: [
@@ -4780,7 +4780,7 @@ const rawQuizData = [
   },
   {
     id: 340,
-    topic: "Responding to the Environment: Plants",
+    topic: "Response to the Environment(Plants)",
     difficulty: "Hard",
     questionText: "What is the main role of vernalization in plants?",
     answerOptions: [
@@ -8794,9 +8794,9 @@ const QuizEngine3 = () => {
                   <option value="Vertebrate Reproduction">Vertabrate Reproduction</option>
                   <option value="Response to the Environment(Humans)">Human`s Response to the Environment</option>
                   <option value="Response to the Environment(Plants)">Plants`s Response to the Environment</option>
-                  <option value="Endocrine System">Endocrine System</option>
-                  <option value="Homeostasis">Homeostasis</option>
-                  <option value="Human Impact on the Enviroment">Human Impact:Environment</option>
+                  <option value="Human Endocrine System">Endocrine System</option>
+                  <option value="Homeostasis in Humans">Homeostasis</option>
+                  <option value="Human Impact on the Environment">Human Impact:Environment</option>
                 </select>
               </div>
 
