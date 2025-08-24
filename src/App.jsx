@@ -18,6 +18,7 @@ import QuizEngine3Page from './Pages/QuizEngine3Page'
 import QuizEngine4Page from './Pages/QuizEngine4Page'
 import ReviewsPage from './Pages/ReviewsPage'
 import NotesPage from './Pages/NotesPage'
+import NotFoundPage from './Pages/NotFoundPage'
 import { Analytics } from "@vercel/analytics/react"
 import { ThemeProvider } from "./Contexts/ThemeContext";
 
@@ -45,6 +46,7 @@ const App = () => {
         <Route path='/Reviews' element={<ReviewsPage/>}/>
         <Route path='/Privacy' element={<PrivacyPage/>}/>
         <Route path='/Terms' element={<TermsPage/>}/>
+        <Route path='*' element={<NotFoundPage/>}/>
       </Route>
     )
   )
