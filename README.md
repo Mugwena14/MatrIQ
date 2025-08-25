@@ -28,10 +28,12 @@ Matric IQ is a modern EdTech platform designed to help South African learners ma
 
 ## 🔌 API Structure
 
-GET /api/quizzes/:subject
+### 🔹 GET `/api/quizzes/:subject`
 Returns a list of quizzes for a given subject.
 
-json
+**Response Example:**
+
+```json
 {
   "subject": "Life Sciences",
   "quizzes": [
@@ -42,8 +44,6 @@ json
     }
   ]
 }
-GET /api/quiz/:id
-Returns a single quiz with metadata and questions
 
 ---
 
