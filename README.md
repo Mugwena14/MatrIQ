@@ -44,7 +44,7 @@ Returns a list of quizzes for a given subject.
     }
   ]
 }
-
+```
 ---
 
 ## 🎨 Branding
