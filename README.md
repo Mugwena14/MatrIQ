@@ -1,6 +1,6 @@
 # 🧠 Matric IQ
 
-Matric IQ is a modern EdTech platform designed to help South African learners master Life Sciences and Geography through interactive quizzes, clean UX, and mobile-inspired navigation. Built with scalability and clarity in mind, it empowers students to learn smarter, not harder.
+Matric IQ is a modern EdTech platform designed to help South African learners master Life Sciences  and Geography through interactive quizzes, clean UX, and mobile-inspired navigation. Built with scalability and clarity in mind, it empowers students to learn smarter, not harder.
 
 🔗 [Visit Matric IQ Live](https://matric-iq.vercel.app/)
 
