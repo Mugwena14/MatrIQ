@@ -9,7 +9,7 @@ Matric IQ is a modern EdTech platform designed to help South African learners ma
 ## 🚀 Features
 
 - 📚 Subject-specific quizzes for Life Sciences and Geography
-- 📱 Mobile-style navigation and gesture-based UX
+- 📱 Mobile-style navigation and gesture based UX
 - 🖊 Generate Quiz filtering by topic, difficulty, year and length
 - ⚡ Fast, responsive design optimized for all devices
 - 🔍 SEO-ready with Open Graph and Twitter Card integration
